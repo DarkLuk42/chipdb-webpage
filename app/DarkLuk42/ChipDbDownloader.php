@@ -66,6 +66,18 @@ class ChipDbDownloader
         return $chipDb;
     }
 
+    private function replaceStringRecursive($obj, $callback){
+        if (!is_array($obj)) {
+            return $callback($obj);
+        } else {
+            $newArr = array();
+            foreach ($obj as $key => $value) {
+                $newArr[$key] = self::replaceStringRecursive($value, $callback);
+            }
+            return $newArr;
+        }
+    }
+
     /**
      * @param array $chipDb
      * @return bool
@@ -156,7 +168,9 @@ class ChipDbDownloader
         }
 
         self::unzipYamls();
-        self::saveData(self::parseYaml());
+        self::saveData(self::replaceStringRecursive(self::parseYaml(), function($value){
+            return html_entity_decode($value, ENT_NOQUOTES | ENT_HTML5);
+        }));
 
         return require self::getStoragePath('chipdb.php');
     }

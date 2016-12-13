@@ -3,7 +3,7 @@
         <h1 v-text="searchQuery"></h1>
         <input type="search" v-model="searchQuery"/>
         <ul>
-            <li v-for="(chip, key) in chips"><router-link :to="'/chip/'+key">{{chip.description}}</router-link></li>
+            <li v-for="(chip, key) in chips"><router-link :to="'/chip/'+key"><strong>{{key}}</strong> {{chip.description}}</router-link></li>
         </ul>
     </div>
 </template>

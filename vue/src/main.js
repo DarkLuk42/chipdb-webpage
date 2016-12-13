@@ -6,6 +6,8 @@ window.chipdb = require('./assets/chipdb.json');
 
 import HomePage from './components/HomePage'
 import ChipPage from './components/ChipPage'
+import Search from './components/Search'
+import FormattedChipText from './components/FormattedChipText'
 
 const routes = [
     { path: '/', component: HomePage },
@@ -22,24 +24,8 @@ function escapeHtml(text) {
     return div.innerHTML;
 }
 
-Vue.component('formated-chip-text', Vue.extend({
-    props: ['text'],
-    computed: {
-        html: function(){
-            var html = escapeHtml(this.text);
-            var htmlUnderscore = escapeHtml('_');
-            var htmlTilde = escapeHtml('~');
-            html = html.replace(new RegExp(htmlTilde+'([a-zA-Z0-9'+htmlUnderscore+']+)'), '<span class="neg">$1</span>');
-            html = html.replace(new RegExp('([a-zA-Z0-9]+)'+htmlUnderscore+htmlUnderscore+'([0-9]+)'), '$1<sub>$2</sub>');
-            return html;
-        }
-    },
-    template: '<div v-html="html"></div>'
-}));
-
-Vue.filter('testfilter', function(value){
-    return value.replace(RegExp('~([a-zA-Z0-9]+)'), '<span class="neg">{{$1}}</span>');
-});
+Vue.component(Search.name, Search);
+Vue.component(FormattedChipText.name, FormattedChipText);
 
 const app = new Vue({
     router: router
