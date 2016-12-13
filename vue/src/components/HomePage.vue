@@ -1,23 +1,22 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+  <div id="homepage">
+    <search></search>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
+import Search from './Search'
 
 export default {
-  name: 'app',
+  name: 'homepage',
   components: {
-    Hello
+    Search
   }
 }
 </script>
 
 <style>
-#app {
+#homepage {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
