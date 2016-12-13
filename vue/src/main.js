@@ -12,18 +12,37 @@ const routes = [
     { path: '/chip/:chip', component: ChipPage }
 ];
 
-// 3. Create the router instance and pass the `routes` option
-// You can pass in additional options here, but let's
-// keep it simple for now.
 const router = new VueRouter({
-    routes // short for routes: routes
+    routes: routes
 });
 
-// 4. Create and mount the root instance.
-// Make sure to inject the router with the router option to make the
-// whole app router-aware.
+function escapeHtml(text) {
+    var div = document.createElement('div');
+    div.appendChild(document.createTextNode(text));
+    return div.innerHTML;
+}
+
+Vue.component('formated-chip-text', Vue.extend({
+    props: ['text'],
+    computed: {
+        html: function(){
+            var html = escapeHtml(this.text);
+            var htmlUnderscore = escapeHtml('_');
+            var htmlTilde = escapeHtml('~');
+            html = html.replace(new RegExp(htmlTilde+'([a-zA-Z0-9'+htmlUnderscore+']+)'), '<span class="neg">$1</span>');
+            html = html.replace(new RegExp('([a-zA-Z0-9]+)'+htmlUnderscore+htmlUnderscore+'([0-9]+)'), '$1<sub>$2</sub>');
+            return html;
+        }
+    },
+    template: '<div v-html="html"></div>'
+}));
+
+Vue.filter('testfilter', function(value){
+    return value.replace(RegExp('~([a-zA-Z0-9]+)'), '<span class="neg">{{$1}}</span>');
+});
+
 const app = new Vue({
-    router
+    router: router
 }).$mount('#app');
 
 // Now the app has started!
