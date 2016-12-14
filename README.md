@@ -40,11 +40,6 @@ npm run dev
 + Add favorites functionality
 + Create a webpage to download the newest html file
 
-## Available Text Styles:
-
-+ `~([a-zA-Z0-9_]+)` -> `<span class="neg">$1</span>`
-+ `([a-zA-Z0-9]+)__([a-zA-Z\(\)\+\-0-9]+)` -> `$1<sub>$2</sub>`
-
 ## Disclaimer/License
 
 The information in ChipDB has been maintained by independent sources and accuracy is not guaranteed.
