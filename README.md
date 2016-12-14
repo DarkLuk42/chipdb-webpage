@@ -1,4 +1,4 @@
-# ChipDB-Frontend
+# ChipDB-Webpage
 
 This from the functionality nearly the same as the original [www.msarnoff.org/chipdb](http://www.msarnoff.org/chipdb/).
 But the difference is that this project is a single HTML-page,
@@ -9,8 +9,8 @@ is that this project doesn't look really pretty on a mobile device.
 I found out that the App [ElectroDroid](http://electrodroid.it/electrodroid/) uses the original website,
 and it would be really nice if it would work offline too.
 
-**Feel free to contibute** this project or the ChipDB data itself.
-For contibuting ChipDB data take a look at [CONTRIBUTING.md](https://github.com/74hc595/chipdb/blob/master/CONTRIBUTING.md).
+**Feel free to contribute** this project or the ChipDB data itself.
+For contributing ChipDB data take a look at [CONTRIBUTING.md](https://github.com/74hc595/chipdb/blob/master/CONTRIBUTING.md).
 
 > A Vue.js project
 
