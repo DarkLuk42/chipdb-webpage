@@ -2,7 +2,7 @@
     <div id="chippage">
         <h1 class="chipid">
             {{key}}
-            <small v-if="chip.aliases" class="aliases">
+            <small v-if="chip.aliases && chip.aliases.length>0" class="aliases">
                 (<template v-for="(alias, i) in chip.aliases"><span>{{alias}}</span>{{(chip.aliases.length-1>=i) ? '' : ', '}}</template>)
             </small>
         </h1>
@@ -60,7 +60,7 @@
                 <tr v-for="spec in chip.specs">
                     <td><formatted-chip-text :text="spec.param"></formatted-chip-text></td>
                     <td><formatted-chip-text :text="spec.val" :nlToBr.once="true"></formatted-chip-text></td>
-                    <td><formatted-chip-text :text="spec.unit"></formatted-chip-text></td>
+                    <td><formatted-chip-text v-if="spec.unit" :text="spec.unit"></formatted-chip-text></td>
                 </tr>
                 </tbody>
             </table>
@@ -92,6 +92,7 @@ export default {
         },
         chip (){
             if (!this.key || !window.chipdb[this.key]) {
+                // TODO FIX
                 router.replace('/');
             }
             return window.chipdb[this.key]

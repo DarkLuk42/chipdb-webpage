@@ -42,40 +42,18 @@ class ChipDbDownloader
         {
             if (pathinfo($file, PATHINFO_EXTENSION) == 'yaml')
             {
-                $yamlData = file_get_contents(self::getStoragePath('yaml/'.$file));
-                try {
-                    $chip = Yaml::parse($yamlData);
-                    $chipDb[pathinfo($file, PATHINFO_FILENAME)] = $chip;
-                }catch (ParseException $e)
-                {
-                    try {
-                        $yamlData = str_replace('- * ', '- ', $yamlData);
-                        $yamlData = preg_replace_callback('/([:-]\s)"([^"]+)"/', function($matches){
-                            return $matches[1].'"'.str_replace("\n", '\n', $matches[2]).'"';
-                        }, $yamlData);
-                        $chip = Yaml::parse($yamlData);
-                        $chipDb[pathinfo($file, PATHINFO_FILENAME)] = $chip;
-                    }catch (ParseException $e)
-                    {
-                        throw new \Exception($e->getMessage().' in '.self::getStoragePath('yaml/'.$file));
+                $validator = new ChipValidator(self::getStoragePath('yaml/'.$file));
+                $chipDb[$validator->getFilename()] = $validator->getChip();
+                $warnings = $validator->getWarnings();
+                if (!empty($warnings)) {
+                    foreach ($warnings as $warning) {
+                        echo $validator->getFilename().': '.$warning.PHP_EOL;
                     }
                 }
             }
         }
 
         return $chipDb;
-    }
-
-    private function replaceStringRecursive($obj, $callback){
-        if (!is_array($obj)) {
-            return $callback($obj);
-        } else {
-            $newArr = array();
-            foreach ($obj as $key => $value) {
-                $newArr[$key] = self::replaceStringRecursive($value, $callback);
-            }
-            return $newArr;
-        }
     }
 
     /**
@@ -109,7 +87,7 @@ class ChipDbDownloader
     /**
      * @throws \Exception
      */
-    private static function download() {
+    public static function download() {
         $data = file_get_contents(self::getZipDownloadUrl());
         if (empty($data)) {
             throw new \Exception('Failed to download zip.');
@@ -163,15 +141,21 @@ class ChipDbDownloader
      */
     public static function getChipDb()
     {
+        self::refresh();
+
+        return require self::getStoragePath('chipdb.php');
+    }
+
+    /**
+     * @throws \Exception
+     */
+    public static function refresh()
+    {
         if (!file_exists(self::getStoragePath('chipdb.zip'))) {
             self::download();
         }
 
         self::unzipYamls();
-        self::saveData(self::replaceStringRecursive(self::parseYaml(), function($value){
-            return html_entity_decode($value, ENT_NOQUOTES | ENT_HTML5);
-        }));
-
-        return require self::getStoragePath('chipdb.php');
+        self::saveData(self::parseYaml());
     }
 }

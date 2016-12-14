@@ -7,7 +7,7 @@
       0 => '16C550',
     ),
     'package' => 'DIP',
-    'pincount' => '40',
+    'pincount' => 40,
     'family' => 'uart',
     'datasheet' => 'http://www.national.com/ds/PC/PC16550D.pdf',
     'pins' => 
@@ -285,7 +285,7 @@
       2 => 'CDP1802BC',
     ),
     'package' => 'DIP',
-    'pincount' => '40',
+    'pincount' => 40,
     'family' => 'RCA',
     'datasheet' => 'pdf_datasheet_url',
     'pins' => 
@@ -552,7 +552,10 @@
         'unit' => 'µs',
       ),
     ),
-    'notes' => '',
+    'notes' => 
+    array (
+      0 => '',
+    ),
   ),
   '24LC256' => 
   array (
@@ -563,7 +566,7 @@
       1 => '24FC256',
     ),
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'Microchip',
     'datasheet' => 'http://ww1.microchip.com/downloads/en/DeviceDoc/21203P.pdf',
     'pins' => 
@@ -663,7 +666,7 @@
     array (
     ),
     'package' => 'DIP',
-    'pincount' => '28',
+    'pincount' => 28,
     'family' => 'memory',
     'datasheet' => 'http://www.atmel.com/dyn/resources/prod_documents/doc0001H.pdf',
     'pins' => 
@@ -842,7 +845,7 @@
   array (
     'description' => 'Quad 2-input NOR gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4001b.pdf',
     'pins' => 
@@ -937,7 +940,7 @@
   array (
     'description' => 'Dual 4-input NOR gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4002b.pdf',
     'pins' => 
@@ -1032,7 +1035,7 @@
   array (
     'description' => 'Hex inverting Schmitt trigger',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef40106b.pdf',
     'pins' => 
@@ -1127,7 +1130,7 @@
   array (
     'description' => 'Quad 2-input NAND gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4011b.pdf',
     'pins' => 
@@ -1222,7 +1225,7 @@
   array (
     'description' => 'Dual D-type flip-flop with set and clear',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4013b.pdf',
     'pins' => 
@@ -1317,7 +1320,7 @@
   array (
     'description' => '8-bit static shift register',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4014b.pdf',
     'pins' => 
@@ -1424,7 +1427,7 @@
   array (
     'description' => 'Dual 4-bit serial-in/parallel-out shift register',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4015b.pdf',
     'pins' => 
@@ -1531,7 +1534,7 @@
   array (
     'description' => 'Decade counter/divider with 10 decoded outputs',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.national.com/ds/CD/CD4017BC.pdf',
     'pins' => 
@@ -1651,7 +1654,7 @@
   array (
     'description' => '4-bit up/down binary counter',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef40193b.pdf',
     'pins' => 
@@ -1763,7 +1766,7 @@
   array (
     'description' => '14-stage binary counter',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4020b.pdf',
     'pins' => 
@@ -1870,7 +1873,7 @@
   array (
     'description' => '8-bit static shift register',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4021b.pdf',
     'pins' => 
@@ -1977,7 +1980,7 @@
   array (
     'description' => 'Triple 3-input NAND gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4023b.pdf',
     'pins' => 
@@ -2072,7 +2075,7 @@
   array (
     'description' => '7-stage binary ripple counter',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4024b.pdf',
     'pins' => 
@@ -2167,7 +2170,7 @@
   array (
     'description' => 'Triple 3-input NOR gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4025b.pdf',
     'pins' => 
@@ -2262,7 +2265,7 @@
   array (
     'description' => 'Dual J-K flip-flop with set and clear',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4027b.pdf',
     'pins' => 
@@ -2369,7 +2372,7 @@
   array (
     'description' => 'BCD to decimal decoder',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4028b.pdf',
     'pins' => 
@@ -2481,7 +2484,7 @@
   array (
     'description' => 'Synchronous 4-bit up/down binary/decade counter',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4029b.pdf',
     'pins' => 
@@ -2588,7 +2591,7 @@
   array (
     'description' => 'Quad 2-input XOR gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4030b.pdf',
     'pins' => 
@@ -2683,7 +2686,7 @@
   array (
     'description' => '12-stage binary ripple counter',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4040b.pdf',
     'pins' => 
@@ -2790,7 +2793,7 @@
   array (
     'description' => 'Phase-locked loop',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4046b.pdf',
     'pins' => 
@@ -2897,7 +2900,7 @@
   array (
     'description' => 'Monostable/astable multivibrator',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4047b.pdf',
     'pins' => 
@@ -2992,7 +2995,7 @@
   array (
     'description' => 'Hex inverting buffer',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4049b.pdf',
     'pins' => 
@@ -3099,7 +3102,7 @@
   array (
     'description' => 'Hex non-inverting buffer',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4050b.pdf',
     'pins' => 
@@ -3206,7 +3209,7 @@
   array (
     'description' => '8-channel analog multiplexer/demultiplexer',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4051b.pdf',
     'pins' => 
@@ -3319,7 +3322,7 @@
   array (
     'description' => 'Dual 4-channel analog multiplexer/demultiplexer',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4052b.pdf',
     'pins' => 
@@ -3432,7 +3435,7 @@
   array (
     'description' => 'Triple 2-channel analog multiplexer/demultiplexer (triple SPDT analog switch)',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4053b.pdf',
     'pins' => 
@@ -3545,7 +3548,7 @@
   array (
     'description' => '14-stage ripple-carry binary counter/divider and oscillator',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4060b.pdf',
     'pins' => 
@@ -3652,7 +3655,7 @@
   array (
     'description' => 'Quad bilateral switch',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.datasheetcatalog.org/datasheets/320/206765_DS.pdf',
     'pins' => 
@@ -3768,7 +3771,7 @@
   array (
     'description' => '16-channel analog multiplexer/demultiplexer',
     'package' => 'DIP',
-    'pincount' => '24',
+    'pincount' => 24,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4067b.pdf',
     'pins' => 
@@ -3929,7 +3932,7 @@
   array (
     'description' => '8-input NAND gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4068b.pdf',
     'pins' => 
@@ -4024,7 +4027,7 @@
   array (
     'description' => 'Hex inverter',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4069ub.pdf',
     'pins' => 
@@ -4119,7 +4122,7 @@
   array (
     'description' => 'Quad 2-input XOR gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4070b.pdf',
     'pins' => 
@@ -4214,7 +4217,7 @@
   array (
     'description' => 'Quad 2-input OR gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4071b.pdf',
     'pins' => 
@@ -4309,7 +4312,7 @@
   array (
     'description' => 'Dual 4-input OR gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4072b.pdf',
     'pins' => 
@@ -4404,7 +4407,7 @@
   array (
     'description' => 'Triple 3-input AND gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4073b.pdf',
     'pins' => 
@@ -4499,7 +4502,7 @@
   array (
     'description' => 'Triple 3-input OR gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4075b.pdf',
     'pins' => 
@@ -4594,7 +4597,7 @@
   array (
     'description' => 'Quad 2-input XNOR gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4077b.pdf',
     'pins' => 
@@ -4689,7 +4692,7 @@
   array (
     'description' => 'Quad 2-input AND gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4081b.pdf',
     'pins' => 
@@ -4784,7 +4787,7 @@
   array (
     'description' => 'Dual 4-input AND gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4082b.pdf',
     'pins' => 
@@ -4879,7 +4882,7 @@
   array (
     'description' => 'Dual 2-wide 2-input AND-OR-INVERT gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/cd4085b.pdf',
     'pins' => 
@@ -4978,7 +4981,7 @@
   array (
     'description' => 'Quad 2-input NAND Schmitt trigger',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4093b.pdf',
     'pins' => 
@@ -5073,7 +5076,7 @@
   array (
     'description' => '8-stage shift-and-store bus register',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4094b.pdf',
     'pins' => 
@@ -5180,7 +5183,7 @@
   array (
     'description' => '8-bit addressable latch',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/cd4099b.pdf',
     'pins' => 
@@ -5287,7 +5290,7 @@
   array (
     'description' => 'BCD to 7-segment latch/decoder/driver',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4511b.pdf',
     'pins' => 
@@ -5399,7 +5402,7 @@
   array (
     'description' => '1-of-16 decoder/demultiplexer with input latches',
     'package' => 'DIP',
-    'pincount' => '24',
+    'pincount' => 24,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4514b.pdf',
     'pins' => 
@@ -5559,7 +5562,7 @@
   array (
     'description' => '1-of-16 decoder/demultiplexer with input latches; inverting',
     'package' => 'DIP',
-    'pincount' => '24',
+    'pincount' => 24,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4515b.pdf',
     'pins' => 
@@ -5719,7 +5722,7 @@
   array (
     'description' => '4-bit binary up/down counter',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4516b.pdf',
     'pins' => 
@@ -5832,7 +5835,7 @@
   array (
     'description' => 'Dual synchronous BCD counter',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4518b.pdf',
     'pins' => 
@@ -5946,7 +5949,7 @@
   array (
     'description' => 'Dual 4-bit synchronous binary counter',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4520b.pdf',
     'pins' => 
@@ -6060,7 +6063,7 @@
   array (
     'description' => 'Programmable 4-bit binary down counter',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4526b.pdf',
     'pins' => 
@@ -6174,7 +6177,7 @@
   array (
     'description' => 'Dual retriggerable monostable multivibrator with reset',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4528b.pdf',
     'pins' => 
@@ -6310,7 +6313,7 @@
   array (
     'description' => 'Dual retriggerable precision monostable multivibrator with reset',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4538b.pdf',
     'pins' => 
@@ -6448,7 +6451,7 @@
   array (
     'description' => 'Programmable timer',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4541b.pdf',
     'pins' => 
@@ -6582,7 +6585,7 @@
   array (
     'description' => 'Dual 1-of-4 decoder/demultiplexer',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4555b.pdf',
     'pins' => 
@@ -6694,7 +6697,7 @@
   array (
     'description' => 'Dual 1-of-4 decoder/demultiplexer; inverting',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4556b.pdf',
     'pins' => 
@@ -6806,7 +6809,7 @@
   array (
     'description' => '1-to-64 bit variable length shift register',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4557b.pdf',
     'pins' => 
@@ -6920,7 +6923,7 @@
   array (
     'description' => 'Hex gate (four inverters, one 2-input NOR gate, one 2-input NAND gate)',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/cd4572ub.pdf',
     'pins' => 
@@ -7027,7 +7030,7 @@
   array (
     'description' => '4-bit magnitude comparator',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4585b.pdf',
     'pins' => 
@@ -7153,7 +7156,7 @@
       10 => 'H11A5M',
     ),
     'package' => 'DIP',
-    'pincount' => '6',
+    'pincount' => 6,
     'family' => 'Fairchild',
     'datasheet' => 'http://www.fairchildsemi.com/ds/4N/4N35-M.pdf',
     'pins' => 
@@ -7241,7 +7244,7 @@
   array (
     'description' => 'Octal D-type edge-triggered flip-flops with 3-state outputs',
     'package' => 'DIP',
-    'pincount' => '20',
+    'pincount' => 20,
     'family' => '5400',
     'datasheet' => 'http://www.alldatasheet.com/datasheet-pdf/pdf/27731/TI/SN54ALS374A.html',
     'pins' => 
@@ -7456,7 +7459,7 @@
   array (
     'description' => 'Timer',
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'datasheet' => 'http://www.datasheetcatalog.org/datasheet/philips/NE_SA_SE555_C_2.pdf',
     'pins' => 
     array (
@@ -7542,7 +7545,7 @@
   array (
     'description' => 'Dual timer',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'datasheet' => 'http://www.national.com/ds/LM/LM556.pdf',
     'pins' => 
     array (
@@ -7643,7 +7646,7 @@
     array (
     ),
     'package' => 'DIP',
-    'pincount' => '28',
+    'pincount' => 28,
     'family' => 'memory',
     'datasheet' => 'http://web.mit.edu/6.115/www/datasheets/62256.pdf',
     'pins' => 
@@ -7831,7 +7834,7 @@
     array (
     ),
     'package' => 'DIP',
-    'pincount' => '28',
+    'pincount' => 28,
     'family' => 'memory',
     'datasheet' => 'http://web.mit.edu/6.115/www/datasheets/6264.pdf',
     'pins' => 
@@ -8019,7 +8022,7 @@
     array (
     ),
     'package' => 'DIP',
-    'pincount' => '32',
+    'pincount' => 32,
     'family' => 'memory',
     'datasheet' => 'http://www.futurlec.com/Datasheet/Memory/628128.pdf',
     'pins' => 
@@ -8232,7 +8235,7 @@
       0 => 'AS6C4008',
     ),
     'package' => 'DIP',
-    'pincount' => '32',
+    'pincount' => 32,
     'family' => 'memory',
     'datasheet' => 'http://www.futurlec.com/Datasheet/Memory/628512.pdf',
     'pins' => 
@@ -8445,7 +8448,7 @@
       0 => 'W65C22',
     ),
     'package' => 'DIP',
-    'pincount' => '40',
+    'pincount' => 40,
     'family' => 'MOS Technology',
     'datasheet' => 'http://www.westerndesigncenter.com/wdc/documentation/w65c22.pdf',
     'pins' => 
@@ -8740,7 +8743,7 @@
       0 => 'SID',
     ),
     'package' => 'DIP',
-    'pincount' => '28',
+    'pincount' => 28,
     'family' => 'MOS Technology',
     'datasheet' => 'http://www.waitingforfriday.com/index.php/Commodore_SID_6581_Datasheet',
     'pins' => 
@@ -8975,7 +8978,7 @@
       1 => '68B09E',
     ),
     'package' => 'DIP',
-    'pincount' => '40',
+    'pincount' => 40,
     'family' => 'Motorola',
     'datasheet' => 'http://www.classiccmp.org/dunfield/r/6809e.pdf',
     'pins' => 
@@ -9296,7 +9299,7 @@
       1 => '68B21',
     ),
     'package' => 'DIP',
-    'pincount' => '40',
+    'pincount' => 40,
     'family' => 'Motorola',
     'datasheet' => 'http://www.jameco.com/Jameco/Products/ProdDS/43596MOT.pdf',
     'pins' => 
@@ -9608,7 +9611,7 @@
       1 => 'HCPL2611',
     ),
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'Fairchild',
     'datasheet' => 'http://www.fairchildsemi.com/ds/6N/6N137.pdf',
     'pins' => 
@@ -9700,7 +9703,7 @@
   array (
     'description' => 'Quad 2-input NAND gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/74HC_HCT00_3.pdf',
     'pins' => 
@@ -9808,7 +9811,7 @@
   array (
     'description' => 'Quad 2-input NOR gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/74HC_HCT02_3.pdf',
     'pins' => 
@@ -9916,7 +9919,7 @@
   array (
     'description' => 'Hex inverter',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/74HC_HCT04_3.pdf',
     'pins' => 
@@ -10024,7 +10027,7 @@
   array (
     'description' => 'Quad 2-input AND gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/74HC_HCT08_3.pdf',
     'pins' => 
@@ -10132,7 +10135,7 @@
   array (
     'description' => 'Operational amplifier',
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM741.pdf',
     'pins' => 
@@ -10232,7 +10235,7 @@
   array (
     'description' => 'Triple 3-input NAND gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/74HC_HCT10_CNV_2.pdf',
     'pins' => 
@@ -10340,7 +10343,7 @@
   array (
     'description' => 'Dual J-K flip-flop with reset; negative-edge trigger',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc107.74hct107.pdf',
     'pins' => 
@@ -10478,7 +10481,7 @@
   array (
     'description' => 'Dual J-K flip-flop with set and reset; positive-edge trigger',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc109.74hct109.pdf',
     'pins' => 
@@ -10628,7 +10631,7 @@
   array (
     'description' => 'Triple 3-input AND gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc11.74hct11.pdf',
     'pins' => 
@@ -10736,7 +10739,7 @@
   array (
     'description' => 'Dual J-K flip-flop with set and reset; negative-edge trigger',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc112.74hct112.pdf',
     'pins' => 
@@ -10886,7 +10889,7 @@
   array (
     'description' => 'Dual retriggerable monostable multivibrator with reset',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc123.74hct123.pdf',
     'pins' => 
@@ -11043,7 +11046,7 @@
   array (
     'description' => 'Quad buffer/line driver with active low output enable; 3-state',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc125.74hct125.pdf',
     'pins' => 
@@ -11151,7 +11154,7 @@
   array (
     'description' => 'Quad buffer/line driver with active high output enable; 3-state',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc126.74hct126.pdf',
     'pins' => 
@@ -11259,7 +11262,7 @@
   array (
     'description' => 'Quad 2-input NAND Schmitt trigger',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc132.74hct132.pdf',
     'pins' => 
@@ -11367,7 +11370,7 @@
   array (
     'description' => '3-to-8 line decoder/demultiplexer with address latches; inverting',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc137.pdf',
     'pins' => 
@@ -11501,7 +11504,7 @@
   array (
     'description' => '3-to-8 line decoder/demultiplexer; inverting',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc138.74hct138.pdf',
     'pins' => 
@@ -11641,7 +11644,7 @@
   array (
     'description' => 'Dual 2-to-4 line decoder/demultiplexer',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc139.74hct139.pdf',
     'pins' => 
@@ -11771,7 +11774,7 @@
   array (
     'description' => 'Hex inverting Schmitt trigger',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/74HC_HCT14_3.pdf',
     'pins' => 
@@ -11914,7 +11917,7 @@
       1 => 'K155ID1',
     ),
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://pdf1.alldatasheet.com/datasheet-pdf/view/115763/TI/SN74141/datasheet.pdf',
     'pins' => 
@@ -12025,7 +12028,7 @@
   array (
     'description' => '10-to-4 line priority encoder',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc147.74hct147.pdf',
     'pins' => 
@@ -12151,7 +12154,7 @@
   array (
     'description' => '8-to-3 line priority encoder',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.ti.com/lit/ds/scls109g/scls109g.pdf',
     'pins' => 
@@ -12277,7 +12280,7 @@
   array (
     'description' => '8-input multiplexer',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc151.74hct151.pdf',
     'pins' => 
@@ -12427,7 +12430,7 @@
   array (
     'description' => 'Dual 4-input multiplexer',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc153.74hct153.pdf',
     'pins' => 
@@ -12567,7 +12570,7 @@
   array (
     'description' => '4-to-16 line decoder/demultiplexer',
     'package' => 'DIP',
-    'pincount' => '24',
+    'pincount' => 24,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc154.74hct154.pdf',
     'pins' => 
@@ -12745,7 +12748,7 @@
   array (
     'description' => 'Quad 2-input multiplexer',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc157.74hct157.pdf',
     'pins' => 
@@ -12885,7 +12888,7 @@
   array (
     'description' => 'Quad 2-input multiplexer; inverting',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc158.pdf',
     'pins' => 
@@ -13013,7 +13016,7 @@
   array (
     'description' => 'Presettable synchronous BCD decade counter; asynchronous reset',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc160.74hct160.pdf',
     'pins' => 
@@ -13183,7 +13186,7 @@
   array (
     'description' => 'Presettable synchronous 4-bit binary counter; asynchronous reset',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc161.74hct161.pdf',
     'pins' => 
@@ -13353,7 +13356,7 @@
   array (
     'description' => 'Presettable synchronous 4-bit binary counter; synchronous reset',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc163.74hct163.pdf',
     'pins' => 
@@ -13503,7 +13506,7 @@
   array (
     'description' => '8-bit serial-in/parallel-out shift register',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc164.74hct164.pdf',
     'pins' => 
@@ -13636,7 +13639,7 @@
   array (
     'description' => '8-bit parallel-in/serial-out shift register',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc165.74hct165.pdf',
     'pins' => 
@@ -13791,7 +13794,7 @@
   array (
     'description' => '8-bit parallel-in/serial-out shift register',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc166.74hct166.pdf',
     'pins' => 
@@ -13936,7 +13939,7 @@
   array (
     'description' => 'Quad D-type flip-flop; positive-edge trigger; 3-state',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc173.74hct173.pdf',
     'pins' => 
@@ -14075,7 +14078,7 @@
   array (
     'description' => 'Hex D-type flip-flop with reset; positive-edge trigger',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc174.74hct174.pdf',
     'pins' => 
@@ -14215,7 +14218,7 @@
   array (
     'description' => 'Quad D-type flip-flop with reset; positive-edge trigger',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc175.74hct175.pdf',
     'pins' => 
@@ -14355,7 +14358,7 @@
   array (
     'description' => 'Presettable synchronous 4-bit binary up/down counter',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc191.74hct191.pdf',
     'pins' => 
@@ -14477,7 +14480,7 @@
   array (
     'description' => 'Presettable synchronous 4-bit binary up/down counter; separate up/down clocks',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc193.74hct193.pdf',
     'pins' => 
@@ -14677,7 +14680,7 @@
   array (
     'description' => '4-bit bidirectional universal shift register',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc194.74hct194.pdf',
     'pins' => 
@@ -14827,7 +14830,7 @@
     array (
     ),
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://pdf1.alldatasheet.com/datasheet-pdf/view/131233/NSC/74195.html',
     'pins' => 
@@ -14934,7 +14937,7 @@
   array (
     'description' => 'Dual 4-input NAND gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc20.74hct20.pdf',
     'pins' => 
@@ -15042,7 +15045,7 @@
   array (
     'description' => 'Dual 4-input AND gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/74HC21_3.pdf',
     'pins' => 
@@ -15146,7 +15149,7 @@
   array (
     'description' => 'Dual non-retriggerable monostable multivibrator with reset',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc221.74hct221.pdf',
     'pins' => 
@@ -15286,7 +15289,7 @@
   array (
     'description' => '3-to-8 line decoder/demultiplexer with address latches; non-inverting',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc237.pdf',
     'pins' => 
@@ -15420,7 +15423,7 @@
   array (
     'description' => '3-to-8 line decoder/demultiplexer; non-inverting',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc238.74hct238.pdf',
     'pins' => 
@@ -15560,7 +15563,7 @@
   array (
     'description' => 'Octal buffer/line driver; 3-state; inverting',
     'package' => 'DIP',
-    'pincount' => '20',
+    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc240.74hct240.pdf',
     'pins' => 
@@ -15707,7 +15710,7 @@
   array (
     'description' => 'Octal buffer/line driver; 3-state; non-inverting',
     'package' => 'DIP',
-    'pincount' => '20',
+    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc241.74hct241.pdf',
     'pins' => 
@@ -15855,7 +15858,7 @@
   array (
     'description' => 'Quad bus transceiver; 3-state',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc243.pdf',
     'pins' => 
@@ -15965,7 +15968,7 @@
   array (
     'description' => 'Octal buffer/line driver; 3-state; non-inverting',
     'package' => 'DIP',
-    'pincount' => '20',
+    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc244.74hct244.pdf',
     'pins' => 
@@ -16113,7 +16116,7 @@
   array (
     'description' => 'Octal bus transceiver; 3-state',
     'package' => 'DIP',
-    'pincount' => '20',
+    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc245.74hct245.pdf',
     'pins' => 
@@ -16263,7 +16266,7 @@
   array (
     'description' => '8-input multiplexer; 3-state',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc251.74hct251.pdf',
     'pins' => 
@@ -16409,7 +16412,7 @@
   array (
     'description' => 'Dual 4-input multiplexer; 3-state',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc253.74hct253.pdf',
     'pins' => 
@@ -16542,7 +16545,7 @@
   array (
     'description' => 'Quad 2-input multiplexer; 3-state',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc257.74hct257.pdf',
     'pins' => 
@@ -16672,7 +16675,7 @@
   array (
     'description' => 'Quad 2-input multiplexer; 3-state; inverting',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc258.pdf',
     'pins' => 
@@ -16794,7 +16797,7 @@
   array (
     'description' => '8-bit addressable latch',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc259.74hct259.pdf',
     'pins' => 
@@ -16934,7 +16937,7 @@
   array (
     'description' => 'Triple 3-input NOR gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/74HC_HCT27_3.pdf',
     'pins' => 
@@ -17042,7 +17045,7 @@
   array (
     'description' => 'Octal D-type flip-flop with reset; positive-edge trigger',
     'package' => 'DIP',
-    'pincount' => '20',
+    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc273.74hct273.pdf',
     'pins' => 
@@ -17192,7 +17195,7 @@
   array (
     'description' => '9-bit odd/even parity generator/checker',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc280.74hct280.pdf',
     'pins' => 
@@ -17310,7 +17313,7 @@
   array (
     'description' => '4-bit binary full adder with fast carry',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc283.pdf',
     'pins' => 
@@ -17490,7 +17493,7 @@
   array (
     'description' => '8-bit universal shift register; 3-state',
     'package' => 'DIP',
-    'pincount' => '20',
+    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc299.74hct299.pdf',
     'pins' => 
@@ -17671,7 +17674,7 @@
   array (
     'description' => '8-input NAND gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc30.74hct30.pdf',
     'pins' => 
@@ -17779,7 +17782,7 @@
   array (
     'description' => 'Quad 2-input OR gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc32.74hct32.pdf',
     'pins' => 
@@ -17887,7 +17890,7 @@
   array (
     'description' => 'Hex buffer/line driver; 3-state; non-inverting',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc365.74hct365.pdf',
     'pins' => 
@@ -18011,7 +18014,7 @@
   array (
     'description' => 'Hex buffer/line driver; 3-state; inverting',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc366.74hct366.pdf',
     'pins' => 
@@ -18135,7 +18138,7 @@
   array (
     'description' => 'Hex buffer/line driver; 3-state; non-inverting',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc367.74hct367.pdf',
     'pins' => 
@@ -18259,7 +18262,7 @@
   array (
     'description' => 'Hex buffer/line driver; 3-state; inverting',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc368.74hct368.pdf',
     'pins' => 
@@ -18383,7 +18386,7 @@
   array (
     'description' => 'Octal D-type transparent latch; 3-state',
     'package' => 'DIP',
-    'pincount' => '20',
+    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc373.74hct373.pdf',
     'pins' => 
@@ -18537,7 +18540,7 @@
   array (
     'description' => 'Octal D-type flip-flop; positive-edge trigger; 3-state',
     'package' => 'DIP',
-    'pincount' => '20',
+    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc374.74hct374.pdf',
     'pins' => 
@@ -18691,7 +18694,7 @@
   array (
     'description' => 'Octal D-type flip-flop with data enable; positive-edge trigger',
     'package' => 'DIP',
-    'pincount' => '20',
+    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc377.74hct377.pdf',
     'pins' => 
@@ -18845,7 +18848,7 @@
   array (
     'description' => 'Dual decade ripple counter',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc390.74hct390.pdf',
     'pins' => 
@@ -19015,7 +19018,7 @@
   array (
     'description' => 'Dual 4-bit binary ripple counter',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc393.74hct393.pdf',
     'pins' => 
@@ -19153,7 +19156,7 @@
   array (
     'description' => 'BCD to decimal decoder (1-of-10)',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc42.74hct42.pdf',
     'pins' => 
@@ -19273,7 +19276,7 @@
   array (
     'description' => 'Dual retriggerable monostable multivibrator with reset',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc423.74hct423.pdf',
     'pins' => 
@@ -19435,7 +19438,7 @@
   array (
     'description' => 'Octal buffer/line driver; 3-state; inverting',
     'package' => 'DIP',
-    'pincount' => '20',
+    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc540.74hct540.pdf',
     'pins' => 
@@ -19579,7 +19582,7 @@
   array (
     'description' => 'Octal buffer/line driver; 3-state; non-inverting',
     'package' => 'DIP',
-    'pincount' => '20',
+    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc541.74hct541.pdf',
     'pins' => 
@@ -19723,7 +19726,7 @@
   array (
     'description' => 'Octal D-type transparent latch; 3-state; inverting',
     'package' => 'DIP',
-    'pincount' => '20',
+    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc563.74hct563.pdf',
     'pins' => 
@@ -19867,7 +19870,7 @@
   array (
     'description' => 'Octal D-type flip-flop; positive-edge trigger; 3-state; inverting',
     'package' => 'DIP',
-    'pincount' => '20',
+    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc564.pdf',
     'pins' => 
@@ -20013,7 +20016,7 @@
   array (
     'description' => 'Octal D-type transparent latch; 3-state; non-inverting',
     'package' => 'DIP',
-    'pincount' => '20',
+    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc573.74hct573.pdf',
     'pins' => 
@@ -20163,7 +20166,7 @@
   array (
     'description' => 'Octal D-type flip-flop; positive-edge trigger; 3-state; non-inverting',
     'package' => 'DIP',
-    'pincount' => '20',
+    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc574.74hct574.pdf',
     'pins' => 
@@ -20317,7 +20320,7 @@
   array (
     'description' => 'Dual AND-OR gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc58.pdf',
     'pins' => 
@@ -20427,7 +20430,7 @@
   array (
     'description' => '8-bit binary counter with output register; 3-state',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc590.pdf',
     'pins' => 
@@ -20555,7 +20558,7 @@
   array (
     'description' => '8-bit shift register with output register',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc594.74hct594.pdf',
     'pins' => 
@@ -20694,7 +20697,7 @@
   array (
     'description' => '8-bit serial-in, serial or parallel-out shift register with output latches; 3-state',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/74HC_HCT595_4.pdf',
     'pins' => 
@@ -20844,7 +20847,7 @@
   array (
     'description' => '8-bit shift register with input flip-flops',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc597.74hct597.pdf',
     'pins' => 
@@ -20994,7 +20997,7 @@
   array (
     'description' => 'Octal bus transceiver; 3-state; inverting',
     'package' => 'DIP',
-    'pincount' => '20',
+    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc640.74hct640.pdf',
     'pins' => 
@@ -21144,7 +21147,7 @@
   array (
     'description' => 'Octal bus transceiver/register; 3-state',
     'package' => 'DIP',
-    'pincount' => '24',
+    'pincount' => 24,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc646.74hct646.pdf',
     'pins' => 
@@ -21322,7 +21325,7 @@
   array (
     'description' => 'Octal bus transceiver/register; 3-state',
     'package' => 'DIP',
-    'pincount' => '24',
+    'pincount' => 24,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc652.74hct652.pdf',
     'pins' => 
@@ -21512,7 +21515,7 @@
   array (
     'description' => '4 by 4 register file; 3-state',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc670.74hct670.pdf',
     'pins' => 
@@ -21628,7 +21631,7 @@
   array (
     'description' => '8-bit magnitude comparator',
     'package' => 'DIP',
-    'pincount' => '20',
+    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc688.74hct688.pdf',
     'pins' => 
@@ -21778,7 +21781,7 @@
   array (
     'description' => 'Dual J-K flip-flop with reset; negative-edge trigger',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc73.pdf',
     'pins' => 
@@ -21900,7 +21903,7 @@
   array (
     'description' => 'Dual D-type flip-flop with set and reset; positive-edge trigger',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc74.74hct74.pdf',
     'pins' => 
@@ -22038,7 +22041,7 @@
   array (
     'description' => 'Quad bistable transparent latch',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/74HC75_3.pdf',
     'pins' => 
@@ -22154,7 +22157,7 @@
   array (
     'description' => '4-bit magnitude comparator',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc85.74hct85.pdf',
     'pins' => 
@@ -22309,7 +22312,7 @@
   array (
     'description' => 'Quad 2-input XOR gate',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/74HC_HCT86_CNV_2.pdf',
     'pins' => 
@@ -22417,7 +22420,7 @@
   array (
     'description' => '4-bit decade counter',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/sn74ls90.pdf',
     'pins' => 
@@ -22516,7 +22519,7 @@
   array (
     'description' => '4-bit binary ripple counter',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc93.74hct93.pdf',
     'pins' => 
@@ -22645,7 +22648,7 @@
       0 => '82C54',
     ),
     'package' => 'DIP',
-    'pincount' => '24',
+    'pincount' => 24,
     'family' => 'Intel',
     'datasheet' => 'http://www.scs.stanford.edu/10wi-cs140/pintos/specs/8254.pdf',
     'pins' => 
@@ -22837,7 +22840,7 @@
       0 => '82C55A',
     ),
     'package' => 'DIP',
-    'pincount' => '40',
+    'pincount' => 40,
     'family' => 'Intel',
     'datasheet' => 'http://www.intersil.com/data/fn/fn2969.pdf',
     'pins' => 
@@ -23110,7 +23113,7 @@
   array (
     'description' => 'Serial-input constant-current latched LED driver (8 outputs)',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => 'Allegro',
     'datasheet' => 'http://www.allegromicro.com/en/Products/Part_Numbers/6278/6278.pdf',
     'pins' => 
@@ -23217,7 +23220,7 @@
   array (
     'description' => 'Serial-input constant-current latched LED driver (16 outputs)',
     'package' => 'DIP',
-    'pincount' => '24',
+    'pincount' => 24,
     'family' => 'Allegro',
     'datasheet' => 'http://www.allegromicro.com/en/Products/Part_Numbers/6278/6278.pdf',
     'pins' => 
@@ -23372,7 +23375,7 @@
   array (
     'description' => 'CMOS dual 8-bit buffered multiplying DAC',
     'package' => 'DIP',
-    'pincount' => '20',
+    'pincount' => 20,
     'aliases' => 
     array (
       0 => 'TLC7528',
@@ -23530,7 +23533,7 @@
   array (
     'description' => '+3.3V to +5V quad 10-bit DAC',
     'package' => 'DIP',
-    'pincount' => '28',
+    'pincount' => 28,
     'family' => 'Analog Devices',
     'datasheet' => 'http://www.analog.com/static/imported-files/data_sheets/AD7804_7805_7808_7809.pdf',
     'pins' => 
@@ -23745,7 +23748,7 @@
       0 => 'ADC0809',
     ),
     'package' => 'DIP',
-    'pincount' => '28',
+    'pincount' => 28,
     'family' => 'National Semiconductor',
     'datasheet' => 'http://www.national.com/ds/DC/ADC0808.pdf',
     'pins' => 
@@ -24005,7 +24008,7 @@
       2 => 'ATmega328P',
     ),
     'package' => 'DIP',
-    'pincount' => '28',
+    'pincount' => 28,
     'family' => 'Atmel',
     'datasheet' => 'http://www.atmel.com/dyn/resources/prod_documents/doc2545.pdf',
     'pins' => 
@@ -24239,7 +24242,7 @@
       0 => 'ATmega16',
     ),
     'package' => 'DIP',
-    'pincount' => '40',
+    'pincount' => 40,
     'family' => 'Atmel',
     'datasheet' => 'http://www.atmel.com/dyn/resources/prod_documents/doc8155.pdf',
     'pins' => 
@@ -24535,7 +24538,7 @@
       2 => 'ATmega1284P',
     ),
     'package' => 'DIP',
-    'pincount' => '40',
+    'pincount' => 40,
     'family' => 'Atmel',
     'datasheet' => 'http://www.atmel.com/dyn/resources/prod_documents/doc8011.pdf',
     'pins' => 
@@ -24835,7 +24838,7 @@
     'name' => 'ATmega8',
     'description' => '8-bit AVR® microcontroller',
     'package' => 'DIP',
-    'pincount' => '28',
+    'pincount' => 28,
     'family' => 'Atmel',
     'datasheet' => 'http://www.atmel.com/dyn/resources/prod_documents/doc2486.pdf',
     'pins' => 
@@ -25053,7 +25056,7 @@
       2 => 'ATTiny12-8',
     ),
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'atmel',
     'datasheet' => 'http://www.atmel.com/dyn/resources/prod_documents/doc1006.pdf',
     'pins' => 
@@ -25172,7 +25175,7 @@
     'name' => 'ATtiny13',
     'description' => '8-bit AVR® microcontroller',
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'Atmel',
     'datasheet' => 'http://www.atmel.com/dyn/resources/prod_documents/doc2535.pdf',
     'pins' => 
@@ -25268,7 +25271,7 @@
       0 => 'ATtiny4313',
     ),
     'package' => 'DIP',
-    'pincount' => '20',
+    'pincount' => 20,
     'family' => 'Atmel',
     'datasheet' => 'http://www.atmel.com/dyn/resources/prod_documents/DOC8246.PDF',
     'pins' => 
@@ -25449,7 +25452,7 @@
       1 => 'ATtiny45',
     ),
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'Atmel',
     'datasheet' => 'http://www.atmel.com/dyn/resources/prod_documents/doc2586.pdf',
     'pins' => 
@@ -25559,7 +25562,7 @@
       0 => 'YM2149',
     ),
     'package' => 'DIP',
-    'pincount' => '40',
+    'pincount' => 40,
     'family' => 'General Instrument',
     'datasheet' => 'http://www.ym2149.com/ay8910.pdf',
     'pins' => 
@@ -25862,7 +25865,7 @@
   array (
     'description' => '64 x 8, serial, I2C real-time clock',
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'Maxim',
     'datasheet' => 'http://datasheets.maxim-ic.com/en/ds/DS1307.pdf',
     'pins' => 
@@ -25930,7 +25933,7 @@
     array (
     ),
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'Maxim',
     'datasheet' => 'http://datasheets.maxim-ic.com/en/ds/DS1620.pdf',
     'pins' => 
@@ -26015,7 +26018,7 @@
     'name' => 'DS32kHz',
     'description' => '32.768kHz temperature-compensated crystal oscillator',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => 'Maxim',
     'datasheet' => 'http://datasheets.maxim-ic.com/en/ds/DS32kHz.pdf',
     'pins' => 
@@ -26128,7 +26131,7 @@
     array (
     ),
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => 'Maxwell',
     'datasheet' => 'http://www.maxwell.com/products/microelectronics/docs/HSN1000_REV3.PDF',
     'pins' => 
@@ -26278,7 +26281,7 @@
       0 => 'MAX1044',
     ),
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'datasheet' => 'http://www.intersil.com/data/fn/fn3072.pdf',
     'pins' => 
     array (
@@ -26340,7 +26343,7 @@
   array (
     'description' => '8-digit LED display decoder/driver, common cathode',
     'package' => 'DIP',
-    'pincount' => '28',
+    'pincount' => 28,
     'family' => 'Intersil',
     'datasheet' => 'http://www.intersil.com/data/fn/fn3160.pdf',
     'pins' => 
@@ -26582,7 +26585,7 @@
       0 => 'LF147',
     ),
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LF/LF147.pdf',
     'pins' => 
@@ -26720,7 +26723,7 @@
   array (
     'description' => 'Wide bandwidth dual JFET-input operational amplifier',
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LF/LF353.pdf',
     'pins' => 
@@ -26828,7 +26831,7 @@
   array (
     'description' => 'Low-offset, low-drift JFET-input operational amplifier',
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LF/LF411.pdf',
     'pins' => 
@@ -26926,7 +26929,7 @@
   array (
     'description' => 'Low-offset, low-drift dual JFET-input operational amplifier',
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LF/LF412.pdf',
     'pins' => 
@@ -27024,7 +27027,7 @@
   array (
     'description' => 'Quad low-power JFET-input operational amplifier',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LF/LF444.pdf',
     'pins' => 
@@ -27163,7 +27166,7 @@
       1 => 'LM201A',
     ),
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM101A.pdf',
     'pins' => 
@@ -27279,7 +27282,7 @@
       0 => 'LM111',
     ),
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM111.pdf',
     'pins' => 
@@ -27369,7 +27372,7 @@
   array (
     'description' => 'High speed dual comparator',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM319.pdf',
     'pins' => 
@@ -27502,7 +27505,7 @@
       1 => 'LM224',
     ),
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM124.pdf',
     'pins' => 
@@ -27642,7 +27645,7 @@
   array (
     'description' => 'Low-power, low-offset quad comparator',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM139.pdf',
     'pins' => 
@@ -27781,7 +27784,7 @@
       1 => 'LM248',
     ),
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM148.pdf',
     'pins' => 
@@ -27925,7 +27928,7 @@
       2 => 'LM2904',
     ),
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM158.pdf',
     'pins' => 
@@ -28021,7 +28024,7 @@
   array (
     'description' => '2.5W audio power amplifier',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM380.pdf',
     'pins' => 
@@ -28167,7 +28170,7 @@
   array (
     'description' => '5W audio power amplifier',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM384.pdf',
     'pins' => 
@@ -28313,7 +28316,7 @@
   array (
     'description' => 'Low voltage audio power amplifier',
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM386.pdf',
     'pins' => 
@@ -28427,7 +28430,7 @@
       1 => 'LM293',
     ),
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM193.pdf',
     'pins' => 
@@ -28513,7 +28516,7 @@
   array (
     'description' => 'High-efficiency, low IQ, step-up DC-DC controller',
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'Maxim',
     'datasheet' => 'http://datasheets.maxim-ic.com/en/ds/MAX1771.pdf',
     'pins' => 
@@ -28597,7 +28600,7 @@
   array (
     'description' => '+5V-powered multichannel RS-232 driver/receiver',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => 'Maxim',
     'datasheet' => 'http://datasheets.maxim-ic.com/en/ds/MAX220-MAX249.pdf',
     'pins' => 
@@ -28718,7 +28721,7 @@
   array (
     'description' => 'Step up/down inverting switching regulator',
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'power',
     'datasheet' => 'http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF',
     'pins' => 
@@ -28799,7 +28802,7 @@
     array (
     ),
     'package' => 'DIP',
-    'pincount' => '28',
+    'pincount' => 28,
     'family' => 'Microchip',
     'datasheet' => 'http://ww1.microchip.com/downloads/en/DeviceDoc/21952b.pdf',
     'pins' => 
@@ -28978,7 +28981,7 @@
   array (
     'description' => 'Dual channel 10-bit ADC with SPI interface',
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'Microchip',
     'datasheet' => 'http://ww1.microchip.com/downloads/en/DeviceDoc/21294d.pdf',
     'pins' => 
@@ -29072,7 +29075,7 @@
     array (
     ),
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'Microchip',
     'datasheet' => 'http://ww1.microchip.com/downloads/en/DeviceDoc/21290e.pdf',
     'pins' => 
@@ -29184,7 +29187,7 @@
     array (
     ),
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'Microchip',
     'datasheet' => 'http://ww1.microchip.com/downloads/aen/DeviceDoc/21034e.pdf',
     'pins' => 
@@ -29296,7 +29299,7 @@
     array (
     ),
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => 'microchip',
     'datasheet' => 'http://ww1.microchip.com/downloads/en/devicedoc/21298c.pdf',
     'pins' => 
@@ -29429,7 +29432,7 @@
     array (
     ),
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'Fairchild',
     'datasheet' => 'http://www.fairchildsemi.com/ds/NE/NE5532.pdf',
     'pins' => 
@@ -29531,7 +29534,7 @@
       0 => 'PCF8574P',
     ),
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => 'Philips',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/PCF8574_4.pdf',
     'pins' => 
@@ -29684,7 +29687,7 @@
     array (
     ),
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'Microchip',
     'datasheet' => 'http://ww1.microchip.com/downloads/en/DeviceDoc/41211D_.pdf',
     'pins' => 
@@ -29777,7 +29780,7 @@
     array (
     ),
     'package' => 'DIP',
-    'pincount' => '28',
+    'pincount' => 28,
     'family' => 'Microchip 16F',
     'datasheet' => 'http://ww1.microchip.com/downloads/en/DeviceDoc/41364C.pdf',
     'pins' => 
@@ -29987,7 +29990,7 @@
   array (
     'description' => 'PIC16F84A Microcontroller',
     'package' => 'DIP',
-    'pincount' => '18',
+    'pincount' => 18,
     'family' => 'Microchip',
     'datasheet' => 'http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1335&dDocName=en010230',
     'pins' => 
@@ -30140,7 +30143,7 @@ cycle rate.',
       0 => 'PIC18F14K50',
     ),
     'package' => 'DIP',
-    'pincount' => '20',
+    'pincount' => 20,
     'family' => 'Microchip 18F',
     'datasheet' => 'http://ww1.microchip.com/downloads/en/DeviceDoc/41350C.pdf',
     'pins' => 
@@ -30305,7 +30308,7 @@ cycle rate.',
     array (
     ),
     'package' => 'DIP',
-    'pincount' => '40',
+    'pincount' => 40,
     'family' => 'Microchip',
     'datasheet' => 'http://ww1.microchip.com/downloads/en/DeviceDoc/39632e.pdf',
     'pins' => 
@@ -30565,7 +30568,7 @@ cycle rate.',
   array (
     'description' => '4-channel optoisolator',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => 'CEL',
     'datasheet' => 'http://www.cel.com/pdf/datasheets/ps2501.pdf',
     'pins' => 
@@ -30697,7 +30700,7 @@ cycle rate.',
   array (
     'description' => 'Quadruple half-H driver',
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => 'TI',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/sn754410.pdf',
     'pins' => 
@@ -30831,7 +30834,7 @@ cycle rate.',
       0 => 'SN75469',
     ),
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => 'TI',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/sn75468.pdf',
     'pins' => 
@@ -30977,7 +30980,7 @@ cycle rate.',
     array (
     ),
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'Microchip',
     'datasheet' => 'http://ww1.microchip.com/downloads/en/DeviceDoc/21449c.pdf',
     'pins' => 
@@ -31045,7 +31048,7 @@ cycle rate.',
   array (
     'description' => 'Hexadecimal display with logic',
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => 'LED',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/til311.pdf',
     'pins' => 
@@ -31149,7 +31152,7 @@ cycle rate.',
       1 => 'TL071',
     ),
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'linear',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/tl08a.pdf',
     'pins' => 
@@ -31289,7 +31292,7 @@ cycle rate.',
       1 => 'TL072',
     ),
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'linear',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/tl081a.pdf',
     'pins' => 
@@ -31429,7 +31432,7 @@ cycle rate.',
       1 => 'TL074',
     ),
     'package' => 'DIP',
-    'pincount' => '14',
+    'pincount' => 14,
     'family' => 'linear',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/tl081a.pdf',
     'pins' => 
@@ -31604,7 +31607,7 @@ cycle rate.',
     array (
     ),
     'package' => 'DIP',
-    'pincount' => '8',
+    'pincount' => 8,
     'family' => 'opamps',
     'datasheet' => 'http://www.hep.upenn.edu/SNO/daq/parts/tlc272.pdf',
     'pins' => 
@@ -31698,7 +31701,7 @@ cycle rate.',
     array (
     ),
     'package' => 'DIP',
-    'pincount' => '40',
+    'pincount' => 40,
     'family' => 'Texas Instruments',
     'datasheet' => 'http://www.cs.columbia.edu/~sedwards/papers/TMS9918.pdf',
     'pins' => 
@@ -32020,7 +32023,7 @@ cycle rate.',
       0 => 'TMS9929A',
     ),
     'package' => 'DIP',
-    'pincount' => '40',
+    'pincount' => 40,
     'family' => 'Texas Instruments',
     'datasheet' => 'http://www.cs.columbia.edu/~sedwards/papers/TMS9918.pdf',
     'pins' => 
@@ -32276,7 +32279,7 @@ cycle rate.',
   array (
     'description' => 'Power logic 8-bit shift register',
     'package' => 'DIP',
-    'pincount' => '20',
+    'pincount' => 20,
     'family' => 'TI',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/tpic6b595.pdf',
     'pins' => 
@@ -32439,7 +32442,7 @@ cycle rate.',
       1 => 'ULN2004',
     ),
     'package' => 'DIP',
-    'pincount' => '16',
+    'pincount' => 16,
     'family' => 'TI',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/uln2003a.pdf',
     'pins' => 
@@ -32584,7 +32587,7 @@ cycle rate.',
   array (
     'description' => 'Eight darlington array',
     'package' => 'DIP',
-    'pincount' => '18',
+    'pincount' => 18,
     'family' => 'TI',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/uln2803a.pdf',
     'pins' => 
@@ -32730,7 +32733,7 @@ cycle rate.',
   array (
     'description' => 'A piece of wire',
     'package' => 'DIP',
-    'pincount' => '2',
+    'pincount' => 2,
     'pins' => 
     array (
       0 => 
@@ -32760,7 +32763,7 @@ cycle rate.',
     array (
     ),
     'package' => 'DIP',
-    'pincount' => '40',
+    'pincount' => 40,
     'family' => 'Zilog',
     'datasheet' => 'http://www.z80.info/zip/z80.pdf',
     'pins' => 
@@ -33047,7 +33050,7 @@ cycle rate.',
     array (
     ),
     'package' => 'DIP',
-    'pincount' => '40',
+    'pincount' => 40,
     'family' => 'Zilog',
     'datasheet' => 'http://www.zilog.com/docs/z80/ps0180.pdf',
     'pins' => 
