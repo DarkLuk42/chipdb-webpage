@@ -37,7 +37,7 @@ npm run dev
 + Validate YAML files and add description how they should be formatted
 + Style HTML
 + Add responsive design
-+ Add favorites functionality
++ Add favorites functionality (using `window.localStorage`)
 + Create a webpage to download the newest html file
 
 ## Disclaimer/License
