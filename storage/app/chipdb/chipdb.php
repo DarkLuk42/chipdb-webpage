@@ -6,250 +6,168 @@
     array (
       0 => '16C550',
     ),
-    'package' => 'DIP',
-    'pincount' => 40,
     'family' => 'uart',
     'datasheet' => 'http://www.national.com/ds/PC/PC16550D.pdf',
     'pins' => 
     array (
-      0 => 
+      'D__0' => 
       array (
-        'num' => '1',
-        'sym' => 'D__0',
         'desc' => 'data bus',
       ),
-      1 => 
+      'D__1' => 
       array (
-        'num' => '2',
-        'sym' => 'D__1',
         'desc' => 'data bus',
       ),
-      2 => 
+      'D__2' => 
       array (
-        'num' => '3',
-        'sym' => 'D__2',
         'desc' => 'data bus',
       ),
-      3 => 
+      'D__3' => 
       array (
-        'num' => '4',
-        'sym' => 'D__3',
         'desc' => 'data bus',
       ),
-      4 => 
+      'D__4' => 
       array (
-        'num' => '5',
-        'sym' => 'D__4',
         'desc' => 'data bus',
       ),
-      5 => 
+      'D__5' => 
       array (
-        'num' => '6',
-        'sym' => 'D__5',
         'desc' => 'data bus',
       ),
-      6 => 
+      'D__6' => 
       array (
-        'num' => '7',
-        'sym' => 'D__6',
         'desc' => 'data bus',
       ),
-      7 => 
+      'D__7' => 
       array (
-        'num' => '8',
-        'sym' => 'D__7',
         'desc' => 'data bus',
       ),
-      8 => 
+      'RCLK' => 
       array (
-        'num' => '9',
-        'sym' => 'RCLK',
         'desc' => 'receiver clock input (16x baud rate)',
       ),
-      9 => 
+      'RX' => 
       array (
-        'num' => '10',
-        'sym' => 'RX',
         'desc' => 'serial input',
       ),
-      10 => 
+      'TX' => 
       array (
-        'num' => '11',
-        'sym' => 'TX',
         'desc' => 'serial output',
       ),
-      11 => 
+      'CS0' => 
       array (
-        'num' => '12',
-        'sym' => 'CS0',
         'desc' => 'chip select (active high)',
       ),
-      12 => 
+      'CS1' => 
       array (
-        'num' => '13',
-        'sym' => 'CS1',
         'desc' => 'chip select (active high)',
       ),
-      13 => 
+      '~CS2' => 
       array (
-        'num' => '14',
-        'sym' => '~CS2',
         'desc' => 'chip select (active low)',
       ),
-      14 => 
+      '~BAUDOUT' => 
       array (
-        'num' => '15',
-        'sym' => '~BAUDOUT',
         'desc' => 'baud rate generator output',
       ),
-      15 => 
+      'XIN' => 
       array (
-        'num' => '16',
-        'sym' => 'XIN',
         'desc' => 'external crystal input',
       ),
-      16 => 
+      'XOUT' => 
       array (
-        'num' => '17',
-        'sym' => 'XOUT',
         'desc' => 'external crystal output',
       ),
-      17 => 
+      '~WR' => 
       array (
-        'num' => '18',
-        'sym' => '~WR',
         'desc' => 'write enable (active low)',
       ),
-      18 => 
+      'WR' => 
       array (
-        'num' => '19',
-        'sym' => 'WR',
         'desc' => 'write enable (active high)',
       ),
-      19 => 
+      'GND' => 
       array (
-        'num' => '20',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      20 => 
+      '~RD' => 
       array (
-        'num' => '21',
-        'sym' => '~RD',
         'desc' => 'read enable (active low)',
       ),
-      21 => 
+      'RD' => 
       array (
-        'num' => '22',
-        'sym' => 'RD',
         'desc' => 'read enable (active high)',
       ),
-      22 => 
+      'DDIS' => 
       array (
-        'num' => '23',
-        'sym' => 'DDIS',
         'desc' => 'driver disable',
       ),
-      23 => 
+      '~TXRDY' => 
       array (
-        'num' => '24',
-        'sym' => '~TXRDY',
         'desc' => 'TX DMA signal',
       ),
-      24 => 
+      '~ADS' => 
       array (
-        'num' => '25',
-        'sym' => '~ADS',
         'desc' => 'address strobe input',
       ),
-      25 => 
+      'A__2' => 
       array (
-        'num' => '26',
-        'sym' => 'A__2',
         'desc' => 'register select',
       ),
-      26 => 
+      'A__1' => 
       array (
-        'num' => '27',
-        'sym' => 'A__1',
         'desc' => 'register select',
       ),
-      27 => 
+      'A__0' => 
       array (
-        'num' => '28',
-        'sym' => 'A__0',
         'desc' => 'register select',
       ),
-      28 => 
+      '~RXRDY' => 
       array (
-        'num' => '29',
-        'sym' => '~RXRDY',
         'desc' => 'RX DMA signal',
       ),
-      29 => 
+      'INTR' => 
       array (
-        'num' => '30',
-        'sym' => 'INTR',
         'desc' => 'interrupt output (active high)',
       ),
-      30 => 
+      '~OUT2' => 
       array (
-        'num' => '31',
-        'sym' => '~OUT2',
         'desc' => 'general purpose output',
       ),
-      31 => 
+      '~RTS' => 
       array (
-        'num' => '32',
-        'sym' => '~RTS',
         'desc' => 'request to send (output to modem)',
       ),
-      32 => 
+      '~DTR' => 
       array (
-        'num' => '33',
-        'sym' => '~DTR',
         'desc' => 'data terminal ready (output to modem)',
       ),
-      33 => 
+      '~OUT1' => 
       array (
-        'num' => '34',
-        'sym' => '~OUT1',
         'desc' => 'general purpose output',
       ),
-      34 => 
+      'MR' => 
       array (
-        'num' => '35',
-        'sym' => 'MR',
         'desc' => 'master reset (active high)',
       ),
-      35 => 
+      '~CTS' => 
       array (
-        'num' => '36',
-        'sym' => '~CTS',
         'desc' => 'clear to send (input from modem)',
       ),
-      36 => 
+      '~DSR' => 
       array (
-        'num' => '37',
-        'sym' => '~DSR',
         'desc' => 'data set ready (input from modem)',
       ),
-      37 => 
+      '~DCD' => 
       array (
-        'num' => '38',
-        'sym' => '~DCD',
         'desc' => 'data carrier detect (input from modem)',
       ),
-      38 => 
+      '~RI' => 
       array (
-        'num' => '39',
-        'sym' => '~RI',
         'desc' => 'ring indicator (input from modem)',
       ),
-      39 => 
+      'Vcc' => 
       array (
-        'num' => '40',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -274,6 +192,52 @@
       7 => 'Register 111: scratch register',
       8 => 'When bit 7 in the Line Control Register is set, the baud rate divisor latch is enabled. (register 000=LSB, register 001=MSB)',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'D__0',
+        2 => 'D__1',
+        3 => 'D__2',
+        4 => 'D__3',
+        5 => 'D__4',
+        6 => 'D__5',
+        7 => 'D__6',
+        8 => 'D__7',
+        9 => 'RCLK',
+        10 => 'RX',
+        11 => 'TX',
+        12 => 'CS0',
+        13 => 'CS1',
+        14 => '~CS2',
+        15 => '~BAUDOUT',
+        16 => 'XIN',
+        17 => 'XOUT',
+        18 => '~WR',
+        19 => 'WR',
+        20 => 'GND',
+        21 => '~RD',
+        22 => 'RD',
+        23 => 'DDIS',
+        24 => '~TXRDY',
+        25 => '~ADS',
+        26 => 'A__2',
+        27 => 'A__1',
+        28 => 'A__0',
+        29 => '~RXRDY',
+        30 => 'INTR',
+        31 => '~OUT2',
+        32 => '~RTS',
+        33 => '~DTR',
+        34 => '~OUT1',
+        35 => 'MR',
+        36 => '~CTS',
+        37 => '~DSR',
+        38 => '~DCD',
+        39 => '~RI',
+        40 => 'Vcc',
+      ),
+    ),
   ),
   1802 => 
   array (
@@ -284,250 +248,168 @@
       1 => 'CDP1802AC',
       2 => 'CDP1802BC',
     ),
-    'package' => 'DIP',
-    'pincount' => 40,
     'family' => 'RCA',
     'datasheet' => 'pdf_datasheet_url',
     'pins' => 
     array (
-      0 => 
+      'CLOCK' => 
       array (
-        'num' => '1',
-        'sym' => 'CLOCK',
         'desc' => 'input for externally generated single-phase clock',
       ),
-      1 => 
+      '~WAIT~' => 
       array (
-        'num' => '2',
-        'sym' => '~WAIT~',
         'desc' => 'control line',
       ),
-      2 => 
+      '~CLEAR~' => 
       array (
-        'num' => '3',
-        'sym' => '~CLEAR~',
         'desc' => 'control line',
       ),
-      3 => 
+      'Q' => 
       array (
-        'num' => '4',
-        'sym' => 'Q',
         'desc' => 'general output',
       ),
-      4 => 
+      'SC1' => 
       array (
-        'num' => '5',
-        'sym' => 'SC1',
         'desc' => 'state code',
       ),
-      5 => 
+      'SC0' => 
       array (
-        'num' => '6',
-        'sym' => 'SC0',
         'desc' => 'state code',
       ),
-      6 => 
+      '~MRD~' => 
       array (
-        'num' => '7',
-        'sym' => '~MRD~',
         'desc' => 'read pulse',
       ),
-      7 => 
+      'BUS 7' => 
       array (
-        'num' => '8',
-        'sym' => 'BUS 7',
         'desc' => 'data bus',
       ),
-      8 => 
+      'BUS 6' => 
       array (
-        'num' => '9',
-        'sym' => 'BUS 6',
         'desc' => 'data bus',
       ),
-      9 => 
+      'BUS 5' => 
       array (
-        'num' => '10',
-        'sym' => 'BUS 5',
         'desc' => 'data bus',
       ),
-      10 => 
+      'BUS 4' => 
       array (
-        'num' => '11',
-        'sym' => 'BUS 4',
         'desc' => 'data bus',
       ),
-      11 => 
+      'BUS 3' => 
       array (
-        'num' => '12',
-        'sym' => 'BUS 3',
         'desc' => 'data bus',
       ),
-      12 => 
+      'BUS 2' => 
       array (
-        'num' => '13',
-        'sym' => 'BUS 2',
         'desc' => 'data bus',
       ),
-      13 => 
+      'BUS 1' => 
       array (
-        'num' => '14',
-        'sym' => 'BUS 1',
         'desc' => 'data bus',
       ),
-      14 => 
+      'BUS 0' => 
       array (
-        'num' => '15',
-        'sym' => 'BUS 0',
         'desc' => 'data bus',
       ),
-      15 => 
+      'V__CC' => 
       array (
-        'num' => '16',
-        'sym' => 'V__CC',
         'desc' => 'I/O voltage supply',
       ),
-      16 => 
+      'N2' => 
       array (
-        'num' => '17',
-        'sym' => 'N2',
         'desc' => 'I/O control line',
       ),
-      17 => 
+      'N1' => 
       array (
-        'num' => '18',
-        'sym' => 'N1',
         'desc' => 'I/O control line',
       ),
-      18 => 
+      'N0' => 
       array (
-        'num' => '19',
-        'sym' => 'N0',
         'desc' => 'I/O control line',
       ),
-      19 => 
+      'V__SS' => 
       array (
-        'num' => '20',
-        'sym' => 'V__SS',
         'desc' => 'ground',
       ),
-      20 => 
+      '~EF4~' => 
       array (
-        'num' => '21',
-        'sym' => '~EF4~',
         'desc' => 'I/O flag',
       ),
-      21 => 
+      '~EF3~' => 
       array (
-        'num' => '22',
-        'sym' => '~EF3~',
         'desc' => 'I/O flag',
       ),
-      22 => 
+      '~EF2~' => 
       array (
-        'num' => '23',
-        'sym' => '~EF2~',
         'desc' => 'I/O flag',
       ),
-      23 => 
+      '~EF1~' => 
       array (
-        'num' => '24',
-        'sym' => '~EF1~',
         'desc' => 'I/O flag',
       ),
-      24 => 
+      'MA0' => 
       array (
-        'num' => '25',
-        'sym' => 'MA0',
         'desc' => 'memory address',
       ),
-      25 => 
+      'MA1' => 
       array (
-        'num' => '26',
-        'sym' => 'MA1',
         'desc' => 'memory address',
       ),
-      26 => 
+      'MA2' => 
       array (
-        'num' => '27',
-        'sym' => 'MA2',
         'desc' => 'memory address',
       ),
-      27 => 
+      'MA3' => 
       array (
-        'num' => '28',
-        'sym' => 'MA3',
         'desc' => 'memory address',
       ),
-      28 => 
+      'MA4' => 
       array (
-        'num' => '29',
-        'sym' => 'MA4',
         'desc' => 'memory address',
       ),
-      29 => 
+      'MA5' => 
       array (
-        'num' => '30',
-        'sym' => 'MA5',
         'desc' => 'memory address',
       ),
-      30 => 
+      'MA6' => 
       array (
-        'num' => '31',
-        'sym' => 'MA6',
         'desc' => 'memory address',
       ),
-      31 => 
+      'MA7' => 
       array (
-        'num' => '32',
-        'sym' => 'MA7',
         'desc' => 'memory address',
       ),
-      32 => 
+      'TPB' => 
       array (
-        'num' => '33',
-        'sym' => 'TPB',
         'desc' => 'timing pulse',
       ),
-      33 => 
+      'TPA' => 
       array (
-        'num' => '34',
-        'sym' => 'TPA',
         'desc' => 'timing pulse',
       ),
-      34 => 
+      '~MWR~' => 
       array (
-        'num' => '35',
-        'sym' => '~MWR~',
         'desc' => 'write pulse',
       ),
-      35 => 
+      '~INTERRUPT~' => 
       array (
-        'num' => '36',
-        'sym' => '~INTERRUPT~',
         'desc' => 'interrupt',
       ),
-      36 => 
+      '~DMA_OUT~' => 
       array (
-        'num' => '37',
-        'sym' => '~DMA_OUT~',
         'desc' => 'DMA out',
       ),
-      37 => 
+      '~DMA_IN~' => 
       array (
-        'num' => '38',
-        'sym' => '~DMA_IN~',
         'desc' => 'DMA in',
       ),
-      38 => 
+      '~XTAL~' => 
       array (
-        'num' => '39',
-        'sym' => '~XTAL~',
         'desc' => 'crystal input, for on-chip oscillator',
       ),
-      39 => 
+      'V__DD' => 
       array (
-        'num' => '40',
-        'sym' => 'V__DD',
         'desc' => 'internal voltage supply',
       ),
     ),
@@ -554,7 +436,52 @@
     ),
     'notes' => 
     array (
-      0 => '',
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'CLOCK',
+        2 => '~WAIT~',
+        3 => '~CLEAR~',
+        4 => 'Q',
+        5 => 'SC1',
+        6 => 'SC0',
+        7 => '~MRD~',
+        8 => 'BUS 7',
+        9 => 'BUS 6',
+        10 => 'BUS 5',
+        11 => 'BUS 4',
+        12 => 'BUS 3',
+        13 => 'BUS 2',
+        14 => 'BUS 1',
+        15 => 'BUS 0',
+        16 => 'V__CC',
+        17 => 'N2',
+        18 => 'N1',
+        19 => 'N0',
+        20 => 'V__SS',
+        21 => '~EF4~',
+        22 => '~EF3~',
+        23 => '~EF2~',
+        24 => '~EF1~',
+        25 => 'MA0',
+        26 => 'MA1',
+        27 => 'MA2',
+        28 => 'MA3',
+        29 => 'MA4',
+        30 => 'MA5',
+        31 => 'MA6',
+        32 => 'MA7',
+        33 => 'TPB',
+        34 => 'TPA',
+        35 => '~MWR~',
+        36 => '~INTERRUPT~',
+        37 => '~DMA_OUT~',
+        38 => '~DMA_IN~',
+        39 => '~XTAL~',
+        40 => 'V__DD',
+      ),
     ),
   ),
   '24LC256' => 
@@ -565,58 +492,40 @@
       0 => '24AA256',
       1 => '24FC256',
     ),
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'Microchip',
     'datasheet' => 'http://ww1.microchip.com/downloads/en/DeviceDoc/21203P.pdf',
     'pins' => 
     array (
-      0 => 
+      'A0' => 
       array (
-        'num' => '1',
-        'sym' => 'A0',
         'desc' => 'user-configurable chip select',
       ),
-      1 => 
+      'A1' => 
       array (
-        'num' => '2',
-        'sym' => 'A1',
         'desc' => 'user-configurable chip select',
       ),
-      2 => 
+      'A2' => 
       array (
-        'num' => '3',
-        'sym' => 'A2',
         'desc' => 'user-configurable chip select',
       ),
-      3 => 
+      'GND' => 
       array (
-        'num' => '4',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      4 => 
+      'SDA' => 
       array (
-        'num' => '5',
-        'sym' => 'SDA',
         'desc' => 'serial data input/output',
       ),
-      5 => 
+      'SCL' => 
       array (
-        'num' => '6',
-        'sym' => 'SCL',
         'desc' => 'serial clock input',
       ),
-      6 => 
+      'WP' => 
       array (
-        'num' => '7',
-        'sym' => 'WP',
         'desc' => 'write protect (active high)',
       ),
-      7 => 
+      'Vcc' => 
       array (
-        'num' => '8',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -658,6 +567,20 @@
         'unit' => 'cycles',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'A0',
+        2 => 'A1',
+        3 => 'A2',
+        4 => 'GND',
+        5 => 'SDA',
+        6 => 'SCL',
+        7 => 'WP',
+        8 => 'Vcc',
+      ),
+    ),
   ),
   '28C64' => 
   array (
@@ -665,974 +588,830 @@
     'aliases' => 
     array (
     ),
-    'package' => 'DIP',
-    'pincount' => 28,
     'family' => 'memory',
     'datasheet' => 'http://www.atmel.com/dyn/resources/prod_documents/doc0001H.pdf',
     'pins' => 
     array (
-      0 => 
+      'RDY/~BUSY~' => 
       array (
-        'num' => '1',
-        'sym' => 'RDY/~BUSY~',
         'desc' => 'device status',
       ),
-      1 => 
+      'A__12' => 
       array (
-        'num' => '2',
-        'sym' => 'A__12',
         'desc' => 'address input',
       ),
-      2 => 
+      'A__7' => 
       array (
-        'num' => '3',
-        'sym' => 'A__7',
         'desc' => 'address input',
       ),
-      3 => 
+      'A__6' => 
       array (
-        'num' => '4',
-        'sym' => 'A__6',
         'desc' => 'address input',
       ),
-      4 => 
+      'A__5' => 
       array (
-        'num' => '5',
-        'sym' => 'A__5',
         'desc' => 'address input',
       ),
-      5 => 
+      'A__4' => 
       array (
-        'num' => '6',
-        'sym' => 'A__4',
         'desc' => 'address input',
       ),
-      6 => 
+      'A__3' => 
       array (
-        'num' => '7',
-        'sym' => 'A__3',
         'desc' => 'address input',
       ),
-      7 => 
+      'A__2' => 
       array (
-        'num' => '8',
-        'sym' => 'A__2',
         'desc' => 'address input',
       ),
-      8 => 
+      'A__1' => 
       array (
-        'num' => '9',
-        'sym' => 'A__1',
         'desc' => 'address input',
       ),
-      9 => 
+      'A__0' => 
       array (
-        'num' => '10',
-        'sym' => 'A__0',
         'desc' => 'address input',
       ),
-      10 => 
+      'I/O__0' => 
       array (
-        'num' => '11',
-        'sym' => 'I/O__0',
         'desc' => 'data input/output',
       ),
-      11 => 
+      'I/O__1' => 
       array (
-        'num' => '12',
-        'sym' => 'I/O__1',
         'desc' => 'data input/output',
       ),
-      12 => 
+      'I/O__2' => 
       array (
-        'num' => '13',
-        'sym' => 'I/O__2',
         'desc' => 'data input/output',
       ),
-      13 => 
+      'GND' => 
       array (
-        'num' => '14',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      14 => 
+      'I/O__3' => 
       array (
-        'num' => '15',
-        'sym' => 'I/O__3',
         'desc' => 'data input/output',
       ),
-      15 => 
+      'I/O__4' => 
       array (
-        'num' => '16',
-        'sym' => 'I/O__4',
         'desc' => 'data input/output',
       ),
-      16 => 
+      'I/O__5' => 
       array (
-        'num' => '17',
-        'sym' => 'I/O__5',
         'desc' => 'data input/output',
       ),
-      17 => 
+      'I/O__6' => 
       array (
-        'num' => '18',
-        'sym' => 'I/O__6',
         'desc' => 'data input/output',
       ),
-      18 => 
+      'I/O__7' => 
       array (
-        'num' => '19',
-        'sym' => 'I/O__7',
         'desc' => 'data input/output',
       ),
-      19 => 
+      '~CE' => 
       array (
-        'num' => '20',
-        'sym' => '~CE',
         'desc' => 'chip enable (active low)',
       ),
-      20 => 
+      'A__10' => 
       array (
-        'num' => '21',
-        'sym' => 'A__10',
         'desc' => 'address input',
       ),
-      21 => 
+      '~OE' => 
       array (
-        'num' => '22',
-        'sym' => '~OE',
         'desc' => 'output enable (active low)',
       ),
-      22 => 
+      'A__11' => 
       array (
-        'num' => '23',
-        'sym' => 'A__11',
         'desc' => 'address input',
       ),
-      23 => 
+      'A__9' => 
       array (
-        'num' => '24',
-        'sym' => 'A__9',
         'desc' => 'address input',
       ),
-      24 => 
+      'A__8' => 
       array (
-        'num' => '25',
-        'sym' => 'A__8',
         'desc' => 'address input',
       ),
-      25 => 
+      '~WE' => 
       array (
-        'num' => '26',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      26 => 
-      array (
-        'num' => '27',
-        'sym' => '~WE',
         'desc' => 'write enable (active low)',
       ),
-      27 => 
+      'Vcc' => 
       array (
-        'num' => '28',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'RDY/~BUSY~',
+        2 => 'A__12',
+        3 => 'A__7',
+        4 => 'A__6',
+        5 => 'A__5',
+        6 => 'A__4',
+        7 => 'A__3',
+        8 => 'A__2',
+        9 => 'A__1',
+        10 => 'A__0',
+        11 => 'I/O__0',
+        12 => 'I/O__1',
+        13 => 'I/O__2',
+        14 => 'GND',
+        15 => 'I/O__3',
+        16 => 'I/O__4',
+        17 => 'I/O__5',
+        18 => 'I/O__6',
+        19 => 'I/O__7',
+        20 => '~CE',
+        21 => 'A__10',
+        22 => '~OE',
+        23 => 'A__11',
+        24 => 'A__9',
+        25 => 'A__8',
+        26 => 'NC',
+        27 => '~WE',
+        28 => 'Vcc',
       ),
     ),
   ),
   4001 => 
   array (
     'description' => 'Quad 2-input NOR gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4001b.pdf',
     'pins' => 
     array (
-      0 => 
+      '1A' => 
       array (
-        'num' => '1',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      1 => 
+      '1B' => 
       array (
-        'num' => '2',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      2 => 
+      '1Y' => 
       array (
-        'num' => '3',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      3 => 
+      '2Y' => 
       array (
-        'num' => '4',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      4 => 
+      '2A' => 
       array (
-        'num' => '5',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      5 => 
+      '2B' => 
       array (
-        'num' => '6',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '3A' => 
       array (
-        'num' => '8',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      8 => 
+      '3B' => 
       array (
-        'num' => '9',
-        'sym' => '3B',
         'desc' => 'data input',
       ),
-      9 => 
+      '3Y' => 
       array (
-        'num' => '10',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      10 => 
+      '4Y' => 
       array (
-        'num' => '11',
-        'sym' => '4Y',
         'desc' => 'data output',
       ),
-      11 => 
+      '4A' => 
       array (
-        'num' => '12',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      12 => 
+      '4B' => 
       array (
-        'num' => '13',
-        'sym' => '4B',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1A',
+        2 => '1B',
+        3 => '1Y',
+        4 => '2Y',
+        5 => '2A',
+        6 => '2B',
+        7 => 'GND',
+        8 => '3A',
+        9 => '3B',
+        10 => '3Y',
+        11 => '4Y',
+        12 => '4A',
+        13 => '4B',
+        14 => 'Vcc',
       ),
     ),
   ),
   4002 => 
   array (
     'description' => 'Dual 4-input NOR gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4002b.pdf',
     'pins' => 
     array (
-      0 => 
+      '1Y' => 
       array (
-        'num' => '1',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      1 => 
+      '1A' => 
       array (
-        'num' => '2',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      2 => 
+      '1B' => 
       array (
-        'num' => '3',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      3 => 
+      '1C' => 
       array (
-        'num' => '4',
-        'sym' => '1C',
         'desc' => 'data input',
       ),
-      4 => 
+      '1D' => 
       array (
-        'num' => '5',
-        'sym' => '1D',
         'desc' => 'data input',
       ),
-      5 => 
+      'GND' => 
       array (
-        'num' => '6',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      6 => 
-      array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '2A' => 
       array (
-        'num' => '8',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      8 => 
-      array (
-        'num' => '9',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      9 => 
+      '2B' => 
       array (
-        'num' => '10',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      10 => 
+      '2C' => 
       array (
-        'num' => '11',
-        'sym' => '2C',
         'desc' => 'data input',
       ),
-      11 => 
+      '2D' => 
       array (
-        'num' => '12',
-        'sym' => '2D',
         'desc' => 'data input',
       ),
-      12 => 
+      '2Y' => 
       array (
-        'num' => '13',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1Y',
+        2 => '1A',
+        3 => '1B',
+        4 => '1C',
+        5 => '1D',
+        6 => 'NC',
+        7 => 'GND',
+        8 => 'NC',
+        9 => '2A',
+        10 => '2B',
+        11 => '2C',
+        12 => '2D',
+        13 => '2Y',
+        14 => 'Vcc',
       ),
     ),
   ),
   40106 => 
   array (
     'description' => 'Hex inverting Schmitt trigger',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef40106b.pdf',
     'pins' => 
     array (
-      0 => 
+      '1A' => 
       array (
-        'num' => '1',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      1 => 
+      '1Y' => 
       array (
-        'num' => '2',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      2 => 
+      '2A' => 
       array (
-        'num' => '3',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      3 => 
+      '2Y' => 
       array (
-        'num' => '4',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      4 => 
+      '3A' => 
       array (
-        'num' => '5',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      5 => 
+      '3Y' => 
       array (
-        'num' => '6',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '4Y' => 
       array (
-        'num' => '8',
-        'sym' => '4Y',
         'desc' => 'data output',
       ),
-      8 => 
+      '4A' => 
       array (
-        'num' => '9',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      9 => 
+      '5Y' => 
       array (
-        'num' => '10',
-        'sym' => '5Y',
         'desc' => 'data output',
       ),
-      10 => 
+      '5A' => 
       array (
-        'num' => '11',
-        'sym' => '5A',
         'desc' => 'data input',
       ),
-      11 => 
+      '6Y' => 
       array (
-        'num' => '12',
-        'sym' => '6Y',
         'desc' => 'data output',
       ),
-      12 => 
+      '6A' => 
       array (
-        'num' => '13',
-        'sym' => '6A',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1A',
+        2 => '1Y',
+        3 => '2A',
+        4 => '2Y',
+        5 => '3A',
+        6 => '3Y',
+        7 => 'GND',
+        8 => '4Y',
+        9 => '4A',
+        10 => '5Y',
+        11 => '5A',
+        12 => '6Y',
+        13 => '6A',
+        14 => 'Vcc',
       ),
     ),
   ),
   4011 => 
   array (
     'description' => 'Quad 2-input NAND gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4011b.pdf',
     'pins' => 
     array (
-      0 => 
+      '1A' => 
       array (
-        'num' => '1',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      1 => 
+      '1B' => 
       array (
-        'num' => '2',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      2 => 
+      '1Y' => 
       array (
-        'num' => '3',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      3 => 
+      '2Y' => 
       array (
-        'num' => '4',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      4 => 
+      '2A' => 
       array (
-        'num' => '5',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      5 => 
+      '2B' => 
       array (
-        'num' => '6',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '3A' => 
       array (
-        'num' => '8',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      8 => 
+      '3B' => 
       array (
-        'num' => '9',
-        'sym' => '3B',
         'desc' => 'data input',
       ),
-      9 => 
+      '3Y' => 
       array (
-        'num' => '10',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      10 => 
+      '4Y' => 
       array (
-        'num' => '11',
-        'sym' => '4Y',
         'desc' => 'data output',
       ),
-      11 => 
+      '4A' => 
       array (
-        'num' => '12',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      12 => 
+      '4B' => 
       array (
-        'num' => '13',
-        'sym' => '4B',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1A',
+        2 => '1B',
+        3 => '1Y',
+        4 => '2Y',
+        5 => '2A',
+        6 => '2B',
+        7 => 'GND',
+        8 => '3A',
+        9 => '3B',
+        10 => '3Y',
+        11 => '4Y',
+        12 => '4A',
+        13 => '4B',
+        14 => 'Vcc',
       ),
     ),
   ),
   4013 => 
   array (
     'description' => 'Dual D-type flip-flop with set and clear',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4013b.pdf',
     'pins' => 
     array (
-      0 => 
+      '1Q' => 
       array (
-        'num' => '1',
-        'sym' => '1Q',
         'desc' => 'true output',
       ),
-      1 => 
+      '1~Q' => 
       array (
-        'num' => '2',
-        'sym' => '1~Q',
         'desc' => 'complement output',
       ),
-      2 => 
+      '1CP' => 
       array (
-        'num' => '3',
-        'sym' => '1CP',
         'desc' => 'clock input (low-to-high edge-triggered)',
       ),
-      3 => 
+      '1CD' => 
       array (
-        'num' => '4',
-        'sym' => '1CD',
         'desc' => 'asynchronous clear-direct input',
       ),
-      4 => 
+      '1D' => 
       array (
-        'num' => '5',
-        'sym' => '1D',
         'desc' => 'data input',
       ),
-      5 => 
+      '1SD' => 
       array (
-        'num' => '6',
-        'sym' => '1SD',
         'desc' => 'asynchronous set-direct input',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '2SD' => 
       array (
-        'num' => '8',
-        'sym' => '2SD',
         'desc' => 'asynchronous set-direct input',
       ),
-      8 => 
+      '2D' => 
       array (
-        'num' => '9',
-        'sym' => '2D',
         'desc' => 'data input',
       ),
-      9 => 
+      '2CD' => 
       array (
-        'num' => '10',
-        'sym' => '2CD',
         'desc' => 'asynchronous clear-direct input',
       ),
-      10 => 
+      '2CP' => 
       array (
-        'num' => '11',
-        'sym' => '2CP',
         'desc' => 'clock input (low-to-high edge-triggered)',
       ),
-      11 => 
+      '2~Q' => 
       array (
-        'num' => '12',
-        'sym' => '2~Q',
         'desc' => 'complement output',
       ),
-      12 => 
+      '2Q' => 
       array (
-        'num' => '13',
-        'sym' => '2Q',
         'desc' => 'true output',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1Q',
+        2 => '1~Q',
+        3 => '1CP',
+        4 => '1CD',
+        5 => '1D',
+        6 => '1SD',
+        7 => 'GND',
+        8 => '2SD',
+        9 => '2D',
+        10 => '2CD',
+        11 => '2CP',
+        12 => '2~Q',
+        13 => '2Q',
+        14 => 'Vcc',
       ),
     ),
   ),
   4014 => 
   array (
     'description' => '8-bit static shift register',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4014b.pdf',
     'pins' => 
     array (
-      0 => 
+      'D7' => 
       array (
-        'num' => '1',
-        'sym' => 'D7',
         'desc' => 'parallel data input',
       ),
-      1 => 
+      'Q5' => 
       array (
-        'num' => '2',
-        'sym' => 'Q5',
         'desc' => 'output',
       ),
-      2 => 
+      'Q7' => 
       array (
-        'num' => '3',
-        'sym' => 'Q7',
         'desc' => 'output',
       ),
-      3 => 
+      'D3' => 
       array (
-        'num' => '4',
-        'sym' => 'D3',
         'desc' => 'parallel data input',
       ),
-      4 => 
+      'D2' => 
       array (
-        'num' => '5',
-        'sym' => 'D2',
         'desc' => 'parallel data input',
       ),
-      5 => 
+      'D1' => 
       array (
-        'num' => '6',
-        'sym' => 'D1',
         'desc' => 'parallel data input',
       ),
-      6 => 
+      'D0' => 
       array (
-        'num' => '7',
-        'sym' => 'D0',
         'desc' => 'parallel data input',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'PE' => 
       array (
-        'num' => '9',
-        'sym' => 'PE',
         'desc' => 'parallel enable input',
       ),
-      9 => 
+      'CP' => 
       array (
-        'num' => '10',
-        'sym' => 'CP',
         'desc' => 'clock input (low-to-high edge-triggered)',
       ),
-      10 => 
+      'DS' => 
       array (
-        'num' => '11',
-        'sym' => 'DS',
         'desc' => 'serial data input',
       ),
-      11 => 
+      'Q6' => 
       array (
-        'num' => '12',
-        'sym' => 'Q6',
         'desc' => 'output',
       ),
-      12 => 
+      'D4' => 
       array (
-        'num' => '13',
-        'sym' => 'D4',
         'desc' => 'parallel data input',
       ),
-      13 => 
+      'D5' => 
       array (
-        'num' => '14',
-        'sym' => 'D5',
         'desc' => 'parallel data input',
       ),
-      14 => 
+      'D6' => 
       array (
-        'num' => '15',
-        'sym' => 'D6',
         'desc' => 'parallel data input',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'D7',
+        2 => 'Q5',
+        3 => 'Q7',
+        4 => 'D3',
+        5 => 'D2',
+        6 => 'D1',
+        7 => 'D0',
+        8 => 'GND',
+        9 => 'PE',
+        10 => 'CP',
+        11 => 'DS',
+        12 => 'Q6',
+        13 => 'D4',
+        14 => 'D5',
+        15 => 'D6',
+        16 => 'Vcc',
       ),
     ),
   ),
   4015 => 
   array (
     'description' => 'Dual 4-bit serial-in/parallel-out shift register',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4015b.pdf',
     'pins' => 
     array (
-      0 => 
+      '2CP' => 
       array (
-        'num' => '1',
-        'sym' => '2CP',
         'desc' => 'clock input (low-to-high edge-triggered)',
       ),
-      1 => 
+      '2Q3' => 
       array (
-        'num' => '2',
-        'sym' => '2Q3',
         'desc' => 'parallel output',
       ),
-      2 => 
+      '1Q2' => 
       array (
-        'num' => '3',
-        'sym' => '1Q2',
         'desc' => 'parallel output',
       ),
-      3 => 
+      '1Q1' => 
       array (
-        'num' => '4',
-        'sym' => '1Q1',
         'desc' => 'parallel output',
       ),
-      4 => 
+      '1Q0' => 
       array (
-        'num' => '5',
-        'sym' => '1Q0',
         'desc' => 'parallel output',
       ),
-      5 => 
+      '1MR' => 
       array (
-        'num' => '6',
-        'sym' => '1MR',
         'desc' => 'master reset',
       ),
-      6 => 
+      '1D' => 
       array (
-        'num' => '7',
-        'sym' => '1D',
         'desc' => 'serial data input',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '1CP' => 
       array (
-        'num' => '9',
-        'sym' => '1CP',
         'desc' => 'clock input (low-to-high edge-triggered)',
       ),
-      9 => 
+      '1Q3' => 
       array (
-        'num' => '10',
-        'sym' => '1Q3',
         'desc' => 'parallel output',
       ),
-      10 => 
+      '2Q2' => 
       array (
-        'num' => '11',
-        'sym' => '2Q2',
         'desc' => 'parallel output',
       ),
-      11 => 
+      '2Q1' => 
       array (
-        'num' => '12',
-        'sym' => '2Q1',
         'desc' => 'parallel output',
       ),
-      12 => 
+      '2Q0' => 
       array (
-        'num' => '13',
-        'sym' => '2Q0',
         'desc' => 'parallel output',
       ),
-      13 => 
+      '2MR' => 
       array (
-        'num' => '14',
-        'sym' => '2MR',
         'desc' => 'master reset',
       ),
-      14 => 
+      '2D' => 
       array (
-        'num' => '15',
-        'sym' => '2D',
         'desc' => 'serial data input',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '2CP',
+        2 => '2Q3',
+        3 => '1Q2',
+        4 => '1Q1',
+        5 => '1Q0',
+        6 => '1MR',
+        7 => '1D',
+        8 => 'GND',
+        9 => '1CP',
+        10 => '1Q3',
+        11 => '2Q2',
+        12 => '2Q1',
+        13 => '2Q0',
+        14 => '2MR',
+        15 => '2D',
+        16 => 'Vcc',
       ),
     ),
   ),
   4017 => 
   array (
     'description' => 'Decade counter/divider with 10 decoded outputs',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.national.com/ds/CD/CD4017BC.pdf',
     'pins' => 
     array (
-      0 => 
+      'Q5' => 
       array (
-        'num' => '1',
-        'sym' => 'Q5',
         'desc' => 'output',
       ),
-      1 => 
+      'Q1' => 
       array (
-        'num' => '2',
-        'sym' => 'Q1',
         'desc' => 'output',
       ),
-      2 => 
+      'Q0' => 
       array (
-        'num' => '3',
-        'sym' => 'Q0',
         'desc' => 'output',
       ),
-      3 => 
+      'Q2' => 
       array (
-        'num' => '4',
-        'sym' => 'Q2',
         'desc' => 'output',
       ),
-      4 => 
+      'Q6' => 
       array (
-        'num' => '5',
-        'sym' => 'Q6',
         'desc' => 'output',
       ),
-      5 => 
+      'Q7' => 
       array (
-        'num' => '6',
-        'sym' => 'Q7',
         'desc' => 'output',
       ),
-      6 => 
+      'Q3' => 
       array (
-        'num' => '7',
-        'sym' => 'Q3',
         'desc' => 'output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'Q8' => 
       array (
-        'num' => '9',
-        'sym' => 'Q8',
         'desc' => 'output',
       ),
-      9 => 
+      'Q4' => 
       array (
-        'num' => '10',
-        'sym' => 'Q4',
         'desc' => 'output',
       ),
-      10 => 
+      'Q9' => 
       array (
-        'num' => '11',
-        'sym' => 'Q9',
         'desc' => 'output',
       ),
-      11 => 
+      'CARRY' => 
       array (
-        'num' => '12',
-        'sym' => 'CARRY',
         'desc' => 'carry output',
       ),
-      12 => 
+      '~CE' => 
       array (
-        'num' => '13',
-        'sym' => '~CE',
         'desc' => 'clock enable (active low)',
       ),
-      13 => 
+      'CLOCK' => 
       array (
-        'num' => '14',
-        'sym' => 'CLOCK',
         'desc' => 'clock input (low-to-high, positive edge triggered)',
       ),
-      14 => 
+      'RESET' => 
       array (
-        'num' => '15',
-        'sym' => 'RESET',
         'desc' => 'reset (active high)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -1649,110 +1428,98 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'Q5',
+        2 => 'Q1',
+        3 => 'Q0',
+        4 => 'Q2',
+        5 => 'Q6',
+        6 => 'Q7',
+        7 => 'Q3',
+        8 => 'GND',
+        9 => 'Q8',
+        10 => 'Q4',
+        11 => 'Q9',
+        12 => 'CARRY',
+        13 => '~CE',
+        14 => 'CLOCK',
+        15 => 'RESET',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   40193 => 
   array (
     'description' => '4-bit up/down binary counter',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef40193b.pdf',
     'pins' => 
     array (
-      0 => 
+      'D1' => 
       array (
-        'num' => '1',
-        'sym' => 'D1',
         'desc' => 'parallel data input',
       ),
-      1 => 
+      'Q1' => 
       array (
-        'num' => '2',
-        'sym' => 'Q1',
         'desc' => 'count output',
       ),
-      2 => 
+      'Q0' => 
       array (
-        'num' => '3',
-        'sym' => 'Q0',
         'desc' => 'count output',
       ),
-      3 => 
+      'CPD' => 
       array (
-        'num' => '4',
-        'sym' => 'CPD',
         'desc' => 'count-down clock input (low-to-high edge-triggered)',
       ),
-      4 => 
+      'CPU' => 
       array (
-        'num' => '5',
-        'sym' => 'CPU',
         'desc' => 'count-up clock input (low-to-high edge-triggered)',
       ),
-      5 => 
+      'Q2' => 
       array (
-        'num' => '6',
-        'sym' => 'Q2',
         'desc' => 'count output',
       ),
-      6 => 
+      'Q3' => 
       array (
-        'num' => '7',
-        'sym' => 'Q3',
         'desc' => 'count output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'D3' => 
       array (
-        'num' => '9',
-        'sym' => 'D3',
         'desc' => 'parallel data input',
       ),
-      9 => 
+      'D2' => 
       array (
-        'num' => '10',
-        'sym' => 'D2',
         'desc' => 'parallel data input',
       ),
-      10 => 
+      '~PL' => 
       array (
-        'num' => '11',
-        'sym' => '~PL',
         'desc' => 'parallel load (active low)',
       ),
-      11 => 
+      '~TCU' => 
       array (
-        'num' => '12',
-        'sym' => '~TCU',
         'desc' => 'terminal count-up (carry; active low)',
       ),
-      12 => 
+      '~TCD' => 
       array (
-        'num' => '13',
-        'sym' => '~TCD',
         'desc' => 'terminal count-down (borrow; active low)',
       ),
-      13 => 
+      'MR' => 
       array (
-        'num' => '14',
-        'sym' => 'MR',
         'desc' => 'master reset',
       ),
-      14 => 
+      'D0' => 
       array (
-        'num' => '15',
-        'sym' => 'D0',
         'desc' => 'parallel data input',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -1761,716 +1528,626 @@
       0 => '~TCU goes low when the count is 15.',
       1 => '~TCD goes low when the count is 0.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'D1',
+        2 => 'Q1',
+        3 => 'Q0',
+        4 => 'CPD',
+        5 => 'CPU',
+        6 => 'Q2',
+        7 => 'Q3',
+        8 => 'GND',
+        9 => 'D3',
+        10 => 'D2',
+        11 => '~PL',
+        12 => '~TCU',
+        13 => '~TCD',
+        14 => 'MR',
+        15 => 'D0',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   4020 => 
   array (
     'description' => '14-stage binary counter',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4020b.pdf',
     'pins' => 
     array (
-      0 => 
+      'Q11' => 
       array (
-        'num' => '1',
-        'sym' => 'Q11',
         'desc' => 'output',
       ),
-      1 => 
+      'Q12' => 
       array (
-        'num' => '2',
-        'sym' => 'Q12',
         'desc' => 'output',
       ),
-      2 => 
+      'Q13' => 
       array (
-        'num' => '3',
-        'sym' => 'Q13',
         'desc' => 'output',
       ),
-      3 => 
+      'Q5' => 
       array (
-        'num' => '4',
-        'sym' => 'Q5',
         'desc' => 'output',
       ),
-      4 => 
+      'Q4' => 
       array (
-        'num' => '5',
-        'sym' => 'Q4',
         'desc' => 'output',
       ),
-      5 => 
+      'Q6' => 
       array (
-        'num' => '6',
-        'sym' => 'Q6',
         'desc' => 'output',
       ),
-      6 => 
+      'Q3' => 
       array (
-        'num' => '7',
-        'sym' => 'Q3',
         'desc' => 'output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'Q0' => 
       array (
-        'num' => '9',
-        'sym' => 'Q0',
         'desc' => 'output',
       ),
-      9 => 
+      '~CP' => 
       array (
-        'num' => '10',
-        'sym' => '~CP',
         'desc' => 'clock input (high-to-low edge-triggered)',
       ),
-      10 => 
+      'MR' => 
       array (
-        'num' => '11',
-        'sym' => 'MR',
         'desc' => 'master reset',
       ),
-      11 => 
+      'Q8' => 
       array (
-        'num' => '12',
-        'sym' => 'Q8',
         'desc' => 'output',
       ),
-      12 => 
+      'Q7' => 
       array (
-        'num' => '13',
-        'sym' => 'Q7',
         'desc' => 'output',
       ),
-      13 => 
+      'Q9' => 
       array (
-        'num' => '14',
-        'sym' => 'Q9',
         'desc' => 'output',
       ),
-      14 => 
+      'Q10' => 
       array (
-        'num' => '15',
-        'sym' => 'Q10',
         'desc' => 'output',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'Q11',
+        2 => 'Q12',
+        3 => 'Q13',
+        4 => 'Q5',
+        5 => 'Q4',
+        6 => 'Q6',
+        7 => 'Q3',
+        8 => 'GND',
+        9 => 'Q0',
+        10 => '~CP',
+        11 => 'MR',
+        12 => 'Q8',
+        13 => 'Q7',
+        14 => 'Q9',
+        15 => 'Q10',
+        16 => 'Vcc',
       ),
     ),
   ),
   4021 => 
   array (
     'description' => '8-bit static shift register',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4021b.pdf',
     'pins' => 
     array (
-      0 => 
+      'D7' => 
       array (
-        'num' => '1',
-        'sym' => 'D7',
         'desc' => 'parallel data input',
       ),
-      1 => 
+      'Q5' => 
       array (
-        'num' => '2',
-        'sym' => 'Q5',
         'desc' => 'output',
       ),
-      2 => 
+      'Q7' => 
       array (
-        'num' => '3',
-        'sym' => 'Q7',
         'desc' => 'output',
       ),
-      3 => 
+      'D3' => 
       array (
-        'num' => '4',
-        'sym' => 'D3',
         'desc' => 'parallel data input',
       ),
-      4 => 
+      'D2' => 
       array (
-        'num' => '5',
-        'sym' => 'D2',
         'desc' => 'parallel data input',
       ),
-      5 => 
+      'D1' => 
       array (
-        'num' => '6',
-        'sym' => 'D1',
         'desc' => 'parallel data input',
       ),
-      6 => 
+      'D0' => 
       array (
-        'num' => '7',
-        'sym' => 'D0',
         'desc' => 'parallel data input',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'PL' => 
       array (
-        'num' => '9',
-        'sym' => 'PL',
         'desc' => 'parallel load',
       ),
-      9 => 
+      'CP' => 
       array (
-        'num' => '10',
-        'sym' => 'CP',
         'desc' => 'clock input (low-to-high edge-triggered)',
       ),
-      10 => 
+      'DS' => 
       array (
-        'num' => '11',
-        'sym' => 'DS',
         'desc' => 'serial data input',
       ),
-      11 => 
+      'Q6' => 
       array (
-        'num' => '12',
-        'sym' => 'Q6',
         'desc' => 'output',
       ),
-      12 => 
+      'D4' => 
       array (
-        'num' => '13',
-        'sym' => 'D4',
         'desc' => 'parallel data input',
       ),
-      13 => 
+      'D5' => 
       array (
-        'num' => '14',
-        'sym' => 'D5',
         'desc' => 'parallel data input',
       ),
-      14 => 
+      'D6' => 
       array (
-        'num' => '15',
-        'sym' => 'D6',
         'desc' => 'parallel data input',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'D7',
+        2 => 'Q5',
+        3 => 'Q7',
+        4 => 'D3',
+        5 => 'D2',
+        6 => 'D1',
+        7 => 'D0',
+        8 => 'GND',
+        9 => 'PL',
+        10 => 'CP',
+        11 => 'DS',
+        12 => 'Q6',
+        13 => 'D4',
+        14 => 'D5',
+        15 => 'D6',
+        16 => 'Vcc',
       ),
     ),
   ),
   4023 => 
   array (
     'description' => 'Triple 3-input NAND gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4023b.pdf',
     'pins' => 
     array (
-      0 => 
+      '2A' => 
       array (
-        'num' => '1',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      1 => 
+      '2B' => 
       array (
-        'num' => '2',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      2 => 
+      '1A' => 
       array (
-        'num' => '3',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      3 => 
+      '1B' => 
       array (
-        'num' => '4',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      4 => 
+      '1C' => 
       array (
-        'num' => '5',
-        'sym' => '1C',
         'desc' => 'data input',
       ),
-      5 => 
+      '1Y' => 
       array (
-        'num' => '6',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '2C' => 
       array (
-        'num' => '8',
-        'sym' => '2C',
         'desc' => 'data input',
       ),
-      8 => 
+      '2Y' => 
       array (
-        'num' => '9',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      9 => 
+      '3Y' => 
       array (
-        'num' => '10',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      10 => 
+      '3A' => 
       array (
-        'num' => '11',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      11 => 
+      '3B' => 
       array (
-        'num' => '12',
-        'sym' => '3B',
         'desc' => 'data input',
       ),
-      12 => 
+      '3C' => 
       array (
-        'num' => '13',
-        'sym' => '3C',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '2A',
+        2 => '2B',
+        3 => '1A',
+        4 => '1B',
+        5 => '1C',
+        6 => '1Y',
+        7 => 'GND',
+        8 => '2C',
+        9 => '2Y',
+        10 => '3Y',
+        11 => '3A',
+        12 => '3B',
+        13 => '3C',
+        14 => 'Vcc',
       ),
     ),
   ),
   4024 => 
   array (
     'description' => '7-stage binary ripple counter',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4024b.pdf',
     'pins' => 
     array (
-      0 => 
+      '~CP' => 
       array (
-        'num' => '1',
-        'sym' => '~CP',
         'desc' => 'clock input (high-to-low edge-triggered)',
       ),
-      1 => 
+      'MR' => 
       array (
-        'num' => '2',
-        'sym' => 'MR',
         'desc' => 'master reset',
       ),
-      2 => 
+      'Q6' => 
       array (
-        'num' => '3',
-        'sym' => 'Q6',
         'desc' => 'buffered parallel output',
       ),
-      3 => 
+      'Q5' => 
       array (
-        'num' => '4',
-        'sym' => 'Q5',
         'desc' => 'buffered parallel output',
       ),
-      4 => 
+      'Q4' => 
       array (
-        'num' => '5',
-        'sym' => 'Q4',
         'desc' => 'buffered parallel output',
       ),
-      5 => 
+      'Q3' => 
       array (
-        'num' => '6',
-        'sym' => 'Q3',
         'desc' => 'buffered parallel output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      'Q2' => 
       array (
-        'num' => '8',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      8 => 
-      array (
-        'num' => '9',
-        'sym' => 'Q2',
         'desc' => 'buffered parallel output',
       ),
-      9 => 
+      'Q1' => 
       array (
-        'num' => '10',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      10 => 
-      array (
-        'num' => '11',
-        'sym' => 'Q1',
         'desc' => 'buffered parallel output',
       ),
-      11 => 
+      'Q0' => 
       array (
-        'num' => '12',
-        'sym' => 'Q0',
         'desc' => 'buffered parallel output',
       ),
-      12 => 
+      'Vcc' => 
       array (
-        'num' => '13',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      13 => 
-      array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~CP',
+        2 => 'MR',
+        3 => 'Q6',
+        4 => 'Q5',
+        5 => 'Q4',
+        6 => 'Q3',
+        7 => 'GND',
+        8 => 'NC',
+        9 => 'Q2',
+        10 => 'NC',
+        11 => 'Q1',
+        12 => 'Q0',
+        13 => 'NC',
+        14 => 'Vcc',
       ),
     ),
   ),
   4025 => 
   array (
     'description' => 'Triple 3-input NOR gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4025b.pdf',
     'pins' => 
     array (
-      0 => 
+      '2A' => 
       array (
-        'num' => '1',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      1 => 
+      '2B' => 
       array (
-        'num' => '2',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      2 => 
+      '1A' => 
       array (
-        'num' => '3',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      3 => 
+      '1B' => 
       array (
-        'num' => '4',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      4 => 
+      '1C' => 
       array (
-        'num' => '5',
-        'sym' => '1C',
         'desc' => 'data input',
       ),
-      5 => 
+      '1Y' => 
       array (
-        'num' => '6',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '2C' => 
       array (
-        'num' => '8',
-        'sym' => '2C',
         'desc' => 'data input',
       ),
-      8 => 
+      '2Y' => 
       array (
-        'num' => '9',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      9 => 
+      '3Y' => 
       array (
-        'num' => '10',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      10 => 
+      '3A' => 
       array (
-        'num' => '11',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      11 => 
+      '3B' => 
       array (
-        'num' => '12',
-        'sym' => '3B',
         'desc' => 'data input',
       ),
-      12 => 
+      '3C' => 
       array (
-        'num' => '13',
-        'sym' => '3C',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '2A',
+        2 => '2B',
+        3 => '1A',
+        4 => '1B',
+        5 => '1C',
+        6 => '1Y',
+        7 => 'GND',
+        8 => '2C',
+        9 => '2Y',
+        10 => '3Y',
+        11 => '3A',
+        12 => '3B',
+        13 => '3C',
+        14 => 'Vcc',
       ),
     ),
   ),
   4027 => 
   array (
     'description' => 'Dual J-K flip-flop with set and clear',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4027b.pdf',
     'pins' => 
     array (
-      0 => 
+      '2Q' => 
       array (
-        'num' => '1',
-        'sym' => '2Q',
         'desc' => 'true output',
       ),
-      1 => 
+      '2~Q' => 
       array (
-        'num' => '2',
-        'sym' => '2~Q',
         'desc' => 'complement output',
       ),
-      2 => 
+      '2CP' => 
       array (
-        'num' => '3',
-        'sym' => '2CP',
         'desc' => 'clock input (low-to-high edge-triggered)',
       ),
-      3 => 
+      '2CD' => 
       array (
-        'num' => '4',
-        'sym' => '2CD',
         'desc' => 'asynchronous clear-direct input',
       ),
-      4 => 
+      '2K' => 
       array (
-        'num' => '5',
-        'sym' => '2K',
         'desc' => 'synchronous input',
       ),
-      5 => 
+      '2J' => 
       array (
-        'num' => '6',
-        'sym' => '2J',
         'desc' => 'synchronous input',
       ),
-      6 => 
+      '2SD' => 
       array (
-        'num' => '7',
-        'sym' => '2SD',
         'desc' => 'asynchronous set-direct input',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '1SD' => 
       array (
-        'num' => '9',
-        'sym' => '1SD',
         'desc' => 'asynchronous set-direct input',
       ),
-      9 => 
+      '1J' => 
       array (
-        'num' => '10',
-        'sym' => '1J',
         'desc' => 'asynchronous input',
       ),
-      10 => 
+      '1K' => 
       array (
-        'num' => '11',
-        'sym' => '1K',
         'desc' => 'asynchronous input',
       ),
-      11 => 
+      '1CD' => 
       array (
-        'num' => '12',
-        'sym' => '1CD',
         'desc' => 'asynchronous clear-direct input',
       ),
-      12 => 
+      '1CP' => 
       array (
-        'num' => '13',
-        'sym' => '1CP',
         'desc' => 'clock input (low-to-high edge-triggered)',
       ),
-      13 => 
+      '1~Q' => 
       array (
-        'num' => '14',
-        'sym' => '1~Q',
         'desc' => 'complement output',
       ),
-      14 => 
+      '1Q' => 
       array (
-        'num' => '15',
-        'sym' => '1Q',
         'desc' => 'true output',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '2Q',
+        2 => '2~Q',
+        3 => '2CP',
+        4 => '2CD',
+        5 => '2K',
+        6 => '2J',
+        7 => '2SD',
+        8 => 'GND',
+        9 => '1SD',
+        10 => '1J',
+        11 => '1K',
+        12 => '1CD',
+        13 => '1CP',
+        14 => '1~Q',
+        15 => '1Q',
+        16 => 'Vcc',
       ),
     ),
   ),
   4028 => 
   array (
     'description' => 'BCD to decimal decoder',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4028b.pdf',
     'pins' => 
     array (
-      0 => 
+      'Y4' => 
       array (
-        'num' => '1',
-        'sym' => 'Y4',
         'desc' => 'output',
       ),
-      1 => 
+      'Y2' => 
       array (
-        'num' => '2',
-        'sym' => 'Y2',
         'desc' => 'output',
       ),
-      2 => 
+      'Y0' => 
       array (
-        'num' => '3',
-        'sym' => 'Y0',
         'desc' => 'output',
       ),
-      3 => 
+      'Y7' => 
       array (
-        'num' => '4',
-        'sym' => 'Y7',
         'desc' => 'output',
       ),
-      4 => 
+      'Y9' => 
       array (
-        'num' => '5',
-        'sym' => 'Y9',
         'desc' => 'output',
       ),
-      5 => 
+      'Y5' => 
       array (
-        'num' => '6',
-        'sym' => 'Y5',
         'desc' => 'output',
       ),
-      6 => 
+      'Y6' => 
       array (
-        'num' => '7',
-        'sym' => 'Y6',
         'desc' => 'output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'Y8' => 
       array (
-        'num' => '9',
-        'sym' => 'Y8',
         'desc' => 'output',
       ),
-      9 => 
+      'A0' => 
       array (
-        'num' => '10',
-        'sym' => 'A0',
         'desc' => 'BCD input',
       ),
-      10 => 
+      'A3' => 
       array (
-        'num' => '11',
-        'sym' => 'A3',
         'desc' => 'BCD input',
       ),
-      11 => 
+      'A2' => 
       array (
-        'num' => '12',
-        'sym' => 'A2',
         'desc' => 'BCD input',
       ),
-      12 => 
+      'A1' => 
       array (
-        'num' => '13',
-        'sym' => 'A1',
         'desc' => 'BCD input',
       ),
-      13 => 
+      'Y1' => 
       array (
-        'num' => '14',
-        'sym' => 'Y1',
         'desc' => 'output',
       ),
-      14 => 
+      'Y3' => 
       array (
-        'num' => '15',
-        'sym' => 'Y3',
         'desc' => 'output',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -2479,835 +2156,727 @@
       0 => 'Outputs are active high.',
       1 => 'All outputs are low for BCD inputs greater than 9.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'Y4',
+        2 => 'Y2',
+        3 => 'Y0',
+        4 => 'Y7',
+        5 => 'Y9',
+        6 => 'Y5',
+        7 => 'Y6',
+        8 => 'GND',
+        9 => 'Y8',
+        10 => 'A0',
+        11 => 'A3',
+        12 => 'A2',
+        13 => 'A1',
+        14 => 'Y1',
+        15 => 'Y3',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   4029 => 
   array (
     'description' => 'Synchronous 4-bit up/down binary/decade counter',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4029b.pdf',
     'pins' => 
     array (
-      0 => 
+      'PL' => 
       array (
-        'num' => '1',
-        'sym' => 'PL',
         'desc' => 'parallel load',
       ),
-      1 => 
+      'Q3' => 
       array (
-        'num' => '2',
-        'sym' => 'Q3',
         'desc' => 'buffered parallel output',
       ),
-      2 => 
+      'P3' => 
       array (
-        'num' => '3',
-        'sym' => 'P3',
         'desc' => 'parallel data input',
       ),
-      3 => 
+      'P0' => 
       array (
-        'num' => '4',
-        'sym' => 'P0',
         'desc' => 'parallel data input',
       ),
-      4 => 
+      '~CE' => 
       array (
-        'num' => '5',
-        'sym' => '~CE',
         'desc' => 'count enable (active low)',
       ),
-      5 => 
+      'Q0' => 
       array (
-        'num' => '6',
-        'sym' => 'Q0',
         'desc' => 'buffered parallel output',
       ),
-      6 => 
+      '~TC' => 
       array (
-        'num' => '7',
-        'sym' => '~TC',
         'desc' => 'terminal count output (active low)',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'BIN/~DEC' => 
       array (
-        'num' => '9',
-        'sym' => 'BIN/~DEC',
         'desc' => 'binary/decade control input',
       ),
-      9 => 
+      'UP/~DN' => 
       array (
-        'num' => '10',
-        'sym' => 'UP/~DN',
         'desc' => 'up/down control input',
       ),
-      10 => 
+      'Q1' => 
       array (
-        'num' => '11',
-        'sym' => 'Q1',
         'desc' => 'buffered parallel output',
       ),
-      11 => 
+      'P1' => 
       array (
-        'num' => '12',
-        'sym' => 'P1',
         'desc' => 'parallel data input',
       ),
-      12 => 
+      'P2' => 
       array (
-        'num' => '13',
-        'sym' => 'P2',
         'desc' => 'parallel data input',
       ),
-      13 => 
+      'Q2' => 
       array (
-        'num' => '14',
-        'sym' => 'Q2',
         'desc' => 'buffered parallel output',
       ),
-      14 => 
+      'CP' => 
       array (
-        'num' => '15',
-        'sym' => 'CP',
         'desc' => 'clock input (low-to-high edge-triggered)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'PL',
+        2 => 'Q3',
+        3 => 'P3',
+        4 => 'P0',
+        5 => '~CE',
+        6 => 'Q0',
+        7 => '~TC',
+        8 => 'GND',
+        9 => 'BIN/~DEC',
+        10 => 'UP/~DN',
+        11 => 'Q1',
+        12 => 'P1',
+        13 => 'P2',
+        14 => 'Q2',
+        15 => 'CP',
+        16 => 'Vcc',
       ),
     ),
   ),
   4030 => 
   array (
     'description' => 'Quad 2-input XOR gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4030b.pdf',
     'pins' => 
     array (
-      0 => 
+      '1A' => 
       array (
-        'num' => '1',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      1 => 
+      '1B' => 
       array (
-        'num' => '2',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      2 => 
+      '1Y' => 
       array (
-        'num' => '3',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      3 => 
+      '2Y' => 
       array (
-        'num' => '4',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      4 => 
+      '2A' => 
       array (
-        'num' => '5',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      5 => 
+      '2B' => 
       array (
-        'num' => '6',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '3A' => 
       array (
-        'num' => '8',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      8 => 
+      '3B' => 
       array (
-        'num' => '9',
-        'sym' => '3B',
         'desc' => 'data input',
       ),
-      9 => 
+      '3Y' => 
       array (
-        'num' => '10',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      10 => 
+      '4Y' => 
       array (
-        'num' => '11',
-        'sym' => '4Y',
         'desc' => 'data output',
       ),
-      11 => 
+      '4A' => 
       array (
-        'num' => '12',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      12 => 
+      '4B' => 
       array (
-        'num' => '13',
-        'sym' => '4B',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1A',
+        2 => '1B',
+        3 => '1Y',
+        4 => '2Y',
+        5 => '2A',
+        6 => '2B',
+        7 => 'GND',
+        8 => '3A',
+        9 => '3B',
+        10 => '3Y',
+        11 => '4Y',
+        12 => '4A',
+        13 => '4B',
+        14 => 'Vcc',
       ),
     ),
   ),
   4040 => 
   array (
     'description' => '12-stage binary ripple counter',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4040b.pdf',
     'pins' => 
     array (
-      0 => 
+      'Q11' => 
       array (
-        'num' => '1',
-        'sym' => 'Q11',
         'desc' => 'output',
       ),
-      1 => 
+      'Q5' => 
       array (
-        'num' => '2',
-        'sym' => 'Q5',
         'desc' => 'output',
       ),
-      2 => 
+      'Q4' => 
       array (
-        'num' => '3',
-        'sym' => 'Q4',
         'desc' => 'output',
       ),
-      3 => 
+      'Q6' => 
       array (
-        'num' => '4',
-        'sym' => 'Q6',
         'desc' => 'output',
       ),
-      4 => 
+      'Q3' => 
       array (
-        'num' => '5',
-        'sym' => 'Q3',
         'desc' => 'output',
       ),
-      5 => 
+      'Q2' => 
       array (
-        'num' => '6',
-        'sym' => 'Q2',
         'desc' => 'output',
       ),
-      6 => 
+      'Q1' => 
       array (
-        'num' => '7',
-        'sym' => 'Q1',
         'desc' => 'output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'Q0' => 
       array (
-        'num' => '9',
-        'sym' => 'Q0',
         'desc' => 'output',
       ),
-      9 => 
+      '~CP' => 
       array (
-        'num' => '10',
-        'sym' => '~CP',
         'desc' => 'clock input (high-to-low edge-triggered)',
       ),
-      10 => 
+      'MR' => 
       array (
-        'num' => '11',
-        'sym' => 'MR',
         'desc' => 'master reset (active high)',
       ),
-      11 => 
+      'Q8' => 
       array (
-        'num' => '12',
-        'sym' => 'Q8',
         'desc' => 'output',
       ),
-      12 => 
+      'Q7' => 
       array (
-        'num' => '13',
-        'sym' => 'Q7',
         'desc' => 'output',
       ),
-      13 => 
+      'Q9' => 
       array (
-        'num' => '14',
-        'sym' => 'Q9',
         'desc' => 'output',
       ),
-      14 => 
+      'Q10' => 
       array (
-        'num' => '15',
-        'sym' => 'Q10',
         'desc' => 'output',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'Q11',
+        2 => 'Q5',
+        3 => 'Q4',
+        4 => 'Q6',
+        5 => 'Q3',
+        6 => 'Q2',
+        7 => 'Q1',
+        8 => 'GND',
+        9 => 'Q0',
+        10 => '~CP',
+        11 => 'MR',
+        12 => 'Q8',
+        13 => 'Q7',
+        14 => 'Q9',
+        15 => 'Q10',
+        16 => 'Vcc',
       ),
     ),
   ),
   4046 => 
   array (
     'description' => 'Phase-locked loop',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4046b.pdf',
     'pins' => 
     array (
-      0 => 
+      'PCP__OUT' => 
       array (
-        'num' => '1',
-        'sym' => 'PCP__OUT',
         'desc' => 'phase comparator pulse output',
       ),
-      1 => 
+      'PC1__OUT' => 
       array (
-        'num' => '2',
-        'sym' => 'PC1__OUT',
         'desc' => 'phase comparator 1 output',
       ),
-      2 => 
+      'COMP__IN' => 
       array (
-        'num' => '3',
-        'sym' => 'COMP__IN',
         'desc' => 'comparator input',
       ),
-      3 => 
+      'VCO__OUT' => 
       array (
-        'num' => '4',
-        'sym' => 'VCO__OUT',
         'desc' => 'VCO output',
       ),
-      4 => 
+      'INH' => 
       array (
-        'num' => '5',
-        'sym' => 'INH',
         'desc' => 'inhibit',
       ),
-      5 => 
+      'C1__A' => 
       array (
-        'num' => '6',
-        'sym' => 'C1__A',
         'desc' => 'capacitor C1 connection A',
       ),
-      6 => 
+      'C1__B' => 
       array (
-        'num' => '7',
-        'sym' => 'C1__B',
         'desc' => 'capacitor C1 Connection B',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'VCO__IN' => 
       array (
-        'num' => '9',
-        'sym' => 'VCO__IN',
         'desc' => 'VCO input',
       ),
-      9 => 
+      'SF__OUT' => 
       array (
-        'num' => '10',
-        'sym' => 'SF__OUT',
         'desc' => 'source-follower output',
       ),
-      10 => 
+      'R__1' => 
       array (
-        'num' => '11',
-        'sym' => 'R__1',
         'desc' => 'resistor R1 connection',
       ),
-      11 => 
+      'R__2' => 
       array (
-        'num' => '12',
-        'sym' => 'R__2',
         'desc' => 'resistor R2 connection',
       ),
-      12 => 
+      'PC2__OUT' => 
       array (
-        'num' => '13',
-        'sym' => 'PC2__OUT',
         'desc' => 'phase comparator 2 output',
       ),
-      13 => 
+      'SIGN__IN' => 
       array (
-        'num' => '14',
-        'sym' => 'SIGN__IN',
         'desc' => 'signal input',
       ),
-      14 => 
+      'ZENER' => 
       array (
-        'num' => '15',
-        'sym' => 'ZENER',
         'desc' => 'zener diode input for regulated supply',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'PCP__OUT',
+        2 => 'PC1__OUT',
+        3 => 'COMP__IN',
+        4 => 'VCO__OUT',
+        5 => 'INH',
+        6 => 'C1__A',
+        7 => 'C1__B',
+        8 => 'GND',
+        9 => 'VCO__IN',
+        10 => 'SF__OUT',
+        11 => 'R__1',
+        12 => 'R__2',
+        13 => 'PC2__OUT',
+        14 => 'SIGN__IN',
+        15 => 'ZENER',
+        16 => 'Vcc',
       ),
     ),
   ),
   4047 => 
   array (
     'description' => 'Monostable/astable multivibrator',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4047b.pdf',
     'pins' => 
     array (
-      0 => 
+      'C' => 
       array (
-        'num' => '1',
-        'sym' => 'C',
         'desc' => 'capacitor connection',
       ),
-      1 => 
+      'R' => 
       array (
-        'num' => '2',
-        'sym' => 'R',
         'desc' => 'resistor connection',
       ),
-      2 => 
+      'RC COMMON' => 
       array (
-        'num' => '3',
-        'sym' => 'RC COMMON',
         'desc' => 'resistor and capacitor common connection',
       ),
-      3 => 
+      '~ASTABLE' => 
       array (
-        'num' => '4',
-        'sym' => '~ASTABLE',
         'desc' => 'astable enable (active low)',
       ),
-      4 => 
+      'ASTABLE' => 
       array (
-        'num' => '5',
-        'sym' => 'ASTABLE',
         'desc' => 'astable enable (active high)',
       ),
-      5 => 
+      '-TRIGGER' => 
       array (
-        'num' => '6',
-        'sym' => '-TRIGGER',
         'desc' => 'monostable negative-edge trigger',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '+TRIGGER' => 
       array (
-        'num' => '8',
-        'sym' => '+TRIGGER',
         'desc' => 'monostable positive-edge trigger',
       ),
-      8 => 
+      'RESET' => 
       array (
-        'num' => '9',
-        'sym' => 'RESET',
         'desc' => 'external reset',
       ),
-      9 => 
+      'Q' => 
       array (
-        'num' => '10',
-        'sym' => 'Q',
         'desc' => 'output',
       ),
-      10 => 
+      '~Q' => 
       array (
-        'num' => '11',
-        'sym' => '~Q',
         'desc' => 'complement output',
       ),
-      11 => 
+      'RETRIGGER' => 
       array (
-        'num' => '12',
-        'sym' => 'RETRIGGER',
         'desc' => 'monostable retrigger input',
       ),
-      12 => 
+      'OSC OUT' => 
       array (
-        'num' => '13',
-        'sym' => 'OSC OUT',
         'desc' => 'oscillator (double frequency) output',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'C',
+        2 => 'R',
+        3 => 'RC COMMON',
+        4 => '~ASTABLE',
+        5 => 'ASTABLE',
+        6 => '-TRIGGER',
+        7 => 'GND',
+        8 => '+TRIGGER',
+        9 => 'RESET',
+        10 => 'Q',
+        11 => '~Q',
+        12 => 'RETRIGGER',
+        13 => 'OSC OUT',
+        14 => 'Vcc',
       ),
     ),
   ),
   4049 => 
   array (
     'description' => 'Hex inverting buffer',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4049b.pdf',
     'pins' => 
     array (
-      0 => 
+      'Vcc' => 
       array (
-        'num' => '1',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
-      1 => 
+      '1Y' => 
       array (
-        'num' => '2',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      2 => 
+      '1A' => 
       array (
-        'num' => '3',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      3 => 
+      '2Y' => 
       array (
-        'num' => '4',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      4 => 
+      '2A' => 
       array (
-        'num' => '5',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      5 => 
+      '3Y' => 
       array (
-        'num' => '6',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      6 => 
+      '3A' => 
       array (
-        'num' => '7',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '4A' => 
       array (
-        'num' => '9',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      9 => 
+      '4Y' => 
       array (
-        'num' => '10',
-        'sym' => '4Y',
         'desc' => 'data output',
       ),
-      10 => 
+      '5A' => 
       array (
-        'num' => '11',
-        'sym' => '5A',
         'desc' => 'data input',
       ),
-      11 => 
+      '5Y' => 
       array (
-        'num' => '12',
-        'sym' => '5Y',
         'desc' => 'data output',
       ),
-      12 => 
+      '6A' => 
       array (
-        'num' => '13',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      13 => 
-      array (
-        'num' => '14',
-        'sym' => '6A',
         'desc' => 'data input',
       ),
-      14 => 
+      '6Y' => 
       array (
-        'num' => '15',
-        'sym' => '6Y',
         'desc' => 'data output',
       ),
-      15 => 
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
       array (
-        'num' => '16',
-        'sym' => 'NC',
-        'desc' => 'no connection',
+        1 => 'Vcc',
+        2 => '1Y',
+        3 => '1A',
+        4 => '2Y',
+        5 => '2A',
+        6 => '3Y',
+        7 => '3A',
+        8 => 'GND',
+        9 => '4A',
+        10 => '4Y',
+        11 => '5A',
+        12 => '5Y',
+        13 => 'NC',
+        14 => '6A',
+        15 => '6Y',
+        16 => 'NC',
       ),
     ),
   ),
   4050 => 
   array (
     'description' => 'Hex non-inverting buffer',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4050b.pdf',
     'pins' => 
     array (
-      0 => 
+      'Vcc' => 
       array (
-        'num' => '1',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
-      1 => 
+      '1Y' => 
       array (
-        'num' => '2',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      2 => 
+      '1A' => 
       array (
-        'num' => '3',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      3 => 
+      '2Y' => 
       array (
-        'num' => '4',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      4 => 
+      '2A' => 
       array (
-        'num' => '5',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      5 => 
+      '3Y' => 
       array (
-        'num' => '6',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      6 => 
+      '3A' => 
       array (
-        'num' => '7',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '4A' => 
       array (
-        'num' => '9',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      9 => 
+      '4Y' => 
       array (
-        'num' => '10',
-        'sym' => '4Y',
         'desc' => 'data output',
       ),
-      10 => 
+      '5A' => 
       array (
-        'num' => '11',
-        'sym' => '5A',
         'desc' => 'data input',
       ),
-      11 => 
+      '5Y' => 
       array (
-        'num' => '12',
-        'sym' => '5Y',
         'desc' => 'data output',
       ),
-      12 => 
+      '6A' => 
       array (
-        'num' => '13',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      13 => 
-      array (
-        'num' => '14',
-        'sym' => '6A',
         'desc' => 'data input',
       ),
-      14 => 
+      '6Y' => 
       array (
-        'num' => '15',
-        'sym' => '6Y',
         'desc' => 'data output',
       ),
-      15 => 
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
       array (
-        'num' => '16',
-        'sym' => 'NC',
-        'desc' => 'no connection',
+        1 => 'Vcc',
+        2 => '1Y',
+        3 => '1A',
+        4 => '2Y',
+        5 => '2A',
+        6 => '3Y',
+        7 => '3A',
+        8 => 'GND',
+        9 => '4A',
+        10 => '4Y',
+        11 => '5A',
+        12 => '5Y',
+        13 => 'NC',
+        14 => '6A',
+        15 => '6Y',
+        16 => 'NC',
       ),
     ),
   ),
   4051 => 
   array (
     'description' => '8-channel analog multiplexer/demultiplexer',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4051b.pdf',
     'pins' => 
     array (
-      0 => 
+      'Y4' => 
       array (
-        'num' => '1',
-        'sym' => 'Y4',
         'desc' => 'independent input/output',
       ),
-      1 => 
+      'Y6' => 
       array (
-        'num' => '2',
-        'sym' => 'Y6',
         'desc' => 'independent input/output',
       ),
-      2 => 
+      'Z' => 
       array (
-        'num' => '3',
-        'sym' => 'Z',
         'desc' => 'common input/output',
       ),
-      3 => 
+      'Y7' => 
       array (
-        'num' => '4',
-        'sym' => 'Y7',
         'desc' => 'independent input/output',
       ),
-      4 => 
+      'Y5' => 
       array (
-        'num' => '5',
-        'sym' => 'Y5',
         'desc' => 'independent input/output',
       ),
-      5 => 
+      '~E' => 
       array (
-        'num' => '6',
-        'sym' => '~E',
         'desc' => 'enable input (active low)',
       ),
-      6 => 
+      'V__EE' => 
       array (
-        'num' => '7',
-        'sym' => 'V__EE',
         'desc' => 'switch negative supply voltage',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'A2' => 
       array (
-        'num' => '9',
-        'sym' => 'A2',
         'desc' => 'address input',
       ),
-      9 => 
+      'A1' => 
       array (
-        'num' => '10',
-        'sym' => 'A1',
         'desc' => 'address input',
       ),
-      10 => 
+      'A0' => 
       array (
-        'num' => '11',
-        'sym' => 'A0',
         'desc' => 'address input',
       ),
-      11 => 
+      'Y3' => 
       array (
-        'num' => '12',
-        'sym' => 'Y3',
         'desc' => 'independent input/output',
       ),
-      12 => 
+      'Y0' => 
       array (
-        'num' => '13',
-        'sym' => 'Y0',
         'desc' => 'independent input/output',
       ),
-      13 => 
+      'Y1' => 
       array (
-        'num' => '14',
-        'sym' => 'Y1',
         'desc' => 'independent input/output',
       ),
-      14 => 
+      'Y2' => 
       array (
-        'num' => '15',
-        'sym' => 'Y2',
         'desc' => 'independent input/output',
       ),
-      15 => 
+      'V__CC' => 
       array (
-        'num' => '16',
-        'sym' => 'V__CC',
         'desc' => 'supply voltage',
       ),
     ),
@@ -3317,110 +2886,98 @@
       1 => 'The analog inputs/outputs can swing between V__CC and V__EE.',
       2 => 'When ~E is high, all switches are in a high-impedance off state.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'Y4',
+        2 => 'Y6',
+        3 => 'Z',
+        4 => 'Y7',
+        5 => 'Y5',
+        6 => '~E',
+        7 => 'V__EE',
+        8 => 'GND',
+        9 => 'A2',
+        10 => 'A1',
+        11 => 'A0',
+        12 => 'Y3',
+        13 => 'Y0',
+        14 => 'Y1',
+        15 => 'Y2',
+        16 => 'V__CC',
+      ),
+    ),
   ),
   4052 => 
   array (
     'description' => 'Dual 4-channel analog multiplexer/demultiplexer',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4052b.pdf',
     'pins' => 
     array (
-      0 => 
+      'Y__0B' => 
       array (
-        'num' => '1',
-        'sym' => 'Y__0B',
         'desc' => 'independent input/output',
       ),
-      1 => 
+      'Y__2B' => 
       array (
-        'num' => '2',
-        'sym' => 'Y__2B',
         'desc' => 'independent input/output',
       ),
-      2 => 
+      'Z__B' => 
       array (
-        'num' => '3',
-        'sym' => 'Z__B',
         'desc' => 'common input/output',
       ),
-      3 => 
+      'Y__3B' => 
       array (
-        'num' => '4',
-        'sym' => 'Y__3B',
         'desc' => 'independent input/output',
       ),
-      4 => 
+      'Y__1B' => 
       array (
-        'num' => '5',
-        'sym' => 'Y__1B',
         'desc' => 'independent input/output',
       ),
-      5 => 
+      '~E' => 
       array (
-        'num' => '6',
-        'sym' => '~E',
         'desc' => 'enable input (active low)',
       ),
-      6 => 
+      'V__EE' => 
       array (
-        'num' => '7',
-        'sym' => 'V__EE',
         'desc' => 'switch negative supply voltage',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'A__1' => 
       array (
-        'num' => '9',
-        'sym' => 'A__1',
         'desc' => 'address input',
       ),
-      9 => 
+      'A__0' => 
       array (
-        'num' => '10',
-        'sym' => 'A__0',
         'desc' => 'address input',
       ),
-      10 => 
+      'Y__3A' => 
       array (
-        'num' => '11',
-        'sym' => 'Y__3A',
         'desc' => 'independent input/output',
       ),
-      11 => 
+      'Y__0A' => 
       array (
-        'num' => '12',
-        'sym' => 'Y__0A',
         'desc' => 'independent input/output',
       ),
-      12 => 
+      'Z__A' => 
       array (
-        'num' => '13',
-        'sym' => 'Z__A',
         'desc' => 'common input/output',
       ),
-      13 => 
+      'Y__1A' => 
       array (
-        'num' => '14',
-        'sym' => 'Y__1A',
         'desc' => 'independent input/output',
       ),
-      14 => 
+      'Y__2A' => 
       array (
-        'num' => '15',
-        'sym' => 'Y__2A',
         'desc' => 'independent input/output',
       ),
-      15 => 
+      'V__CC' => 
       array (
-        'num' => '16',
-        'sym' => 'V__CC',
         'desc' => 'supply voltage',
       ),
     ),
@@ -3430,110 +2987,98 @@
       1 => 'The analog inputs/outputs can swing between V__CC and V__EE.',
       2 => 'When E is high, all switches are in a high-impedance off state.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'Y__0B',
+        2 => 'Y__2B',
+        3 => 'Z__B',
+        4 => 'Y__3B',
+        5 => 'Y__1B',
+        6 => '~E',
+        7 => 'V__EE',
+        8 => 'GND',
+        9 => 'A__1',
+        10 => 'A__0',
+        11 => 'Y__3A',
+        12 => 'Y__0A',
+        13 => 'Z__A',
+        14 => 'Y__1A',
+        15 => 'Y__2A',
+        16 => 'V__CC',
+      ),
+    ),
   ),
   4053 => 
   array (
     'description' => 'Triple 2-channel analog multiplexer/demultiplexer (triple SPDT analog switch)',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4053b.pdf',
     'pins' => 
     array (
-      0 => 
+      'Y__1B' => 
       array (
-        'num' => '1',
-        'sym' => 'Y__1B',
         'desc' => 'independent input/output',
       ),
-      1 => 
+      'Y__0B' => 
       array (
-        'num' => '2',
-        'sym' => 'Y__0B',
         'desc' => 'independent input/output',
       ),
-      2 => 
+      'Y__1C' => 
       array (
-        'num' => '3',
-        'sym' => 'Y__1C',
         'desc' => 'independent input/output',
       ),
-      3 => 
+      'Z__C' => 
       array (
-        'num' => '4',
-        'sym' => 'Z__C',
         'desc' => 'common input/output',
       ),
-      4 => 
+      'Y__0C' => 
       array (
-        'num' => '5',
-        'sym' => 'Y__0C',
         'desc' => 'independent input/output',
       ),
-      5 => 
+      '~E' => 
       array (
-        'num' => '6',
-        'sym' => '~E',
         'desc' => 'enable input (active low)',
       ),
-      6 => 
+      'V__EE' => 
       array (
-        'num' => '7',
-        'sym' => 'V__EE',
         'desc' => 'switch negative supply voltage',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'S__C' => 
       array (
-        'num' => '9',
-        'sym' => 'S__C',
         'desc' => 'select input',
       ),
-      9 => 
+      'S__B' => 
       array (
-        'num' => '10',
-        'sym' => 'S__B',
         'desc' => 'select input',
       ),
-      10 => 
+      'S__A' => 
       array (
-        'num' => '11',
-        'sym' => 'S__A',
         'desc' => 'select input',
       ),
-      11 => 
+      'Y__0A' => 
       array (
-        'num' => '12',
-        'sym' => 'Y__0A',
         'desc' => 'independent input/output',
       ),
-      12 => 
+      'Y__1A' => 
       array (
-        'num' => '13',
-        'sym' => 'Y__1A',
         'desc' => 'independent input/output',
       ),
-      13 => 
+      'Z__A' => 
       array (
-        'num' => '14',
-        'sym' => 'Z__A',
         'desc' => 'common input/output',
       ),
-      14 => 
+      'Z__B' => 
       array (
-        'num' => '15',
-        'sym' => 'Z__B',
         'desc' => 'common input/output',
       ),
-      15 => 
+      'V__CC' => 
       array (
-        'num' => '16',
-        'sym' => 'V__CC',
         'desc' => 'supply voltage',
       ),
     ),
@@ -3543,205 +3088,185 @@
       1 => 'The analog inputs/outputs can swing between V__CC and V__EE.',
       2 => 'When E is high, all switches are in a high-impedance off state.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'Y__1B',
+        2 => 'Y__0B',
+        3 => 'Y__1C',
+        4 => 'Z__C',
+        5 => 'Y__0C',
+        6 => '~E',
+        7 => 'V__EE',
+        8 => 'GND',
+        9 => 'S__C',
+        10 => 'S__B',
+        11 => 'S__A',
+        12 => 'Y__0A',
+        13 => 'Y__1A',
+        14 => 'Z__A',
+        15 => 'Z__B',
+        16 => 'V__CC',
+      ),
+    ),
   ),
   4060 => 
   array (
     'description' => '14-stage ripple-carry binary counter/divider and oscillator',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4060b.pdf',
     'pins' => 
     array (
-      0 => 
+      'Q11' => 
       array (
-        'num' => '1',
-        'sym' => 'Q11',
         'desc' => 'counter output',
       ),
-      1 => 
+      'Q12' => 
       array (
-        'num' => '2',
-        'sym' => 'Q12',
         'desc' => 'counter output',
       ),
-      2 => 
+      'Q13' => 
       array (
-        'num' => '3',
-        'sym' => 'Q13',
         'desc' => 'counter output',
       ),
-      3 => 
+      'Q5' => 
       array (
-        'num' => '4',
-        'sym' => 'Q5',
         'desc' => 'counter output',
       ),
-      4 => 
+      'Q4' => 
       array (
-        'num' => '5',
-        'sym' => 'Q4',
         'desc' => 'counter output',
       ),
-      5 => 
+      'Q6' => 
       array (
-        'num' => '6',
-        'sym' => 'Q6',
         'desc' => 'counter output',
       ),
-      6 => 
+      'Q3' => 
       array (
-        'num' => '7',
-        'sym' => 'Q3',
         'desc' => 'counter output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'C__TC' => 
       array (
-        'num' => '9',
-        'sym' => 'C__TC',
         'desc' => 'external capacitor connection',
       ),
-      9 => 
+      'R__TC' => 
       array (
-        'num' => '10',
-        'sym' => 'R__TC',
         'desc' => 'oscillator pin',
       ),
-      10 => 
+      'RS' => 
       array (
-        'num' => '11',
-        'sym' => 'RS',
         'desc' => 'clock input/oscillator pin (high-to-low edge-triggered)',
       ),
-      11 => 
+      'MR' => 
       array (
-        'num' => '12',
-        'sym' => 'MR',
         'desc' => 'master reset (active high)',
       ),
-      12 => 
+      'Q__8' => 
       array (
-        'num' => '13',
-        'sym' => 'Q__8',
         'desc' => 'counter output',
       ),
-      13 => 
+      'Q__7' => 
       array (
-        'num' => '14',
-        'sym' => 'Q__7',
         'desc' => 'counter output',
       ),
-      14 => 
+      'Q__9' => 
       array (
-        'num' => '15',
-        'sym' => 'Q__9',
         'desc' => 'counter output',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'Q11',
+        2 => 'Q12',
+        3 => 'Q13',
+        4 => 'Q5',
+        5 => 'Q4',
+        6 => 'Q6',
+        7 => 'Q3',
+        8 => 'GND',
+        9 => 'C__TC',
+        10 => 'R__TC',
+        11 => 'RS',
+        12 => 'MR',
+        13 => 'Q__8',
+        14 => 'Q__7',
+        15 => 'Q__9',
+        16 => 'Vcc',
       ),
     ),
   ),
   4066 => 
   array (
     'description' => 'Quad bilateral switch',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.datasheetcatalog.org/datasheets/320/206765_DS.pdf',
     'pins' => 
     array (
-      0 => 
+      'IN 1' => 
       array (
-        'num' => '1',
-        'sym' => 'IN 1',
         'desc' => 'switch 1 input',
       ),
-      1 => 
+      'OUT 1' => 
       array (
-        'num' => '2',
-        'sym' => 'OUT 1',
         'desc' => 'switch 1 output',
       ),
-      2 => 
+      'OUT 2' => 
       array (
-        'num' => '3',
-        'sym' => 'OUT 2',
         'desc' => 'switch 2 output',
       ),
-      3 => 
+      'IN 2' => 
       array (
-        'num' => '4',
-        'sym' => 'IN 2',
         'desc' => 'switch 2 input',
       ),
-      4 => 
+      'CONTROL 2' => 
       array (
-        'num' => '5',
-        'sym' => 'CONTROL 2',
         'desc' => 'switch 2 control',
       ),
-      5 => 
+      'CONTROL 3' => 
       array (
-        'num' => '6',
-        'sym' => 'CONTROL 3',
         'desc' => 'switch 3 control',
       ),
-      6 => 
+      'V__SS' => 
       array (
-        'num' => '7',
-        'sym' => 'V__SS',
         'desc' => 'ground/negative supply voltage',
       ),
-      7 => 
+      'IN 3' => 
       array (
-        'num' => '8',
-        'sym' => 'IN 3',
         'desc' => 'switch 3 input',
       ),
-      8 => 
+      'OUT 3' => 
       array (
-        'num' => '9',
-        'sym' => 'OUT 3',
         'desc' => 'switch 3 output',
       ),
-      9 => 
+      'OUT 4' => 
       array (
-        'num' => '10',
-        'sym' => 'OUT 4',
         'desc' => 'switch 4 output',
       ),
-      10 => 
+      'IN 4' => 
       array (
-        'num' => '11',
-        'sym' => 'IN 4',
         'desc' => 'switch 4 input',
       ),
-      11 => 
+      'CONTROL 4' => 
       array (
-        'num' => '12',
-        'sym' => 'CONTROL 4',
         'desc' => 'switch 4 control',
       ),
-      12 => 
+      'CONTROL 1' => 
       array (
-        'num' => '13',
-        'sym' => 'CONTROL 1',
         'desc' => 'switch 1 control',
       ),
-      13 => 
+      'V__DD' => 
       array (
-        'num' => '14',
-        'sym' => 'V__DD',
         'desc' => 'positive supply voltage',
       ),
     ),
@@ -3766,158 +3291,128 @@
         'unit' => 'mA',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'IN 1',
+        2 => 'OUT 1',
+        3 => 'OUT 2',
+        4 => 'IN 2',
+        5 => 'CONTROL 2',
+        6 => 'CONTROL 3',
+        7 => 'V__SS',
+        8 => 'IN 3',
+        9 => 'OUT 3',
+        10 => 'OUT 4',
+        11 => 'IN 4',
+        12 => 'CONTROL 4',
+        13 => 'CONTROL 1',
+        14 => 'V__DD',
+      ),
+    ),
   ),
   4067 => 
   array (
     'description' => '16-channel analog multiplexer/demultiplexer',
-    'package' => 'DIP',
-    'pincount' => 24,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4067b.pdf',
     'pins' => 
     array (
-      0 => 
+      'Z' => 
       array (
-        'num' => '1',
-        'sym' => 'Z',
         'desc' => 'common input/output',
       ),
-      1 => 
+      'Y7' => 
       array (
-        'num' => '2',
-        'sym' => 'Y7',
         'desc' => 'independent input/output',
       ),
-      2 => 
+      'Y6' => 
       array (
-        'num' => '3',
-        'sym' => 'Y6',
         'desc' => 'independent input/output',
       ),
-      3 => 
+      'Y5' => 
       array (
-        'num' => '4',
-        'sym' => 'Y5',
         'desc' => 'independent input/output',
       ),
-      4 => 
+      'Y4' => 
       array (
-        'num' => '5',
-        'sym' => 'Y4',
         'desc' => 'independent input/output',
       ),
-      5 => 
+      'Y3' => 
       array (
-        'num' => '6',
-        'sym' => 'Y3',
         'desc' => 'independent input/output',
       ),
-      6 => 
+      'Y2' => 
       array (
-        'num' => '7',
-        'sym' => 'Y2',
         'desc' => 'independent input/output',
       ),
-      7 => 
+      'Y1' => 
       array (
-        'num' => '8',
-        'sym' => 'Y1',
         'desc' => 'independent input/output',
       ),
-      8 => 
+      'Y0' => 
       array (
-        'num' => '9',
-        'sym' => 'Y0',
         'desc' => 'independent input/output',
       ),
-      9 => 
+      'A0' => 
       array (
-        'num' => '10',
-        'sym' => 'A0',
         'desc' => 'address input',
       ),
-      10 => 
+      'A1' => 
       array (
-        'num' => '11',
-        'sym' => 'A1',
         'desc' => 'address input',
       ),
-      11 => 
+      'GND' => 
       array (
-        'num' => '12',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      12 => 
+      'A3' => 
       array (
-        'num' => '13',
-        'sym' => 'A3',
         'desc' => 'address input',
       ),
-      13 => 
+      'A2' => 
       array (
-        'num' => '14',
-        'sym' => 'A2',
         'desc' => 'address input',
       ),
-      14 => 
+      '~E' => 
       array (
-        'num' => '15',
-        'sym' => '~E',
         'desc' => 'enable input (active low)',
       ),
-      15 => 
+      'Y15' => 
       array (
-        'num' => '16',
-        'sym' => 'Y15',
         'desc' => 'independent input/output',
       ),
-      16 => 
+      'Y14' => 
       array (
-        'num' => '17',
-        'sym' => 'Y14',
         'desc' => 'independent input/output',
       ),
-      17 => 
+      'Y13' => 
       array (
-        'num' => '18',
-        'sym' => 'Y13',
         'desc' => 'independent input/output',
       ),
-      18 => 
+      'Y12' => 
       array (
-        'num' => '19',
-        'sym' => 'Y12',
         'desc' => 'independent input/output',
       ),
-      19 => 
+      'Y11' => 
       array (
-        'num' => '20',
-        'sym' => 'Y11',
         'desc' => 'independent input/output',
       ),
-      20 => 
+      'Y10' => 
       array (
-        'num' => '21',
-        'sym' => 'Y10',
         'desc' => 'independent input/output',
       ),
-      21 => 
+      'Y9' => 
       array (
-        'num' => '22',
-        'sym' => 'Y9',
         'desc' => 'independent input/output',
       ),
-      22 => 
+      'Y8' => 
       array (
-        'num' => '23',
-        'sym' => 'Y8',
         'desc' => 'independent input/output',
       ),
-      23 => 
+      'V__CC' => 
       array (
-        'num' => '24',
-        'sym' => 'V__CC',
         'desc' => 'supply voltage',
       ),
     ),
@@ -3927,1048 +3422,920 @@
       1 => 'The analog inputs/outputs can swing between V__CC and GND.',
       2 => 'When ~E is high, all switches are in a high-impedance off state.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'Z',
+        2 => 'Y7',
+        3 => 'Y6',
+        4 => 'Y5',
+        5 => 'Y4',
+        6 => 'Y3',
+        7 => 'Y2',
+        8 => 'Y1',
+        9 => 'Y0',
+        10 => 'A0',
+        11 => 'A1',
+        12 => 'GND',
+        13 => 'A3',
+        14 => 'A2',
+        15 => '~E',
+        16 => 'Y15',
+        17 => 'Y14',
+        18 => 'Y13',
+        19 => 'Y12',
+        20 => 'Y11',
+        21 => 'Y10',
+        22 => 'Y9',
+        23 => 'Y8',
+        24 => 'V__CC',
+      ),
+    ),
   ),
   4068 => 
   array (
     'description' => '8-input NAND gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4068b.pdf',
     'pins' => 
     array (
-      0 => 
+      'I__0' => 
       array (
-        'num' => '1',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      1 => 
-      array (
-        'num' => '2',
-        'sym' => 'I__0',
         'desc' => 'data input',
       ),
-      2 => 
+      'I__1' => 
       array (
-        'num' => '3',
-        'sym' => 'I__1',
         'desc' => 'data input',
       ),
-      3 => 
+      'I__2' => 
       array (
-        'num' => '4',
-        'sym' => 'I__2',
         'desc' => 'data input',
       ),
-      4 => 
+      'I__3' => 
       array (
-        'num' => '5',
-        'sym' => 'I__3',
         'desc' => 'data input',
       ),
-      5 => 
+      'GND' => 
       array (
-        'num' => '6',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      6 => 
-      array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      'I__4' => 
       array (
-        'num' => '8',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      8 => 
-      array (
-        'num' => '9',
-        'sym' => 'I__4',
         'desc' => 'data input',
       ),
-      9 => 
+      'I__5' => 
       array (
-        'num' => '10',
-        'sym' => 'I__5',
         'desc' => 'data input',
       ),
-      10 => 
+      'I__6' => 
       array (
-        'num' => '11',
-        'sym' => 'I__6',
         'desc' => 'data input',
       ),
-      11 => 
+      'I__7' => 
       array (
-        'num' => '12',
-        'sym' => 'I__7',
         'desc' => 'data input',
       ),
-      12 => 
+      'Y' => 
       array (
-        'num' => '13',
-        'sym' => 'Y',
         'desc' => 'data output',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'NC',
+        2 => 'I__0',
+        3 => 'I__1',
+        4 => 'I__2',
+        5 => 'I__3',
+        6 => 'NC',
+        7 => 'GND',
+        8 => 'NC',
+        9 => 'I__4',
+        10 => 'I__5',
+        11 => 'I__6',
+        12 => 'I__7',
+        13 => 'Y',
+        14 => 'Vcc',
       ),
     ),
   ),
   4069 => 
   array (
     'description' => 'Hex inverter',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4069ub.pdf',
     'pins' => 
     array (
-      0 => 
+      '1A' => 
       array (
-        'num' => '1',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      1 => 
+      '1Y' => 
       array (
-        'num' => '2',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      2 => 
+      '2A' => 
       array (
-        'num' => '3',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      3 => 
+      '2Y' => 
       array (
-        'num' => '4',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      4 => 
+      '3A' => 
       array (
-        'num' => '5',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      5 => 
+      '3Y' => 
       array (
-        'num' => '6',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '4Y' => 
       array (
-        'num' => '8',
-        'sym' => '4Y',
         'desc' => 'data output',
       ),
-      8 => 
+      '4A' => 
       array (
-        'num' => '9',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      9 => 
+      '5Y' => 
       array (
-        'num' => '10',
-        'sym' => '5Y',
         'desc' => 'data output',
       ),
-      10 => 
+      '5A' => 
       array (
-        'num' => '11',
-        'sym' => '5A',
         'desc' => 'data input',
       ),
-      11 => 
+      '6Y' => 
       array (
-        'num' => '12',
-        'sym' => '6Y',
         'desc' => 'data output',
       ),
-      12 => 
+      '6A' => 
       array (
-        'num' => '13',
-        'sym' => '6A',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1A',
+        2 => '1Y',
+        3 => '2A',
+        4 => '2Y',
+        5 => '3A',
+        6 => '3Y',
+        7 => 'GND',
+        8 => '4Y',
+        9 => '4A',
+        10 => '5Y',
+        11 => '5A',
+        12 => '6Y',
+        13 => '6A',
+        14 => 'Vcc',
       ),
     ),
   ),
   4070 => 
   array (
     'description' => 'Quad 2-input XOR gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4070b.pdf',
     'pins' => 
     array (
-      0 => 
+      '1A' => 
       array (
-        'num' => '1',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      1 => 
+      '1B' => 
       array (
-        'num' => '2',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      2 => 
+      '1Y' => 
       array (
-        'num' => '3',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      3 => 
+      '2Y' => 
       array (
-        'num' => '4',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      4 => 
+      '2A' => 
       array (
-        'num' => '5',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      5 => 
+      '2B' => 
       array (
-        'num' => '6',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '3A' => 
       array (
-        'num' => '8',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      8 => 
+      '3B' => 
       array (
-        'num' => '9',
-        'sym' => '3B',
         'desc' => 'data input',
       ),
-      9 => 
+      '3Y' => 
       array (
-        'num' => '10',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      10 => 
+      '4Y' => 
       array (
-        'num' => '11',
-        'sym' => '4Y',
         'desc' => 'data output',
       ),
-      11 => 
+      '4A' => 
       array (
-        'num' => '12',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      12 => 
+      '4B' => 
       array (
-        'num' => '13',
-        'sym' => '4B',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1A',
+        2 => '1B',
+        3 => '1Y',
+        4 => '2Y',
+        5 => '2A',
+        6 => '2B',
+        7 => 'GND',
+        8 => '3A',
+        9 => '3B',
+        10 => '3Y',
+        11 => '4Y',
+        12 => '4A',
+        13 => '4B',
+        14 => 'Vcc',
       ),
     ),
   ),
   4071 => 
   array (
     'description' => 'Quad 2-input OR gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4071b.pdf',
     'pins' => 
     array (
-      0 => 
+      '1A' => 
       array (
-        'num' => '1',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      1 => 
+      '1B' => 
       array (
-        'num' => '2',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      2 => 
+      '1Y' => 
       array (
-        'num' => '3',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      3 => 
+      '2Y' => 
       array (
-        'num' => '4',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      4 => 
+      '2A' => 
       array (
-        'num' => '5',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      5 => 
+      '2B' => 
       array (
-        'num' => '6',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '3A' => 
       array (
-        'num' => '8',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      8 => 
+      '3B' => 
       array (
-        'num' => '9',
-        'sym' => '3B',
         'desc' => 'data input',
       ),
-      9 => 
+      '3Y' => 
       array (
-        'num' => '10',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      10 => 
+      '4Y' => 
       array (
-        'num' => '11',
-        'sym' => '4Y',
         'desc' => 'data output',
       ),
-      11 => 
+      '4A' => 
       array (
-        'num' => '12',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      12 => 
+      '4B' => 
       array (
-        'num' => '13',
-        'sym' => '4B',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1A',
+        2 => '1B',
+        3 => '1Y',
+        4 => '2Y',
+        5 => '2A',
+        6 => '2B',
+        7 => 'GND',
+        8 => '3A',
+        9 => '3B',
+        10 => '3Y',
+        11 => '4Y',
+        12 => '4A',
+        13 => '4B',
+        14 => 'Vcc',
       ),
     ),
   ),
   4072 => 
   array (
     'description' => 'Dual 4-input OR gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4072b.pdf',
     'pins' => 
     array (
-      0 => 
+      '1Y' => 
       array (
-        'num' => '1',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      1 => 
+      '1A' => 
       array (
-        'num' => '2',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      2 => 
+      '1B' => 
       array (
-        'num' => '3',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      3 => 
+      '1C' => 
       array (
-        'num' => '4',
-        'sym' => '1C',
         'desc' => 'data input',
       ),
-      4 => 
+      '1D' => 
       array (
-        'num' => '5',
-        'sym' => '1D',
         'desc' => 'data input',
       ),
-      5 => 
+      'GND' => 
       array (
-        'num' => '6',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      6 => 
-      array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '2A' => 
       array (
-        'num' => '8',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      8 => 
-      array (
-        'num' => '9',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      9 => 
+      '2B' => 
       array (
-        'num' => '10',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      10 => 
+      '2C' => 
       array (
-        'num' => '11',
-        'sym' => '2C',
         'desc' => 'data input',
       ),
-      11 => 
+      '2D' => 
       array (
-        'num' => '12',
-        'sym' => '2D',
         'desc' => 'data input',
       ),
-      12 => 
+      '2Y' => 
       array (
-        'num' => '13',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1Y',
+        2 => '1A',
+        3 => '1B',
+        4 => '1C',
+        5 => '1D',
+        6 => 'NC',
+        7 => 'GND',
+        8 => 'NC',
+        9 => '2A',
+        10 => '2B',
+        11 => '2C',
+        12 => '2D',
+        13 => '2Y',
+        14 => 'Vcc',
       ),
     ),
   ),
   4073 => 
   array (
     'description' => 'Triple 3-input AND gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4073b.pdf',
     'pins' => 
     array (
-      0 => 
+      '2A' => 
       array (
-        'num' => '1',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      1 => 
+      '2B' => 
       array (
-        'num' => '2',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      2 => 
+      '1A' => 
       array (
-        'num' => '3',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      3 => 
+      '1B' => 
       array (
-        'num' => '4',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      4 => 
+      '1C' => 
       array (
-        'num' => '5',
-        'sym' => '1C',
         'desc' => 'data input',
       ),
-      5 => 
+      '1Y' => 
       array (
-        'num' => '6',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '2C' => 
       array (
-        'num' => '8',
-        'sym' => '2C',
         'desc' => 'data input',
       ),
-      8 => 
+      '2Y' => 
       array (
-        'num' => '9',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      9 => 
+      '3Y' => 
       array (
-        'num' => '10',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      10 => 
+      '3A' => 
       array (
-        'num' => '11',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      11 => 
+      '3B' => 
       array (
-        'num' => '12',
-        'sym' => '3B',
         'desc' => 'data input',
       ),
-      12 => 
+      '3C' => 
       array (
-        'num' => '13',
-        'sym' => '3C',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '2A',
+        2 => '2B',
+        3 => '1A',
+        4 => '1B',
+        5 => '1C',
+        6 => '1Y',
+        7 => 'GND',
+        8 => '2C',
+        9 => '2Y',
+        10 => '3Y',
+        11 => '3A',
+        12 => '3B',
+        13 => '3C',
+        14 => 'Vcc',
       ),
     ),
   ),
   4075 => 
   array (
     'description' => 'Triple 3-input OR gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4075b.pdf',
     'pins' => 
     array (
-      0 => 
+      '2A' => 
       array (
-        'num' => '1',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      1 => 
+      '2B' => 
       array (
-        'num' => '2',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      2 => 
+      '1A' => 
       array (
-        'num' => '3',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      3 => 
+      '1B' => 
       array (
-        'num' => '4',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      4 => 
+      '1C' => 
       array (
-        'num' => '5',
-        'sym' => '1C',
         'desc' => 'data input',
       ),
-      5 => 
+      '1Y' => 
       array (
-        'num' => '6',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '2C' => 
       array (
-        'num' => '8',
-        'sym' => '2C',
         'desc' => 'data input',
       ),
-      8 => 
+      '2Y' => 
       array (
-        'num' => '9',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      9 => 
+      '3Y' => 
       array (
-        'num' => '10',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      10 => 
+      '3A' => 
       array (
-        'num' => '11',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      11 => 
+      '3B' => 
       array (
-        'num' => '12',
-        'sym' => '3B',
         'desc' => 'data input',
       ),
-      12 => 
+      '3C' => 
       array (
-        'num' => '13',
-        'sym' => '3C',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '2A',
+        2 => '2B',
+        3 => '1A',
+        4 => '1B',
+        5 => '1C',
+        6 => '1Y',
+        7 => 'GND',
+        8 => '2C',
+        9 => '2Y',
+        10 => '3Y',
+        11 => '3A',
+        12 => '3B',
+        13 => '3C',
+        14 => 'Vcc',
       ),
     ),
   ),
   4077 => 
   array (
     'description' => 'Quad 2-input XNOR gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4077b.pdf',
     'pins' => 
     array (
-      0 => 
+      '1A' => 
       array (
-        'num' => '1',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      1 => 
+      '1B' => 
       array (
-        'num' => '2',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      2 => 
+      '1Y' => 
       array (
-        'num' => '3',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      3 => 
+      '2Y' => 
       array (
-        'num' => '4',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      4 => 
+      '2A' => 
       array (
-        'num' => '5',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      5 => 
+      '2B' => 
       array (
-        'num' => '6',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '3A' => 
       array (
-        'num' => '8',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      8 => 
+      '3B' => 
       array (
-        'num' => '9',
-        'sym' => '3B',
         'desc' => 'data input',
       ),
-      9 => 
+      '3Y' => 
       array (
-        'num' => '10',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      10 => 
+      '4Y' => 
       array (
-        'num' => '11',
-        'sym' => '4Y',
         'desc' => 'data output',
       ),
-      11 => 
+      '4A' => 
       array (
-        'num' => '12',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      12 => 
+      '4B' => 
       array (
-        'num' => '13',
-        'sym' => '4B',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1A',
+        2 => '1B',
+        3 => '1Y',
+        4 => '2Y',
+        5 => '2A',
+        6 => '2B',
+        7 => 'GND',
+        8 => '3A',
+        9 => '3B',
+        10 => '3Y',
+        11 => '4Y',
+        12 => '4A',
+        13 => '4B',
+        14 => 'Vcc',
       ),
     ),
   ),
   4081 => 
   array (
     'description' => 'Quad 2-input AND gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4081b.pdf',
     'pins' => 
     array (
-      0 => 
+      '1A' => 
       array (
-        'num' => '1',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      1 => 
+      '1B' => 
       array (
-        'num' => '2',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      2 => 
+      '1Y' => 
       array (
-        'num' => '3',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      3 => 
+      '2Y' => 
       array (
-        'num' => '4',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      4 => 
+      '2A' => 
       array (
-        'num' => '5',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      5 => 
+      '2B' => 
       array (
-        'num' => '6',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '3A' => 
       array (
-        'num' => '8',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      8 => 
+      '3B' => 
       array (
-        'num' => '9',
-        'sym' => '3B',
         'desc' => 'data input',
       ),
-      9 => 
+      '3Y' => 
       array (
-        'num' => '10',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      10 => 
+      '4Y' => 
       array (
-        'num' => '11',
-        'sym' => '4Y',
         'desc' => 'data output',
       ),
-      11 => 
+      '4A' => 
       array (
-        'num' => '12',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      12 => 
+      '4B' => 
       array (
-        'num' => '13',
-        'sym' => '4B',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1A',
+        2 => '1B',
+        3 => '1Y',
+        4 => '2Y',
+        5 => '2A',
+        6 => '2B',
+        7 => 'GND',
+        8 => '3A',
+        9 => '3B',
+        10 => '3Y',
+        11 => '4Y',
+        12 => '4A',
+        13 => '4B',
+        14 => 'Vcc',
       ),
     ),
   ),
   4082 => 
   array (
     'description' => 'Dual 4-input AND gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4082b.pdf',
     'pins' => 
     array (
-      0 => 
+      '1Y' => 
       array (
-        'num' => '1',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      1 => 
+      '1A' => 
       array (
-        'num' => '2',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      2 => 
+      '1B' => 
       array (
-        'num' => '3',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      3 => 
+      '1C' => 
       array (
-        'num' => '4',
-        'sym' => '1C',
         'desc' => 'data input',
       ),
-      4 => 
+      '1D' => 
       array (
-        'num' => '5',
-        'sym' => '1D',
         'desc' => 'data input',
       ),
-      5 => 
+      'GND' => 
       array (
-        'num' => '6',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      6 => 
-      array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '2A' => 
       array (
-        'num' => '8',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      8 => 
-      array (
-        'num' => '9',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      9 => 
+      '2B' => 
       array (
-        'num' => '10',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      10 => 
+      '2C' => 
       array (
-        'num' => '11',
-        'sym' => '2C',
         'desc' => 'data input',
       ),
-      11 => 
+      '2D' => 
       array (
-        'num' => '12',
-        'sym' => '2D',
         'desc' => 'data input',
       ),
-      12 => 
+      '2Y' => 
       array (
-        'num' => '13',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1Y',
+        2 => '1A',
+        3 => '1B',
+        4 => '1C',
+        5 => '1D',
+        6 => 'NC',
+        7 => 'GND',
+        8 => 'NC',
+        9 => '2A',
+        10 => '2B',
+        11 => '2C',
+        12 => '2D',
+        13 => '2Y',
+        14 => 'Vcc',
       ),
     ),
   ),
   4085 => 
   array (
     'description' => 'Dual 2-wide 2-input AND-OR-INVERT gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/cd4085b.pdf',
     'pins' => 
     array (
-      0 => 
+      'A1' => 
       array (
-        'num' => '1',
-        'sym' => 'A1',
         'desc' => 'data input',
       ),
-      1 => 
+      'B1' => 
       array (
-        'num' => '2',
-        'sym' => 'B1',
         'desc' => 'data input',
       ),
-      2 => 
+      'Q1' => 
       array (
-        'num' => '3',
-        'sym' => 'Q1',
         'desc' => 'data output (see note)',
       ),
-      3 => 
+      'Q2' => 
       array (
-        'num' => '4',
-        'sym' => 'Q2',
         'desc' => 'data output (see note)',
       ),
-      4 => 
+      'A2' => 
       array (
-        'num' => '5',
-        'sym' => 'A2',
         'desc' => 'data input',
       ),
-      5 => 
+      'B2' => 
       array (
-        'num' => '6',
-        'sym' => 'B2',
         'desc' => 'data input',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      'C2' => 
       array (
-        'num' => '8',
-        'sym' => 'C2',
         'desc' => 'data input',
       ),
-      8 => 
+      'D2' => 
       array (
-        'num' => '9',
-        'sym' => 'D2',
         'desc' => 'data input',
       ),
-      9 => 
+      'INH1' => 
       array (
-        'num' => '10',
-        'sym' => 'INH1',
         'desc' => 'inhibit',
       ),
-      10 => 
+      'INH2' => 
       array (
-        'num' => '11',
-        'sym' => 'INH2',
         'desc' => 'inhibit',
       ),
-      11 => 
+      'C1' => 
       array (
-        'num' => '12',
-        'sym' => 'C1',
         'desc' => 'data input',
       ),
-      12 => 
+      'D1' => 
       array (
-        'num' => '13',
-        'sym' => 'D1',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -4976,419 +4343,371 @@
     array (
       0 => 'Q = <span class=\'neg\'>INH OR (A AND B) OR (C AND D)</span>',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'A1',
+        2 => 'B1',
+        3 => 'Q1',
+        4 => 'Q2',
+        5 => 'A2',
+        6 => 'B2',
+        7 => 'GND',
+        8 => 'C2',
+        9 => 'D2',
+        10 => 'INH1',
+        11 => 'INH2',
+        12 => 'C1',
+        13 => 'D1',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   4093 => 
   array (
     'description' => 'Quad 2-input NAND Schmitt trigger',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4093b.pdf',
     'pins' => 
     array (
-      0 => 
+      '1A' => 
       array (
-        'num' => '1',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      1 => 
+      '1B' => 
       array (
-        'num' => '2',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      2 => 
+      '1Y' => 
       array (
-        'num' => '3',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      3 => 
+      '2Y' => 
       array (
-        'num' => '4',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      4 => 
+      '2A' => 
       array (
-        'num' => '5',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      5 => 
+      '2B' => 
       array (
-        'num' => '6',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '3A' => 
       array (
-        'num' => '8',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      8 => 
+      '3B' => 
       array (
-        'num' => '9',
-        'sym' => '3B',
         'desc' => 'data input',
       ),
-      9 => 
+      '3Y' => 
       array (
-        'num' => '10',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      10 => 
+      '4Y' => 
       array (
-        'num' => '11',
-        'sym' => '4Y',
         'desc' => 'data output',
       ),
-      11 => 
+      '4A' => 
       array (
-        'num' => '12',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      12 => 
+      '4B' => 
       array (
-        'num' => '13',
-        'sym' => '4B',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1A',
+        2 => '1B',
+        3 => '1Y',
+        4 => '2Y',
+        5 => '2A',
+        6 => '2B',
+        7 => 'GND',
+        8 => '3A',
+        9 => '3B',
+        10 => '3Y',
+        11 => '4Y',
+        12 => '4A',
+        13 => '4B',
+        14 => 'Vcc',
       ),
     ),
   ),
   4094 => 
   array (
     'description' => '8-stage shift-and-store bus register',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4094b.pdf',
     'pins' => 
     array (
-      0 => 
+      'STR' => 
       array (
-        'num' => '1',
-        'sym' => 'STR',
         'desc' => 'strobe input (active high)',
       ),
-      1 => 
+      'D' => 
       array (
-        'num' => '2',
-        'sym' => 'D',
         'desc' => 'data input',
       ),
-      2 => 
+      'CP' => 
       array (
-        'num' => '3',
-        'sym' => 'CP',
         'desc' => 'clock input (low-to-high edge-triggered)',
       ),
-      3 => 
+      'QP0' => 
       array (
-        'num' => '4',
-        'sym' => 'QP0',
         'desc' => 'parallel output',
       ),
-      4 => 
+      'QP1' => 
       array (
-        'num' => '5',
-        'sym' => 'QP1',
         'desc' => 'parallel output',
       ),
-      5 => 
+      'QP2' => 
       array (
-        'num' => '6',
-        'sym' => 'QP2',
         'desc' => 'parallel output',
       ),
-      6 => 
+      'QP3' => 
       array (
-        'num' => '7',
-        'sym' => 'QP3',
         'desc' => 'parallel output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'QS1' => 
       array (
-        'num' => '9',
-        'sym' => 'QS1',
         'desc' => 'serial output',
       ),
-      9 => 
+      'QS2' => 
       array (
-        'num' => '10',
-        'sym' => 'QS2',
         'desc' => 'serial output',
       ),
-      10 => 
+      'QP7' => 
       array (
-        'num' => '11',
-        'sym' => 'QP7',
         'desc' => 'parallel output',
       ),
-      11 => 
+      'QP6' => 
       array (
-        'num' => '12',
-        'sym' => 'QP6',
         'desc' => 'parallel output',
       ),
-      12 => 
+      'QP5' => 
       array (
-        'num' => '13',
-        'sym' => 'QP5',
         'desc' => 'parallel output',
       ),
-      13 => 
+      'QP4' => 
       array (
-        'num' => '14',
-        'sym' => 'QP4',
         'desc' => 'parallel output',
       ),
-      14 => 
+      'OE' => 
       array (
-        'num' => '15',
-        'sym' => 'OE',
         'desc' => 'output enable',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage (active high)',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'STR',
+        2 => 'D',
+        3 => 'CP',
+        4 => 'QP0',
+        5 => 'QP1',
+        6 => 'QP2',
+        7 => 'QP3',
+        8 => 'GND',
+        9 => 'QS1',
+        10 => 'QS2',
+        11 => 'QP7',
+        12 => 'QP6',
+        13 => 'QP5',
+        14 => 'QP4',
+        15 => 'OE',
+        16 => 'Vcc',
       ),
     ),
   ),
   4099 => 
   array (
     'description' => '8-bit addressable latch',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/cd4099b.pdf',
     'pins' => 
     array (
-      0 => 
+      'Q7' => 
       array (
-        'num' => '1',
-        'sym' => 'Q7',
         'desc' => 'latch output',
       ),
-      1 => 
+      'RESET' => 
       array (
-        'num' => '2',
-        'sym' => 'RESET',
         'desc' => 'master reset (all bits to 0; active high)',
       ),
-      2 => 
+      'DATA' => 
       array (
-        'num' => '3',
-        'sym' => 'DATA',
         'desc' => 'data input',
       ),
-      3 => 
+      '~WRITE' => 
       array (
-        'num' => '4',
-        'sym' => '~WRITE',
         'desc' => 'write enable (active low)',
       ),
-      4 => 
+      'A0' => 
       array (
-        'num' => '5',
-        'sym' => 'A0',
         'desc' => 'address input',
       ),
-      5 => 
+      'A1' => 
       array (
-        'num' => '6',
-        'sym' => 'A1',
         'desc' => 'address input',
       ),
-      6 => 
+      'A2' => 
       array (
-        'num' => '7',
-        'sym' => 'A2',
         'desc' => 'address input',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'Q0' => 
       array (
-        'num' => '9',
-        'sym' => 'Q0',
         'desc' => 'latch output',
       ),
-      9 => 
+      'Q1' => 
       array (
-        'num' => '10',
-        'sym' => 'Q1',
         'desc' => 'latch output',
       ),
-      10 => 
+      'Q2' => 
       array (
-        'num' => '11',
-        'sym' => 'Q2',
         'desc' => 'latch output',
       ),
-      11 => 
+      'Q3' => 
       array (
-        'num' => '12',
-        'sym' => 'Q3',
         'desc' => 'latch output',
       ),
-      12 => 
+      'Q4' => 
       array (
-        'num' => '13',
-        'sym' => 'Q4',
         'desc' => 'latch output',
       ),
-      13 => 
+      'Q5' => 
       array (
-        'num' => '14',
-        'sym' => 'Q5',
         'desc' => 'latch output',
       ),
-      14 => 
+      'Q6' => 
       array (
-        'num' => '15',
-        'sym' => 'Q6',
         'desc' => 'latch output',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'Q7',
+        2 => 'RESET',
+        3 => 'DATA',
+        4 => '~WRITE',
+        5 => 'A0',
+        6 => 'A1',
+        7 => 'A2',
+        8 => 'GND',
+        9 => 'Q0',
+        10 => 'Q1',
+        11 => 'Q2',
+        12 => 'Q3',
+        13 => 'Q4',
+        14 => 'Q5',
+        15 => 'Q6',
+        16 => 'Vcc',
       ),
     ),
   ),
   4511 => 
   array (
     'description' => 'BCD to 7-segment latch/decoder/driver',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4511b.pdf',
     'pins' => 
     array (
-      0 => 
+      'D1' => 
       array (
-        'num' => '1',
-        'sym' => 'D1',
         'desc' => 'BCD input',
       ),
-      1 => 
+      'D2' => 
       array (
-        'num' => '2',
-        'sym' => 'D2',
         'desc' => 'BCD input',
       ),
-      2 => 
+      '~LT' => 
       array (
-        'num' => '3',
-        'sym' => '~LT',
         'desc' => 'lamp test (lights all segments, active low)',
       ),
-      3 => 
+      '~BL' => 
       array (
-        'num' => '4',
-        'sym' => '~BL',
         'desc' => 'blank (active low)',
       ),
-      4 => 
+      'LE' => 
       array (
-        'num' => '5',
-        'sym' => 'LE',
         'desc' => 'latch enable (active high)',
       ),
-      5 => 
+      'D3' => 
       array (
-        'num' => '6',
-        'sym' => 'D3',
         'desc' => 'BCD input',
       ),
-      6 => 
+      'D0' => 
       array (
-        'num' => '7',
-        'sym' => 'D0',
         'desc' => 'BCD input',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'Qe' => 
       array (
-        'num' => '9',
-        'sym' => 'Qe',
         'desc' => 'segment output',
       ),
-      9 => 
+      'Qd' => 
       array (
-        'num' => '10',
-        'sym' => 'Qd',
         'desc' => 'segment output',
       ),
-      10 => 
+      'Qc' => 
       array (
-        'num' => '11',
-        'sym' => 'Qc',
         'desc' => 'segment output',
       ),
-      11 => 
+      'Qb' => 
       array (
-        'num' => '12',
-        'sym' => 'Qb',
         'desc' => 'segment output',
       ),
-      12 => 
+      'Qa' => 
       array (
-        'num' => '13',
-        'sym' => 'Qa',
         'desc' => 'segment output',
       ),
-      13 => 
+      'Qf' => 
       array (
-        'num' => '14',
-        'sym' => 'Qf',
         'desc' => 'segment output',
       ),
-      14 => 
+      'Qg' => 
       array (
-        'num' => '15',
-        'sym' => 'Qg',
         'desc' => 'segment output',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -5397,158 +4716,130 @@
       0 => 'Pins for lit segments are high. The 4511 can directly drive a common cathode LED display.',
       1 => 'Display is blanked for inputs greater than 9.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'D1',
+        2 => 'D2',
+        3 => '~LT',
+        4 => '~BL',
+        5 => 'LE',
+        6 => 'D3',
+        7 => 'D0',
+        8 => 'GND',
+        9 => 'Qe',
+        10 => 'Qd',
+        11 => 'Qc',
+        12 => 'Qb',
+        13 => 'Qa',
+        14 => 'Qf',
+        15 => 'Qg',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   4514 => 
   array (
     'description' => '1-of-16 decoder/demultiplexer with input latches',
-    'package' => 'DIP',
-    'pincount' => 24,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4514b.pdf',
     'pins' => 
     array (
-      0 => 
+      'LE' => 
       array (
-        'num' => '1',
-        'sym' => 'LE',
         'desc' => 'latch enable (active high)',
       ),
-      1 => 
+      'A0' => 
       array (
-        'num' => '2',
-        'sym' => 'A0',
         'desc' => 'address input',
       ),
-      2 => 
+      'A1' => 
       array (
-        'num' => '3',
-        'sym' => 'A1',
         'desc' => 'address input',
       ),
-      3 => 
+      'Q7' => 
       array (
-        'num' => '4',
-        'sym' => 'Q7',
         'desc' => 'output',
       ),
-      4 => 
+      'Q6' => 
       array (
-        'num' => '5',
-        'sym' => 'Q6',
         'desc' => 'output',
       ),
-      5 => 
+      'Q5' => 
       array (
-        'num' => '6',
-        'sym' => 'Q5',
         'desc' => 'output',
       ),
-      6 => 
+      'Q4' => 
       array (
-        'num' => '7',
-        'sym' => 'Q4',
         'desc' => 'output',
       ),
-      7 => 
+      'Q3' => 
       array (
-        'num' => '8',
-        'sym' => 'Q3',
         'desc' => 'output',
       ),
-      8 => 
+      'Q1' => 
       array (
-        'num' => '9',
-        'sym' => 'Q1',
         'desc' => 'output',
       ),
-      9 => 
+      'Q2' => 
       array (
-        'num' => '10',
-        'sym' => 'Q2',
         'desc' => 'output',
       ),
-      10 => 
+      'Q0' => 
       array (
-        'num' => '11',
-        'sym' => 'Q0',
         'desc' => 'output',
       ),
-      11 => 
+      'GND' => 
       array (
-        'num' => '12',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      12 => 
+      'Q13' => 
       array (
-        'num' => '13',
-        'sym' => 'Q13',
         'desc' => 'output',
       ),
-      13 => 
+      'Q12' => 
       array (
-        'num' => '14',
-        'sym' => 'Q12',
         'desc' => 'output',
       ),
-      14 => 
+      'Q15' => 
       array (
-        'num' => '15',
-        'sym' => 'Q15',
         'desc' => 'output',
       ),
-      15 => 
+      'Q14' => 
       array (
-        'num' => '16',
-        'sym' => 'Q14',
         'desc' => 'output',
       ),
-      16 => 
+      'Q9' => 
       array (
-        'num' => '17',
-        'sym' => 'Q9',
         'desc' => 'output',
       ),
-      17 => 
+      'Q8' => 
       array (
-        'num' => '18',
-        'sym' => 'Q8',
         'desc' => 'output',
       ),
-      18 => 
+      'Q11' => 
       array (
-        'num' => '19',
-        'sym' => 'Q11',
         'desc' => 'output',
       ),
-      19 => 
+      'Q10' => 
       array (
-        'num' => '20',
-        'sym' => 'Q10',
         'desc' => 'output',
       ),
-      20 => 
+      'A2' => 
       array (
-        'num' => '21',
-        'sym' => 'A2',
         'desc' => 'address input',
       ),
-      21 => 
+      'A3' => 
       array (
-        'num' => '22',
-        'sym' => 'A3',
         'desc' => 'address input',
       ),
-      22 => 
+      '~E' => 
       array (
-        'num' => '23',
-        'sym' => '~E',
         'desc' => 'enable (active low)',
       ),
-      23 => 
+      'Vcc' => 
       array (
-        'num' => '24',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -5557,158 +4848,138 @@
       0 => 'Outputs are mutually exclusive active high.',
       1 => 'When ~E is high, all outputs are low.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'LE',
+        2 => 'A0',
+        3 => 'A1',
+        4 => 'Q7',
+        5 => 'Q6',
+        6 => 'Q5',
+        7 => 'Q4',
+        8 => 'Q3',
+        9 => 'Q1',
+        10 => 'Q2',
+        11 => 'Q0',
+        12 => 'GND',
+        13 => 'Q13',
+        14 => 'Q12',
+        15 => 'Q15',
+        16 => 'Q14',
+        17 => 'Q9',
+        18 => 'Q8',
+        19 => 'Q11',
+        20 => 'Q10',
+        21 => 'A2',
+        22 => 'A3',
+        23 => '~E',
+        24 => 'Vcc',
+      ),
+    ),
   ),
   4515 => 
   array (
     'description' => '1-of-16 decoder/demultiplexer with input latches; inverting',
-    'package' => 'DIP',
-    'pincount' => 24,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4515b.pdf',
     'pins' => 
     array (
-      0 => 
+      'LE' => 
       array (
-        'num' => '1',
-        'sym' => 'LE',
         'desc' => 'latch enable (active high)',
       ),
-      1 => 
+      'A0' => 
       array (
-        'num' => '2',
-        'sym' => 'A0',
         'desc' => 'address input',
       ),
-      2 => 
+      'A1' => 
       array (
-        'num' => '3',
-        'sym' => 'A1',
         'desc' => 'address input',
       ),
-      3 => 
+      '~Q~7' => 
       array (
-        'num' => '4',
-        'sym' => '~Q~7',
         'desc' => 'output',
       ),
-      4 => 
+      '~Q~6' => 
       array (
-        'num' => '5',
-        'sym' => '~Q~6',
         'desc' => 'output',
       ),
-      5 => 
+      '~Q~5' => 
       array (
-        'num' => '6',
-        'sym' => '~Q~5',
         'desc' => 'output',
       ),
-      6 => 
+      '~Q~4' => 
       array (
-        'num' => '7',
-        'sym' => '~Q~4',
         'desc' => 'output',
       ),
-      7 => 
+      '~Q~3' => 
       array (
-        'num' => '8',
-        'sym' => '~Q~3',
         'desc' => 'output',
       ),
-      8 => 
+      '~Q~1' => 
       array (
-        'num' => '9',
-        'sym' => '~Q~1',
         'desc' => 'output',
       ),
-      9 => 
+      '~Q~2' => 
       array (
-        'num' => '10',
-        'sym' => '~Q~2',
         'desc' => 'output',
       ),
-      10 => 
+      '~Q~0' => 
       array (
-        'num' => '11',
-        'sym' => '~Q~0',
         'desc' => 'output',
       ),
-      11 => 
+      'GND' => 
       array (
-        'num' => '12',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      12 => 
+      '~Q~13' => 
       array (
-        'num' => '13',
-        'sym' => '~Q~13',
         'desc' => 'output',
       ),
-      13 => 
+      '~Q~12' => 
       array (
-        'num' => '14',
-        'sym' => '~Q~12',
         'desc' => 'output',
       ),
-      14 => 
+      '~Q~15' => 
       array (
-        'num' => '15',
-        'sym' => '~Q~15',
         'desc' => 'output',
       ),
-      15 => 
+      '~Q~14' => 
       array (
-        'num' => '16',
-        'sym' => '~Q~14',
         'desc' => 'output',
       ),
-      16 => 
+      '~Q~9' => 
       array (
-        'num' => '17',
-        'sym' => '~Q~9',
         'desc' => 'output',
       ),
-      17 => 
+      '~Q~8' => 
       array (
-        'num' => '18',
-        'sym' => '~Q~8',
         'desc' => 'output',
       ),
-      18 => 
+      '~Q~11' => 
       array (
-        'num' => '19',
-        'sym' => '~Q~11',
         'desc' => 'output',
       ),
-      19 => 
+      '~Q~10' => 
       array (
-        'num' => '20',
-        'sym' => '~Q~10',
         'desc' => 'output',
       ),
-      20 => 
+      'A2' => 
       array (
-        'num' => '21',
-        'sym' => 'A2',
         'desc' => 'address input',
       ),
-      21 => 
+      'A3' => 
       array (
-        'num' => '22',
-        'sym' => 'A3',
         'desc' => 'address input',
       ),
-      22 => 
+      '~E' => 
       array (
-        'num' => '23',
-        'sym' => '~E',
         'desc' => 'enable (active low)',
       ),
-      23 => 
+      'Vcc' => 
       array (
-        'num' => '24',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -5717,110 +4988,106 @@
       0 => 'Outputs are mutually exclusive active low.',
       1 => 'When ~E is high, all outputs are high.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'LE',
+        2 => 'A0',
+        3 => 'A1',
+        4 => '~Q~7',
+        5 => '~Q~6',
+        6 => '~Q~5',
+        7 => '~Q~4',
+        8 => '~Q~3',
+        9 => '~Q~1',
+        10 => '~Q~2',
+        11 => '~Q~0',
+        12 => 'GND',
+        13 => '~Q~13',
+        14 => '~Q~12',
+        15 => '~Q~15',
+        16 => '~Q~14',
+        17 => '~Q~9',
+        18 => '~Q~8',
+        19 => '~Q~11',
+        20 => '~Q~10',
+        21 => 'A2',
+        22 => 'A3',
+        23 => '~E',
+        24 => 'Vcc',
+      ),
+    ),
   ),
   4516 => 
   array (
     'description' => '4-bit binary up/down counter',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4516b.pdf',
     'pins' => 
     array (
-      0 => 
+      'PL' => 
       array (
-        'num' => '1',
-        'sym' => 'PL',
         'desc' => 'parallel load (active high)',
       ),
-      1 => 
+      'Q3' => 
       array (
-        'num' => '2',
-        'sym' => 'Q3',
         'desc' => 'count output',
       ),
-      2 => 
+      'D3' => 
       array (
-        'num' => '3',
-        'sym' => 'D3',
         'desc' => 'parallel input',
       ),
-      3 => 
+      'D0' => 
       array (
-        'num' => '4',
-        'sym' => 'D0',
         'desc' => 'parallel input',
       ),
-      4 => 
+      '~CE' => 
       array (
-        'num' => '5',
-        'sym' => '~CE',
         'desc' => 'count enable (active low)',
       ),
-      5 => 
+      'Q0' => 
       array (
-        'num' => '6',
-        'sym' => 'Q0',
         'desc' => 'count output',
       ),
-      6 => 
+      '~TC' => 
       array (
-        'num' => '7',
-        'sym' => '~TC',
         'desc' => 'terminal count output (active low)',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'MR' => 
       array (
-        'num' => '9',
-        'sym' => 'MR',
         'desc' => 'master reset (active high)',
       ),
-      9 => 
+      'UP/~DN' => 
       array (
-        'num' => '10',
-        'sym' => 'UP/~DN',
         'desc' => 'up/down count control',
       ),
-      10 => 
+      'Q1' => 
       array (
-        'num' => '11',
-        'sym' => 'Q1',
         'desc' => 'count output',
       ),
-      11 => 
+      'D1' => 
       array (
-        'num' => '12',
-        'sym' => 'D1',
         'desc' => 'parallel input',
       ),
-      12 => 
+      'D2' => 
       array (
-        'num' => '13',
-        'sym' => 'D2',
         'desc' => 'parallel input',
       ),
-      13 => 
+      'Q2' => 
       array (
-        'num' => '14',
-        'sym' => 'Q2',
         'desc' => 'count output',
       ),
-      14 => 
+      'CP' => 
       array (
-        'num' => '15',
-        'sym' => 'CP',
         'desc' => 'clock input (low-to-high edge-triggered)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -5830,110 +5097,98 @@
       1 => 'When counting down, ~TC goes low when the count is 0.',
       2 => '~TC is always high when ~CE is high (counting is disabled).',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'PL',
+        2 => 'Q3',
+        3 => 'D3',
+        4 => 'D0',
+        5 => '~CE',
+        6 => 'Q0',
+        7 => '~TC',
+        8 => 'GND',
+        9 => 'MR',
+        10 => 'UP/~DN',
+        11 => 'Q1',
+        12 => 'D1',
+        13 => 'D2',
+        14 => 'Q2',
+        15 => 'CP',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   4518 => 
   array (
     'description' => 'Dual synchronous BCD counter',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4518b.pdf',
     'pins' => 
     array (
-      0 => 
+      '1CP0' => 
       array (
-        'num' => '1',
-        'sym' => '1CP0',
         'desc' => 'counter 1 clock input (low-to-high triggered)',
       ),
-      1 => 
+      '1~CP~1' => 
       array (
-        'num' => '2',
-        'sym' => '1~CP~1',
         'desc' => 'counter 1 clock input (high-to-low triggered)',
       ),
-      2 => 
+      '1Q0' => 
       array (
-        'num' => '3',
-        'sym' => '1Q0',
         'desc' => 'counter 1 output',
       ),
-      3 => 
+      '1Q1' => 
       array (
-        'num' => '4',
-        'sym' => '1Q1',
         'desc' => 'counter 1 output',
       ),
-      4 => 
+      '1Q2' => 
       array (
-        'num' => '5',
-        'sym' => '1Q2',
         'desc' => 'counter 1 output',
       ),
-      5 => 
+      '1Q3' => 
       array (
-        'num' => '6',
-        'sym' => '1Q3',
         'desc' => 'counter 1 output',
       ),
-      6 => 
+      '1MR' => 
       array (
-        'num' => '7',
-        'sym' => '1MR',
         'desc' => 'counter 1 master reset (active high)',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '2CP0' => 
       array (
-        'num' => '9',
-        'sym' => '2CP0',
         'desc' => 'counter 2 clock input (low-to-high triggered)',
       ),
-      9 => 
+      '2~CP~1' => 
       array (
-        'num' => '10',
-        'sym' => '2~CP~1',
         'desc' => 'counter 2 clock input (high-to-low triggered)',
       ),
-      10 => 
+      '2Q0' => 
       array (
-        'num' => '11',
-        'sym' => '2Q0',
         'desc' => 'counter 2 output',
       ),
-      11 => 
+      '2Q1' => 
       array (
-        'num' => '12',
-        'sym' => '2Q1',
         'desc' => 'counter 2 output',
       ),
-      12 => 
+      '2Q2' => 
       array (
-        'num' => '13',
-        'sym' => '2Q2',
         'desc' => 'counter 2 output',
       ),
-      13 => 
+      '2Q3' => 
       array (
-        'num' => '14',
-        'sym' => '2Q3',
         'desc' => 'counter 2 output',
       ),
-      14 => 
+      '2MR' => 
       array (
-        'num' => '15',
-        'sym' => '2MR',
         'desc' => 'counter 2 master reset (active high)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -5944,110 +5199,98 @@
       2 => 'If n~CP~1 is high, the counter advances on a low-to-high transition of nCP0.',
       3 => 'If nCP0 is low, the counter advances on a high-to-low transition of n~CP~1.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1CP0',
+        2 => '1~CP~1',
+        3 => '1Q0',
+        4 => '1Q1',
+        5 => '1Q2',
+        6 => '1Q3',
+        7 => '1MR',
+        8 => 'GND',
+        9 => '2CP0',
+        10 => '2~CP~1',
+        11 => '2Q0',
+        12 => '2Q1',
+        13 => '2Q2',
+        14 => '2Q3',
+        15 => '2MR',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   4520 => 
   array (
     'description' => 'Dual 4-bit synchronous binary counter',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4520b.pdf',
     'pins' => 
     array (
-      0 => 
+      '1CP0' => 
       array (
-        'num' => '1',
-        'sym' => '1CP0',
         'desc' => 'counter 1 clock input (low-to-high triggered)',
       ),
-      1 => 
+      '1~CP~1' => 
       array (
-        'num' => '2',
-        'sym' => '1~CP~1',
         'desc' => 'counter 1 clock input (high-to-low triggered)',
       ),
-      2 => 
+      '1Q0' => 
       array (
-        'num' => '3',
-        'sym' => '1Q0',
         'desc' => 'counter 1 output',
       ),
-      3 => 
+      '1Q1' => 
       array (
-        'num' => '4',
-        'sym' => '1Q1',
         'desc' => 'counter 1 output',
       ),
-      4 => 
+      '1Q2' => 
       array (
-        'num' => '5',
-        'sym' => '1Q2',
         'desc' => 'counter 1 output',
       ),
-      5 => 
+      '1Q3' => 
       array (
-        'num' => '6',
-        'sym' => '1Q3',
         'desc' => 'counter 1 output',
       ),
-      6 => 
+      '1MR' => 
       array (
-        'num' => '7',
-        'sym' => '1MR',
         'desc' => 'counter 1 master reset (active high)',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '2CP0' => 
       array (
-        'num' => '9',
-        'sym' => '2CP0',
         'desc' => 'counter 2 clock input (low-to-high triggered)',
       ),
-      9 => 
+      '2~CP~1' => 
       array (
-        'num' => '10',
-        'sym' => '2~CP~1',
         'desc' => 'counter 2 clock input (high-to-low triggered)',
       ),
-      10 => 
+      '2Q0' => 
       array (
-        'num' => '11',
-        'sym' => '2Q0',
         'desc' => 'counter 2 output',
       ),
-      11 => 
+      '2Q1' => 
       array (
-        'num' => '12',
-        'sym' => '2Q1',
         'desc' => 'counter 2 output',
       ),
-      12 => 
+      '2Q2' => 
       array (
-        'num' => '13',
-        'sym' => '2Q2',
         'desc' => 'counter 2 output',
       ),
-      13 => 
+      '2Q3' => 
       array (
-        'num' => '14',
-        'sym' => '2Q3',
         'desc' => 'counter 2 output',
       ),
-      14 => 
+      '2MR' => 
       array (
-        'num' => '15',
-        'sym' => '2MR',
         'desc' => 'counter 2 master reset (active high)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -6058,110 +5301,98 @@
       2 => 'If n~CP~1 is high, the counter advances on a low-to-high transition of nCP0.',
       3 => 'If nCP0 is low, the counter advances on a high-to-low transition of n~CP~1.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1CP0',
+        2 => '1~CP~1',
+        3 => '1Q0',
+        4 => '1Q1',
+        5 => '1Q2',
+        6 => '1Q3',
+        7 => '1MR',
+        8 => 'GND',
+        9 => '2CP0',
+        10 => '2~CP~1',
+        11 => '2Q0',
+        12 => '2Q1',
+        13 => '2Q2',
+        14 => '2Q3',
+        15 => '2MR',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   4526 => 
   array (
     'description' => 'Programmable 4-bit binary down counter',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4526b.pdf',
     'pins' => 
     array (
-      0 => 
+      'Q3' => 
       array (
-        'num' => '1',
-        'sym' => 'Q3',
         'desc' => 'count output',
       ),
-      1 => 
+      'P3' => 
       array (
-        'num' => '2',
-        'sym' => 'P3',
         'desc' => 'parallel input',
       ),
-      2 => 
+      'PL' => 
       array (
-        'num' => '3',
-        'sym' => 'PL',
         'desc' => 'parallel load (active high)',
       ),
-      3 => 
+      '~CP~1' => 
       array (
-        'num' => '4',
-        'sym' => '~CP~1',
         'desc' => 'clock input (high-to-low triggered)',
       ),
-      4 => 
+      'P0' => 
       array (
-        'num' => '5',
-        'sym' => 'P0',
         'desc' => 'parallel input',
       ),
-      5 => 
+      'CP0' => 
       array (
-        'num' => '6',
-        'sym' => 'CP0',
         'desc' => 'clock input (low-to-high triggered)',
       ),
-      6 => 
+      'Q0' => 
       array (
-        'num' => '7',
-        'sym' => 'Q0',
         'desc' => 'count output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'Q1' => 
       array (
-        'num' => '9',
-        'sym' => 'Q1',
         'desc' => 'count output',
       ),
-      9 => 
+      'MR' => 
       array (
-        'num' => '10',
-        'sym' => 'MR',
         'desc' => 'asynchronous master reset (active high)',
       ),
-      10 => 
+      'P1' => 
       array (
-        'num' => '11',
-        'sym' => 'P1',
         'desc' => 'parallel input',
       ),
-      11 => 
+      'TC' => 
       array (
-        'num' => '12',
-        'sym' => 'TC',
         'desc' => 'terminal count output',
       ),
-      12 => 
+      'CF' => 
       array (
-        'num' => '13',
-        'sym' => 'CF',
         'desc' => 'cascade feedback input',
       ),
-      13 => 
+      'P2' => 
       array (
-        'num' => '14',
-        'sym' => 'P2',
         'desc' => 'parallel input',
       ),
-      14 => 
+      'Q2' => 
       array (
-        'num' => '15',
-        'sym' => 'Q2',
         'desc' => 'count output',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -6172,110 +5403,98 @@
       2 => 'TC goes high when the count is 0, CF is high, and PL is low.',
       3 => 'For a single-stage divide-by-n circuit, connect the TC output to PL and set the P0-P3 inputs to n.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'Q3',
+        2 => 'P3',
+        3 => 'PL',
+        4 => '~CP~1',
+        5 => 'P0',
+        6 => 'CP0',
+        7 => 'Q0',
+        8 => 'GND',
+        9 => 'Q1',
+        10 => 'MR',
+        11 => 'P1',
+        12 => 'TC',
+        13 => 'CF',
+        14 => 'P2',
+        15 => 'Q2',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   4528 => 
   array (
     'description' => 'Dual retriggerable monostable multivibrator with reset',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4528b.pdf',
     'pins' => 
     array (
-      0 => 
+      '1CEXT' => 
       array (
-        'num' => '1',
-        'sym' => '1CEXT',
         'desc' => 'external capacitor connection (connect to capacitor and ground)',
       ),
-      1 => 
+      '1REXT/CEXT' => 
       array (
-        'num' => '2',
-        'sym' => '1REXT/CEXT',
         'desc' => 'external capacitor/resistor connection',
       ),
-      2 => 
+      '1~CD' => 
       array (
-        'num' => '3',
-        'sym' => '1~CD',
         'desc' => 'clear direct input (active low)',
       ),
-      3 => 
+      '1B' => 
       array (
-        'num' => '4',
-        'sym' => '1B',
         'desc' => 'input (low-to-high triggered)',
       ),
-      4 => 
+      '1~A' => 
       array (
-        'num' => '5',
-        'sym' => '1~A',
         'desc' => 'input (high-to-low triggered)',
       ),
-      5 => 
+      '1Q' => 
       array (
-        'num' => '6',
-        'sym' => '1Q',
         'desc' => 'output',
       ),
-      6 => 
+      '1~Q' => 
       array (
-        'num' => '7',
-        'sym' => '1~Q',
         'desc' => 'complementary output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '2~Q' => 
       array (
-        'num' => '9',
-        'sym' => '2~Q',
         'desc' => 'complementary output',
       ),
-      9 => 
+      '2Q' => 
       array (
-        'num' => '10',
-        'sym' => '2Q',
         'desc' => 'output',
       ),
-      10 => 
+      '2~A' => 
       array (
-        'num' => '11',
-        'sym' => '2~A',
         'desc' => 'input (high-to-low triggered)',
       ),
-      11 => 
+      '2B' => 
       array (
-        'num' => '12',
-        'sym' => '2B',
         'desc' => 'input (low-to-high triggered)',
       ),
-      12 => 
+      '2~CD' => 
       array (
-        'num' => '13',
-        'sym' => '2~CD',
         'desc' => 'clear direct input (active low)',
       ),
-      13 => 
+      '2REXT/CEXT' => 
       array (
-        'num' => '14',
-        'sym' => '2REXT/CEXT',
         'desc' => 'external capacitor/resistor connection',
       ),
-      14 => 
+      '2CEXT' => 
       array (
-        'num' => '15',
-        'sym' => '2CEXT',
         'desc' => 'external capacitor connection (connect to capacitor and ground)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -6308,110 +5527,98 @@
       5 => '(CD4528) For C__EXT > 0.01 µF and Vcc = 5V, output pulse width = 0.2 × R__EXT × C__EXT.',
       6 => '(HEF4528) For C__EXT > 0.01 µF and Vcc = 5V, output pulse width = 0.42 × R__EXT × C__EXT.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1CEXT',
+        2 => '1REXT/CEXT',
+        3 => '1~CD',
+        4 => '1B',
+        5 => '1~A',
+        6 => '1Q',
+        7 => '1~Q',
+        8 => 'GND',
+        9 => '2~Q',
+        10 => '2Q',
+        11 => '2~A',
+        12 => '2B',
+        13 => '2~CD',
+        14 => '2REXT/CEXT',
+        15 => '2CEXT',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   4538 => 
   array (
     'description' => 'Dual retriggerable precision monostable multivibrator with reset',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4538b.pdf',
     'pins' => 
     array (
-      0 => 
+      '1CEXT' => 
       array (
-        'num' => '1',
-        'sym' => '1CEXT',
         'desc' => 'external capacitor connection (connect to capacitor and ground)',
       ),
-      1 => 
+      '1REXT/CEXT' => 
       array (
-        'num' => '2',
-        'sym' => '1REXT/CEXT',
         'desc' => 'external capacitor/resistor connection',
       ),
-      2 => 
+      '1~CD' => 
       array (
-        'num' => '3',
-        'sym' => '1~CD',
         'desc' => 'clear direct input (active low)',
       ),
-      3 => 
+      '1B' => 
       array (
-        'num' => '4',
-        'sym' => '1B',
         'desc' => 'input (low-to-high triggered)',
       ),
-      4 => 
+      '1~A' => 
       array (
-        'num' => '5',
-        'sym' => '1~A',
         'desc' => 'input (high-to-low triggered)',
       ),
-      5 => 
+      '1Q' => 
       array (
-        'num' => '6',
-        'sym' => '1Q',
         'desc' => 'output',
       ),
-      6 => 
+      '1~Q' => 
       array (
-        'num' => '7',
-        'sym' => '1~Q',
         'desc' => 'complementary output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '2~Q' => 
       array (
-        'num' => '9',
-        'sym' => '2~Q',
         'desc' => 'complementary output',
       ),
-      9 => 
+      '2Q' => 
       array (
-        'num' => '10',
-        'sym' => '2Q',
         'desc' => 'output',
       ),
-      10 => 
+      '2~A' => 
       array (
-        'num' => '11',
-        'sym' => '2~A',
         'desc' => 'input (high-to-low triggered)',
       ),
-      11 => 
+      '2B' => 
       array (
-        'num' => '12',
-        'sym' => '2B',
         'desc' => 'input (low-to-high triggered)',
       ),
-      12 => 
+      '2~CD' => 
       array (
-        'num' => '13',
-        'sym' => '2~CD',
         'desc' => 'clear direct input (active low)',
       ),
-      13 => 
+      '2REXT/CEXT' => 
       array (
-        'num' => '14',
-        'sym' => '2REXT/CEXT',
         'desc' => 'external capacitor/resistor connection',
       ),
-      14 => 
+      '2CEXT' => 
       array (
-        'num' => '15',
-        'sym' => '2CEXT',
         'desc' => 'external capacitor connection (connect to capacitor and ground)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -6446,98 +5653,82 @@
       5 => 'Output pulse width = R__EXT × C__EXT.',
       6 => '(74HC4538) Output pulse width = 0.7 × R__EXT × C__EXT.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1CEXT',
+        2 => '1REXT/CEXT',
+        3 => '1~CD',
+        4 => '1B',
+        5 => '1~A',
+        6 => '1Q',
+        7 => '1~Q',
+        8 => 'GND',
+        9 => '2~Q',
+        10 => '2Q',
+        11 => '2~A',
+        12 => '2B',
+        13 => '2~CD',
+        14 => '2REXT/CEXT',
+        15 => '2CEXT',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   4541 => 
   array (
     'description' => 'Programmable timer',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4541b.pdf',
     'pins' => 
     array (
-      0 => 
+      'R__TC' => 
       array (
-        'num' => '1',
-        'sym' => 'R__TC',
         'desc' => 'external resistor connection (R__t)',
       ),
-      1 => 
+      'C__TC' => 
       array (
-        'num' => '2',
-        'sym' => 'C__TC',
         'desc' => 'external capacitor connection (C__t)',
       ),
-      2 => 
+      'RS' => 
       array (
-        'num' => '3',
-        'sym' => 'RS',
         'desc' => 'external resistor connection (R__S) or external clock input',
       ),
-      3 => 
+      '~AR' => 
       array (
-        'num' => '4',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      4 => 
-      array (
-        'num' => '5',
-        'sym' => '~AR',
         'desc' => 'auto reset input (active low)',
       ),
-      5 => 
+      'MR' => 
       array (
-        'num' => '6',
-        'sym' => 'MR',
         'desc' => 'master reset input (active high)',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      'O' => 
       array (
-        'num' => '8',
-        'sym' => 'O',
         'desc' => 'output',
       ),
-      8 => 
+      'PH' => 
       array (
-        'num' => '9',
-        'sym' => 'PH',
         'desc' => 'phase input',
       ),
-      9 => 
+      'MODE' => 
       array (
-        'num' => '10',
-        'sym' => 'MODE',
         'desc' => 'mode select (single cycle or continuous)',
       ),
-      10 => 
+      'A0' => 
       array (
-        'num' => '11',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      11 => 
-      array (
-        'num' => '12',
-        'sym' => 'A0',
         'desc' => 'divider input',
       ),
-      12 => 
+      'A1' => 
       array (
-        'num' => '13',
-        'sym' => 'A1',
         'desc' => 'divider input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -6580,110 +5771,96 @@
       5 => 'When MODE is high, the output oscillates continuously.',
       6 => 'When MODE is low, the output changes only once, after a single cycle.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'R__TC',
+        2 => 'C__TC',
+        3 => 'RS',
+        4 => 'NC',
+        5 => '~AR',
+        6 => 'MR',
+        7 => 'GND',
+        8 => 'O',
+        9 => 'PH',
+        10 => 'MODE',
+        11 => 'NC',
+        12 => 'A0',
+        13 => 'A1',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   4555 => 
   array (
     'description' => 'Dual 1-of-4 decoder/demultiplexer',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4555b.pdf',
     'pins' => 
     array (
-      0 => 
+      '1~E' => 
       array (
-        'num' => '1',
-        'sym' => '1~E',
         'desc' => 'enable input (active low)',
       ),
-      1 => 
+      '1A__0' => 
       array (
-        'num' => '2',
-        'sym' => '1A__0',
         'desc' => 'address input',
       ),
-      2 => 
+      '1A__1' => 
       array (
-        'num' => '3',
-        'sym' => '1A__1',
         'desc' => 'address input',
       ),
-      3 => 
+      '1Y__0' => 
       array (
-        'num' => '4',
-        'sym' => '1Y__0',
         'desc' => 'output',
       ),
-      4 => 
+      '1Y__1' => 
       array (
-        'num' => '5',
-        'sym' => '1Y__1',
         'desc' => 'output',
       ),
-      5 => 
+      '1Y__2' => 
       array (
-        'num' => '6',
-        'sym' => '1Y__2',
         'desc' => 'output',
       ),
-      6 => 
+      '1Y__3' => 
       array (
-        'num' => '7',
-        'sym' => '1Y__3',
         'desc' => 'output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '2Y__3' => 
       array (
-        'num' => '9',
-        'sym' => '2Y__3',
         'desc' => 'output',
       ),
-      9 => 
+      '2Y__2' => 
       array (
-        'num' => '10',
-        'sym' => '2Y__2',
         'desc' => 'output',
       ),
-      10 => 
+      '2Y__1' => 
       array (
-        'num' => '11',
-        'sym' => '2Y__1',
         'desc' => 'output',
       ),
-      11 => 
+      '2Y__0' => 
       array (
-        'num' => '12',
-        'sym' => '2Y__0',
         'desc' => 'output',
       ),
-      12 => 
+      '2A__1' => 
       array (
-        'num' => '13',
-        'sym' => '2A__1',
         'desc' => 'address input',
       ),
-      13 => 
+      '2A__0' => 
       array (
-        'num' => '14',
-        'sym' => '2A__0',
         'desc' => 'address input',
       ),
-      14 => 
+      '2~E' => 
       array (
-        'num' => '15',
-        'sym' => '2~E',
         'desc' => 'enable input (active low)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -6692,110 +5869,98 @@
       0 => 'Outputs are mutually exclusive, active high.',
       1 => 'When n~E is high, all outputs nY are low.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1~E',
+        2 => '1A__0',
+        3 => '1A__1',
+        4 => '1Y__0',
+        5 => '1Y__1',
+        6 => '1Y__2',
+        7 => '1Y__3',
+        8 => 'GND',
+        9 => '2Y__3',
+        10 => '2Y__2',
+        11 => '2Y__1',
+        12 => '2Y__0',
+        13 => '2A__1',
+        14 => '2A__0',
+        15 => '2~E',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   4556 => 
   array (
     'description' => 'Dual 1-of-4 decoder/demultiplexer; inverting',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4556b.pdf',
     'pins' => 
     array (
-      0 => 
+      '1~E' => 
       array (
-        'num' => '1',
-        'sym' => '1~E',
         'desc' => 'enable input (active low)',
       ),
-      1 => 
+      '1A__0' => 
       array (
-        'num' => '2',
-        'sym' => '1A__0',
         'desc' => 'address input',
       ),
-      2 => 
+      '1A__1' => 
       array (
-        'num' => '3',
-        'sym' => '1A__1',
         'desc' => 'address input',
       ),
-      3 => 
+      '1~Y~__0' => 
       array (
-        'num' => '4',
-        'sym' => '1~Y~__0',
         'desc' => 'output',
       ),
-      4 => 
+      '1~Y~__1' => 
       array (
-        'num' => '5',
-        'sym' => '1~Y~__1',
         'desc' => 'output',
       ),
-      5 => 
+      '1~Y~__2' => 
       array (
-        'num' => '6',
-        'sym' => '1~Y~__2',
         'desc' => 'output',
       ),
-      6 => 
+      '1~Y~__3' => 
       array (
-        'num' => '7',
-        'sym' => '1~Y~__3',
         'desc' => 'output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '2~Y~__3' => 
       array (
-        'num' => '9',
-        'sym' => '2~Y~__3',
         'desc' => 'output',
       ),
-      9 => 
+      '2~Y~__2' => 
       array (
-        'num' => '10',
-        'sym' => '2~Y~__2',
         'desc' => 'output',
       ),
-      10 => 
+      '2~Y~__1' => 
       array (
-        'num' => '11',
-        'sym' => '2~Y~__1',
         'desc' => 'output',
       ),
-      11 => 
+      '2~Y~__0' => 
       array (
-        'num' => '12',
-        'sym' => '2~Y~__0',
         'desc' => 'output',
       ),
-      12 => 
+      '2A__1' => 
       array (
-        'num' => '13',
-        'sym' => '2A__1',
         'desc' => 'address input',
       ),
-      13 => 
+      '2A__0' => 
       array (
-        'num' => '14',
-        'sym' => '2A__0',
         'desc' => 'address input',
       ),
-      14 => 
+      '2~E' => 
       array (
-        'num' => '15',
-        'sym' => '2~E',
         'desc' => 'enable input (active low)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -6804,110 +5969,98 @@
       0 => 'Outputs are mutually exclusive, active low.',
       1 => 'When n~E is high, all outputs n~Y~ are high.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1~E',
+        2 => '1A__0',
+        3 => '1A__1',
+        4 => '1~Y~__0',
+        5 => '1~Y~__1',
+        6 => '1~Y~__2',
+        7 => '1~Y~__3',
+        8 => 'GND',
+        9 => '2~Y~__3',
+        10 => '2~Y~__2',
+        11 => '2~Y~__1',
+        12 => '2~Y~__0',
+        13 => '2A__1',
+        14 => '2A__0',
+        15 => '2~E',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   4557 => 
   array (
     'description' => '1-to-64 bit variable length shift register',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4557b.pdf',
     'pins' => 
     array (
-      0 => 
+      'L__2' => 
       array (
-        'num' => '1',
-        'sym' => 'L__2',
         'desc' => 'length control input',
       ),
-      1 => 
+      'L__1' => 
       array (
-        'num' => '2',
-        'sym' => 'L__1',
         'desc' => 'length control input',
       ),
-      2 => 
+      'MR' => 
       array (
-        'num' => '3',
-        'sym' => 'MR',
         'desc' => 'asynchronous master reset',
       ),
-      3 => 
+      'CP__0' => 
       array (
-        'num' => '4',
-        'sym' => 'CP__0',
         'desc' => 'clock input (low-to-high edge-triggered)',
       ),
-      4 => 
+      '~CP~__1' => 
       array (
-        'num' => '5',
-        'sym' => '~CP~__1',
         'desc' => 'clock input (high-to-low edge-triggered)',
       ),
-      5 => 
+      'D__B' => 
       array (
-        'num' => '6',
-        'sym' => 'D__B',
         'desc' => 'data input',
       ),
-      6 => 
+      'D__A' => 
       array (
-        'num' => '7',
-        'sym' => 'D__A',
         'desc' => 'data input',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'A/~B' => 
       array (
-        'num' => '9',
-        'sym' => 'A/~B',
         'desc' => 'select data input',
       ),
-      9 => 
+      'Q' => 
       array (
-        'num' => '10',
-        'sym' => 'Q',
         'desc' => 'output',
       ),
-      10 => 
+      '~Q' => 
       array (
-        'num' => '11',
-        'sym' => '~Q',
         'desc' => 'complementary output',
       ),
-      11 => 
+      'L__32' => 
       array (
-        'num' => '12',
-        'sym' => 'L__32',
         'desc' => 'length input',
       ),
-      12 => 
+      'L__16' => 
       array (
-        'num' => '13',
-        'sym' => 'L__16',
         'desc' => 'length input',
       ),
-      13 => 
+      'L__8' => 
       array (
-        'num' => '14',
-        'sym' => 'L__8',
         'desc' => 'length input',
       ),
-      14 => 
+      'L__4' => 
       array (
-        'num' => '15',
-        'sym' => 'L__4',
         'desc' => 'length input',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -6918,217 +6071,193 @@
       2 => 'When A/~B is high, a clock pulse shifts in data from D__A. When low, a clock pulse shifts in data from D__B.',
       3 => 'When MR is high, the register is reset, Q is forced low, and ~Q is forced high.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'L__2',
+        2 => 'L__1',
+        3 => 'MR',
+        4 => 'CP__0',
+        5 => '~CP~__1',
+        6 => 'D__B',
+        7 => 'D__A',
+        8 => 'GND',
+        9 => 'A/~B',
+        10 => 'Q',
+        11 => '~Q',
+        12 => 'L__32',
+        13 => 'L__16',
+        14 => 'L__8',
+        15 => 'L__4',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   4572 => 
   array (
     'description' => 'Hex gate (four inverters, one 2-input NOR gate, one 2-input NAND gate)',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/cd4572ub.pdf',
     'pins' => 
     array (
-      0 => 
+      '~A' => 
       array (
-        'num' => '1',
-        'sym' => '~A',
         'desc' => 'inverter 1 output',
       ),
-      1 => 
+      'A' => 
       array (
-        'num' => '2',
-        'sym' => 'A',
         'desc' => 'inverter 1 input',
       ),
-      2 => 
+      '~B' => 
       array (
-        'num' => '3',
-        'sym' => '~B',
         'desc' => 'inverter 2 output',
       ),
-      3 => 
+      'B' => 
       array (
-        'num' => '4',
-        'sym' => 'B',
         'desc' => 'inverter 2 input',
       ),
-      4 => 
+      'C NOR D' => 
       array (
-        'num' => '5',
-        'sym' => 'C NOR D',
         'desc' => 'NOR gate output',
       ),
-      5 => 
+      'C' => 
       array (
-        'num' => '6',
-        'sym' => 'C',
         'desc' => 'NOR gate input',
       ),
-      6 => 
+      'D' => 
       array (
-        'num' => '7',
-        'sym' => 'D',
         'desc' => 'NOR gate input',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '~E' => 
       array (
-        'num' => '9',
-        'sym' => '~E',
         'desc' => 'inverter 3 output',
       ),
-      9 => 
+      'E' => 
       array (
-        'num' => '10',
-        'sym' => 'E',
         'desc' => 'inverter 3 input',
       ),
-      10 => 
+      '~F' => 
       array (
-        'num' => '11',
-        'sym' => '~F',
         'desc' => 'inverter 4 output',
       ),
-      11 => 
+      'F' => 
       array (
-        'num' => '12',
-        'sym' => 'F',
         'desc' => 'inverter 4 input',
       ),
-      12 => 
+      'G NAND H' => 
       array (
-        'num' => '13',
-        'sym' => 'G NAND H',
         'desc' => 'NAND gate output',
       ),
-      13 => 
+      'G' => 
       array (
-        'num' => '14',
-        'sym' => 'G',
         'desc' => 'NAND gate input',
       ),
-      14 => 
+      'H' => 
       array (
-        'num' => '15',
-        'sym' => 'H',
         'desc' => 'NAND gate input',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~A',
+        2 => 'A',
+        3 => '~B',
+        4 => 'B',
+        5 => 'C NOR D',
+        6 => 'C',
+        7 => 'D',
+        8 => 'GND',
+        9 => '~E',
+        10 => 'E',
+        11 => '~F',
+        12 => 'F',
+        13 => 'G NAND H',
+        14 => 'G',
+        15 => 'H',
+        16 => 'Vcc',
       ),
     ),
   ),
   4585 => 
   array (
     'description' => '4-bit magnitude comparator',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '4000',
     'datasheet' => 'http://www.standardics.nxp.com/products/hef/datasheet/hef4585b.pdf',
     'pins' => 
     array (
-      0 => 
+      'B__2' => 
       array (
-        'num' => '1',
-        'sym' => 'B__2',
         'desc' => 'word B input',
       ),
-      1 => 
+      'A__2' => 
       array (
-        'num' => '2',
-        'sym' => 'A__2',
         'desc' => 'word A input',
       ),
-      2 => 
+      'Q__A=B' => 
       array (
-        'num' => '3',
-        'sym' => 'Q__A=B',
         'desc' => 'A = B output',
       ),
-      3 => 
+      'I__A>B' => 
       array (
-        'num' => '4',
-        'sym' => 'I__A>B',
         'desc' => 'A > B expansion input',
       ),
-      4 => 
+      'I__A<B' => 
       array (
-        'num' => '5',
-        'sym' => 'I__A<B',
         'desc' => 'A < B expansion input',
       ),
-      5 => 
+      'I__A=B' => 
       array (
-        'num' => '6',
-        'sym' => 'I__A=B',
         'desc' => 'A = B expansion input',
       ),
-      6 => 
+      'A__1' => 
       array (
-        'num' => '7',
-        'sym' => 'A__1',
         'desc' => 'word A input',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'B__1' => 
       array (
-        'num' => '9',
-        'sym' => 'B__1',
         'desc' => 'word B input',
       ),
-      9 => 
+      'A__0' => 
       array (
-        'num' => '10',
-        'sym' => 'A__0',
         'desc' => 'word A input',
       ),
-      10 => 
+      'B__0' => 
       array (
-        'num' => '11',
-        'sym' => 'B__0',
         'desc' => 'word B input',
       ),
-      11 => 
+      'Q__A<B' => 
       array (
-        'num' => '12',
-        'sym' => 'Q__A<B',
         'desc' => 'A < B output',
       ),
-      12 => 
+      'Q__A>B' => 
       array (
-        'num' => '13',
-        'sym' => 'Q__A>B',
         'desc' => 'A > B output',
       ),
-      13 => 
+      'B__3' => 
       array (
-        'num' => '14',
-        'sym' => 'B__3',
         'desc' => 'word B input',
       ),
-      14 => 
+      'A__3' => 
       array (
-        'num' => '15',
-        'sym' => 'A__3',
         'desc' => 'word A input',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -7136,6 +6265,28 @@
     array (
       0 => 'The least significant (or only) comparator in a chain should have I__A=B and I__A>B tied high and I__A<B tied low.',
       1 => 'To compare more than 4 bits, connect Q__A<B and Q__A=B to the inputs of the next significant comparator. I__A>B of the next significant comparator should be tied high.',
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'B__2',
+        2 => 'A__2',
+        3 => 'Q__A=B',
+        4 => 'I__A>B',
+        5 => 'I__A<B',
+        6 => 'I__A=B',
+        7 => 'A__1',
+        8 => 'GND',
+        9 => 'B__1',
+        10 => 'A__0',
+        11 => 'B__0',
+        12 => 'Q__A<B',
+        13 => 'Q__A>B',
+        14 => 'B__3',
+        15 => 'A__3',
+        16 => 'Vcc',
+      ),
     ),
   ),
   '4N35M' => 
@@ -7155,46 +6306,28 @@
       9 => 'H11A4M',
       10 => 'H11A5M',
     ),
-    'package' => 'DIP',
-    'pincount' => 6,
     'family' => 'Fairchild',
     'datasheet' => 'http://www.fairchildsemi.com/ds/4N/4N35-M.pdf',
     'pins' => 
     array (
-      0 => 
+      'A' => 
       array (
-        'num' => '1',
-        'sym' => 'A',
         'desc' => 'anode',
       ),
-      1 => 
+      'K' => 
       array (
-        'num' => '2',
-        'sym' => 'K',
         'desc' => 'cathode',
       ),
-      2 => 
+      'E' => 
       array (
-        'num' => '3',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      3 => 
-      array (
-        'num' => '4',
-        'sym' => 'E',
         'desc' => 'emitter',
       ),
-      4 => 
+      'C' => 
       array (
-        'num' => '5',
-        'sym' => 'C',
         'desc' => 'collector',
       ),
-      5 => 
+      'B' => 
       array (
-        'num' => '6',
-        'sym' => 'B',
         'desc' => 'base',
       ),
     ),
@@ -7239,134 +6372,104 @@
         'unit' => '',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'A',
+        2 => 'K',
+        3 => 'NC',
+        4 => 'E',
+        5 => 'C',
+        6 => 'B',
+      ),
+    ),
   ),
   54374 => 
   array (
     'description' => 'Octal D-type edge-triggered flip-flops with 3-state outputs',
-    'package' => 'DIP',
-    'pincount' => 20,
     'family' => '5400',
     'datasheet' => 'http://www.alldatasheet.com/datasheet-pdf/pdf/27731/TI/SN54ALS374A.html',
     'pins' => 
     array (
-      0 => 
+      '~OE' => 
       array (
-        'num' => '1',
-        'sym' => '~OE',
         'desc' => 'output enable (active low)',
       ),
-      1 => 
+      '1Q' => 
       array (
-        'num' => '2',
-        'sym' => '1Q',
         'desc' => 'flip-flop output',
       ),
-      2 => 
+      '1D' => 
       array (
-        'num' => '3',
-        'sym' => '1D',
         'desc' => 'data input',
       ),
-      3 => 
+      '2D' => 
       array (
-        'num' => '4',
-        'sym' => '2D',
         'desc' => 'data input',
       ),
-      4 => 
+      '2Q' => 
       array (
-        'num' => '5',
-        'sym' => '2Q',
         'desc' => 'flip-flop output',
       ),
-      5 => 
+      '3Q' => 
       array (
-        'num' => '6',
-        'sym' => '3Q',
         'desc' => 'flip-flop output',
       ),
-      6 => 
+      '3D' => 
       array (
-        'num' => '7',
-        'sym' => '3D',
         'desc' => 'data input',
       ),
-      7 => 
+      '4D' => 
       array (
-        'num' => '8',
-        'sym' => '4D',
         'desc' => 'data input',
       ),
-      8 => 
+      '4Q' => 
       array (
-        'num' => '9',
-        'sym' => '4Q',
         'desc' => 'flip-flop output',
       ),
-      9 => 
+      'GND' => 
       array (
-        'num' => '10',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      10 => 
+      'CLK' => 
       array (
-        'num' => '11',
-        'sym' => 'CLK',
         'desc' => 'clock input (low-to-high, edge-triggered)',
       ),
-      11 => 
+      '5Q' => 
       array (
-        'num' => '12',
-        'sym' => '5Q',
         'desc' => 'flip-flop output',
       ),
-      12 => 
+      '5D' => 
       array (
-        'num' => '13',
-        'sym' => '5D',
         'desc' => 'data input',
       ),
-      13 => 
+      '6D' => 
       array (
-        'num' => '14',
-        'sym' => '6D',
         'desc' => 'data input',
       ),
-      14 => 
+      '6Q' => 
       array (
-        'num' => '15',
-        'sym' => '6Q',
         'desc' => 'flip-flop output',
       ),
-      15 => 
+      '7Q' => 
       array (
-        'num' => '16',
-        'sym' => '7Q',
         'desc' => 'flip-flop output',
       ),
-      16 => 
+      '7D' => 
       array (
-        'num' => '17',
-        'sym' => '7D',
         'desc' => 'data input',
       ),
-      17 => 
+      'D8D7' => 
       array (
-        'num' => '18',
-        'sym' => 'D8D7',
         'desc' => 'data input',
       ),
-      18 => 
+      '8Q' => 
       array (
-        'num' => '19',
-        'sym' => '8Q',
         'desc' => 'flip-flop output',
       ),
-      19 => 
+      'Vcc' => 
       array (
-        'num' => '20',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -7454,61 +6557,69 @@
       0 => '~OE does not affect internal operations of the flip-flops. Old data can be retained or new data can be entered while the outputs are in the high-impedance state',
       1 => 'released april 1982, revised november 1999',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~OE',
+        2 => '1Q',
+        3 => '1D',
+        4 => '2D',
+        5 => '2Q',
+        6 => '3Q',
+        7 => '3D',
+        8 => '4D',
+        9 => '4Q',
+        10 => 'GND',
+        11 => 'CLK',
+        12 => '5Q',
+        13 => '5D',
+        14 => '6D',
+        15 => '6Q',
+        16 => '7Q',
+        17 => '7D',
+        18 => 'D8D7',
+        19 => '8Q',
+        20 => 'Vcc',
+      ),
+    ),
   ),
   555 => 
   array (
     'description' => 'Timer',
-    'package' => 'DIP',
-    'pincount' => 8,
     'datasheet' => 'http://www.datasheetcatalog.org/datasheet/philips/NE_SA_SE555_C_2.pdf',
     'pins' => 
     array (
-      0 => 
+      'GND' => 
       array (
-        'num' => '1',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      1 => 
+      'TRIG' => 
       array (
-        'num' => '2',
-        'sym' => 'TRIG',
         'desc' => 'trigger',
       ),
-      2 => 
+      'OUT' => 
       array (
-        'num' => '3',
-        'sym' => 'OUT',
         'desc' => 'output',
       ),
-      3 => 
+      '~RESET' => 
       array (
-        'num' => '4',
-        'sym' => '~RESET',
         'desc' => 'reset (active low)',
       ),
-      4 => 
+      'CV' => 
       array (
-        'num' => '5',
-        'sym' => 'CV',
         'desc' => 'control voltage',
       ),
-      5 => 
+      'THR' => 
       array (
-        'num' => '6',
-        'sym' => 'THR',
         'desc' => 'threshold',
       ),
-      6 => 
+      'DIS' => 
       array (
-        'num' => '7',
-        'sym' => 'DIS',
         'desc' => 'discharge',
       ),
-      7 => 
+      'Vcc' => 
       array (
-        'num' => '8',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -7540,103 +6651,107 @@
       2 => 'In astable mode, pulse high time = 0.693*(R1+R2)*C',
       3 => 'In astable mode, pulse low time = 0.693*R2*C',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'GND',
+        2 => 'TRIG',
+        3 => 'OUT',
+        4 => '~RESET',
+        5 => 'CV',
+        6 => 'THR',
+        7 => 'DIS',
+        8 => 'Vcc',
+      ),
+    ),
   ),
   556 => 
   array (
     'description' => 'Dual timer',
-    'package' => 'DIP',
-    'pincount' => 14,
     'datasheet' => 'http://www.national.com/ds/LM/LM556.pdf',
     'pins' => 
     array (
-      0 => 
+      'DIS 1' => 
       array (
-        'num' => '1',
-        'sym' => 'DIS 1',
         'desc' => 'discharge (timer 1)',
       ),
-      1 => 
+      'THR 1' => 
       array (
-        'num' => '2',
-        'sym' => 'THR 1',
         'desc' => 'threshold (timer 1)',
       ),
-      2 => 
+      'CV 1' => 
       array (
-        'num' => '3',
-        'sym' => 'CV 1',
         'desc' => 'control voltage (timer 1)',
       ),
-      3 => 
+      '~RESET~ 1' => 
       array (
-        'num' => '4',
-        'sym' => '~RESET~ 1',
         'desc' => 'reset (active low, timer 1)',
       ),
-      4 => 
+      'OUT 1' => 
       array (
-        'num' => '5',
-        'sym' => 'OUT 1',
         'desc' => 'output (timer 1)',
       ),
-      5 => 
+      'TRIG 1' => 
       array (
-        'num' => '6',
-        'sym' => 'TRIG 1',
         'desc' => 'trigger (timer 1)',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      'TRIG 2' => 
       array (
-        'num' => '8',
-        'sym' => 'TRIG 2',
         'desc' => 'trigger (timer 2)',
       ),
-      8 => 
+      'OUT 2' => 
       array (
-        'num' => '9',
-        'sym' => 'OUT 2',
         'desc' => 'output (timer 2)',
       ),
-      9 => 
+      '~RESET~ 2' => 
       array (
-        'num' => '10',
-        'sym' => '~RESET~ 2',
         'desc' => 'reset (active low, timer 2)',
       ),
-      10 => 
+      'CV 2' => 
       array (
-        'num' => '11',
-        'sym' => 'CV 2',
         'desc' => 'control voltage (timer 2)',
       ),
-      11 => 
+      'THR 2' => 
       array (
-        'num' => '12',
-        'sym' => 'THR 2',
         'desc' => 'threshold (timer 2)',
       ),
-      12 => 
+      'DIS 2' => 
       array (
-        'num' => '13',
-        'sym' => 'DIS 2',
         'desc' => 'discharge (timer 2)',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
     'notes' => 
     array (
       0 => 'The 556 contains two 555 timers.',
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'DIS 1',
+        2 => 'THR 1',
+        3 => 'CV 1',
+        4 => '~RESET~ 1',
+        5 => 'OUT 1',
+        6 => 'TRIG 1',
+        7 => 'GND',
+        8 => 'TRIG 2',
+        9 => 'OUT 2',
+        10 => '~RESET~ 2',
+        11 => 'CV 2',
+        12 => 'THR 2',
+        13 => 'DIS 2',
+        14 => 'Vcc',
+      ),
     ),
   ),
   62256 => 
@@ -7645,178 +6760,120 @@
     'aliases' => 
     array (
     ),
-    'package' => 'DIP',
-    'pincount' => 28,
     'family' => 'memory',
     'datasheet' => 'http://web.mit.edu/6.115/www/datasheets/62256.pdf',
     'pins' => 
     array (
-      0 => 
+      'A__14' => 
       array (
-        'num' => '1',
-        'sym' => 'A__14',
         'desc' => 'address input',
       ),
-      1 => 
+      'A__12' => 
       array (
-        'num' => '2',
-        'sym' => 'A__12',
         'desc' => 'address input',
       ),
-      2 => 
+      'A__7' => 
       array (
-        'num' => '3',
-        'sym' => 'A__7',
         'desc' => 'address input',
       ),
-      3 => 
+      'A__6' => 
       array (
-        'num' => '4',
-        'sym' => 'A__6',
         'desc' => 'address input',
       ),
-      4 => 
+      'A__5' => 
       array (
-        'num' => '5',
-        'sym' => 'A__5',
         'desc' => 'address input',
       ),
-      5 => 
+      'A__4' => 
       array (
-        'num' => '6',
-        'sym' => 'A__4',
         'desc' => 'address input',
       ),
-      6 => 
+      'A__3' => 
       array (
-        'num' => '7',
-        'sym' => 'A__3',
         'desc' => 'address input',
       ),
-      7 => 
+      'A__2' => 
       array (
-        'num' => '8',
-        'sym' => 'A__2',
         'desc' => 'address input',
       ),
-      8 => 
+      'A__1' => 
       array (
-        'num' => '9',
-        'sym' => 'A__1',
         'desc' => 'address input',
       ),
-      9 => 
+      'A__0' => 
       array (
-        'num' => '10',
-        'sym' => 'A__0',
         'desc' => 'address input',
       ),
-      10 => 
+      'I/O__0' => 
       array (
-        'num' => '11',
-        'sym' => 'I/O__0',
         'desc' => 'data input/output',
       ),
-      11 => 
+      'I/O__1' => 
       array (
-        'num' => '12',
-        'sym' => 'I/O__1',
         'desc' => 'data input/output',
       ),
-      12 => 
+      'I/O__2' => 
       array (
-        'num' => '13',
-        'sym' => 'I/O__2',
         'desc' => 'data input/output',
       ),
-      13 => 
+      'GND' => 
       array (
-        'num' => '14',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      14 => 
+      'I/O__3' => 
       array (
-        'num' => '15',
-        'sym' => 'I/O__3',
         'desc' => 'data input/output',
       ),
-      15 => 
+      'I/O__4' => 
       array (
-        'num' => '16',
-        'sym' => 'I/O__4',
         'desc' => 'data input/output',
       ),
-      16 => 
+      'I/O__5' => 
       array (
-        'num' => '17',
-        'sym' => 'I/O__5',
         'desc' => 'data input/output',
       ),
-      17 => 
+      'I/O__6' => 
       array (
-        'num' => '18',
-        'sym' => 'I/O__6',
         'desc' => 'data input/output',
       ),
-      18 => 
+      'I/O__7' => 
       array (
-        'num' => '19',
-        'sym' => 'I/O__7',
         'desc' => 'data input/output',
       ),
-      19 => 
+      '~CE' => 
       array (
-        'num' => '20',
-        'sym' => '~CE',
         'desc' => 'chip enable (active low)',
       ),
-      20 => 
+      'A__10' => 
       array (
-        'num' => '21',
-        'sym' => 'A__10',
         'desc' => 'address input',
       ),
-      21 => 
+      '~OE' => 
       array (
-        'num' => '22',
-        'sym' => '~OE',
         'desc' => 'output enable (active low)',
       ),
-      22 => 
+      'A__11' => 
       array (
-        'num' => '23',
-        'sym' => 'A__11',
         'desc' => 'address input',
       ),
-      23 => 
+      'A__9' => 
       array (
-        'num' => '24',
-        'sym' => 'A__9',
         'desc' => 'address input',
       ),
-      24 => 
+      'A__8' => 
       array (
-        'num' => '25',
-        'sym' => 'A__8',
         'desc' => 'address input',
       ),
-      25 => 
+      'A__13' => 
       array (
-        'num' => '26',
-        'sym' => 'A__13',
         'desc' => 'address input',
       ),
-      26 => 
+      '~WE' => 
       array (
-        'num' => '27',
-        'sym' => '~WE',
         'desc' => 'write enable (active low)',
       ),
-      27 => 
+      'Vcc' => 
       array (
-        'num' => '28',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -7826,6 +6883,40 @@
       1 => 'Data is read when ~CE is low, ~OE is low, and ~WE is high.',
       2 => 'The input/output pins assume a high-impedance state if ~CE is high.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'A__14',
+        2 => 'A__12',
+        3 => 'A__7',
+        4 => 'A__6',
+        5 => 'A__5',
+        6 => 'A__4',
+        7 => 'A__3',
+        8 => 'A__2',
+        9 => 'A__1',
+        10 => 'A__0',
+        11 => 'I/O__0',
+        12 => 'I/O__1',
+        13 => 'I/O__2',
+        14 => 'GND',
+        15 => 'I/O__3',
+        16 => 'I/O__4',
+        17 => 'I/O__5',
+        18 => 'I/O__6',
+        19 => 'I/O__7',
+        20 => '~CE',
+        21 => 'A__10',
+        22 => '~OE',
+        23 => 'A__11',
+        24 => 'A__9',
+        25 => 'A__8',
+        26 => 'A__13',
+        27 => '~WE',
+        28 => 'Vcc',
+      ),
+    ),
   ),
   6264 => 
   array (
@@ -7833,178 +6924,116 @@
     'aliases' => 
     array (
     ),
-    'package' => 'DIP',
-    'pincount' => 28,
     'family' => 'memory',
     'datasheet' => 'http://web.mit.edu/6.115/www/datasheets/6264.pdf',
     'pins' => 
     array (
-      0 => 
+      'A__4' => 
       array (
-        'num' => '1',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      1 => 
-      array (
-        'num' => '2',
-        'sym' => 'A__4',
         'desc' => 'address input',
       ),
-      2 => 
+      'A__5' => 
       array (
-        'num' => '3',
-        'sym' => 'A__5',
         'desc' => 'address input',
       ),
-      3 => 
+      'A__6' => 
       array (
-        'num' => '4',
-        'sym' => 'A__6',
         'desc' => 'address input',
       ),
-      4 => 
+      'A__7' => 
       array (
-        'num' => '5',
-        'sym' => 'A__7',
         'desc' => 'address input',
       ),
-      5 => 
+      'A__8' => 
       array (
-        'num' => '6',
-        'sym' => 'A__8',
         'desc' => 'address input',
       ),
-      6 => 
+      'A__9' => 
       array (
-        'num' => '7',
-        'sym' => 'A__9',
         'desc' => 'address input',
       ),
-      7 => 
+      'A__10' => 
       array (
-        'num' => '8',
-        'sym' => 'A__10',
         'desc' => 'address input',
       ),
-      8 => 
+      'A__11' => 
       array (
-        'num' => '9',
-        'sym' => 'A__11',
         'desc' => 'address input',
       ),
-      9 => 
+      'A__12' => 
       array (
-        'num' => '10',
-        'sym' => 'A__12',
         'desc' => 'address input',
       ),
-      10 => 
+      'I/O__0' => 
       array (
-        'num' => '11',
-        'sym' => 'I/O__0',
         'desc' => 'data input/output',
       ),
-      11 => 
+      'I/O__1' => 
       array (
-        'num' => '12',
-        'sym' => 'I/O__1',
         'desc' => 'data input/output',
       ),
-      12 => 
+      'I/O__2' => 
       array (
-        'num' => '13',
-        'sym' => 'I/O__2',
         'desc' => 'data input/output',
       ),
-      13 => 
+      'GND' => 
       array (
-        'num' => '14',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      14 => 
+      'I/O__3' => 
       array (
-        'num' => '15',
-        'sym' => 'I/O__3',
         'desc' => 'data input/output',
       ),
-      15 => 
+      'I/O__4' => 
       array (
-        'num' => '16',
-        'sym' => 'I/O__4',
         'desc' => 'data input/output',
       ),
-      16 => 
+      'I/O__5' => 
       array (
-        'num' => '17',
-        'sym' => 'I/O__5',
         'desc' => 'data input/output',
       ),
-      17 => 
+      'I/O__6' => 
       array (
-        'num' => '18',
-        'sym' => 'I/O__6',
         'desc' => 'data input/output',
       ),
-      18 => 
+      'I/O__7' => 
       array (
-        'num' => '19',
-        'sym' => 'I/O__7',
         'desc' => 'data input/output',
       ),
-      19 => 
+      '~CE~__1' => 
       array (
-        'num' => '20',
-        'sym' => '~CE~__1',
         'desc' => 'chip enable (active low)',
       ),
-      20 => 
+      'A__0' => 
       array (
-        'num' => '21',
-        'sym' => 'A__0',
         'desc' => 'address input',
       ),
-      21 => 
+      '~OE' => 
       array (
-        'num' => '22',
-        'sym' => '~OE',
         'desc' => 'output enable (active low)',
       ),
-      22 => 
+      'A__1' => 
       array (
-        'num' => '23',
-        'sym' => 'A__1',
         'desc' => 'address input',
       ),
-      23 => 
+      'A__2' => 
       array (
-        'num' => '24',
-        'sym' => 'A__2',
         'desc' => 'address input',
       ),
-      24 => 
+      'A__3' => 
       array (
-        'num' => '25',
-        'sym' => 'A__3',
         'desc' => 'address input',
       ),
-      25 => 
+      'CE__2' => 
       array (
-        'num' => '26',
-        'sym' => 'CE__2',
         'desc' => 'chip enable (active high)',
       ),
-      26 => 
+      '~WE' => 
       array (
-        'num' => '27',
-        'sym' => '~WE',
         'desc' => 'write enable (active low)',
       ),
-      27 => 
+      'Vcc' => 
       array (
-        'num' => '28',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -8014,6 +7043,40 @@
       1 => 'Data is read whem ~CE~__1 is low, ~OE is low, and CE__2 is high.',
       2 => 'The input/output pins assume a high-impedance state if the chip is not selected and/or ~OE is low.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'NC',
+        2 => 'A__4',
+        3 => 'A__5',
+        4 => 'A__6',
+        5 => 'A__7',
+        6 => 'A__8',
+        7 => 'A__9',
+        8 => 'A__10',
+        9 => 'A__11',
+        10 => 'A__12',
+        11 => 'I/O__0',
+        12 => 'I/O__1',
+        13 => 'I/O__2',
+        14 => 'GND',
+        15 => 'I/O__3',
+        16 => 'I/O__4',
+        17 => 'I/O__5',
+        18 => 'I/O__6',
+        19 => 'I/O__7',
+        20 => '~CE~__1',
+        21 => 'A__0',
+        22 => '~OE',
+        23 => 'A__1',
+        24 => 'A__2',
+        25 => 'A__3',
+        26 => 'CE__2',
+        27 => '~WE',
+        28 => 'Vcc',
+      ),
+    ),
   ),
   628128 => 
   array (
@@ -8021,202 +7084,132 @@
     'aliases' => 
     array (
     ),
-    'package' => 'DIP',
-    'pincount' => 32,
     'family' => 'memory',
     'datasheet' => 'http://www.futurlec.com/Datasheet/Memory/628128.pdf',
     'pins' => 
     array (
-      0 => 
+      'A__16' => 
       array (
-        'num' => '1',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      1 => 
-      array (
-        'num' => '2',
-        'sym' => 'A__16',
         'desc' => 'address input',
       ),
-      2 => 
+      'A__14' => 
       array (
-        'num' => '3',
-        'sym' => 'A__14',
         'desc' => 'address input',
       ),
-      3 => 
+      'A__12' => 
       array (
-        'num' => '4',
-        'sym' => 'A__12',
         'desc' => 'address input',
       ),
-      4 => 
+      'A__7' => 
       array (
-        'num' => '5',
-        'sym' => 'A__7',
         'desc' => 'address input',
       ),
-      5 => 
+      'A__6' => 
       array (
-        'num' => '6',
-        'sym' => 'A__6',
         'desc' => 'address input',
       ),
-      6 => 
+      'A__5' => 
       array (
-        'num' => '7',
-        'sym' => 'A__5',
         'desc' => 'address input',
       ),
-      7 => 
+      'A__4' => 
       array (
-        'num' => '8',
-        'sym' => 'A__4',
         'desc' => 'address input',
       ),
-      8 => 
+      'A__3' => 
       array (
-        'num' => '9',
-        'sym' => 'A__3',
         'desc' => 'address input',
       ),
-      9 => 
+      'A__2' => 
       array (
-        'num' => '10',
-        'sym' => 'A__2',
         'desc' => 'address input',
       ),
-      10 => 
+      'A__1' => 
       array (
-        'num' => '11',
-        'sym' => 'A__1',
         'desc' => 'address input',
       ),
-      11 => 
+      'A__0' => 
       array (
-        'num' => '12',
-        'sym' => 'A__0',
         'desc' => 'address input',
       ),
-      12 => 
+      'I/O__0' => 
       array (
-        'num' => '13',
-        'sym' => 'I/O__0',
         'desc' => 'data input/output',
       ),
-      13 => 
+      'I/O__1' => 
       array (
-        'num' => '14',
-        'sym' => 'I/O__1',
         'desc' => 'data input/output',
       ),
-      14 => 
+      'I/O__2' => 
       array (
-        'num' => '15',
-        'sym' => 'I/O__2',
         'desc' => 'data input/output',
       ),
-      15 => 
+      'GND' => 
       array (
-        'num' => '16',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      16 => 
+      'I/O__3' => 
       array (
-        'num' => '17',
-        'sym' => 'I/O__3',
         'desc' => 'data input/output',
       ),
-      17 => 
+      'I/O__4' => 
       array (
-        'num' => '18',
-        'sym' => 'I/O__4',
         'desc' => 'data input/output',
       ),
-      18 => 
+      'I/O__5' => 
       array (
-        'num' => '19',
-        'sym' => 'I/O__5',
         'desc' => 'data input/output',
       ),
-      19 => 
+      'I/O__6' => 
       array (
-        'num' => '20',
-        'sym' => 'I/O__6',
         'desc' => 'data input/output',
       ),
-      20 => 
+      'I/O__7' => 
       array (
-        'num' => '21',
-        'sym' => 'I/O__7',
         'desc' => 'data input/output',
       ),
-      21 => 
+      '~CS1' => 
       array (
-        'num' => '22',
-        'sym' => '~CS1',
         'desc' => 'chip select (active low)',
       ),
-      22 => 
+      'A__10' => 
       array (
-        'num' => '23',
-        'sym' => 'A__10',
         'desc' => 'address input',
       ),
-      23 => 
+      '~OE' => 
       array (
-        'num' => '24',
-        'sym' => '~OE',
         'desc' => 'output enable (active low)',
       ),
-      24 => 
+      'A__11' => 
       array (
-        'num' => '25',
-        'sym' => 'A__11',
         'desc' => 'address input',
       ),
-      25 => 
+      'A__9' => 
       array (
-        'num' => '26',
-        'sym' => 'A__9',
         'desc' => 'address input',
       ),
-      26 => 
+      'A__8' => 
       array (
-        'num' => '27',
-        'sym' => 'A__8',
         'desc' => 'address input',
       ),
-      27 => 
+      'A__13' => 
       array (
-        'num' => '28',
-        'sym' => 'A__13',
         'desc' => 'address input',
       ),
-      28 => 
+      '~WE' => 
       array (
-        'num' => '29',
-        'sym' => '~WE',
         'desc' => 'write enable (active low)',
       ),
-      29 => 
+      'CS2' => 
       array (
-        'num' => '30',
-        'sym' => 'CS2',
         'desc' => 'chip select (active high)',
       ),
-      30 => 
+      'A__15' => 
       array (
-        'num' => '31',
-        'sym' => 'A__15',
         'desc' => 'address input',
       ),
-      31 => 
+      'Vcc' => 
       array (
-        'num' => '32',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -8226,6 +7219,44 @@
       1 => 'Data is read when ~CS1 is low, CS2 is high, ~OE is low, and ~WE is high.',
       2 => 'The input/output pins assume a high-impedance state if ~CS1 is high or CS2 is low.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'NC',
+        2 => 'A__16',
+        3 => 'A__14',
+        4 => 'A__12',
+        5 => 'A__7',
+        6 => 'A__6',
+        7 => 'A__5',
+        8 => 'A__4',
+        9 => 'A__3',
+        10 => 'A__2',
+        11 => 'A__1',
+        12 => 'A__0',
+        13 => 'I/O__0',
+        14 => 'I/O__1',
+        15 => 'I/O__2',
+        16 => 'GND',
+        17 => 'I/O__3',
+        18 => 'I/O__4',
+        19 => 'I/O__5',
+        20 => 'I/O__6',
+        21 => 'I/O__7',
+        22 => '~CS1',
+        23 => 'A__10',
+        24 => '~OE',
+        25 => 'A__11',
+        26 => 'A__9',
+        27 => 'A__8',
+        28 => 'A__13',
+        29 => '~WE',
+        30 => 'CS2',
+        31 => 'A__15',
+        32 => 'Vcc',
+      ),
+    ),
   ),
   628512 => 
   array (
@@ -8234,202 +7265,136 @@
     array (
       0 => 'AS6C4008',
     ),
-    'package' => 'DIP',
-    'pincount' => 32,
     'family' => 'memory',
     'datasheet' => 'http://www.futurlec.com/Datasheet/Memory/628512.pdf',
     'pins' => 
     array (
-      0 => 
+      'A__18' => 
       array (
-        'num' => '1',
-        'sym' => 'A__18',
         'desc' => 'address input',
       ),
-      1 => 
+      'A__16' => 
       array (
-        'num' => '2',
-        'sym' => 'A__16',
         'desc' => 'address input',
       ),
-      2 => 
+      'A__14' => 
       array (
-        'num' => '3',
-        'sym' => 'A__14',
         'desc' => 'address input',
       ),
-      3 => 
+      'A__12' => 
       array (
-        'num' => '4',
-        'sym' => 'A__12',
         'desc' => 'address input',
       ),
-      4 => 
+      'A__7' => 
       array (
-        'num' => '5',
-        'sym' => 'A__7',
         'desc' => 'address input',
       ),
-      5 => 
+      'A__6' => 
       array (
-        'num' => '6',
-        'sym' => 'A__6',
         'desc' => 'address input',
       ),
-      6 => 
+      'A__5' => 
       array (
-        'num' => '7',
-        'sym' => 'A__5',
         'desc' => 'address input',
       ),
-      7 => 
+      'A__4' => 
       array (
-        'num' => '8',
-        'sym' => 'A__4',
         'desc' => 'address input',
       ),
-      8 => 
+      'A__3' => 
       array (
-        'num' => '9',
-        'sym' => 'A__3',
         'desc' => 'address input',
       ),
-      9 => 
+      'A__2' => 
       array (
-        'num' => '10',
-        'sym' => 'A__2',
         'desc' => 'address input',
       ),
-      10 => 
+      'A__1' => 
       array (
-        'num' => '11',
-        'sym' => 'A__1',
         'desc' => 'address input',
       ),
-      11 => 
+      'A__0' => 
       array (
-        'num' => '12',
-        'sym' => 'A__0',
         'desc' => 'address input',
       ),
-      12 => 
+      'I/O__0' => 
       array (
-        'num' => '13',
-        'sym' => 'I/O__0',
         'desc' => 'data input/output',
       ),
-      13 => 
+      'I/O__1' => 
       array (
-        'num' => '14',
-        'sym' => 'I/O__1',
         'desc' => 'data input/output',
       ),
-      14 => 
+      'I/O__2' => 
       array (
-        'num' => '15',
-        'sym' => 'I/O__2',
         'desc' => 'data input/output',
       ),
-      15 => 
+      'GND' => 
       array (
-        'num' => '16',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      16 => 
+      'I/O__3' => 
       array (
-        'num' => '17',
-        'sym' => 'I/O__3',
         'desc' => 'data input/output',
       ),
-      17 => 
+      'I/O__4' => 
       array (
-        'num' => '18',
-        'sym' => 'I/O__4',
         'desc' => 'data input/output',
       ),
-      18 => 
+      'I/O__5' => 
       array (
-        'num' => '19',
-        'sym' => 'I/O__5',
         'desc' => 'data input/output',
       ),
-      19 => 
+      'I/O__6' => 
       array (
-        'num' => '20',
-        'sym' => 'I/O__6',
         'desc' => 'data input/output',
       ),
-      20 => 
+      'I/O__7' => 
       array (
-        'num' => '21',
-        'sym' => 'I/O__7',
         'desc' => 'data input/output',
       ),
-      21 => 
+      '~CS' => 
       array (
-        'num' => '22',
-        'sym' => '~CS',
         'desc' => 'chip select (active low)',
       ),
-      22 => 
+      'A__10' => 
       array (
-        'num' => '23',
-        'sym' => 'A__10',
         'desc' => 'address input',
       ),
-      23 => 
+      '~OE' => 
       array (
-        'num' => '24',
-        'sym' => '~OE',
         'desc' => 'output enable (active low)',
       ),
-      24 => 
+      'A__11' => 
       array (
-        'num' => '25',
-        'sym' => 'A__11',
         'desc' => 'address input',
       ),
-      25 => 
+      'A__9' => 
       array (
-        'num' => '26',
-        'sym' => 'A__9',
         'desc' => 'address input',
       ),
-      26 => 
+      'A__8' => 
       array (
-        'num' => '27',
-        'sym' => 'A__8',
         'desc' => 'address input',
       ),
-      27 => 
+      'A__13' => 
       array (
-        'num' => '28',
-        'sym' => 'A__13',
         'desc' => 'address input',
       ),
-      28 => 
+      '~WE' => 
       array (
-        'num' => '29',
-        'sym' => '~WE',
         'desc' => 'write enable (active low)',
       ),
-      29 => 
+      'A__17' => 
       array (
-        'num' => '30',
-        'sym' => 'A__17',
         'desc' => 'address input',
       ),
-      30 => 
+      'A__15' => 
       array (
-        'num' => '31',
-        'sym' => 'A__15',
         'desc' => 'address input',
       ),
-      31 => 
+      'Vcc' => 
       array (
-        'num' => '32',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -8439,6 +7404,44 @@
       1 => 'Data is read when ~CS is low, ~OE is low, and ~WE is high.',
       2 => 'The input/output pins assume a high-impedance state if ~CS is high.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'A__18',
+        2 => 'A__16',
+        3 => 'A__14',
+        4 => 'A__12',
+        5 => 'A__7',
+        6 => 'A__6',
+        7 => 'A__5',
+        8 => 'A__4',
+        9 => 'A__3',
+        10 => 'A__2',
+        11 => 'A__1',
+        12 => 'A__0',
+        13 => 'I/O__0',
+        14 => 'I/O__1',
+        15 => 'I/O__2',
+        16 => 'GND',
+        17 => 'I/O__3',
+        18 => 'I/O__4',
+        19 => 'I/O__5',
+        20 => 'I/O__6',
+        21 => 'I/O__7',
+        22 => '~CS',
+        23 => 'A__10',
+        24 => '~OE',
+        25 => 'A__11',
+        26 => 'A__9',
+        27 => 'A__8',
+        28 => 'A__13',
+        29 => '~WE',
+        30 => 'A__17',
+        31 => 'A__15',
+        32 => 'Vcc',
+      ),
+    ),
   ),
   6522 => 
   array (
@@ -8447,250 +7450,168 @@
     array (
       0 => 'W65C22',
     ),
-    'package' => 'DIP',
-    'pincount' => 40,
     'family' => 'MOS Technology',
     'datasheet' => 'http://www.westerndesigncenter.com/wdc/documentation/w65c22.pdf',
     'pins' => 
     array (
-      0 => 
+      'GND' => 
       array (
-        'num' => '1',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      1 => 
+      'PA0' => 
       array (
-        'num' => '2',
-        'sym' => 'PA0',
         'desc' => 'port A',
       ),
-      2 => 
+      'PA1' => 
       array (
-        'num' => '3',
-        'sym' => 'PA1',
         'desc' => 'port A',
       ),
-      3 => 
+      'PA2' => 
       array (
-        'num' => '4',
-        'sym' => 'PA2',
         'desc' => 'port A',
       ),
-      4 => 
+      'PA3' => 
       array (
-        'num' => '5',
-        'sym' => 'PA3',
         'desc' => 'port A',
       ),
-      5 => 
+      'PA4' => 
       array (
-        'num' => '6',
-        'sym' => 'PA4',
         'desc' => 'port A',
       ),
-      6 => 
+      'PA5' => 
       array (
-        'num' => '7',
-        'sym' => 'PA5',
         'desc' => 'port A',
       ),
-      7 => 
+      'PA6' => 
       array (
-        'num' => '8',
-        'sym' => 'PA6',
         'desc' => 'port A',
       ),
-      8 => 
+      'PA7' => 
       array (
-        'num' => '9',
-        'sym' => 'PA7',
         'desc' => 'port A',
       ),
-      9 => 
+      'PB0' => 
       array (
-        'num' => '10',
-        'sym' => 'PB0',
         'desc' => 'port B',
       ),
-      10 => 
+      'PB1' => 
       array (
-        'num' => '11',
-        'sym' => 'PB1',
         'desc' => 'port B',
       ),
-      11 => 
+      'PB2' => 
       array (
-        'num' => '12',
-        'sym' => 'PB2',
         'desc' => 'port B',
       ),
-      12 => 
+      'PB3' => 
       array (
-        'num' => '13',
-        'sym' => 'PB3',
         'desc' => 'port B',
       ),
-      13 => 
+      'PB4' => 
       array (
-        'num' => '14',
-        'sym' => 'PB4',
         'desc' => 'port B',
       ),
-      14 => 
+      'PB5' => 
       array (
-        'num' => '15',
-        'sym' => 'PB5',
         'desc' => 'port B',
       ),
-      15 => 
+      'PB6' => 
       array (
-        'num' => '16',
-        'sym' => 'PB6',
         'desc' => 'port B (pulse counting input for timer 2)',
       ),
-      16 => 
+      'PB7' => 
       array (
-        'num' => '17',
-        'sym' => 'PB7',
         'desc' => 'port B (controllable by timer 1)',
       ),
-      17 => 
+      'CB1' => 
       array (
-        'num' => '18',
-        'sym' => 'CB1',
         'desc' => 'port B control (shift register clock)',
       ),
-      18 => 
+      'CB2' => 
       array (
-        'num' => '19',
-        'sym' => 'CB2',
         'desc' => 'port B control (shift register data)',
       ),
-      19 => 
+      'Vcc' => 
       array (
-        'num' => '20',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
-      20 => 
+      '~IRQ' => 
       array (
-        'num' => '21',
-        'sym' => '~IRQ',
         'desc' => 'interrupt request output*',
       ),
-      21 => 
+      'R/~W' => 
       array (
-        'num' => '22',
-        'sym' => 'R/~W',
         'desc' => 'read/write select',
       ),
-      22 => 
+      '~CS2' => 
       array (
-        'num' => '23',
-        'sym' => '~CS2',
         'desc' => 'chip select (active low)',
       ),
-      23 => 
+      'CS1' => 
       array (
-        'num' => '24',
-        'sym' => 'CS1',
         'desc' => 'chip select (active high)',
       ),
-      24 => 
+      '∅2' => 
       array (
-        'num' => '25',
-        'sym' => '∅2',
         'desc' => 'phase-2 clock input',
       ),
-      25 => 
+      'D7' => 
       array (
-        'num' => '26',
-        'sym' => 'D7',
         'desc' => 'data bus',
       ),
-      26 => 
+      'D6' => 
       array (
-        'num' => '27',
-        'sym' => 'D6',
         'desc' => 'data bus',
       ),
-      27 => 
+      'D5' => 
       array (
-        'num' => '28',
-        'sym' => 'D5',
         'desc' => 'data bus',
       ),
-      28 => 
+      'D4' => 
       array (
-        'num' => '29',
-        'sym' => 'D4',
         'desc' => 'data bus',
       ),
-      29 => 
+      'D3' => 
       array (
-        'num' => '30',
-        'sym' => 'D3',
         'desc' => 'data bus',
       ),
-      30 => 
+      'D2' => 
       array (
-        'num' => '31',
-        'sym' => 'D2',
         'desc' => 'data bus',
       ),
-      31 => 
+      'D1' => 
       array (
-        'num' => '32',
-        'sym' => 'D1',
         'desc' => 'data bus',
       ),
-      32 => 
+      'D0' => 
       array (
-        'num' => '33',
-        'sym' => 'D0',
         'desc' => 'data bus',
       ),
-      33 => 
+      '~RES' => 
       array (
-        'num' => '34',
-        'sym' => '~RES',
         'desc' => 'reset (active low)',
       ),
-      34 => 
+      'RS3' => 
       array (
-        'num' => '35',
-        'sym' => 'RS3',
         'desc' => 'register select (address bus)',
       ),
-      35 => 
+      'RS2' => 
       array (
-        'num' => '36',
-        'sym' => 'RS2',
         'desc' => 'register select (address bus)',
       ),
-      36 => 
+      'RS1' => 
       array (
-        'num' => '37',
-        'sym' => 'RS1',
         'desc' => 'register select (address bus)',
       ),
-      37 => 
+      'RS0' => 
       array (
-        'num' => '38',
-        'sym' => 'RS0',
         'desc' => 'register select (address bus)',
       ),
-      38 => 
+      'CA2' => 
       array (
-        'num' => '39',
-        'sym' => 'CA2',
         'desc' => 'port A control',
       ),
-      39 => 
+      'CA1' => 
       array (
-        'num' => '40',
-        'sym' => 'CA1',
         'desc' => 'port A control',
       ),
     ),
@@ -8734,6 +7655,52 @@
       4 => 'Counters for timers in one-shot or free-running mode decrement at the ∅2 clock rate.',
       5 => 'The shift register is 8 bits wide, can shift in or out, and can generate its own clock or shift under the control of an external clock on CB1.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'GND',
+        2 => 'PA0',
+        3 => 'PA1',
+        4 => 'PA2',
+        5 => 'PA3',
+        6 => 'PA4',
+        7 => 'PA5',
+        8 => 'PA6',
+        9 => 'PA7',
+        10 => 'PB0',
+        11 => 'PB1',
+        12 => 'PB2',
+        13 => 'PB3',
+        14 => 'PB4',
+        15 => 'PB5',
+        16 => 'PB6',
+        17 => 'PB7',
+        18 => 'CB1',
+        19 => 'CB2',
+        20 => 'Vcc',
+        21 => '~IRQ',
+        22 => 'R/~W',
+        23 => '~CS2',
+        24 => 'CS1',
+        25 => '∅2',
+        26 => 'D7',
+        27 => 'D6',
+        28 => 'D5',
+        29 => 'D4',
+        30 => 'D3',
+        31 => 'D2',
+        32 => 'D1',
+        33 => 'D0',
+        34 => '~RES',
+        35 => 'RS3',
+        36 => 'RS2',
+        37 => 'RS1',
+        38 => 'RS0',
+        39 => 'CA2',
+        40 => 'CA1',
+      ),
+    ),
   ),
   6581 => 
   array (
@@ -8742,178 +7709,120 @@
     array (
       0 => 'SID',
     ),
-    'package' => 'DIP',
-    'pincount' => 28,
     'family' => 'MOS Technology',
     'datasheet' => 'http://www.waitingforfriday.com/index.php/Commodore_SID_6581_Datasheet',
     'pins' => 
     array (
-      0 => 
+      'CAP1A' => 
       array (
-        'num' => '1',
-        'sym' => 'CAP1A',
         'desc' => 'capacitor C1 connection',
       ),
-      1 => 
+      'CAP1B' => 
       array (
-        'num' => '2',
-        'sym' => 'CAP1B',
         'desc' => 'capacitor C1 connection',
       ),
-      2 => 
+      'CAP2A' => 
       array (
-        'num' => '3',
-        'sym' => 'CAP2A',
         'desc' => 'capacitor C2 connection',
       ),
-      3 => 
+      'CAP2B' => 
       array (
-        'num' => '4',
-        'sym' => 'CAP2B',
         'desc' => 'capacitor C2 connection',
       ),
-      4 => 
+      '~RES' => 
       array (
-        'num' => '5',
-        'sym' => '~RES',
         'desc' => 'master reset',
       ),
-      5 => 
+      '∅2' => 
       array (
-        'num' => '6',
-        'sym' => '∅2',
         'desc' => 'master clock',
       ),
-      6 => 
+      'R/~W' => 
       array (
-        'num' => '7',
-        'sym' => 'R/~W',
         'desc' => 'read/write select',
       ),
-      7 => 
+      '~CS' => 
       array (
-        'num' => '8',
-        'sym' => '~CS',
         'desc' => 'chip select (active low)',
       ),
-      8 => 
+      'A0' => 
       array (
-        'num' => '9',
-        'sym' => 'A0',
         'desc' => 'address bus (register select)',
       ),
-      9 => 
+      'A1' => 
       array (
-        'num' => '10',
-        'sym' => 'A1',
         'desc' => 'address bus (register select)',
       ),
-      10 => 
+      'A2' => 
       array (
-        'num' => '11',
-        'sym' => 'A2',
         'desc' => 'address bus (register select)',
       ),
-      11 => 
+      'A3' => 
       array (
-        'num' => '12',
-        'sym' => 'A3',
         'desc' => 'address bus (register select)',
       ),
-      12 => 
+      'A4' => 
       array (
-        'num' => '13',
-        'sym' => 'A4',
         'desc' => 'address bus (register select)',
       ),
-      13 => 
+      'GND' => 
       array (
-        'num' => '14',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      14 => 
+      'D0' => 
       array (
-        'num' => '15',
-        'sym' => 'D0',
         'desc' => 'data bus',
       ),
-      15 => 
+      'D1' => 
       array (
-        'num' => '16',
-        'sym' => 'D1',
         'desc' => 'data bus',
       ),
-      16 => 
+      'D2' => 
       array (
-        'num' => '17',
-        'sym' => 'D2',
         'desc' => 'data bus',
       ),
-      17 => 
+      'D3' => 
       array (
-        'num' => '18',
-        'sym' => 'D3',
         'desc' => 'data bus',
       ),
-      18 => 
+      'D4' => 
       array (
-        'num' => '19',
-        'sym' => 'D4',
         'desc' => 'data bus',
       ),
-      19 => 
+      'D5' => 
       array (
-        'num' => '20',
-        'sym' => 'D5',
         'desc' => 'data bus',
       ),
-      20 => 
+      'D6' => 
       array (
-        'num' => '21',
-        'sym' => 'D6',
         'desc' => 'data bus',
       ),
-      21 => 
+      'D7' => 
       array (
-        'num' => '22',
-        'sym' => 'D7',
         'desc' => 'data bus',
       ),
-      22 => 
+      'POTY' => 
       array (
-        'num' => '23',
-        'sym' => 'POTY',
         'desc' => 'Y-axis potentiometer input',
       ),
-      23 => 
+      'POTX' => 
       array (
-        'num' => '24',
-        'sym' => 'POTX',
         'desc' => 'X-axis potentiometer input',
       ),
-      24 => 
+      'Vcc' => 
       array (
-        'num' => '25',
-        'sym' => 'Vcc',
         'desc' => '+5VDC supply',
       ),
-      25 => 
+      'EXT IN' => 
       array (
-        'num' => '26',
-        'sym' => 'EXT IN',
         'desc' => 'external audio input',
       ),
-      26 => 
+      'AUDIO OUT' => 
       array (
-        'num' => '27',
-        'sym' => 'AUDIO OUT',
         'desc' => 'audio output',
       ),
-      27 => 
+      'Vdd' => 
       array (
-        'num' => '28',
-        'sym' => 'Vdd',
         'desc' => '+12VDC supply',
       ),
     ),
@@ -8968,6 +7877,40 @@
       6 => 'Oscillator frequency = (Fn × Fclk/16777216) Hz',
       7 => 'Pulse width = (PWn/40.95) %',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'CAP1A',
+        2 => 'CAP1B',
+        3 => 'CAP2A',
+        4 => 'CAP2B',
+        5 => '~RES',
+        6 => '∅2',
+        7 => 'R/~W',
+        8 => '~CS',
+        9 => 'A0',
+        10 => 'A1',
+        11 => 'A2',
+        12 => 'A3',
+        13 => 'A4',
+        14 => 'GND',
+        15 => 'D0',
+        16 => 'D1',
+        17 => 'D2',
+        18 => 'D3',
+        19 => 'D4',
+        20 => 'D5',
+        21 => 'D6',
+        22 => 'D7',
+        23 => 'POTY',
+        24 => 'POTX',
+        25 => 'Vcc',
+        26 => 'EXT IN',
+        27 => 'AUDIO OUT',
+        28 => 'Vdd',
+      ),
+    ),
   ),
   '6809E' => 
   array (
@@ -8977,250 +7920,168 @@
       0 => '68A09E',
       1 => '68B09E',
     ),
-    'package' => 'DIP',
-    'pincount' => 40,
     'family' => 'Motorola',
     'datasheet' => 'http://www.classiccmp.org/dunfield/r/6809e.pdf',
     'pins' => 
     array (
-      0 => 
+      'Vss' => 
       array (
-        'num' => '1',
-        'sym' => 'Vss',
         'desc' => 'ground',
       ),
-      1 => 
+      '~NMI' => 
       array (
-        'num' => '2',
-        'sym' => '~NMI',
         'desc' => 'non-maskable interrupt (active low)',
       ),
-      2 => 
+      '~IRQ' => 
       array (
-        'num' => '3',
-        'sym' => '~IRQ',
         'desc' => 'interrupt request (active low)',
       ),
-      3 => 
+      '~FIRQ' => 
       array (
-        'num' => '4',
-        'sym' => '~FIRQ',
         'desc' => 'fast interrupt request (active low)',
       ),
-      4 => 
+      'BS' => 
       array (
-        'num' => '5',
-        'sym' => 'BS',
         'desc' => 'bus status output',
       ),
-      5 => 
+      'BA' => 
       array (
-        'num' => '6',
-        'sym' => 'BA',
         'desc' => 'bus available output',
       ),
-      6 => 
+      'Vcc' => 
       array (
-        'num' => '7',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
-      7 => 
+      'A0' => 
       array (
-        'num' => '8',
-        'sym' => 'A0',
         'desc' => 'address bus',
       ),
-      8 => 
+      'A1' => 
       array (
-        'num' => '9',
-        'sym' => 'A1',
         'desc' => 'address bus',
       ),
-      9 => 
+      'A2' => 
       array (
-        'num' => '10',
-        'sym' => 'A2',
         'desc' => 'address bus',
       ),
-      10 => 
+      'A3' => 
       array (
-        'num' => '11',
-        'sym' => 'A3',
         'desc' => 'address bus',
       ),
-      11 => 
+      'A4' => 
       array (
-        'num' => '12',
-        'sym' => 'A4',
         'desc' => 'address bus',
       ),
-      12 => 
+      'A5' => 
       array (
-        'num' => '13',
-        'sym' => 'A5',
         'desc' => 'address bus',
       ),
-      13 => 
+      'A6' => 
       array (
-        'num' => '14',
-        'sym' => 'A6',
         'desc' => 'address bus',
       ),
-      14 => 
+      'A7' => 
       array (
-        'num' => '15',
-        'sym' => 'A7',
         'desc' => 'address bus',
       ),
-      15 => 
+      'A8' => 
       array (
-        'num' => '16',
-        'sym' => 'A8',
         'desc' => 'address bus',
       ),
-      16 => 
+      'A9' => 
       array (
-        'num' => '17',
-        'sym' => 'A9',
         'desc' => 'address bus',
       ),
-      17 => 
+      'A10' => 
       array (
-        'num' => '18',
-        'sym' => 'A10',
         'desc' => 'address bus',
       ),
-      18 => 
+      'A11' => 
       array (
-        'num' => '19',
-        'sym' => 'A11',
         'desc' => 'address bus',
       ),
-      19 => 
+      'A12' => 
       array (
-        'num' => '20',
-        'sym' => 'A12',
         'desc' => 'address bus',
       ),
-      20 => 
+      'A13' => 
       array (
-        'num' => '21',
-        'sym' => 'A13',
         'desc' => 'address bus',
       ),
-      21 => 
+      'A14' => 
       array (
-        'num' => '22',
-        'sym' => 'A14',
         'desc' => 'address bus',
       ),
-      22 => 
+      'A15' => 
       array (
-        'num' => '23',
-        'sym' => 'A15',
         'desc' => 'address bus',
       ),
-      23 => 
+      'D7' => 
       array (
-        'num' => '24',
-        'sym' => 'D7',
         'desc' => 'data bus',
       ),
-      24 => 
+      'D6' => 
       array (
-        'num' => '25',
-        'sym' => 'D6',
         'desc' => 'data bus',
       ),
-      25 => 
+      'D5' => 
       array (
-        'num' => '26',
-        'sym' => 'D5',
         'desc' => 'data bus',
       ),
-      26 => 
+      'D4' => 
       array (
-        'num' => '27',
-        'sym' => 'D4',
         'desc' => 'data bus',
       ),
-      27 => 
+      'D3' => 
       array (
-        'num' => '28',
-        'sym' => 'D3',
         'desc' => 'data bus',
       ),
-      28 => 
+      'D2' => 
       array (
-        'num' => '29',
-        'sym' => 'D2',
         'desc' => 'data bus',
       ),
-      29 => 
+      'D1' => 
       array (
-        'num' => '30',
-        'sym' => 'D1',
         'desc' => 'data bus',
       ),
-      30 => 
+      'D0' => 
       array (
-        'num' => '31',
-        'sym' => 'D0',
         'desc' => 'data bus',
       ),
-      31 => 
+      'R/~W' => 
       array (
-        'num' => '32',
-        'sym' => 'R/~W',
         'desc' => 'bus read/write',
       ),
-      32 => 
+      'BUSY' => 
       array (
-        'num' => '33',
-        'sym' => 'BUSY',
         'desc' => 'busy status',
       ),
-      33 => 
+      'E' => 
       array (
-        'num' => '34',
-        'sym' => 'E',
         'desc' => 'clock input',
       ),
-      34 => 
+      'Q' => 
       array (
-        'num' => '35',
-        'sym' => 'Q',
         'desc' => 'quadrature clock input',
       ),
-      35 => 
+      'AVMA' => 
       array (
-        'num' => '36',
-        'sym' => 'AVMA',
         'desc' => 'advanced VMA signal (indicates bus will be used in the next cycle)',
       ),
-      36 => 
+      '~RESET' => 
       array (
-        'num' => '37',
-        'sym' => '~RESET',
         'desc' => 'reset (active low)',
       ),
-      37 => 
+      'LIC' => 
       array (
-        'num' => '38',
-        'sym' => 'LIC',
         'desc' => 'last instruction cycle (high during last cycle of instruction)',
       ),
-      38 => 
+      'TSC' => 
       array (
-        'num' => '39',
-        'sym' => 'TSC',
         'desc' => 'three-state control (active high; tri-states address, data, R/~W~)',
       ),
-      39 => 
+      '~HALT' => 
       array (
-        'num' => '40',
-        'sym' => '~HALT',
         'desc' => 'halt (active low)',
       ),
     ),
@@ -9289,6 +8150,52 @@
 <tr><td>FFF1-FFF1</td><td>Reserved</td></tr>
 </table>',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'Vss',
+        2 => '~NMI',
+        3 => '~IRQ',
+        4 => '~FIRQ',
+        5 => 'BS',
+        6 => 'BA',
+        7 => 'Vcc',
+        8 => 'A0',
+        9 => 'A1',
+        10 => 'A2',
+        11 => 'A3',
+        12 => 'A4',
+        13 => 'A5',
+        14 => 'A6',
+        15 => 'A7',
+        16 => 'A8',
+        17 => 'A9',
+        18 => 'A10',
+        19 => 'A11',
+        20 => 'A12',
+        21 => 'A13',
+        22 => 'A14',
+        23 => 'A15',
+        24 => 'D7',
+        25 => 'D6',
+        26 => 'D5',
+        27 => 'D4',
+        28 => 'D3',
+        29 => 'D2',
+        30 => 'D1',
+        31 => 'D0',
+        32 => 'R/~W',
+        33 => 'BUSY',
+        34 => 'E',
+        35 => 'Q',
+        36 => 'AVMA',
+        37 => '~RESET',
+        38 => 'LIC',
+        39 => 'TSC',
+        40 => '~HALT',
+      ),
+    ),
   ),
   6821 => 
   array (
@@ -9298,250 +8205,168 @@
       0 => '68A21',
       1 => '68B21',
     ),
-    'package' => 'DIP',
-    'pincount' => 40,
     'family' => 'Motorola',
     'datasheet' => 'http://www.jameco.com/Jameco/Products/ProdDS/43596MOT.pdf',
     'pins' => 
     array (
-      0 => 
+      'GND' => 
       array (
-        'num' => '1',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      1 => 
+      'PA0' => 
       array (
-        'num' => '2',
-        'sym' => 'PA0',
         'desc' => 'port A',
       ),
-      2 => 
+      'PA1' => 
       array (
-        'num' => '3',
-        'sym' => 'PA1',
         'desc' => 'port A',
       ),
-      3 => 
+      'PA2' => 
       array (
-        'num' => '4',
-        'sym' => 'PA2',
         'desc' => 'port A',
       ),
-      4 => 
+      'PA3' => 
       array (
-        'num' => '5',
-        'sym' => 'PA3',
         'desc' => 'port A',
       ),
-      5 => 
+      'PA4' => 
       array (
-        'num' => '6',
-        'sym' => 'PA4',
         'desc' => 'port A',
       ),
-      6 => 
+      'PA5' => 
       array (
-        'num' => '7',
-        'sym' => 'PA5',
         'desc' => 'port A',
       ),
-      7 => 
+      'PA6' => 
       array (
-        'num' => '8',
-        'sym' => 'PA6',
         'desc' => 'port A',
       ),
-      8 => 
+      'PA7' => 
       array (
-        'num' => '9',
-        'sym' => 'PA7',
         'desc' => 'port A',
       ),
-      9 => 
+      'PB0' => 
       array (
-        'num' => '10',
-        'sym' => 'PB0',
         'desc' => 'port B',
       ),
-      10 => 
+      'PB1' => 
       array (
-        'num' => '11',
-        'sym' => 'PB1',
         'desc' => 'port B',
       ),
-      11 => 
+      'PB2' => 
       array (
-        'num' => '12',
-        'sym' => 'PB2',
         'desc' => 'port B',
       ),
-      12 => 
+      'PB3' => 
       array (
-        'num' => '13',
-        'sym' => 'PB3',
         'desc' => 'port B',
       ),
-      13 => 
+      'PB4' => 
       array (
-        'num' => '14',
-        'sym' => 'PB4',
         'desc' => 'port B',
       ),
-      14 => 
+      'PB5' => 
       array (
-        'num' => '15',
-        'sym' => 'PB5',
         'desc' => 'port B',
       ),
-      15 => 
+      'PB6' => 
       array (
-        'num' => '16',
-        'sym' => 'PB6',
         'desc' => 'port B',
       ),
-      16 => 
+      'PB7' => 
       array (
-        'num' => '17',
-        'sym' => 'PB7',
         'desc' => 'port B',
       ),
-      17 => 
+      'CB1' => 
       array (
-        'num' => '18',
-        'sym' => 'CB1',
         'desc' => 'peripheral control (port B)',
       ),
-      18 => 
+      'CB2' => 
       array (
-        'num' => '19',
-        'sym' => 'CB2',
         'desc' => 'peripheral control (port B)',
       ),
-      19 => 
+      'Vcc' => 
       array (
-        'num' => '20',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
-      20 => 
+      'R/~W' => 
       array (
-        'num' => '21',
-        'sym' => 'R/~W',
         'desc' => 'read/write',
       ),
-      21 => 
+      'CS0' => 
       array (
-        'num' => '22',
-        'sym' => 'CS0',
         'desc' => 'chip select (active high)',
       ),
-      22 => 
+      '~CS2' => 
       array (
-        'num' => '23',
-        'sym' => '~CS2',
         'desc' => 'chip select (active low)',
       ),
-      23 => 
+      'CS1' => 
       array (
-        'num' => '24',
-        'sym' => 'CS1',
         'desc' => 'chip select (active high)',
       ),
-      24 => 
+      'E' => 
       array (
-        'num' => '25',
-        'sym' => 'E',
         'desc' => 'clock',
       ),
-      25 => 
+      'D7' => 
       array (
-        'num' => '26',
-        'sym' => 'D7',
         'desc' => 'data bus',
       ),
-      26 => 
+      'D6' => 
       array (
-        'num' => '27',
-        'sym' => 'D6',
         'desc' => 'data bus',
       ),
-      27 => 
+      'D5' => 
       array (
-        'num' => '28',
-        'sym' => 'D5',
         'desc' => 'data bus',
       ),
-      28 => 
+      'D4' => 
       array (
-        'num' => '29',
-        'sym' => 'D4',
         'desc' => 'data bus',
       ),
-      29 => 
+      'D3' => 
       array (
-        'num' => '30',
-        'sym' => 'D3',
         'desc' => 'data bus',
       ),
-      30 => 
+      'D2' => 
       array (
-        'num' => '31',
-        'sym' => 'D2',
         'desc' => 'data bus',
       ),
-      31 => 
+      'D1' => 
       array (
-        'num' => '32',
-        'sym' => 'D1',
         'desc' => 'data bus',
       ),
-      32 => 
+      'D0' => 
       array (
-        'num' => '33',
-        'sym' => 'D0',
         'desc' => 'data bus',
       ),
-      33 => 
+      '~RESET' => 
       array (
-        'num' => '34',
-        'sym' => '~RESET',
         'desc' => 'master reset (active low)',
       ),
-      34 => 
+      'RS1' => 
       array (
-        'num' => '35',
-        'sym' => 'RS1',
         'desc' => 'register select (address bus)',
       ),
-      35 => 
+      'RS0' => 
       array (
-        'num' => '36',
-        'sym' => 'RS0',
         'desc' => 'register select (address bus)',
       ),
-      36 => 
+      '~IRQB' => 
       array (
-        'num' => '37',
-        'sym' => '~IRQB',
         'desc' => 'interrupt output (active low)',
       ),
-      37 => 
+      '~IRQA' => 
       array (
-        'num' => '38',
-        'sym' => '~IRQA',
         'desc' => 'interrupt output (active low)',
       ),
-      38 => 
+      'CA2' => 
       array (
-        'num' => '39',
-        'sym' => 'CA2',
         'desc' => 'peripheral control (port A)',
       ),
-      39 => 
+      'CA1' => 
       array (
-        'num' => '40',
-        'sym' => 'CA1',
         'desc' => 'peripheral control (port A)',
       ),
     ),
@@ -9601,6 +8426,52 @@
       9 => 'RS=10, bit 2 of control register B=0: data direction register B',
       10 => 'RS=11: control register B',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'GND',
+        2 => 'PA0',
+        3 => 'PA1',
+        4 => 'PA2',
+        5 => 'PA3',
+        6 => 'PA4',
+        7 => 'PA5',
+        8 => 'PA6',
+        9 => 'PA7',
+        10 => 'PB0',
+        11 => 'PB1',
+        12 => 'PB2',
+        13 => 'PB3',
+        14 => 'PB4',
+        15 => 'PB5',
+        16 => 'PB6',
+        17 => 'PB7',
+        18 => 'CB1',
+        19 => 'CB2',
+        20 => 'Vcc',
+        21 => 'R/~W',
+        22 => 'CS0',
+        23 => '~CS2',
+        24 => 'CS1',
+        25 => 'E',
+        26 => 'D7',
+        27 => 'D6',
+        28 => 'D5',
+        29 => 'D4',
+        30 => 'D3',
+        31 => 'D2',
+        32 => 'D1',
+        33 => 'D0',
+        34 => '~RESET',
+        35 => 'RS1',
+        36 => 'RS0',
+        37 => '~IRQB',
+        38 => '~IRQA',
+        39 => 'CA2',
+        40 => 'CA1',
+      ),
+    ),
   ),
   '6N137' => 
   array (
@@ -9610,58 +8481,36 @@
       0 => 'HCPL2601',
       1 => 'HCPL2611',
     ),
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'Fairchild',
     'datasheet' => 'http://www.fairchildsemi.com/ds/6N/6N137.pdf',
     'pins' => 
     array (
-      0 => 
+      'N/C' => 
       array (
-        'num' => '1',
-        'sym' => 'N/C',
         'desc' => 'no connection',
       ),
-      1 => 
+      'V__F +' => 
       array (
-        'num' => '2',
-        'sym' => 'V__F +',
         'desc' => 'emitter, anode',
       ),
-      2 => 
+      'V__F -' => 
       array (
-        'num' => '3',
-        'sym' => 'V__F -',
         'desc' => 'emitter, cathode',
       ),
-      3 => 
+      'GND' => 
       array (
-        'num' => '4',
-        'sym' => 'N/C',
-        'desc' => 'no connection',
-      ),
-      4 => 
-      array (
-        'num' => '5',
-        'sym' => 'GND',
         'desc' => 'supply ground',
       ),
-      5 => 
+      'V__O' => 
       array (
-        'num' => '6',
-        'sym' => 'V__O',
         'desc' => 'output',
       ),
-      6 => 
+      'V__E' => 
       array (
-        'num' => '7',
-        'sym' => 'V__E',
         'desc' => 'enable input',
       ),
-      7 => 
+      'Vcc' => 
       array (
-        'num' => '8',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -9698,98 +8547,82 @@
         'unit' => 'V',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'N/C',
+        2 => 'V__F +',
+        3 => 'V__F -',
+        4 => 'N/C',
+        5 => 'GND',
+        6 => 'V__O',
+        7 => 'V__E',
+        8 => 'Vcc',
+      ),
+    ),
   ),
   7400 => 
   array (
     'description' => 'Quad 2-input NAND gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/74HC_HCT00_3.pdf',
     'pins' => 
     array (
-      0 => 
+      '1A' => 
       array (
-        'num' => '1',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      1 => 
+      '1B' => 
       array (
-        'num' => '2',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      2 => 
+      '1Y' => 
       array (
-        'num' => '3',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      3 => 
+      '2A' => 
       array (
-        'num' => '4',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      4 => 
+      '2B' => 
       array (
-        'num' => '5',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      5 => 
+      '2Y' => 
       array (
-        'num' => '6',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '3Y' => 
       array (
-        'num' => '8',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      8 => 
+      '3A' => 
       array (
-        'num' => '9',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      9 => 
+      '3B' => 
       array (
-        'num' => '10',
-        'sym' => '3B',
         'desc' => 'data input',
       ),
-      10 => 
+      '4Y' => 
       array (
-        'num' => '11',
-        'sym' => '4Y',
         'desc' => 'data output',
       ),
-      11 => 
+      '4A' => 
       array (
-        'num' => '12',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      12 => 
+      '4B' => 
       array (
-        'num' => '13',
-        'sym' => '4B',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -9806,98 +8639,88 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1A',
+        2 => '1B',
+        3 => '1Y',
+        4 => '2A',
+        5 => '2B',
+        6 => '2Y',
+        7 => 'GND',
+        8 => '3Y',
+        9 => '3A',
+        10 => '3B',
+        11 => '4Y',
+        12 => '4A',
+        13 => '4B',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   7402 => 
   array (
     'description' => 'Quad 2-input NOR gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/74HC_HCT02_3.pdf',
     'pins' => 
     array (
-      0 => 
+      '1Y' => 
       array (
-        'num' => '1',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      1 => 
+      '1A' => 
       array (
-        'num' => '2',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      2 => 
+      '1B' => 
       array (
-        'num' => '3',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      3 => 
+      '2Y' => 
       array (
-        'num' => '4',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      4 => 
+      '2A' => 
       array (
-        'num' => '5',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      5 => 
+      '2B' => 
       array (
-        'num' => '6',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '3A' => 
       array (
-        'num' => '8',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      8 => 
+      '3B' => 
       array (
-        'num' => '9',
-        'sym' => '3B',
         'desc' => 'data input',
       ),
-      9 => 
+      '3Y' => 
       array (
-        'num' => '10',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      10 => 
+      '4A' => 
       array (
-        'num' => '11',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      11 => 
+      '4B' => 
       array (
-        'num' => '12',
-        'sym' => '4B',
         'desc' => 'data input',
       ),
-      12 => 
+      '4Y' => 
       array (
-        'num' => '13',
-        'sym' => '4Y',
         'desc' => 'data output',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -9914,98 +8737,88 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1Y',
+        2 => '1A',
+        3 => '1B',
+        4 => '2Y',
+        5 => '2A',
+        6 => '2B',
+        7 => 'GND',
+        8 => '3A',
+        9 => '3B',
+        10 => '3Y',
+        11 => '4A',
+        12 => '4B',
+        13 => '4Y',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   7404 => 
   array (
     'description' => 'Hex inverter',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/74HC_HCT04_3.pdf',
     'pins' => 
     array (
-      0 => 
+      '1A' => 
       array (
-        'num' => '1',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      1 => 
+      '1Y' => 
       array (
-        'num' => '2',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      2 => 
+      '2A' => 
       array (
-        'num' => '3',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      3 => 
+      '2Y' => 
       array (
-        'num' => '4',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      4 => 
+      '3A' => 
       array (
-        'num' => '5',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      5 => 
+      '3Y' => 
       array (
-        'num' => '6',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '4Y' => 
       array (
-        'num' => '8',
-        'sym' => '4Y',
         'desc' => 'data output',
       ),
-      8 => 
+      '4A' => 
       array (
-        'num' => '9',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      9 => 
+      '5Y' => 
       array (
-        'num' => '10',
-        'sym' => '5Y',
         'desc' => 'data output',
       ),
-      10 => 
+      '5A' => 
       array (
-        'num' => '11',
-        'sym' => '5A',
         'desc' => 'data input',
       ),
-      11 => 
+      '6Y' => 
       array (
-        'num' => '12',
-        'sym' => '6Y',
         'desc' => 'data output',
       ),
-      12 => 
+      '6A' => 
       array (
-        'num' => '13',
-        'sym' => '6A',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -10022,98 +8835,88 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1A',
+        2 => '1Y',
+        3 => '2A',
+        4 => '2Y',
+        5 => '3A',
+        6 => '3Y',
+        7 => 'GND',
+        8 => '4Y',
+        9 => '4A',
+        10 => '5Y',
+        11 => '5A',
+        12 => '6Y',
+        13 => '6A',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   7408 => 
   array (
     'description' => 'Quad 2-input AND gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/74HC_HCT08_3.pdf',
     'pins' => 
     array (
-      0 => 
+      '1A' => 
       array (
-        'num' => '1',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      1 => 
+      '1B' => 
       array (
-        'num' => '2',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      2 => 
+      '1Y' => 
       array (
-        'num' => '3',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      3 => 
+      '2A' => 
       array (
-        'num' => '4',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      4 => 
+      '2B' => 
       array (
-        'num' => '5',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      5 => 
+      '2Y' => 
       array (
-        'num' => '6',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '3Y' => 
       array (
-        'num' => '8',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      8 => 
+      '3A' => 
       array (
-        'num' => '9',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      9 => 
+      '3B' => 
       array (
-        'num' => '10',
-        'sym' => '3B',
         'desc' => 'data input',
       ),
-      10 => 
+      '4Y' => 
       array (
-        'num' => '11',
-        'sym' => '4Y',
         'desc' => 'data output',
       ),
-      11 => 
+      '4A' => 
       array (
-        'num' => '12',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      12 => 
+      '4B' => 
       array (
-        'num' => '13',
-        'sym' => '4B',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -10130,63 +8933,57 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1A',
+        2 => '1B',
+        3 => '1Y',
+        4 => '2A',
+        5 => '2B',
+        6 => '2Y',
+        7 => 'GND',
+        8 => '3Y',
+        9 => '3A',
+        10 => '3B',
+        11 => '4Y',
+        12 => '4A',
+        13 => '4B',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   741 => 
   array (
     'description' => 'Operational amplifier',
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM741.pdf',
     'pins' => 
     array (
-      0 => 
+      'OFFSET NULL' => 
       array (
-        'num' => '1',
-        'sym' => 'OFFSET NULL',
         'desc' => 'offset null',
       ),
-      1 => 
+      'IN-' => 
       array (
-        'num' => '2',
-        'sym' => 'IN-',
         'desc' => 'inverting input',
       ),
-      2 => 
+      'IN+' => 
       array (
-        'num' => '3',
-        'sym' => 'IN+',
         'desc' => 'non-inverting input',
       ),
-      3 => 
+      'Vss' => 
       array (
-        'num' => '4',
-        'sym' => 'Vss',
         'desc' => 'negative supply voltage',
       ),
-      4 => 
+      'OUT' => 
       array (
-        'num' => '5',
-        'sym' => 'OFFSET NULL',
-        'desc' => 'offset null',
-      ),
-      5 => 
-      array (
-        'num' => '6',
-        'sym' => 'OUT',
         'desc' => 'output',
       ),
-      6 => 
+      'Vcc' => 
       array (
-        'num' => '7',
-        'sym' => 'Vcc',
         'desc' => 'positive supply voltage',
-      ),
-      7 => 
-      array (
-        'num' => '8',
-        'sym' => 'NC',
-        'desc' => 'no connection',
       ),
     ),
     'specs' => 
@@ -10230,98 +9027,82 @@
     array (
       0 => 'A 10 kΩ potentiometer connected to pins 1 and 5 can be used to null any offset voltage.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'OFFSET NULL',
+        2 => 'IN-',
+        3 => 'IN+',
+        4 => 'Vss',
+        5 => 'OFFSET NULL',
+        6 => 'OUT',
+        7 => 'Vcc',
+        8 => 'NC',
+      ),
+    ),
   ),
   7410 => 
   array (
     'description' => 'Triple 3-input NAND gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/74HC_HCT10_CNV_2.pdf',
     'pins' => 
     array (
-      0 => 
+      '1A' => 
       array (
-        'num' => '1',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      1 => 
+      '1B' => 
       array (
-        'num' => '2',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      2 => 
+      '2A' => 
       array (
-        'num' => '3',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      3 => 
+      '2B' => 
       array (
-        'num' => '4',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      4 => 
+      '2C' => 
       array (
-        'num' => '5',
-        'sym' => '2C',
         'desc' => 'data input',
       ),
-      5 => 
+      '2Y' => 
       array (
-        'num' => '6',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '3Y' => 
       array (
-        'num' => '8',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      8 => 
+      '3A' => 
       array (
-        'num' => '9',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      9 => 
+      '3B' => 
       array (
-        'num' => '10',
-        'sym' => '3B',
         'desc' => 'data input',
       ),
-      10 => 
+      '3C' => 
       array (
-        'num' => '11',
-        'sym' => '3C',
         'desc' => 'data input',
       ),
-      11 => 
+      '1Y' => 
       array (
-        'num' => '12',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      12 => 
+      '1C' => 
       array (
-        'num' => '13',
-        'sym' => '1C',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -10338,98 +9119,88 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1A',
+        2 => '1B',
+        3 => '2A',
+        4 => '2B',
+        5 => '2C',
+        6 => '2Y',
+        7 => 'GND',
+        8 => '3Y',
+        9 => '3A',
+        10 => '3B',
+        11 => '3C',
+        12 => '1Y',
+        13 => '1C',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   74107 => 
   array (
     'description' => 'Dual J-K flip-flop with reset; negative-edge trigger',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc107.74hct107.pdf',
     'pins' => 
     array (
-      0 => 
+      '1J' => 
       array (
-        'num' => '1',
-        'sym' => '1J',
         'desc' => 'synchronous input',
       ),
-      1 => 
+      '1~Q' => 
       array (
-        'num' => '2',
-        'sym' => '1~Q',
         'desc' => 'complement output',
       ),
-      2 => 
+      '1Q' => 
       array (
-        'num' => '3',
-        'sym' => '1Q',
         'desc' => 'true output',
       ),
-      3 => 
+      '1K' => 
       array (
-        'num' => '4',
-        'sym' => '1K',
         'desc' => 'synchronous input',
       ),
-      4 => 
+      '2Q' => 
       array (
-        'num' => '5',
-        'sym' => '2Q',
         'desc' => 'true output',
       ),
-      5 => 
+      '2~Q' => 
       array (
-        'num' => '6',
-        'sym' => '2~Q',
         'desc' => 'complement output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '2J' => 
       array (
-        'num' => '8',
-        'sym' => '2J',
         'desc' => 'synchronous input',
       ),
-      8 => 
+      '2~CP' => 
       array (
-        'num' => '9',
-        'sym' => '2~CP',
         'desc' => 'clock input (high-to-low, edge-triggered)',
       ),
-      9 => 
+      '2~R' => 
       array (
-        'num' => '10',
-        'sym' => '2~R',
         'desc' => 'asynchronous reset (active low)',
       ),
-      10 => 
+      '2K' => 
       array (
-        'num' => '11',
-        'sym' => '2K',
         'desc' => 'synchronous input',
       ),
-      11 => 
+      '1~CP' => 
       array (
-        'num' => '12',
-        'sym' => '1~CP',
         'desc' => 'clock input (high-to-low, edge-triggered)',
       ),
-      12 => 
+      '1~R' => 
       array (
-        'num' => '13',
-        'sym' => '1~R',
         'desc' => 'asynchronous reset (active low)',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -10476,110 +9247,96 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1J',
+        2 => '1~Q',
+        3 => '1Q',
+        4 => '1K',
+        5 => '2Q',
+        6 => '2~Q',
+        7 => 'GND',
+        8 => '2J',
+        9 => '2~CP',
+        10 => '2~R',
+        11 => '2K',
+        12 => '1~CP',
+        13 => '1~R',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   74109 => 
   array (
     'description' => 'Dual J-K flip-flop with set and reset; positive-edge trigger',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc109.74hct109.pdf',
     'pins' => 
     array (
-      0 => 
+      '1~R~__D' => 
       array (
-        'num' => '1',
-        'sym' => '1~R~__D',
         'desc' => 'asynchronous reset; direct input (active low)',
       ),
-      1 => 
+      '1J' => 
       array (
-        'num' => '2',
-        'sym' => '1J',
         'desc' => 'synchronous input',
       ),
-      2 => 
+      '1~K' => 
       array (
-        'num' => '3',
-        'sym' => '1~K',
         'desc' => 'synchronous input',
       ),
-      3 => 
+      '1CP' => 
       array (
-        'num' => '4',
-        'sym' => '1CP',
         'desc' => 'clock input (low-to-high, edge-triggered)',
       ),
-      4 => 
+      '1~S~__D' => 
       array (
-        'num' => '5',
-        'sym' => '1~S~__D',
         'desc' => 'asynchronous set; direct input (active low)',
       ),
-      5 => 
+      '1Q' => 
       array (
-        'num' => '6',
-        'sym' => '1Q',
         'desc' => 'true output',
       ),
-      6 => 
+      '1~Q' => 
       array (
-        'num' => '7',
-        'sym' => '1~Q',
         'desc' => 'complement output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '2~Q' => 
       array (
-        'num' => '9',
-        'sym' => '2~Q',
         'desc' => 'complement output',
       ),
-      9 => 
+      '2Q' => 
       array (
-        'num' => '10',
-        'sym' => '2Q',
         'desc' => 'true output',
       ),
-      10 => 
+      '2~S~__D' => 
       array (
-        'num' => '11',
-        'sym' => '2~S~__D',
         'desc' => 'asynchronous set; direct input (active low)',
       ),
-      11 => 
+      '2CP' => 
       array (
-        'num' => '12',
-        'sym' => '2CP',
         'desc' => 'clock input (low-to-high, active low)',
       ),
-      12 => 
+      '2~K' => 
       array (
-        'num' => '13',
-        'sym' => '2~K',
         'desc' => 'synchronous input',
       ),
-      13 => 
+      '2J' => 
       array (
-        'num' => '14',
-        'sym' => '2J',
         'desc' => 'synchronous input',
       ),
-      14 => 
+      '2~R~__D' => 
       array (
-        'num' => '15',
-        'sym' => '2~R~__D',
         'desc' => 'asynchronous reset; direct input (active low)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -10626,98 +9383,90 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1~R~__D',
+        2 => '1J',
+        3 => '1~K',
+        4 => '1CP',
+        5 => '1~S~__D',
+        6 => '1Q',
+        7 => '1~Q',
+        8 => 'GND',
+        9 => '2~Q',
+        10 => '2Q',
+        11 => '2~S~__D',
+        12 => '2CP',
+        13 => '2~K',
+        14 => '2J',
+        15 => '2~R~__D',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   7411 => 
   array (
     'description' => 'Triple 3-input AND gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc11.74hct11.pdf',
     'pins' => 
     array (
-      0 => 
+      '1A' => 
       array (
-        'num' => '1',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      1 => 
+      '1B' => 
       array (
-        'num' => '2',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      2 => 
+      '2A' => 
       array (
-        'num' => '3',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      3 => 
+      '2B' => 
       array (
-        'num' => '4',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      4 => 
+      '2C' => 
       array (
-        'num' => '5',
-        'sym' => '2C',
         'desc' => 'data input',
       ),
-      5 => 
+      '2Y' => 
       array (
-        'num' => '6',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '3Y' => 
       array (
-        'num' => '8',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      8 => 
+      '3A' => 
       array (
-        'num' => '9',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      9 => 
+      '3B' => 
       array (
-        'num' => '10',
-        'sym' => '3B',
         'desc' => 'data input',
       ),
-      10 => 
+      '3C' => 
       array (
-        'num' => '11',
-        'sym' => '3C',
         'desc' => 'data input',
       ),
-      11 => 
+      '1Y' => 
       array (
-        'num' => '12',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      12 => 
+      '1C' => 
       array (
-        'num' => '13',
-        'sym' => '1C',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -10734,110 +9483,96 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1A',
+        2 => '1B',
+        3 => '2A',
+        4 => '2B',
+        5 => '2C',
+        6 => '2Y',
+        7 => 'GND',
+        8 => '3Y',
+        9 => '3A',
+        10 => '3B',
+        11 => '3C',
+        12 => '1Y',
+        13 => '1C',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   74112 => 
   array (
     'description' => 'Dual J-K flip-flop with set and reset; negative-edge trigger',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc112.74hct112.pdf',
     'pins' => 
     array (
-      0 => 
+      '1~CP' => 
       array (
-        'num' => '1',
-        'sym' => '1~CP',
         'desc' => 'clock input (high-to-low, edge-triggered)',
       ),
-      1 => 
+      '1K' => 
       array (
-        'num' => '2',
-        'sym' => '1K',
         'desc' => 'synchronous input',
       ),
-      2 => 
+      '1J' => 
       array (
-        'num' => '3',
-        'sym' => '1J',
         'desc' => 'synchronous input',
       ),
-      3 => 
+      '1~S~__D' => 
       array (
-        'num' => '4',
-        'sym' => '1~S~__D',
         'desc' => 'asynchronous set; direct input (active low)',
       ),
-      4 => 
+      '1Q' => 
       array (
-        'num' => '5',
-        'sym' => '1Q',
         'desc' => 'true output',
       ),
-      5 => 
+      '1~Q' => 
       array (
-        'num' => '6',
-        'sym' => '1~Q',
         'desc' => 'complement output',
       ),
-      6 => 
+      '2~Q' => 
       array (
-        'num' => '7',
-        'sym' => '2~Q',
         'desc' => 'complement output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '2Q' => 
       array (
-        'num' => '9',
-        'sym' => '2Q',
         'desc' => 'true output',
       ),
-      9 => 
+      '2~S~__D' => 
       array (
-        'num' => '10',
-        'sym' => '2~S~__D',
         'desc' => 'asynchronous set; direct input (active low)',
       ),
-      10 => 
+      '2J' => 
       array (
-        'num' => '11',
-        'sym' => '2J',
         'desc' => 'synchronous input',
       ),
-      11 => 
+      '2K' => 
       array (
-        'num' => '12',
-        'sym' => '2K',
         'desc' => 'synchronous input',
       ),
-      12 => 
+      '2~CP' => 
       array (
-        'num' => '13',
-        'sym' => '2~CP',
         'desc' => 'clock input (high-to-low, edge-triggered)',
       ),
-      13 => 
+      '2~R~__D' => 
       array (
-        'num' => '14',
-        'sym' => '2~R~__D',
         'desc' => 'asynchronous reset; direct input (active low)',
       ),
-      14 => 
+      '1~R~__D' => 
       array (
-        'num' => '15',
-        'sym' => '1~R~__D',
         'desc' => 'asynchronous reset; direct input (active low)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -10884,110 +9619,98 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1~CP',
+        2 => '1K',
+        3 => '1J',
+        4 => '1~S~__D',
+        5 => '1Q',
+        6 => '1~Q',
+        7 => '2~Q',
+        8 => 'GND',
+        9 => '2Q',
+        10 => '2~S~__D',
+        11 => '2J',
+        12 => '2K',
+        13 => '2~CP',
+        14 => '2~R~__D',
+        15 => '1~R~__D',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74123 => 
   array (
     'description' => 'Dual retriggerable monostable multivibrator with reset',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc123.74hct123.pdf',
     'pins' => 
     array (
-      0 => 
+      '1~A' => 
       array (
-        'num' => '1',
-        'sym' => '1~A',
         'desc' => 'negative-edge triggered input 1',
       ),
-      1 => 
+      '1B' => 
       array (
-        'num' => '2',
-        'sym' => '1B',
         'desc' => 'positive-edge triggered input 1',
       ),
-      2 => 
+      '1~R~D' => 
       array (
-        'num' => '3',
-        'sym' => '1~R~D',
         'desc' => 'direct reset (active low) and positive-edge triggered input 1',
       ),
-      3 => 
+      '1~Q' => 
       array (
-        'num' => '4',
-        'sym' => '1~Q',
         'desc' => 'active low output 1',
       ),
-      4 => 
+      '2Q' => 
       array (
-        'num' => '5',
-        'sym' => '2Q',
         'desc' => 'active high output 2',
       ),
-      5 => 
+      '2CEXT' => 
       array (
-        'num' => '6',
-        'sym' => '2CEXT',
         'desc' => 'external capacitor connection 2',
       ),
-      6 => 
+      '2REXT/CEXT' => 
       array (
-        'num' => '7',
-        'sym' => '2REXT/CEXT',
         'desc' => 'external resistor and capacitor connection 2',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '2~A' => 
       array (
-        'num' => '9',
-        'sym' => '2~A',
         'desc' => 'negative-edge triggered input 2',
       ),
-      9 => 
+      '2B' => 
       array (
-        'num' => '10',
-        'sym' => '2B',
         'desc' => 'positive-edge triggered input 2',
       ),
-      10 => 
+      '2~R~D' => 
       array (
-        'num' => '11',
-        'sym' => '2~R~D',
         'desc' => 'direct reset (active low) and positive-edge triggered input 2',
       ),
-      11 => 
+      '2~Q' => 
       array (
-        'num' => '12',
-        'sym' => '2~Q',
         'desc' => 'active low output 2',
       ),
-      12 => 
+      '1Q' => 
       array (
-        'num' => '13',
-        'sym' => '1Q',
         'desc' => 'active high output 1',
       ),
-      13 => 
+      '1CEXT' => 
       array (
-        'num' => '14',
-        'sym' => '1CEXT',
         'desc' => 'external capacitor connection 1',
       ),
-      14 => 
+      '1REXT/CEXT' => 
       array (
-        'num' => '15',
-        'sym' => '1REXT/CEXT',
         'desc' => 'external resistor and capacitor connection 1',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -11041,98 +9764,90 @@
         'unit' => 'kΩ',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1~A',
+        2 => '1B',
+        3 => '1~R~D',
+        4 => '1~Q',
+        5 => '2Q',
+        6 => '2CEXT',
+        7 => '2REXT/CEXT',
+        8 => 'GND',
+        9 => '2~A',
+        10 => '2B',
+        11 => '2~R~D',
+        12 => '2~Q',
+        13 => '1Q',
+        14 => '1CEXT',
+        15 => '1REXT/CEXT',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74125 => 
   array (
     'description' => 'Quad buffer/line driver with active low output enable; 3-state',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc125.74hct125.pdf',
     'pins' => 
     array (
-      0 => 
+      '1~OE' => 
       array (
-        'num' => '1',
-        'sym' => '1~OE',
         'desc' => 'output enable (active low)',
       ),
-      1 => 
+      '1A' => 
       array (
-        'num' => '2',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      2 => 
+      '1Y' => 
       array (
-        'num' => '3',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      3 => 
+      '2~OE' => 
       array (
-        'num' => '4',
-        'sym' => '2~OE',
         'desc' => 'output enable (active low)',
       ),
-      4 => 
+      '2A' => 
       array (
-        'num' => '5',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      5 => 
+      '2Y' => 
       array (
-        'num' => '6',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '3Y' => 
       array (
-        'num' => '8',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      8 => 
+      '3A' => 
       array (
-        'num' => '9',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      9 => 
+      '3~OE' => 
       array (
-        'num' => '10',
-        'sym' => '3~OE',
         'desc' => 'output enable (active low)',
       ),
-      10 => 
+      '4Y' => 
       array (
-        'num' => '11',
-        'sym' => '4Y',
         'desc' => 'data output',
       ),
-      11 => 
+      '4A' => 
       array (
-        'num' => '12',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      12 => 
+      '4~OE' => 
       array (
-        'num' => '13',
-        'sym' => '4~OE',
         'desc' => 'output enable (active low)',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -11149,98 +9864,88 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1~OE',
+        2 => '1A',
+        3 => '1Y',
+        4 => '2~OE',
+        5 => '2A',
+        6 => '2Y',
+        7 => 'GND',
+        8 => '3Y',
+        9 => '3A',
+        10 => '3~OE',
+        11 => '4Y',
+        12 => '4A',
+        13 => '4~OE',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   74126 => 
   array (
     'description' => 'Quad buffer/line driver with active high output enable; 3-state',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc126.74hct126.pdf',
     'pins' => 
     array (
-      0 => 
+      '1OE' => 
       array (
-        'num' => '1',
-        'sym' => '1OE',
         'desc' => 'output enable (active high)',
       ),
-      1 => 
+      '1A' => 
       array (
-        'num' => '2',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      2 => 
+      '1Y' => 
       array (
-        'num' => '3',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      3 => 
+      '2OE' => 
       array (
-        'num' => '4',
-        'sym' => '2OE',
         'desc' => 'output enable (active high)',
       ),
-      4 => 
+      '2A' => 
       array (
-        'num' => '5',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      5 => 
+      '2Y' => 
       array (
-        'num' => '6',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '3Y' => 
       array (
-        'num' => '8',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      8 => 
+      '3A' => 
       array (
-        'num' => '9',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      9 => 
+      '3OE' => 
       array (
-        'num' => '10',
-        'sym' => '3OE',
         'desc' => 'output enable (active high)',
       ),
-      10 => 
+      '4Y' => 
       array (
-        'num' => '11',
-        'sym' => '4Y',
         'desc' => 'data output',
       ),
-      11 => 
+      '4A' => 
       array (
-        'num' => '12',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      12 => 
+      '4OE' => 
       array (
-        'num' => '13',
-        'sym' => '4OE',
         'desc' => 'output enable (active high)',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -11257,98 +9962,88 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1OE',
+        2 => '1A',
+        3 => '1Y',
+        4 => '2OE',
+        5 => '2A',
+        6 => '2Y',
+        7 => 'GND',
+        8 => '3Y',
+        9 => '3A',
+        10 => '3OE',
+        11 => '4Y',
+        12 => '4A',
+        13 => '4OE',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   74132 => 
   array (
     'description' => 'Quad 2-input NAND Schmitt trigger',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc132.74hct132.pdf',
     'pins' => 
     array (
-      0 => 
+      '1A' => 
       array (
-        'num' => '1',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      1 => 
+      '1B' => 
       array (
-        'num' => '2',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      2 => 
+      '1Y' => 
       array (
-        'num' => '3',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      3 => 
+      '2A' => 
       array (
-        'num' => '4',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      4 => 
+      '2B' => 
       array (
-        'num' => '5',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      5 => 
+      '2Y' => 
       array (
-        'num' => '6',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '3Y' => 
       array (
-        'num' => '8',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      8 => 
+      '3A' => 
       array (
-        'num' => '9',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      9 => 
+      '3B' => 
       array (
-        'num' => '10',
-        'sym' => '3B',
         'desc' => 'data input',
       ),
-      10 => 
+      '4Y' => 
       array (
-        'num' => '11',
-        'sym' => '4Y',
         'desc' => 'data output',
       ),
-      11 => 
+      '4A' => 
       array (
-        'num' => '12',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      12 => 
+      '4B' => 
       array (
-        'num' => '13',
-        'sym' => '4B',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -11365,110 +10060,96 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1A',
+        2 => '1B',
+        3 => '1Y',
+        4 => '2A',
+        5 => '2B',
+        6 => '2Y',
+        7 => 'GND',
+        8 => '3Y',
+        9 => '3A',
+        10 => '3B',
+        11 => '4Y',
+        12 => '4A',
+        13 => '4B',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   74137 => 
   array (
     'description' => '3-to-8 line decoder/demultiplexer with address latches; inverting',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc137.pdf',
     'pins' => 
     array (
-      0 => 
+      'A0' => 
       array (
-        'num' => '1',
-        'sym' => 'A0',
         'desc' => 'data input 0',
       ),
-      1 => 
+      'A1' => 
       array (
-        'num' => '2',
-        'sym' => 'A1',
         'desc' => 'data input 1',
       ),
-      2 => 
+      'A2' => 
       array (
-        'num' => '3',
-        'sym' => 'A2',
         'desc' => 'data input 2',
       ),
-      3 => 
+      '~LE' => 
       array (
-        'num' => '4',
-        'sym' => '~LE',
         'desc' => 'latch enable input (active low)',
       ),
-      4 => 
+      '~E~1' => 
       array (
-        'num' => '5',
-        'sym' => '~E~1',
         'desc' => 'data enable input 1 (active low)',
       ),
-      5 => 
+      'E2' => 
       array (
-        'num' => '6',
-        'sym' => 'E2',
         'desc' => 'data enable input 2 (active high)',
       ),
-      6 => 
+      '~Y~7' => 
       array (
-        'num' => '7',
-        'sym' => '~Y~7',
         'desc' => 'output 7',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '~Y~6' => 
       array (
-        'num' => '9',
-        'sym' => '~Y~6',
         'desc' => 'output 6',
       ),
-      9 => 
+      '~Y~5' => 
       array (
-        'num' => '10',
-        'sym' => '~Y~5',
         'desc' => 'output 5',
       ),
-      10 => 
+      '~Y~4' => 
       array (
-        'num' => '11',
-        'sym' => '~Y~4',
         'desc' => 'output 4',
       ),
-      11 => 
+      '~Y~3' => 
       array (
-        'num' => '12',
-        'sym' => '~Y~3',
         'desc' => 'output 3',
       ),
-      12 => 
+      '~Y~2' => 
       array (
-        'num' => '13',
-        'sym' => '~Y~2',
         'desc' => 'output 2',
       ),
-      13 => 
+      '~Y~1' => 
       array (
-        'num' => '14',
-        'sym' => '~Y~1',
         'desc' => 'output 1',
       ),
-      14 => 
+      '~Y~0' => 
       array (
-        'num' => '15',
-        'sym' => '~Y~0',
         'desc' => 'output 0',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -11499,110 +10180,98 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'A0',
+        2 => 'A1',
+        3 => 'A2',
+        4 => '~LE',
+        5 => '~E~1',
+        6 => 'E2',
+        7 => '~Y~7',
+        8 => 'GND',
+        9 => '~Y~6',
+        10 => '~Y~5',
+        11 => '~Y~4',
+        12 => '~Y~3',
+        13 => '~Y~2',
+        14 => '~Y~1',
+        15 => '~Y~0',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74138 => 
   array (
     'description' => '3-to-8 line decoder/demultiplexer; inverting',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc138.74hct138.pdf',
     'pins' => 
     array (
-      0 => 
+      'A0' => 
       array (
-        'num' => '1',
-        'sym' => 'A0',
         'desc' => 'data input 0',
       ),
-      1 => 
+      'A1' => 
       array (
-        'num' => '2',
-        'sym' => 'A1',
         'desc' => 'data input 1',
       ),
-      2 => 
+      'A2' => 
       array (
-        'num' => '3',
-        'sym' => 'A2',
         'desc' => 'data input 2',
       ),
-      3 => 
+      '~E~1' => 
       array (
-        'num' => '4',
-        'sym' => '~E~1',
         'desc' => 'enable input 1 (active low)',
       ),
-      4 => 
+      '~E~2' => 
       array (
-        'num' => '5',
-        'sym' => '~E~2',
         'desc' => 'enable input 2 (active low)',
       ),
-      5 => 
+      'E3' => 
       array (
-        'num' => '6',
-        'sym' => 'E3',
         'desc' => 'enable input 3 (active high)',
       ),
-      6 => 
+      '~Y~7' => 
       array (
-        'num' => '7',
-        'sym' => '~Y~7',
         'desc' => 'output 7',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '~Y~6' => 
       array (
-        'num' => '9',
-        'sym' => '~Y~6',
         'desc' => 'output 6',
       ),
-      9 => 
+      '~Y~5' => 
       array (
-        'num' => '10',
-        'sym' => '~Y~5',
         'desc' => 'output 5',
       ),
-      10 => 
+      '~Y~4' => 
       array (
-        'num' => '11',
-        'sym' => '~Y~4',
         'desc' => 'output 4',
       ),
-      11 => 
+      '~Y~3' => 
       array (
-        'num' => '12',
-        'sym' => '~Y~3',
         'desc' => 'output 3',
       ),
-      12 => 
+      '~Y~2' => 
       array (
-        'num' => '13',
-        'sym' => '~Y~2',
         'desc' => 'output 2',
       ),
-      13 => 
+      '~Y~1' => 
       array (
-        'num' => '14',
-        'sym' => '~Y~1',
         'desc' => 'output 1',
       ),
-      14 => 
+      '~Y~0' => 
       array (
-        'num' => '15',
-        'sym' => '~Y~0',
         'desc' => 'output 0',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -11639,110 +10308,98 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'A0',
+        2 => 'A1',
+        3 => 'A2',
+        4 => '~E~1',
+        5 => '~E~2',
+        6 => 'E3',
+        7 => '~Y~7',
+        8 => 'GND',
+        9 => '~Y~6',
+        10 => '~Y~5',
+        11 => '~Y~4',
+        12 => '~Y~3',
+        13 => '~Y~2',
+        14 => '~Y~1',
+        15 => '~Y~0',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74139 => 
   array (
     'description' => 'Dual 2-to-4 line decoder/demultiplexer',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc139.74hct139.pdf',
     'pins' => 
     array (
-      0 => 
+      '1~E' => 
       array (
-        'num' => '1',
-        'sym' => '1~E',
         'desc' => 'enable input (active low)',
       ),
-      1 => 
+      '1A__0' => 
       array (
-        'num' => '2',
-        'sym' => '1A__0',
         'desc' => 'address input',
       ),
-      2 => 
+      '1A__1' => 
       array (
-        'num' => '3',
-        'sym' => '1A__1',
         'desc' => 'address input',
       ),
-      3 => 
+      '1~Y~__0' => 
       array (
-        'num' => '4',
-        'sym' => '1~Y~__0',
         'desc' => 'output (active low)',
       ),
-      4 => 
+      '1~Y~__1' => 
       array (
-        'num' => '5',
-        'sym' => '1~Y~__1',
         'desc' => 'output (active low)',
       ),
-      5 => 
+      '1~Y~__2' => 
       array (
-        'num' => '6',
-        'sym' => '1~Y~__2',
         'desc' => 'output (active low)',
       ),
-      6 => 
+      '1~Y~__3' => 
       array (
-        'num' => '7',
-        'sym' => '1~Y~__3',
         'desc' => 'output (active low)',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '2~Y~__3' => 
       array (
-        'num' => '9',
-        'sym' => '2~Y~__3',
         'desc' => 'output (active low)',
       ),
-      9 => 
+      '2~Y~__2' => 
       array (
-        'num' => '10',
-        'sym' => '2~Y~__2',
         'desc' => 'output (active low)',
       ),
-      10 => 
+      '2~Y~__1' => 
       array (
-        'num' => '11',
-        'sym' => '2~Y~__1',
         'desc' => 'output (active low)',
       ),
-      11 => 
+      '2~Y~__0' => 
       array (
-        'num' => '12',
-        'sym' => '2~Y~__0',
         'desc' => 'output (active low)',
       ),
-      12 => 
+      '2A__1' => 
       array (
-        'num' => '13',
-        'sym' => '2A__1',
         'desc' => 'address input',
       ),
-      13 => 
+      '2A__0' => 
       array (
-        'num' => '14',
-        'sym' => '2A__0',
         'desc' => 'address input',
       ),
-      14 => 
+      '2~E' => 
       array (
-        'num' => '15',
-        'sym' => '2~E',
         'desc' => 'enable input (active low)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -11769,98 +10426,90 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1~E',
+        2 => '1A__0',
+        3 => '1A__1',
+        4 => '1~Y~__0',
+        5 => '1~Y~__1',
+        6 => '1~Y~__2',
+        7 => '1~Y~__3',
+        8 => 'GND',
+        9 => '2~Y~__3',
+        10 => '2~Y~__2',
+        11 => '2~Y~__1',
+        12 => '2~Y~__0',
+        13 => '2A__1',
+        14 => '2A__0',
+        15 => '2~E',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   7414 => 
   array (
     'description' => 'Hex inverting Schmitt trigger',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/74HC_HCT14_3.pdf',
     'pins' => 
     array (
-      0 => 
+      '1A' => 
       array (
-        'num' => '1',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      1 => 
+      '1Y' => 
       array (
-        'num' => '2',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      2 => 
+      '2A' => 
       array (
-        'num' => '3',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      3 => 
+      '2Y' => 
       array (
-        'num' => '4',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      4 => 
+      '3A' => 
       array (
-        'num' => '5',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      5 => 
+      '3Y' => 
       array (
-        'num' => '6',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '4Y' => 
       array (
-        'num' => '8',
-        'sym' => '4Y',
         'desc' => 'data output',
       ),
-      8 => 
+      '4A' => 
       array (
-        'num' => '9',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      9 => 
+      '5Y' => 
       array (
-        'num' => '10',
-        'sym' => '5Y',
         'desc' => 'data output',
       ),
-      10 => 
+      '5A' => 
       array (
-        'num' => '11',
-        'sym' => '5A',
         'desc' => 'data input',
       ),
-      11 => 
+      '6Y' => 
       array (
-        'num' => '12',
-        'sym' => '6Y',
         'desc' => 'data output',
       ),
-      12 => 
+      '6A' => 
       array (
-        'num' => '13',
-        'sym' => '6A',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -11907,6 +10556,26 @@
         'unit' => 'V',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1A',
+        2 => '1Y',
+        3 => '2A',
+        4 => '2Y',
+        5 => '3A',
+        6 => '3Y',
+        7 => 'GND',
+        8 => '4Y',
+        9 => '4A',
+        10 => '5Y',
+        11 => '5A',
+        12 => '6Y',
+        13 => '6A',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   74141 => 
   array (
@@ -11916,106 +10585,72 @@
       0 => '7441',
       1 => 'K155ID1',
     ),
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://pdf1.alldatasheet.com/datasheet-pdf/view/115763/TI/SN74141/datasheet.pdf',
     'pins' => 
     array (
-      0 => 
-      array (
-        'num' => '1',
-        'sym' => '8',
-        'desc' => 'output 8',
-      ),
-      1 => 
-      array (
-        'num' => '2',
-        'sym' => '9',
-        'desc' => 'output 9',
-      ),
-      2 => 
-      array (
-        'num' => '3',
-        'sym' => 'A',
-        'desc' => 'BCD input',
-      ),
-      3 => 
-      array (
-        'num' => '4',
-        'sym' => 'D',
-        'desc' => 'BCD input',
-      ),
-      4 => 
-      array (
-        'num' => '5',
-        'sym' => 'Vcc',
-        'desc' => 'supply voltage',
-      ),
-      5 => 
-      array (
-        'num' => '6',
-        'sym' => 'B',
-        'desc' => 'BCD input',
-      ),
-      6 => 
-      array (
-        'num' => '7',
-        'sym' => 'C',
-        'desc' => 'BCD input',
-      ),
-      7 => 
-      array (
-        'num' => '8',
-        'sym' => '2',
-        'desc' => 'output 2',
-      ),
       8 => 
       array (
-        'num' => '9',
-        'sym' => '3',
-        'desc' => 'output 3',
+        'desc' => 'output 8',
       ),
       9 => 
       array (
-        'num' => '10',
-        'sym' => '7',
+        'desc' => 'output 9',
+      ),
+      'A' => 
+      array (
+        'desc' => 'BCD input',
+      ),
+      'D' => 
+      array (
+        'desc' => 'BCD input',
+      ),
+      'Vcc' => 
+      array (
+        'desc' => 'supply voltage',
+      ),
+      'B' => 
+      array (
+        'desc' => 'BCD input',
+      ),
+      'C' => 
+      array (
+        'desc' => 'BCD input',
+      ),
+      2 => 
+      array (
+        'desc' => 'output 2',
+      ),
+      3 => 
+      array (
+        'desc' => 'output 3',
+      ),
+      7 => 
+      array (
         'desc' => 'output 7',
       ),
-      10 => 
+      6 => 
       array (
-        'num' => '11',
-        'sym' => '6',
         'desc' => 'output 6',
       ),
-      11 => 
+      'GND' => 
       array (
-        'num' => '12',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      12 => 
+      4 => 
       array (
-        'num' => '13',
-        'sym' => '4',
         'desc' => 'output 4',
       ),
-      13 => 
+      5 => 
       array (
-        'num' => '14',
-        'sym' => '5',
         'desc' => 'output 5',
       ),
-      14 => 
+      1 => 
       array (
-        'num' => '15',
-        'sym' => '1',
         'desc' => 'output 1',
       ),
-      15 => 
+      0 => 
       array (
-        'num' => '16',
-        'sym' => '0',
         'desc' => 'output 0',
       ),
     ),
@@ -12023,110 +10658,94 @@
     array (
       0 => 'For binary inputs 10 through 15, behavior is manufacturer-specific. 7441s may enable one or more output. 74141s and K155ID1s will turn all outputs off, but the connected tube may not blank.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '8',
+        2 => '9',
+        3 => 'A',
+        4 => 'D',
+        5 => 'Vcc',
+        6 => 'B',
+        7 => 'C',
+        8 => '2',
+        9 => '3',
+        10 => '7',
+        11 => '6',
+        12 => 'GND',
+        13 => '4',
+        14 => '5',
+        15 => '1',
+        16 => '0',
+      ),
+    ),
   ),
   74147 => 
   array (
     'description' => '10-to-4 line priority encoder',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc147.74hct147.pdf',
     'pins' => 
     array (
-      0 => 
+      '~A~__3' => 
       array (
-        'num' => '1',
-        'sym' => '~A~__3',
         'desc' => 'decimal data input (active low)',
       ),
-      1 => 
+      '~A~__4' => 
       array (
-        'num' => '2',
-        'sym' => '~A~__4',
         'desc' => 'decimal data input (active low)',
       ),
-      2 => 
+      '~A~__5' => 
       array (
-        'num' => '3',
-        'sym' => '~A~__5',
         'desc' => 'decimal data input (active low)',
       ),
-      3 => 
+      '~A~__6' => 
       array (
-        'num' => '4',
-        'sym' => '~A~__6',
         'desc' => 'decimal data input (active low)',
       ),
-      4 => 
+      '~A~__7' => 
       array (
-        'num' => '5',
-        'sym' => '~A~__7',
         'desc' => 'decimal data input (active low)',
       ),
-      5 => 
+      '~Y~__2' => 
       array (
-        'num' => '6',
-        'sym' => '~Y~__2',
         'desc' => 'BCD address output (active low)',
       ),
-      6 => 
+      '~Y~__1' => 
       array (
-        'num' => '7',
-        'sym' => '~Y~__1',
         'desc' => 'BCD address output (active low)',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '~Y~__0' => 
       array (
-        'num' => '9',
-        'sym' => '~Y~__0',
         'desc' => 'BCD address output (active low)',
       ),
-      9 => 
+      '~A~__8' => 
       array (
-        'num' => '10',
-        'sym' => '~A~__8',
         'desc' => 'decimal data input (active low)',
       ),
-      10 => 
+      '~A~__0' => 
       array (
-        'num' => '11',
-        'sym' => '~A~__0',
         'desc' => 'decimal data input (active low)',
       ),
-      11 => 
+      '~A~__1' => 
       array (
-        'num' => '12',
-        'sym' => '~A~__1',
         'desc' => 'decimal data input (active low)',
       ),
-      12 => 
+      '~A~__2' => 
       array (
-        'num' => '13',
-        'sym' => '~A~__2',
         'desc' => 'decimal data input (active low)',
       ),
-      13 => 
+      '~Y~__3' => 
       array (
-        'num' => '14',
-        'sym' => '~Y~__3',
         'desc' => 'BCD address output (active low)',
       ),
-      14 => 
+      'Vcc' => 
       array (
-        'num' => '15',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      15 => 
-      array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -12149,110 +10768,98 @@
       1 => '~A~__8 has the highest priority.',
       2 => 'When all nine data inputs are high, all four outputs are high. (BCD zero)',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~A~__3',
+        2 => '~A~__4',
+        3 => '~A~__5',
+        4 => '~A~__6',
+        5 => '~A~__7',
+        6 => '~Y~__2',
+        7 => '~Y~__1',
+        8 => 'GND',
+        9 => '~Y~__0',
+        10 => '~A~__8',
+        11 => '~A~__0',
+        12 => '~A~__1',
+        13 => '~A~__2',
+        14 => '~Y~__3',
+        15 => 'NC',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74148 => 
   array (
     'description' => '8-to-3 line priority encoder',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.ti.com/lit/ds/scls109g/scls109g.pdf',
     'pins' => 
     array (
+      4 => 
+      array (
+        'desc' => 'decimal data input (active low)',
+      ),
+      5 => 
+      array (
+        'desc' => 'decimal data input (active low)',
+      ),
+      6 => 
+      array (
+        'desc' => 'decimal data input (active low)',
+      ),
+      7 => 
+      array (
+        'desc' => 'decimal data input (active low)',
+      ),
+      'EI' => 
+      array (
+        'desc' => 'enable input (active low)',
+      ),
+      'A2' => 
+      array (
+        'desc' => 'binary address output (active low)',
+      ),
+      'A1' => 
+      array (
+        'desc' => 'BCD address output (active low)',
+      ),
+      'GND' => 
+      array (
+        'desc' => 'ground',
+      ),
+      'A0' => 
+      array (
+        'desc' => 'binary address output (active low)',
+      ),
       0 => 
       array (
-        'num' => '1',
-        'sym' => '4',
         'desc' => 'decimal data input (active low)',
       ),
       1 => 
       array (
-        'num' => '2',
-        'sym' => '5',
         'desc' => 'decimal data input (active low)',
       ),
       2 => 
       array (
-        'num' => '3',
-        'sym' => '6',
         'desc' => 'decimal data input (active low)',
       ),
       3 => 
       array (
-        'num' => '4',
-        'sym' => '7',
         'desc' => 'decimal data input (active low)',
       ),
-      4 => 
+      'GS' => 
       array (
-        'num' => '5',
-        'sym' => 'EI',
-        'desc' => 'enable input (active low)',
-      ),
-      5 => 
-      array (
-        'num' => '6',
-        'sym' => 'A2',
-        'desc' => 'binary address output (active low)',
-      ),
-      6 => 
-      array (
-        'num' => '7',
-        'sym' => 'A1',
-        'desc' => 'BCD address output (active low)',
-      ),
-      7 => 
-      array (
-        'num' => '8',
-        'sym' => 'GND',
-        'desc' => 'ground',
-      ),
-      8 => 
-      array (
-        'num' => '9',
-        'sym' => 'A0',
-        'desc' => 'binary address output (active low)',
-      ),
-      9 => 
-      array (
-        'num' => '10',
-        'sym' => '0',
-        'desc' => 'decimal data input (active low)',
-      ),
-      10 => 
-      array (
-        'num' => '11',
-        'sym' => '1',
-        'desc' => 'decimal data input (active low)',
-      ),
-      11 => 
-      array (
-        'num' => '12',
-        'sym' => '2',
-        'desc' => 'decimal data input (active low)',
-      ),
-      12 => 
-      array (
-        'num' => '13',
-        'sym' => '3',
-        'desc' => 'decimal data input (active low)',
-      ),
-      13 => 
-      array (
-        'num' => '14',
-        'sym' => 'GS',
         'desc' => 'goes low when EI is low and any input is low',
       ),
-      14 => 
+      'EO' => 
       array (
-        'num' => '15',
-        'sym' => 'EO',
         'desc' => 'goes high when EI is low and any input is low (EO = ~GS~)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -12275,110 +10882,98 @@
       2 => 'When all eight data inputs are high, all three outputs are high.',
       3 => 'Multiple 74148s can be cascaded by connecting EO of the high priority chip to EI of the low priority chip (see datasheet).',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '4',
+        2 => '5',
+        3 => '6',
+        4 => '7',
+        5 => 'EI',
+        6 => 'A2',
+        7 => 'A1',
+        8 => 'GND',
+        9 => 'A0',
+        10 => '0',
+        11 => '1',
+        12 => '2',
+        13 => '3',
+        14 => 'GS',
+        15 => 'EO',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74151 => 
   array (
     'description' => '8-input multiplexer',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc151.74hct151.pdf',
     'pins' => 
     array (
-      0 => 
+      'I__3' => 
       array (
-        'num' => '1',
-        'sym' => 'I__3',
         'desc' => 'multiplexer input',
       ),
-      1 => 
+      'I__2' => 
       array (
-        'num' => '2',
-        'sym' => 'I__2',
         'desc' => 'multiplexer input',
       ),
-      2 => 
+      'I__1' => 
       array (
-        'num' => '3',
-        'sym' => 'I__1',
         'desc' => 'multiplexer input',
       ),
-      3 => 
+      'I__0' => 
       array (
-        'num' => '4',
-        'sym' => 'I__0',
         'desc' => 'multiplexer input',
       ),
-      4 => 
+      'Y' => 
       array (
-        'num' => '5',
-        'sym' => 'Y',
         'desc' => 'multiplexer output',
       ),
-      5 => 
+      '~Y' => 
       array (
-        'num' => '6',
-        'sym' => '~Y',
         'desc' => 'complementary multiplexer output',
       ),
-      6 => 
+      '~E' => 
       array (
-        'num' => '7',
-        'sym' => '~E',
         'desc' => 'enable input (active low)',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'S__2' => 
       array (
-        'num' => '9',
-        'sym' => 'S__2',
         'desc' => 'select input',
       ),
-      9 => 
+      'S__1' => 
       array (
-        'num' => '10',
-        'sym' => 'S__1',
         'desc' => 'select input',
       ),
-      10 => 
+      'S__0' => 
       array (
-        'num' => '11',
-        'sym' => 'S__0',
         'desc' => 'select input',
       ),
-      11 => 
+      'I__7' => 
       array (
-        'num' => '12',
-        'sym' => 'I__7',
         'desc' => 'multiplexer input',
       ),
-      12 => 
+      'I__6' => 
       array (
-        'num' => '13',
-        'sym' => 'I__6',
         'desc' => 'multiplexer input',
       ),
-      13 => 
+      'I__5' => 
       array (
-        'num' => '14',
-        'sym' => 'I__5',
         'desc' => 'multiplexer input',
       ),
-      14 => 
+      'I__4' => 
       array (
-        'num' => '15',
-        'sym' => 'I__4',
         'desc' => 'multiplexer input',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -12425,110 +11020,98 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'I__3',
+        2 => 'I__2',
+        3 => 'I__1',
+        4 => 'I__0',
+        5 => 'Y',
+        6 => '~Y',
+        7 => '~E',
+        8 => 'GND',
+        9 => 'S__2',
+        10 => 'S__1',
+        11 => 'S__0',
+        12 => 'I__7',
+        13 => 'I__6',
+        14 => 'I__5',
+        15 => 'I__4',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74153 => 
   array (
     'description' => 'Dual 4-input multiplexer',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc153.74hct153.pdf',
     'pins' => 
     array (
-      0 => 
+      '1~E' => 
       array (
-        'num' => '1',
-        'sym' => '1~E',
         'desc' => 'enable input 1',
       ),
-      1 => 
+      'S__1' => 
       array (
-        'num' => '2',
-        'sym' => 'S__1',
         'desc' => 'common data select input',
       ),
-      2 => 
+      '1I__3' => 
       array (
-        'num' => '3',
-        'sym' => '1I__3',
         'desc' => 'data input from source 1',
       ),
-      3 => 
+      '1I__2' => 
       array (
-        'num' => '4',
-        'sym' => '1I__2',
         'desc' => 'data input from source 1',
       ),
-      4 => 
+      '1I__1' => 
       array (
-        'num' => '5',
-        'sym' => '1I__1',
         'desc' => 'data input from source 1',
       ),
-      5 => 
+      '1I__0' => 
       array (
-        'num' => '6',
-        'sym' => '1I__0',
         'desc' => 'data input from source 1',
       ),
-      6 => 
+      '1Y' => 
       array (
-        'num' => '7',
-        'sym' => '1Y',
         'desc' => 'multiplexer output from source 1',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '2Y' => 
       array (
-        'num' => '9',
-        'sym' => '2Y',
         'desc' => 'multiplexer output from source 2',
       ),
-      9 => 
+      '2I__0' => 
       array (
-        'num' => '10',
-        'sym' => '2I__0',
         'desc' => 'data input from source 2',
       ),
-      10 => 
+      '2I__1' => 
       array (
-        'num' => '11',
-        'sym' => '2I__1',
         'desc' => 'data input from source 2',
       ),
-      11 => 
+      '2I__2' => 
       array (
-        'num' => '12',
-        'sym' => '2I__2',
         'desc' => 'data input from source 2',
       ),
-      12 => 
+      '2I__3' => 
       array (
-        'num' => '13',
-        'sym' => '2I__3',
         'desc' => 'data input from source 2',
       ),
-      13 => 
+      'S__0' => 
       array (
-        'num' => '14',
-        'sym' => 'S__0',
         'desc' => 'common data select input',
       ),
-      14 => 
+      '2~E' => 
       array (
-        'num' => '15',
-        'sym' => '2~E',
         'desc' => 'enable input 2',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -12565,158 +11148,130 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1~E',
+        2 => 'S__1',
+        3 => '1I__3',
+        4 => '1I__2',
+        5 => '1I__1',
+        6 => '1I__0',
+        7 => '1Y',
+        8 => 'GND',
+        9 => '2Y',
+        10 => '2I__0',
+        11 => '2I__1',
+        12 => '2I__2',
+        13 => '2I__3',
+        14 => 'S__0',
+        15 => '2~E',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74154 => 
   array (
     'description' => '4-to-16 line decoder/demultiplexer',
-    'package' => 'DIP',
-    'pincount' => 24,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc154.74hct154.pdf',
     'pins' => 
     array (
-      0 => 
+      '~Y~0' => 
       array (
-        'num' => '1',
-        'sym' => '~Y~0',
         'desc' => 'data output (active low)',
       ),
-      1 => 
+      '~Y~1' => 
       array (
-        'num' => '2',
-        'sym' => '~Y~1',
         'desc' => 'data output (active low)',
       ),
-      2 => 
+      '~Y~2' => 
       array (
-        'num' => '3',
-        'sym' => '~Y~2',
         'desc' => 'data output (active low)',
       ),
-      3 => 
+      '~Y~3' => 
       array (
-        'num' => '4',
-        'sym' => '~Y~3',
         'desc' => 'data output (active low)',
       ),
-      4 => 
+      '~Y~4' => 
       array (
-        'num' => '5',
-        'sym' => '~Y~4',
         'desc' => 'data output (active low)',
       ),
-      5 => 
+      '~Y~5' => 
       array (
-        'num' => '6',
-        'sym' => '~Y~5',
         'desc' => 'data output (active low)',
       ),
-      6 => 
+      '~Y~6' => 
       array (
-        'num' => '7',
-        'sym' => '~Y~6',
         'desc' => 'data output (active low)',
       ),
-      7 => 
+      '~Y~7' => 
       array (
-        'num' => '8',
-        'sym' => '~Y~7',
         'desc' => 'data output (active low)',
       ),
-      8 => 
+      '~Y~8' => 
       array (
-        'num' => '9',
-        'sym' => '~Y~8',
         'desc' => 'data output (active low)',
       ),
-      9 => 
+      '~Y~9' => 
       array (
-        'num' => '10',
-        'sym' => '~Y~9',
         'desc' => 'data output (active low)',
       ),
-      10 => 
+      '~Y~10' => 
       array (
-        'num' => '11',
-        'sym' => '~Y~10',
         'desc' => 'data output (active low)',
       ),
-      11 => 
+      'GND' => 
       array (
-        'num' => '12',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      12 => 
+      '~Y~11' => 
       array (
-        'num' => '13',
-        'sym' => '~Y~11',
         'desc' => 'data output (active low)',
       ),
-      13 => 
+      '~Y~12' => 
       array (
-        'num' => '14',
-        'sym' => '~Y~12',
         'desc' => 'data output (active low)',
       ),
-      14 => 
+      '~Y~13' => 
       array (
-        'num' => '15',
-        'sym' => '~Y~13',
         'desc' => 'data output (active low)',
       ),
-      15 => 
+      '~Y~14' => 
       array (
-        'num' => '16',
-        'sym' => '~Y~14',
         'desc' => 'data output (active low)',
       ),
-      16 => 
+      '~Y~15' => 
       array (
-        'num' => '17',
-        'sym' => '~Y~15',
         'desc' => 'data output (active low)',
       ),
-      17 => 
+      '~E~0' => 
       array (
-        'num' => '18',
-        'sym' => '~E~0',
         'desc' => 'enable input (active low)',
       ),
-      18 => 
+      '~E~1' => 
       array (
-        'num' => '19',
-        'sym' => '~E~1',
         'desc' => 'enable input (active low)',
       ),
-      19 => 
+      'A3' => 
       array (
-        'num' => '20',
-        'sym' => 'A3',
         'desc' => 'address input',
       ),
-      20 => 
+      'A2' => 
       array (
-        'num' => '21',
-        'sym' => 'A2',
         'desc' => 'address input',
       ),
-      21 => 
+      'A1' => 
       array (
-        'num' => '22',
-        'sym' => 'A1',
         'desc' => 'address input',
       ),
-      22 => 
+      'A0' => 
       array (
-        'num' => '23',
-        'sym' => 'A0',
         'desc' => 'address input',
       ),
-      23 => 
+      'Vcc' => 
       array (
-        'num' => '24',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -12743,110 +11298,106 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~Y~0',
+        2 => '~Y~1',
+        3 => '~Y~2',
+        4 => '~Y~3',
+        5 => '~Y~4',
+        6 => '~Y~5',
+        7 => '~Y~6',
+        8 => '~Y~7',
+        9 => '~Y~8',
+        10 => '~Y~9',
+        11 => '~Y~10',
+        12 => 'GND',
+        13 => '~Y~11',
+        14 => '~Y~12',
+        15 => '~Y~13',
+        16 => '~Y~14',
+        17 => '~Y~15',
+        18 => '~E~0',
+        19 => '~E~1',
+        20 => 'A3',
+        21 => 'A2',
+        22 => 'A1',
+        23 => 'A0',
+        24 => 'Vcc',
+      ),
+    ),
   ),
   74157 => 
   array (
     'description' => 'Quad 2-input multiplexer',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc157.74hct157.pdf',
     'pins' => 
     array (
-      0 => 
+      'S' => 
       array (
-        'num' => '1',
-        'sym' => 'S',
         'desc' => 'common data select input',
       ),
-      1 => 
+      '1I__0' => 
       array (
-        'num' => '2',
-        'sym' => '1I__0',
         'desc' => 'data input from source 0',
       ),
-      2 => 
+      '1I__1' => 
       array (
-        'num' => '3',
-        'sym' => '1I__1',
         'desc' => 'data input from source 1',
       ),
-      3 => 
+      '1Y' => 
       array (
-        'num' => '4',
-        'sym' => '1Y',
         'desc' => 'multiplexer output',
       ),
-      4 => 
+      '2I__0' => 
       array (
-        'num' => '5',
-        'sym' => '2I__0',
         'desc' => 'data input from source 0',
       ),
-      5 => 
+      '2I__1' => 
       array (
-        'num' => '6',
-        'sym' => '2I__1',
         'desc' => 'data input from source 1',
       ),
-      6 => 
+      '2Y' => 
       array (
-        'num' => '7',
-        'sym' => '2Y',
         'desc' => 'multiplexer output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '3Y' => 
       array (
-        'num' => '9',
-        'sym' => '3Y',
         'desc' => 'multiplexer output',
       ),
-      9 => 
+      '3I__1' => 
       array (
-        'num' => '10',
-        'sym' => '3I__1',
         'desc' => 'data input from source 1',
       ),
-      10 => 
+      '3I__0' => 
       array (
-        'num' => '11',
-        'sym' => '3I__0',
         'desc' => 'data input from source 0',
       ),
-      11 => 
+      '4Y' => 
       array (
-        'num' => '12',
-        'sym' => '4Y',
         'desc' => 'multiplexer output',
       ),
-      12 => 
+      '4I__1' => 
       array (
-        'num' => '13',
-        'sym' => '4I__1',
         'desc' => 'data input from source 1',
       ),
-      13 => 
+      '4I__0' => 
       array (
-        'num' => '14',
-        'sym' => '4I__0',
         'desc' => 'data input from source 0',
       ),
-      14 => 
+      '~E' => 
       array (
-        'num' => '15',
-        'sym' => '~E',
         'desc' => 'enable input (active low)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -12883,110 +11434,98 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'S',
+        2 => '1I__0',
+        3 => '1I__1',
+        4 => '1Y',
+        5 => '2I__0',
+        6 => '2I__1',
+        7 => '2Y',
+        8 => 'GND',
+        9 => '3Y',
+        10 => '3I__1',
+        11 => '3I__0',
+        12 => '4Y',
+        13 => '4I__1',
+        14 => '4I__0',
+        15 => '~E',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74158 => 
   array (
     'description' => 'Quad 2-input multiplexer; inverting',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc158.pdf',
     'pins' => 
     array (
-      0 => 
+      'S' => 
       array (
-        'num' => '1',
-        'sym' => 'S',
         'desc' => 'common data select input',
       ),
-      1 => 
+      '1I__0' => 
       array (
-        'num' => '2',
-        'sym' => '1I__0',
         'desc' => 'data input from source 0',
       ),
-      2 => 
+      '1I__1' => 
       array (
-        'num' => '3',
-        'sym' => '1I__1',
         'desc' => 'data input from source 1',
       ),
-      3 => 
+      '1~Y' => 
       array (
-        'num' => '4',
-        'sym' => '1~Y',
         'desc' => 'multiplexer output',
       ),
-      4 => 
+      '2I__0' => 
       array (
-        'num' => '5',
-        'sym' => '2I__0',
         'desc' => 'data input from source 0',
       ),
-      5 => 
+      '2I__1' => 
       array (
-        'num' => '6',
-        'sym' => '2I__1',
         'desc' => 'data input from source 1',
       ),
-      6 => 
+      '2~Y' => 
       array (
-        'num' => '7',
-        'sym' => '2~Y',
         'desc' => 'multiplexer output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '3~Y' => 
       array (
-        'num' => '9',
-        'sym' => '3~Y',
         'desc' => 'multiplexer output',
       ),
-      9 => 
+      '3I__1' => 
       array (
-        'num' => '10',
-        'sym' => '3I__1',
         'desc' => 'data input from source 1',
       ),
-      10 => 
+      '3I__0' => 
       array (
-        'num' => '11',
-        'sym' => '3I__0',
         'desc' => 'data input from source 0',
       ),
-      11 => 
+      '4~Y' => 
       array (
-        'num' => '12',
-        'sym' => '4~Y',
         'desc' => 'multiplexer output',
       ),
-      12 => 
+      '4I__1' => 
       array (
-        'num' => '13',
-        'sym' => '4I__1',
         'desc' => 'data input from source 1',
       ),
-      13 => 
+      '4I__0' => 
       array (
-        'num' => '14',
-        'sym' => '4I__0',
         'desc' => 'data input from source 0',
       ),
-      14 => 
+      '~E' => 
       array (
-        'num' => '15',
-        'sym' => '~E',
         'desc' => 'enable input (active low)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -13011,110 +11550,98 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'S',
+        2 => '1I__0',
+        3 => '1I__1',
+        4 => '1~Y',
+        5 => '2I__0',
+        6 => '2I__1',
+        7 => '2~Y',
+        8 => 'GND',
+        9 => '3~Y',
+        10 => '3I__1',
+        11 => '3I__0',
+        12 => '4~Y',
+        13 => '4I__1',
+        14 => '4I__0',
+        15 => '~E',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74160 => 
   array (
     'description' => 'Presettable synchronous BCD decade counter; asynchronous reset',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc160.74hct160.pdf',
     'pins' => 
     array (
-      0 => 
+      '~MR' => 
       array (
-        'num' => '1',
-        'sym' => '~MR',
         'desc' => 'asynchronous master reset (active low)',
       ),
-      1 => 
+      'CP' => 
       array (
-        'num' => '2',
-        'sym' => 'CP',
         'desc' => 'clock input (low-to-high, edge-triggered)',
       ),
-      2 => 
+      'D__0' => 
       array (
-        'num' => '3',
-        'sym' => 'D__0',
         'desc' => 'data input',
       ),
-      3 => 
+      'D__1' => 
       array (
-        'num' => '4',
-        'sym' => 'D__1',
         'desc' => 'data input',
       ),
-      4 => 
+      'D__2' => 
       array (
-        'num' => '5',
-        'sym' => 'D__2',
         'desc' => 'data input',
       ),
-      5 => 
+      'D__3' => 
       array (
-        'num' => '6',
-        'sym' => 'D__3',
         'desc' => 'data input',
       ),
-      6 => 
+      'CEP' => 
       array (
-        'num' => '7',
-        'sym' => 'CEP',
         'desc' => 'count enable input',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '~PE' => 
       array (
-        'num' => '9',
-        'sym' => '~PE',
         'desc' => 'parallel load enable input (active low)',
       ),
-      9 => 
+      'CET' => 
       array (
-        'num' => '10',
-        'sym' => 'CET',
         'desc' => 'count enable carry output',
       ),
-      10 => 
+      'Q__3' => 
       array (
-        'num' => '11',
-        'sym' => 'Q__3',
         'desc' => 'counter output',
       ),
-      11 => 
+      'Q__2' => 
       array (
-        'num' => '12',
-        'sym' => 'Q__2',
         'desc' => 'counter output',
       ),
-      12 => 
+      'Q__1' => 
       array (
-        'num' => '13',
-        'sym' => 'Q__1',
         'desc' => 'counter output',
       ),
-      13 => 
+      'Q__0' => 
       array (
-        'num' => '14',
-        'sym' => 'Q__0',
         'desc' => 'counter output',
       ),
-      14 => 
+      'TC' => 
       array (
-        'num' => '15',
-        'sym' => 'TC',
         'desc' => 'terminal count output',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -13181,110 +11708,98 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~MR',
+        2 => 'CP',
+        3 => 'D__0',
+        4 => 'D__1',
+        5 => 'D__2',
+        6 => 'D__3',
+        7 => 'CEP',
+        8 => 'GND',
+        9 => '~PE',
+        10 => 'CET',
+        11 => 'Q__3',
+        12 => 'Q__2',
+        13 => 'Q__1',
+        14 => 'Q__0',
+        15 => 'TC',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74161 => 
   array (
     'description' => 'Presettable synchronous 4-bit binary counter; asynchronous reset',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc161.74hct161.pdf',
     'pins' => 
     array (
-      0 => 
+      '~MR' => 
       array (
-        'num' => '1',
-        'sym' => '~MR',
         'desc' => 'asynchronous master reset (active low)',
       ),
-      1 => 
+      'CP' => 
       array (
-        'num' => '2',
-        'sym' => 'CP',
         'desc' => 'clock input (low-to-high, edge-triggered)',
       ),
-      2 => 
+      'D__0' => 
       array (
-        'num' => '3',
-        'sym' => 'D__0',
         'desc' => 'data input',
       ),
-      3 => 
+      'D__1' => 
       array (
-        'num' => '4',
-        'sym' => 'D__1',
         'desc' => 'data input',
       ),
-      4 => 
+      'D__2' => 
       array (
-        'num' => '5',
-        'sym' => 'D__2',
         'desc' => 'data input',
       ),
-      5 => 
+      'D__3' => 
       array (
-        'num' => '6',
-        'sym' => 'D__3',
         'desc' => 'data input',
       ),
-      6 => 
+      'CEP' => 
       array (
-        'num' => '7',
-        'sym' => 'CEP',
         'desc' => 'count enable input',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '~PE' => 
       array (
-        'num' => '9',
-        'sym' => '~PE',
         'desc' => 'parallel load enable input (active low)',
       ),
-      9 => 
+      'CET' => 
       array (
-        'num' => '10',
-        'sym' => 'CET',
         'desc' => 'count enable carry output',
       ),
-      10 => 
+      'Q__3' => 
       array (
-        'num' => '11',
-        'sym' => 'Q__3',
         'desc' => 'counter output',
       ),
-      11 => 
+      'Q__2' => 
       array (
-        'num' => '12',
-        'sym' => 'Q__2',
         'desc' => 'counter output',
       ),
-      12 => 
+      'Q__1' => 
       array (
-        'num' => '13',
-        'sym' => 'Q__1',
         'desc' => 'counter output',
       ),
-      13 => 
+      'Q__0' => 
       array (
-        'num' => '14',
-        'sym' => 'Q__0',
         'desc' => 'counter output',
       ),
-      14 => 
+      'TC' => 
       array (
-        'num' => '15',
-        'sym' => 'TC',
         'desc' => 'terminal count output',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -13351,110 +11866,98 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~MR',
+        2 => 'CP',
+        3 => 'D__0',
+        4 => 'D__1',
+        5 => 'D__2',
+        6 => 'D__3',
+        7 => 'CEP',
+        8 => 'GND',
+        9 => '~PE',
+        10 => 'CET',
+        11 => 'Q__3',
+        12 => 'Q__2',
+        13 => 'Q__1',
+        14 => 'Q__0',
+        15 => 'TC',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74163 => 
   array (
     'description' => 'Presettable synchronous 4-bit binary counter; synchronous reset',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc163.74hct163.pdf',
     'pins' => 
     array (
-      0 => 
+      '~MR' => 
       array (
-        'num' => '1',
-        'sym' => '~MR',
         'desc' => 'synchronous master reset (active low)',
       ),
-      1 => 
+      'CP' => 
       array (
-        'num' => '2',
-        'sym' => 'CP',
         'desc' => 'clock input (low-to-high, edge-triggered)',
       ),
-      2 => 
+      'D__0' => 
       array (
-        'num' => '3',
-        'sym' => 'D__0',
         'desc' => 'data input',
       ),
-      3 => 
+      'D__1' => 
       array (
-        'num' => '4',
-        'sym' => 'D__1',
         'desc' => 'data input',
       ),
-      4 => 
+      'D__2' => 
       array (
-        'num' => '5',
-        'sym' => 'D__2',
         'desc' => 'data input',
       ),
-      5 => 
+      'D__3' => 
       array (
-        'num' => '6',
-        'sym' => 'D__3',
         'desc' => 'data input',
       ),
-      6 => 
+      'CEP' => 
       array (
-        'num' => '7',
-        'sym' => 'CEP',
         'desc' => 'count enable input',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '~PE' => 
       array (
-        'num' => '9',
-        'sym' => '~PE',
         'desc' => 'parallel load enable input (active low)',
       ),
-      9 => 
+      'CET' => 
       array (
-        'num' => '10',
-        'sym' => 'CET',
         'desc' => 'count enable carry output',
       ),
-      10 => 
+      'Q__3' => 
       array (
-        'num' => '11',
-        'sym' => 'Q__3',
         'desc' => 'counter output',
       ),
-      11 => 
+      'Q__2' => 
       array (
-        'num' => '12',
-        'sym' => 'Q__2',
         'desc' => 'counter output',
       ),
-      12 => 
+      'Q__1' => 
       array (
-        'num' => '13',
-        'sym' => 'Q__1',
         'desc' => 'counter output',
       ),
-      13 => 
+      'Q__0' => 
       array (
-        'num' => '14',
-        'sym' => 'Q__0',
         'desc' => 'counter output',
       ),
-      14 => 
+      'TC' => 
       array (
-        'num' => '15',
-        'sym' => 'TC',
         'desc' => 'terminal count output',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -13501,98 +12004,90 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~MR',
+        2 => 'CP',
+        3 => 'D__0',
+        4 => 'D__1',
+        5 => 'D__2',
+        6 => 'D__3',
+        7 => 'CEP',
+        8 => 'GND',
+        9 => '~PE',
+        10 => 'CET',
+        11 => 'Q__3',
+        12 => 'Q__2',
+        13 => 'Q__1',
+        14 => 'Q__0',
+        15 => 'TC',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74164 => 
   array (
     'description' => '8-bit serial-in/parallel-out shift register',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc164.74hct164.pdf',
     'pins' => 
     array (
-      0 => 
+      'DSA' => 
       array (
-        'num' => '1',
-        'sym' => 'DSA',
         'desc' => 'data input',
       ),
-      1 => 
+      'DSB' => 
       array (
-        'num' => '2',
-        'sym' => 'DSB',
         'desc' => 'data input',
       ),
-      2 => 
+      'Q0' => 
       array (
-        'num' => '3',
-        'sym' => 'Q0',
         'desc' => 'output',
       ),
-      3 => 
+      'Q1' => 
       array (
-        'num' => '4',
-        'sym' => 'Q1',
         'desc' => 'output',
       ),
-      4 => 
+      'Q2' => 
       array (
-        'num' => '5',
-        'sym' => 'Q2',
         'desc' => 'output',
       ),
-      5 => 
+      'Q3' => 
       array (
-        'num' => '6',
-        'sym' => 'Q3',
         'desc' => 'output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      'CP' => 
       array (
-        'num' => '8',
-        'sym' => 'CP',
         'desc' => 'clock input (low-to-high, edge-triggered)',
       ),
-      8 => 
+      '~MR' => 
       array (
-        'num' => '9',
-        'sym' => '~MR',
         'desc' => 'master reset input (active low)',
       ),
-      9 => 
+      'Q4' => 
       array (
-        'num' => '10',
-        'sym' => 'Q4',
         'desc' => 'output',
       ),
-      10 => 
+      'Q5' => 
       array (
-        'num' => '11',
-        'sym' => 'Q5',
         'desc' => 'output',
       ),
-      11 => 
+      'Q6' => 
       array (
-        'num' => '12',
-        'sym' => 'Q6',
         'desc' => 'output',
       ),
-      12 => 
+      'Q7' => 
       array (
-        'num' => '13',
-        'sym' => 'Q7',
         'desc' => 'output',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -13634,110 +12129,96 @@
       0 => 'Either DSA or DSB can be used as an active high enable for data entry through the other input.',
       1 => 'Otherwise, Both inputs must be connected together or an unused input must be tied high.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'DSA',
+        2 => 'DSB',
+        3 => 'Q0',
+        4 => 'Q1',
+        5 => 'Q2',
+        6 => 'Q3',
+        7 => 'GND',
+        8 => 'CP',
+        9 => '~MR',
+        10 => 'Q4',
+        11 => 'Q5',
+        12 => 'Q6',
+        13 => 'Q7',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   74165 => 
   array (
     'description' => '8-bit parallel-in/serial-out shift register',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc165.74hct165.pdf',
     'pins' => 
     array (
-      0 => 
+      '~PL' => 
       array (
-        'num' => '1',
-        'sym' => '~PL',
         'desc' => 'asynchronous parallel load input (active low)',
       ),
-      1 => 
+      'CP' => 
       array (
-        'num' => '2',
-        'sym' => 'CP',
         'desc' => 'clock input (low-to-high, edge-triggered)',
       ),
-      2 => 
+      'D4' => 
       array (
-        'num' => '3',
-        'sym' => 'D4',
         'desc' => 'parallel data input',
       ),
-      3 => 
+      'D5' => 
       array (
-        'num' => '4',
-        'sym' => 'D5',
         'desc' => 'parallel data input',
       ),
-      4 => 
+      'D6' => 
       array (
-        'num' => '5',
-        'sym' => 'D6',
         'desc' => 'parallel data input',
       ),
-      5 => 
+      'D7' => 
       array (
-        'num' => '6',
-        'sym' => 'D7',
         'desc' => 'parallel data input',
       ),
-      6 => 
+      '~Q~7' => 
       array (
-        'num' => '7',
-        'sym' => '~Q~7',
         'desc' => 'complementary output from the last stage',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'Q7' => 
       array (
-        'num' => '9',
-        'sym' => 'Q7',
         'desc' => 'serial output from the last stage',
       ),
-      9 => 
+      'DS' => 
       array (
-        'num' => '10',
-        'sym' => 'DS',
         'desc' => 'serial data input',
       ),
-      10 => 
+      'D0' => 
       array (
-        'num' => '11',
-        'sym' => 'D0',
         'desc' => 'parallel data input',
       ),
-      11 => 
+      'D1' => 
       array (
-        'num' => '12',
-        'sym' => 'D1',
         'desc' => 'parallel data input',
       ),
-      12 => 
+      'D2' => 
       array (
-        'num' => '13',
-        'sym' => 'D2',
         'desc' => 'parallel data input',
       ),
-      13 => 
+      'D3' => 
       array (
-        'num' => '14',
-        'sym' => 'D3',
         'desc' => 'parallel data input',
       ),
-      14 => 
+      '~CE' => 
       array (
-        'num' => '15',
-        'sym' => '~CE',
         'desc' => 'clock enable input (active low)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -13789,110 +12270,98 @@
       0 => 'The low-to-high transition of input ~CE should only take place while CP is high for predictable operation.',
       1 => 'Either CP or ~CE should be high before the low-to-high transition of ~PL to prevent shifting the data when ~PL is activated.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~PL',
+        2 => 'CP',
+        3 => 'D4',
+        4 => 'D5',
+        5 => 'D6',
+        6 => 'D7',
+        7 => '~Q~7',
+        8 => 'GND',
+        9 => 'Q7',
+        10 => 'DS',
+        11 => 'D0',
+        12 => 'D1',
+        13 => 'D2',
+        14 => 'D3',
+        15 => '~CE',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74166 => 
   array (
     'description' => '8-bit parallel-in/serial-out shift register',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc166.74hct166.pdf',
     'pins' => 
     array (
-      0 => 
+      'D__s' => 
       array (
-        'num' => '1',
-        'sym' => 'D__s',
         'desc' => 'serial data input',
       ),
-      1 => 
+      'D__0' => 
       array (
-        'num' => '2',
-        'sym' => 'D__0',
         'desc' => 'parallel data input',
       ),
-      2 => 
+      'D__1' => 
       array (
-        'num' => '3',
-        'sym' => 'D__1',
         'desc' => 'parallel data input',
       ),
-      3 => 
+      'D__2' => 
       array (
-        'num' => '4',
-        'sym' => 'D__2',
         'desc' => 'parallel data input',
       ),
-      4 => 
+      'D__3' => 
       array (
-        'num' => '5',
-        'sym' => 'D__3',
         'desc' => 'parallel data input',
       ),
-      5 => 
+      '~CE' => 
       array (
-        'num' => '6',
-        'sym' => '~CE',
         'desc' => 'clock enable input (active low)',
       ),
-      6 => 
+      'CP' => 
       array (
-        'num' => '7',
-        'sym' => 'CP',
         'desc' => 'clock input (low-to-high, edge-triggered)',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '~MR' => 
       array (
-        'num' => '9',
-        'sym' => '~MR',
         'desc' => 'asynchronous master reset (active low)',
       ),
-      9 => 
+      'D__4' => 
       array (
-        'num' => '10',
-        'sym' => 'D__4',
         'desc' => 'parallel data input',
       ),
-      10 => 
+      'D__5' => 
       array (
-        'num' => '11',
-        'sym' => 'D__5',
         'desc' => 'parallel data input',
       ),
-      11 => 
+      'D__6' => 
       array (
-        'num' => '12',
-        'sym' => 'D__6',
         'desc' => 'parallel data input',
       ),
-      12 => 
+      'Q__7' => 
       array (
-        'num' => '13',
-        'sym' => 'Q__7',
         'desc' => 'serial output from the last stage',
       ),
-      13 => 
+      'D__7' => 
       array (
-        'num' => '14',
-        'sym' => 'D__7',
         'desc' => 'parallel data input',
       ),
-      14 => 
+      '~PE' => 
       array (
-        'num' => '15',
-        'sym' => '~PE',
         'desc' => 'parallel enable input (active low)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -13934,110 +12403,98 @@
       0 => 'The low-to-high transition of ~CE should only take place while CP is high for predictable operation.',
       1 => 'A low on ~MR overrides all other inputs and clears the register asynchronously, forcing all bit positions to a low stage.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'D__s',
+        2 => 'D__0',
+        3 => 'D__1',
+        4 => 'D__2',
+        5 => 'D__3',
+        6 => '~CE',
+        7 => 'CP',
+        8 => 'GND',
+        9 => '~MR',
+        10 => 'D__4',
+        11 => 'D__5',
+        12 => 'D__6',
+        13 => 'Q__7',
+        14 => 'D__7',
+        15 => '~PE',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74173 => 
   array (
     'description' => 'Quad D-type flip-flop; positive-edge trigger; 3-state',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc173.74hct173.pdf',
     'pins' => 
     array (
-      0 => 
+      '~OE~__1' => 
       array (
-        'num' => '1',
-        'sym' => '~OE~__1',
         'desc' => 'output enable input (active low)',
       ),
-      1 => 
+      '~OE~__2' => 
       array (
-        'num' => '2',
-        'sym' => '~OE~__2',
         'desc' => 'output enable input (active low)',
       ),
-      2 => 
+      'Q__0' => 
       array (
-        'num' => '3',
-        'sym' => 'Q__0',
         'desc' => '3-state flip-flop output',
       ),
-      3 => 
+      'Q__1' => 
       array (
-        'num' => '4',
-        'sym' => 'Q__1',
         'desc' => '3-state flip-flop output',
       ),
-      4 => 
+      'Q__2' => 
       array (
-        'num' => '5',
-        'sym' => 'Q__2',
         'desc' => '3-state flip-flop output',
       ),
-      5 => 
+      'Q__3' => 
       array (
-        'num' => '6',
-        'sym' => 'Q__3',
         'desc' => '3-state flip-flop output',
       ),
-      6 => 
+      'CP' => 
       array (
-        'num' => '7',
-        'sym' => 'CP',
         'desc' => 'clock input (low-to-high, edge-triggered)',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '~E~__1' => 
       array (
-        'num' => '9',
-        'sym' => '~E~__1',
         'desc' => 'data enable input (active low)',
       ),
-      9 => 
+      '~E~__2' => 
       array (
-        'num' => '10',
-        'sym' => '~E~__2',
         'desc' => 'data enable input (active low)',
       ),
-      10 => 
+      'D__3' => 
       array (
-        'num' => '11',
-        'sym' => 'D__3',
         'desc' => 'data input',
       ),
-      11 => 
+      'D__2' => 
       array (
-        'num' => '12',
-        'sym' => 'D__2',
         'desc' => 'data input',
       ),
-      12 => 
+      'D__1' => 
       array (
-        'num' => '13',
-        'sym' => 'D__1',
         'desc' => 'data input',
       ),
-      13 => 
+      'D__0' => 
       array (
-        'num' => '14',
-        'sym' => 'D__0',
         'desc' => 'data input',
       ),
-      14 => 
+      'MR' => 
       array (
-        'num' => '15',
-        'sym' => 'MR',
         'desc' => 'asynchronous master reset (active high)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -14073,110 +12530,98 @@
     array (
       0 => 'When one or both ~OE~__n inputs are high, the outputs are forced to a high-impedance off state.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~OE~__1',
+        2 => '~OE~__2',
+        3 => 'Q__0',
+        4 => 'Q__1',
+        5 => 'Q__2',
+        6 => 'Q__3',
+        7 => 'CP',
+        8 => 'GND',
+        9 => '~E~__1',
+        10 => '~E~__2',
+        11 => 'D__3',
+        12 => 'D__2',
+        13 => 'D__1',
+        14 => 'D__0',
+        15 => 'MR',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74174 => 
   array (
     'description' => 'Hex D-type flip-flop with reset; positive-edge trigger',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc174.74hct174.pdf',
     'pins' => 
     array (
-      0 => 
+      '~MR' => 
       array (
-        'num' => '1',
-        'sym' => '~MR',
         'desc' => 'asynchronous master reset (active low)',
       ),
-      1 => 
+      'Q__0' => 
       array (
-        'num' => '2',
-        'sym' => 'Q__0',
         'desc' => 'flip-flop output',
       ),
-      2 => 
+      'D__0' => 
       array (
-        'num' => '3',
-        'sym' => 'D__0',
         'desc' => 'data input',
       ),
-      3 => 
+      'D__1' => 
       array (
-        'num' => '4',
-        'sym' => 'D__1',
         'desc' => 'data input',
       ),
-      4 => 
+      'Q__1' => 
       array (
-        'num' => '5',
-        'sym' => 'Q__1',
         'desc' => 'flip-flop output',
       ),
-      5 => 
+      'D__2' => 
       array (
-        'num' => '6',
-        'sym' => 'D__2',
         'desc' => 'data input',
       ),
-      6 => 
+      'Q__2' => 
       array (
-        'num' => '7',
-        'sym' => 'Q__2',
         'desc' => 'flip-flop output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'CP' => 
       array (
-        'num' => '9',
-        'sym' => 'CP',
         'desc' => 'clock input (low-to-high, edge-triggered)',
       ),
-      9 => 
+      'Q__3' => 
       array (
-        'num' => '10',
-        'sym' => 'Q__3',
         'desc' => 'flip-flop output',
       ),
-      10 => 
+      'D__3' => 
       array (
-        'num' => '11',
-        'sym' => 'D__3',
         'desc' => 'data input',
       ),
-      11 => 
+      'Q__4' => 
       array (
-        'num' => '12',
-        'sym' => 'Q__4',
         'desc' => 'flip-flop output',
       ),
-      12 => 
+      'D__4' => 
       array (
-        'num' => '13',
-        'sym' => 'D__4',
         'desc' => 'data input',
       ),
-      13 => 
+      'D__5' => 
       array (
-        'num' => '14',
-        'sym' => 'D__5',
         'desc' => 'data input',
       ),
-      14 => 
+      'Q__5' => 
       array (
-        'num' => '15',
-        'sym' => 'Q__5',
         'desc' => 'flip-flop output',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -14213,110 +12658,98 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~MR',
+        2 => 'Q__0',
+        3 => 'D__0',
+        4 => 'D__1',
+        5 => 'Q__1',
+        6 => 'D__2',
+        7 => 'Q__2',
+        8 => 'GND',
+        9 => 'CP',
+        10 => 'Q__3',
+        11 => 'D__3',
+        12 => 'Q__4',
+        13 => 'D__4',
+        14 => 'D__5',
+        15 => 'Q__5',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74175 => 
   array (
     'description' => 'Quad D-type flip-flop with reset; positive-edge trigger',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc175.74hct175.pdf',
     'pins' => 
     array (
-      0 => 
+      '~MR' => 
       array (
-        'num' => '1',
-        'sym' => '~MR',
         'desc' => 'asynchronous master reset (active low)',
       ),
-      1 => 
+      'Q__0' => 
       array (
-        'num' => '2',
-        'sym' => 'Q__0',
         'desc' => 'flip-flop output',
       ),
-      2 => 
+      '~Q~__0' => 
       array (
-        'num' => '3',
-        'sym' => '~Q~__0',
         'desc' => 'complementary flip-flop output',
       ),
-      3 => 
+      'D__0' => 
       array (
-        'num' => '4',
-        'sym' => 'D__0',
         'desc' => 'data input',
       ),
-      4 => 
+      'D__1' => 
       array (
-        'num' => '5',
-        'sym' => 'D__1',
         'desc' => 'data input',
       ),
-      5 => 
+      '~Q~__1' => 
       array (
-        'num' => '6',
-        'sym' => '~Q~__1',
         'desc' => 'complementary flip-flop output',
       ),
-      6 => 
+      'Q__1' => 
       array (
-        'num' => '7',
-        'sym' => 'Q__1',
         'desc' => 'flip-flop output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'CP' => 
       array (
-        'num' => '9',
-        'sym' => 'CP',
         'desc' => 'clock input (low-to-high, edge-triggered)',
       ),
-      9 => 
+      'Q__2' => 
       array (
-        'num' => '10',
-        'sym' => 'Q__2',
         'desc' => 'flip-flop output',
       ),
-      10 => 
+      '~Q~__2' => 
       array (
-        'num' => '11',
-        'sym' => '~Q~__2',
         'desc' => 'complementary flip-flop output',
       ),
-      11 => 
+      'D__2' => 
       array (
-        'num' => '12',
-        'sym' => 'D__2',
         'desc' => 'data input',
       ),
-      12 => 
+      'D__3' => 
       array (
-        'num' => '13',
-        'sym' => 'D__3',
         'desc' => 'data input',
       ),
-      13 => 
+      '~Q~__3' => 
       array (
-        'num' => '14',
-        'sym' => '~Q~__3',
         'desc' => 'complementary flip-flop output',
       ),
-      14 => 
+      'Q__3' => 
       array (
-        'num' => '15',
-        'sym' => 'Q__3',
         'desc' => 'flip-flop output',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -14353,110 +12786,98 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~MR',
+        2 => 'Q__0',
+        3 => '~Q~__0',
+        4 => 'D__0',
+        5 => 'D__1',
+        6 => '~Q~__1',
+        7 => 'Q__1',
+        8 => 'GND',
+        9 => 'CP',
+        10 => 'Q__2',
+        11 => '~Q~__2',
+        12 => 'D__2',
+        13 => 'D__3',
+        14 => '~Q~__3',
+        15 => 'Q__3',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74191 => 
   array (
     'description' => 'Presettable synchronous 4-bit binary up/down counter',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc191.74hct191.pdf',
     'pins' => 
     array (
-      0 => 
+      'D__1' => 
       array (
-        'num' => '1',
-        'sym' => 'D__1',
         'desc' => 'data input',
       ),
-      1 => 
+      'Q__1' => 
       array (
-        'num' => '2',
-        'sym' => 'Q__1',
         'desc' => 'counter output',
       ),
-      2 => 
+      'Q__0' => 
       array (
-        'num' => '3',
-        'sym' => 'Q__0',
         'desc' => 'counter output',
       ),
-      3 => 
+      '~CE' => 
       array (
-        'num' => '4',
-        'sym' => '~CE',
         'desc' => 'count enable input (active low)',
       ),
-      4 => 
+      '~U~/D' => 
       array (
-        'num' => '5',
-        'sym' => '~U~/D',
         'desc' => 'up/down input',
       ),
-      5 => 
+      'Q__2' => 
       array (
-        'num' => '6',
-        'sym' => 'Q__2',
         'desc' => 'counter output',
       ),
-      6 => 
+      'Q__3' => 
       array (
-        'num' => '7',
-        'sym' => 'Q__3',
         'desc' => 'counter output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'D__3' => 
       array (
-        'num' => '9',
-        'sym' => 'D__3',
         'desc' => 'data input',
       ),
-      9 => 
+      'D__2' => 
       array (
-        'num' => '10',
-        'sym' => 'D__2',
         'desc' => 'data input',
       ),
-      10 => 
+      '~PL' => 
       array (
-        'num' => '11',
-        'sym' => '~PL',
         'desc' => 'parallel load input (active low)',
       ),
-      11 => 
+      'TC' => 
       array (
-        'num' => '12',
-        'sym' => 'TC',
         'desc' => 'terminal count output',
       ),
-      12 => 
+      '~RC' => 
       array (
-        'num' => '13',
-        'sym' => '~RC',
         'desc' => 'ripple clock output (active low)',
       ),
-      13 => 
+      'CP' => 
       array (
-        'num' => '14',
-        'sym' => 'CP',
         'desc' => 'clock input (low-to-high, edge-triggered)',
       ),
-      14 => 
+      'D__0' => 
       array (
-        'num' => '15',
-        'sym' => 'D__0',
         'desc' => 'data input',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -14475,110 +12896,98 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'D__1',
+        2 => 'Q__1',
+        3 => 'Q__0',
+        4 => '~CE',
+        5 => '~U~/D',
+        6 => 'Q__2',
+        7 => 'Q__3',
+        8 => 'GND',
+        9 => 'D__3',
+        10 => 'D__2',
+        11 => '~PL',
+        12 => 'TC',
+        13 => '~RC',
+        14 => 'CP',
+        15 => 'D__0',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74193 => 
   array (
     'description' => 'Presettable synchronous 4-bit binary up/down counter; separate up/down clocks',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc193.74hct193.pdf',
     'pins' => 
     array (
-      0 => 
+      'D__1' => 
       array (
-        'num' => '1',
-        'sym' => 'D__1',
         'desc' => 'data input',
       ),
-      1 => 
+      'Q__1' => 
       array (
-        'num' => '2',
-        'sym' => 'Q__1',
         'desc' => 'counter output',
       ),
-      2 => 
+      'Q__0' => 
       array (
-        'num' => '3',
-        'sym' => 'Q__0',
         'desc' => 'counter output',
       ),
-      3 => 
+      'CPD' => 
       array (
-        'num' => '4',
-        'sym' => 'CPD',
         'desc' => 'count down clock input (low-to-high, edge-triggered)',
       ),
-      4 => 
+      'CPU' => 
       array (
-        'num' => '5',
-        'sym' => 'CPU',
         'desc' => 'count up clock input (low-to-high, edge-triggered)',
       ),
-      5 => 
+      'Q__2' => 
       array (
-        'num' => '6',
-        'sym' => 'Q__2',
         'desc' => 'counter output',
       ),
-      6 => 
+      'Q__3' => 
       array (
-        'num' => '7',
-        'sym' => 'Q__3',
         'desc' => 'counter output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'D__3' => 
       array (
-        'num' => '9',
-        'sym' => 'D__3',
         'desc' => 'data input',
       ),
-      9 => 
+      'D__2' => 
       array (
-        'num' => '10',
-        'sym' => 'D__2',
         'desc' => 'data input',
       ),
-      10 => 
+      '~PL' => 
       array (
-        'num' => '11',
-        'sym' => '~PL',
         'desc' => 'parallel load input (active low)',
       ),
-      11 => 
+      '~TCU' => 
       array (
-        'num' => '12',
-        'sym' => '~TCU',
         'desc' => 'terminal count up (carry) output (active low)',
       ),
-      12 => 
+      '~TCD' => 
       array (
-        'num' => '13',
-        'sym' => '~TCD',
         'desc' => 'terminal count down (borrow) output (active low)',
       ),
-      13 => 
+      'MR' => 
       array (
-        'num' => '14',
-        'sym' => 'MR',
         'desc' => 'asynchronous master reset (active high)',
       ),
-      14 => 
+      'D__0' => 
       array (
-        'num' => '15',
-        'sym' => 'D__0',
         'desc' => 'data input',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -14675,110 +13084,98 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'D__1',
+        2 => 'Q__1',
+        3 => 'Q__0',
+        4 => 'CPD',
+        5 => 'CPU',
+        6 => 'Q__2',
+        7 => 'Q__3',
+        8 => 'GND',
+        9 => 'D__3',
+        10 => 'D__2',
+        11 => '~PL',
+        12 => '~TCU',
+        13 => '~TCD',
+        14 => 'MR',
+        15 => 'D__0',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74194 => 
   array (
     'description' => '4-bit bidirectional universal shift register',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc194.74hct194.pdf',
     'pins' => 
     array (
-      0 => 
+      '~MR' => 
       array (
-        'num' => '1',
-        'sym' => '~MR',
         'desc' => 'asynchronous master reset (active low)',
       ),
-      1 => 
+      'D__SR' => 
       array (
-        'num' => '2',
-        'sym' => 'D__SR',
         'desc' => 'serial data input (shift right)',
       ),
-      2 => 
+      'D__0' => 
       array (
-        'num' => '3',
-        'sym' => 'D__0',
         'desc' => 'parallel data input',
       ),
-      3 => 
+      'D__1' => 
       array (
-        'num' => '4',
-        'sym' => 'D__1',
         'desc' => 'parallel data input',
       ),
-      4 => 
+      'D__2' => 
       array (
-        'num' => '5',
-        'sym' => 'D__2',
         'desc' => 'parallel data input',
       ),
-      5 => 
+      'D__3' => 
       array (
-        'num' => '6',
-        'sym' => 'D__3',
         'desc' => 'parallel data input',
       ),
-      6 => 
+      'D__SL' => 
       array (
-        'num' => '7',
-        'sym' => 'D__SL',
         'desc' => 'serial data input (shift left)',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'S__0' => 
       array (
-        'num' => '9',
-        'sym' => 'S__0',
         'desc' => 'mode control input',
       ),
-      9 => 
+      'S__1' => 
       array (
-        'num' => '10',
-        'sym' => 'S__1',
         'desc' => 'mode control input',
       ),
-      10 => 
+      'CP' => 
       array (
-        'num' => '11',
-        'sym' => 'CP',
         'desc' => 'clock input (low-to-high, edge-triggered)',
       ),
-      11 => 
+      'Q__3' => 
       array (
-        'num' => '12',
-        'sym' => 'Q__3',
         'desc' => 'parallel output',
       ),
-      12 => 
+      'Q__2' => 
       array (
-        'num' => '13',
-        'sym' => 'Q__2',
         'desc' => 'parallel output',
       ),
-      13 => 
+      'Q__1' => 
       array (
-        'num' => '14',
-        'sym' => 'Q__1',
         'desc' => 'parallel output',
       ),
-      14 => 
+      'Q__0' => 
       array (
-        'num' => '15',
-        'sym' => 'Q__0',
         'desc' => 'parallel output',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -14822,6 +13219,28 @@
       2 => 'S__0 high and S__1 low; shift right',
       3 => 'S__0 and S__1 high; parallel load',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~MR',
+        2 => 'D__SR',
+        3 => 'D__0',
+        4 => 'D__1',
+        5 => 'D__2',
+        6 => 'D__3',
+        7 => 'D__SL',
+        8 => 'GND',
+        9 => 'S__0',
+        10 => 'S__1',
+        11 => 'CP',
+        12 => 'Q__3',
+        13 => 'Q__2',
+        14 => 'Q__1',
+        15 => 'Q__0',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74195 => 
   array (
@@ -14829,201 +13248,151 @@
     'aliases' => 
     array (
     ),
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://pdf1.alldatasheet.com/datasheet-pdf/view/131233/NSC/74195.html',
     'pins' => 
     array (
-      0 => 
+      '~MR~' => 
       array (
-        'num' => '1',
-        'sym' => '~MR~',
         'desc' => 'Asynchronous Master Reset (Active Low)',
       ),
-      1 => 
+      'J' => 
       array (
-        'num' => '2',
-        'sym' => 'J',
         'desc' => 'First Stage J Input (Active High)',
       ),
-      2 => 
+      '~K~' => 
       array (
-        'num' => '3',
-        'sym' => '~K~',
         'desc' => 'First Stage K Input (Active Low)',
       ),
-      3 => 
+      'P__0' => 
       array (
-        'num' => '4',
-        'sym' => 'P__0',
         'desc' => 'Parallel Data Input',
       ),
-      4 => 
+      'P__1' => 
       array (
-        'num' => '5',
-        'sym' => 'P__1',
         'desc' => 'Parallel Data Input',
       ),
-      5 => 
+      'P__2' => 
       array (
-        'num' => '6',
-        'sym' => 'P__2',
         'desc' => 'Parallel Data Input',
       ),
-      6 => 
+      'P__3' => 
       array (
-        'num' => '7',
-        'sym' => 'P__3',
         'desc' => 'Parallel Data Input',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'Ground',
       ),
-      8 => 
+      '~PE~' => 
       array (
-        'num' => '9',
-        'sym' => '~PE~',
         'desc' => 'Parallel Enable Input (Active Low)',
       ),
-      9 => 
+      'CP' => 
       array (
-        'num' => '10',
-        'sym' => 'CP',
         'desc' => 'Clock Pulse Input (Active Rising Edge)',
       ),
-      10 => 
+      '~Q~__3' => 
       array (
-        'num' => '11',
-        'sym' => '~Q~__3',
         'desc' => 'Complementary Last Stage Output (Active Low)',
       ),
-      11 => 
+      'Q__3' => 
       array (
-        'num' => '12',
-        'sym' => 'Q__3',
         'desc' => 'Parallel Outputs',
       ),
-      12 => 
+      'Q__2' => 
       array (
-        'num' => '13',
-        'sym' => 'Q__2',
         'desc' => 'Parallel Outputs',
       ),
-      13 => 
+      'Q__1' => 
       array (
-        'num' => '14',
-        'sym' => 'Q__1',
         'desc' => 'Parallel Outputs',
       ),
-      14 => 
+      'Q__0' => 
       array (
-        'num' => '15',
-        'sym' => 'Q__0',
         'desc' => 'Parallel Outputs',
       ),
-      15 => 
+      'VCC' => 
       array (
-        'num' => '16',
-        'sym' => 'VCC',
         'desc' => 'Power',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~MR~',
+        2 => 'J',
+        3 => '~K~',
+        4 => 'P__0',
+        5 => 'P__1',
+        6 => 'P__2',
+        7 => 'P__3',
+        8 => 'GND',
+        9 => '~PE~',
+        10 => 'CP',
+        11 => '~Q~__3',
+        12 => 'Q__3',
+        13 => 'Q__2',
+        14 => 'Q__1',
+        15 => 'Q__0',
+        16 => 'VCC',
       ),
     ),
   ),
   7420 => 
   array (
     'description' => 'Dual 4-input NAND gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc20.74hct20.pdf',
     'pins' => 
     array (
-      0 => 
+      '1A' => 
       array (
-        'num' => '1',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      1 => 
+      '1B' => 
       array (
-        'num' => '2',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      2 => 
+      '1C' => 
       array (
-        'num' => '3',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      3 => 
-      array (
-        'num' => '4',
-        'sym' => '1C',
         'desc' => 'data input',
       ),
-      4 => 
+      '1D' => 
       array (
-        'num' => '5',
-        'sym' => '1D',
         'desc' => 'data input',
       ),
-      5 => 
+      '1Y' => 
       array (
-        'num' => '6',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '2Y' => 
       array (
-        'num' => '8',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      8 => 
+      '2A' => 
       array (
-        'num' => '9',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      9 => 
+      '2B' => 
       array (
-        'num' => '10',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      10 => 
+      '2C' => 
       array (
-        'num' => '11',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      11 => 
-      array (
-        'num' => '12',
-        'sym' => '2C',
         'desc' => 'data input',
       ),
-      12 => 
+      '2D' => 
       array (
-        'num' => '13',
-        'sym' => '2D',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -15040,98 +13409,80 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1A',
+        2 => '1B',
+        3 => 'NC',
+        4 => '1C',
+        5 => '1D',
+        6 => '1Y',
+        7 => 'GND',
+        8 => '2Y',
+        9 => '2A',
+        10 => '2B',
+        11 => 'NC',
+        12 => '2C',
+        13 => '2D',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   7421 => 
   array (
     'description' => 'Dual 4-input AND gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/74HC21_3.pdf',
     'pins' => 
     array (
-      0 => 
+      '1A' => 
       array (
-        'num' => '1',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      1 => 
+      '1B' => 
       array (
-        'num' => '2',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      2 => 
+      '1C' => 
       array (
-        'num' => '3',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      3 => 
-      array (
-        'num' => '4',
-        'sym' => '1C',
         'desc' => 'data input',
       ),
-      4 => 
+      '1D' => 
       array (
-        'num' => '5',
-        'sym' => '1D',
         'desc' => 'data input',
       ),
-      5 => 
+      '1Y' => 
       array (
-        'num' => '6',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '2Y' => 
       array (
-        'num' => '8',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      8 => 
+      '2A' => 
       array (
-        'num' => '9',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      9 => 
+      '2B' => 
       array (
-        'num' => '10',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      10 => 
+      '2C' => 
       array (
-        'num' => '11',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      11 => 
-      array (
-        'num' => '12',
-        'sym' => '2C',
         'desc' => 'data input',
       ),
-      12 => 
+      '2D' => 
       array (
-        'num' => '13',
-        'sym' => '2D',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -15144,110 +13495,96 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1A',
+        2 => '1B',
+        3 => 'NC',
+        4 => '1C',
+        5 => '1D',
+        6 => '1Y',
+        7 => 'GND',
+        8 => '2Y',
+        9 => '2A',
+        10 => '2B',
+        11 => 'NC',
+        12 => '2C',
+        13 => '2D',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   74221 => 
   array (
     'description' => 'Dual non-retriggerable monostable multivibrator with reset',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc221.74hct221.pdf',
     'pins' => 
     array (
-      0 => 
+      '1~A' => 
       array (
-        'num' => '1',
-        'sym' => '1~A',
         'desc' => 'negative-edge triggered input 1',
       ),
-      1 => 
+      '1B' => 
       array (
-        'num' => '2',
-        'sym' => '1B',
         'desc' => 'positive-edge triggered input 1',
       ),
-      2 => 
+      '1~R~D' => 
       array (
-        'num' => '3',
-        'sym' => '1~R~D',
         'desc' => 'direct reset (low) and positive-edge triggered input 1',
       ),
-      3 => 
+      '1~Q' => 
       array (
-        'num' => '4',
-        'sym' => '1~Q',
         'desc' => 'active low output 1',
       ),
-      4 => 
+      '2Q' => 
       array (
-        'num' => '5',
-        'sym' => '2Q',
         'desc' => 'active high output 2',
       ),
-      5 => 
+      '2CEXT' => 
       array (
-        'num' => '6',
-        'sym' => '2CEXT',
         'desc' => 'external capacitor connection 2',
       ),
-      6 => 
+      '2REXT/CEXT' => 
       array (
-        'num' => '7',
-        'sym' => '2REXT/CEXT',
         'desc' => 'external resistor and capacitor connection 2',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '2~A' => 
       array (
-        'num' => '9',
-        'sym' => '2~A',
         'desc' => 'negative-edge triggered input 2',
       ),
-      9 => 
+      '2B' => 
       array (
-        'num' => '10',
-        'sym' => '2B',
         'desc' => 'positive-edge triggered input 2',
       ),
-      10 => 
+      '2~R~D' => 
       array (
-        'num' => '11',
-        'sym' => '2~R~D',
         'desc' => 'direct reset (low) and positive-edge triggered input 2',
       ),
-      11 => 
+      '2~Q' => 
       array (
-        'num' => '12',
-        'sym' => '2~Q',
         'desc' => 'active low output 2',
       ),
-      12 => 
+      '1Q' => 
       array (
-        'num' => '13',
-        'sym' => '1Q',
         'desc' => 'active high output 1',
       ),
-      13 => 
+      '1CEXT' => 
       array (
-        'num' => '14',
-        'sym' => '1CEXT',
         'desc' => 'external capacitor connection 1',
       ),
-      14 => 
+      '1REXT/CEXT' => 
       array (
-        'num' => '15',
-        'sym' => '1REXT/CEXT',
         'desc' => 'external resistor and capacitor connection 1',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -15284,110 +13621,98 @@
         'unit' => 'kΩ',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1~A',
+        2 => '1B',
+        3 => '1~R~D',
+        4 => '1~Q',
+        5 => '2Q',
+        6 => '2CEXT',
+        7 => '2REXT/CEXT',
+        8 => 'GND',
+        9 => '2~A',
+        10 => '2B',
+        11 => '2~R~D',
+        12 => '2~Q',
+        13 => '1Q',
+        14 => '1CEXT',
+        15 => '1REXT/CEXT',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74237 => 
   array (
     'description' => '3-to-8 line decoder/demultiplexer with address latches; non-inverting',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc237.pdf',
     'pins' => 
     array (
-      0 => 
+      'A0' => 
       array (
-        'num' => '1',
-        'sym' => 'A0',
         'desc' => 'data input 0',
       ),
-      1 => 
+      'A1' => 
       array (
-        'num' => '2',
-        'sym' => 'A1',
         'desc' => 'data input 1',
       ),
-      2 => 
+      'A2' => 
       array (
-        'num' => '3',
-        'sym' => 'A2',
         'desc' => 'data input 2',
       ),
-      3 => 
+      '~LE' => 
       array (
-        'num' => '4',
-        'sym' => '~LE',
         'desc' => 'latch enable input (active low)',
       ),
-      4 => 
+      '~E~1' => 
       array (
-        'num' => '5',
-        'sym' => '~E~1',
         'desc' => 'data enable input 1 (active low)',
       ),
-      5 => 
+      'E2' => 
       array (
-        'num' => '6',
-        'sym' => 'E2',
         'desc' => 'data enable input 2 (active high)',
       ),
-      6 => 
+      'Y7' => 
       array (
-        'num' => '7',
-        'sym' => 'Y7',
         'desc' => 'output 7',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'Y6' => 
       array (
-        'num' => '9',
-        'sym' => 'Y6',
         'desc' => 'output 6',
       ),
-      9 => 
+      'Y5' => 
       array (
-        'num' => '10',
-        'sym' => 'Y5',
         'desc' => 'output 5',
       ),
-      10 => 
+      'Y4' => 
       array (
-        'num' => '11',
-        'sym' => 'Y4',
         'desc' => 'output 4',
       ),
-      11 => 
+      'Y3' => 
       array (
-        'num' => '12',
-        'sym' => 'Y3',
         'desc' => 'output 3',
       ),
-      12 => 
+      'Y2' => 
       array (
-        'num' => '13',
-        'sym' => 'Y2',
         'desc' => 'output 2',
       ),
-      13 => 
+      'Y1' => 
       array (
-        'num' => '14',
-        'sym' => 'Y1',
         'desc' => 'output 1',
       ),
-      14 => 
+      'Y0' => 
       array (
-        'num' => '15',
-        'sym' => 'Y0',
         'desc' => 'output 0',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -15418,110 +13743,98 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'A0',
+        2 => 'A1',
+        3 => 'A2',
+        4 => '~LE',
+        5 => '~E~1',
+        6 => 'E2',
+        7 => 'Y7',
+        8 => 'GND',
+        9 => 'Y6',
+        10 => 'Y5',
+        11 => 'Y4',
+        12 => 'Y3',
+        13 => 'Y2',
+        14 => 'Y1',
+        15 => 'Y0',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74238 => 
   array (
     'description' => '3-to-8 line decoder/demultiplexer; non-inverting',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc238.74hct238.pdf',
     'pins' => 
     array (
-      0 => 
+      'A0' => 
       array (
-        'num' => '1',
-        'sym' => 'A0',
         'desc' => 'data input 0',
       ),
-      1 => 
+      'A1' => 
       array (
-        'num' => '2',
-        'sym' => 'A1',
         'desc' => 'data input 1',
       ),
-      2 => 
+      'A2' => 
       array (
-        'num' => '3',
-        'sym' => 'A2',
         'desc' => 'data input 2',
       ),
-      3 => 
+      '~E~1' => 
       array (
-        'num' => '4',
-        'sym' => '~E~1',
         'desc' => 'enable input 1 (active low)',
       ),
-      4 => 
+      '~E~2' => 
       array (
-        'num' => '5',
-        'sym' => '~E~2',
         'desc' => 'enable input 2 (active low)',
       ),
-      5 => 
+      'E3' => 
       array (
-        'num' => '6',
-        'sym' => 'E3',
         'desc' => 'enable input 3 (active high)',
       ),
-      6 => 
+      'Y7' => 
       array (
-        'num' => '7',
-        'sym' => 'Y7',
         'desc' => 'output 7',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'Y6' => 
       array (
-        'num' => '9',
-        'sym' => 'Y6',
         'desc' => 'output 6',
       ),
-      9 => 
+      'Y5' => 
       array (
-        'num' => '10',
-        'sym' => 'Y5',
         'desc' => 'output 5',
       ),
-      10 => 
+      'Y4' => 
       array (
-        'num' => '11',
-        'sym' => 'Y4',
         'desc' => 'output 4',
       ),
-      11 => 
+      'Y3' => 
       array (
-        'num' => '12',
-        'sym' => 'Y3',
         'desc' => 'output 3',
       ),
-      12 => 
+      'Y2' => 
       array (
-        'num' => '13',
-        'sym' => 'Y2',
         'desc' => 'output 2',
       ),
-      13 => 
+      'Y1' => 
       array (
-        'num' => '14',
-        'sym' => 'Y1',
         'desc' => 'output 1',
       ),
-      14 => 
+      'Y0' => 
       array (
-        'num' => '15',
-        'sym' => 'Y0',
         'desc' => 'output 0',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -15558,134 +13871,114 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'A0',
+        2 => 'A1',
+        3 => 'A2',
+        4 => '~E~1',
+        5 => '~E~2',
+        6 => 'E3',
+        7 => 'Y7',
+        8 => 'GND',
+        9 => 'Y6',
+        10 => 'Y5',
+        11 => 'Y4',
+        12 => 'Y3',
+        13 => 'Y2',
+        14 => 'Y1',
+        15 => 'Y0',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74240 => 
   array (
     'description' => 'Octal buffer/line driver; 3-state; inverting',
-    'package' => 'DIP',
-    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc240.74hct240.pdf',
     'pins' => 
     array (
-      0 => 
+      '1~OE' => 
       array (
-        'num' => '1',
-        'sym' => '1~OE',
         'desc' => 'output enable (active low)',
       ),
-      1 => 
+      '1A0' => 
       array (
-        'num' => '2',
-        'sym' => '1A0',
         'desc' => 'data input',
       ),
-      2 => 
+      '2Y0' => 
       array (
-        'num' => '3',
-        'sym' => '2Y0',
         'desc' => 'bus output',
       ),
-      3 => 
+      '1A1' => 
       array (
-        'num' => '4',
-        'sym' => '1A1',
         'desc' => 'data input',
       ),
-      4 => 
+      '2Y1' => 
       array (
-        'num' => '5',
-        'sym' => '2Y1',
         'desc' => 'bus output',
       ),
-      5 => 
+      '1A2' => 
       array (
-        'num' => '6',
-        'sym' => '1A2',
         'desc' => 'data input',
       ),
-      6 => 
+      '2Y2' => 
       array (
-        'num' => '7',
-        'sym' => '2Y2',
         'desc' => 'bus output',
       ),
-      7 => 
+      '1A3' => 
       array (
-        'num' => '8',
-        'sym' => '1A3',
         'desc' => 'data input',
       ),
-      8 => 
+      '2Y3' => 
       array (
-        'num' => '9',
-        'sym' => '2Y3',
         'desc' => 'bus output',
       ),
-      9 => 
+      'GND' => 
       array (
-        'num' => '10',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      10 => 
+      '2A3' => 
       array (
-        'num' => '11',
-        'sym' => '2A3',
         'desc' => 'data input',
       ),
-      11 => 
+      '1Y3' => 
       array (
-        'num' => '12',
-        'sym' => '1Y3',
         'desc' => 'bus output',
       ),
-      12 => 
+      '2A2' => 
       array (
-        'num' => '13',
-        'sym' => '2A2',
         'desc' => 'data input',
       ),
-      13 => 
+      '1Y2' => 
       array (
-        'num' => '14',
-        'sym' => '1Y2',
         'desc' => 'bus output',
       ),
-      14 => 
+      '2A1' => 
       array (
-        'num' => '15',
-        'sym' => '2A1',
         'desc' => 'data input',
       ),
-      15 => 
+      '1Y1' => 
       array (
-        'num' => '16',
-        'sym' => '1Y1',
         'desc' => 'bus output',
       ),
-      16 => 
+      '2A0' => 
       array (
-        'num' => '17',
-        'sym' => '2A0',
         'desc' => 'data input',
       ),
-      17 => 
+      '1Y0' => 
       array (
-        'num' => '18',
-        'sym' => '1Y0',
         'desc' => 'bus output',
       ),
-      18 => 
+      '2~OE' => 
       array (
-        'num' => '19',
-        'sym' => '2~OE',
         'desc' => 'output enable (active low)',
       ),
-      19 => 
+      'Vcc' => 
       array (
-        'num' => '20',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -15705,134 +13998,118 @@
     array (
       0 => 'Setting 1~OE or 2~OE high causes the outputs to assume a high-impedance off state.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1~OE',
+        2 => '1A0',
+        3 => '2Y0',
+        4 => '1A1',
+        5 => '2Y1',
+        6 => '1A2',
+        7 => '2Y2',
+        8 => '1A3',
+        9 => '2Y3',
+        10 => 'GND',
+        11 => '2A3',
+        12 => '1Y3',
+        13 => '2A2',
+        14 => '1Y2',
+        15 => '2A1',
+        16 => '1Y1',
+        17 => '2A0',
+        18 => '1Y0',
+        19 => '2~OE',
+        20 => 'Vcc',
+      ),
+    ),
   ),
   74241 => 
   array (
     'description' => 'Octal buffer/line driver; 3-state; non-inverting',
-    'package' => 'DIP',
-    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc241.74hct241.pdf',
     'pins' => 
     array (
-      0 => 
+      '1~OE' => 
       array (
-        'num' => '1',
-        'sym' => '1~OE',
         'desc' => 'output enable (active low)',
       ),
-      1 => 
+      '1A0' => 
       array (
-        'num' => '2',
-        'sym' => '1A0',
         'desc' => 'data input',
       ),
-      2 => 
+      '2Y0' => 
       array (
-        'num' => '3',
-        'sym' => '2Y0',
         'desc' => 'bus output',
       ),
-      3 => 
+      '1A1' => 
       array (
-        'num' => '4',
-        'sym' => '1A1',
         'desc' => 'data input',
       ),
-      4 => 
+      '2Y1' => 
       array (
-        'num' => '5',
-        'sym' => '2Y1',
         'desc' => 'bus output',
       ),
-      5 => 
+      '1A2' => 
       array (
-        'num' => '6',
-        'sym' => '1A2',
         'desc' => 'data input',
       ),
-      6 => 
+      '2Y2' => 
       array (
-        'num' => '7',
-        'sym' => '2Y2',
         'desc' => 'bus output',
       ),
-      7 => 
+      '1A3' => 
       array (
-        'num' => '8',
-        'sym' => '1A3',
         'desc' => 'data input',
       ),
-      8 => 
+      '2Y3' => 
       array (
-        'num' => '9',
-        'sym' => '2Y3',
         'desc' => 'bus output',
       ),
-      9 => 
+      'GND' => 
       array (
-        'num' => '10',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      10 => 
+      '2A3' => 
       array (
-        'num' => '11',
-        'sym' => '2A3',
         'desc' => 'data input',
       ),
-      11 => 
+      '1Y3' => 
       array (
-        'num' => '12',
-        'sym' => '1Y3',
         'desc' => 'bus output',
       ),
-      12 => 
+      '2A2' => 
       array (
-        'num' => '13',
-        'sym' => '2A2',
         'desc' => 'data input',
       ),
-      13 => 
+      '1Y2' => 
       array (
-        'num' => '14',
-        'sym' => '1Y2',
         'desc' => 'bus output',
       ),
-      14 => 
+      '2A1' => 
       array (
-        'num' => '15',
-        'sym' => '2A1',
         'desc' => 'data input',
       ),
-      15 => 
+      '1Y1' => 
       array (
-        'num' => '16',
-        'sym' => '1Y1',
         'desc' => 'bus output',
       ),
-      16 => 
+      '2A0' => 
       array (
-        'num' => '17',
-        'sym' => '2A0',
         'desc' => 'data input',
       ),
-      17 => 
+      '1Y0' => 
       array (
-        'num' => '18',
-        'sym' => '1Y0',
         'desc' => 'bus output',
       ),
-      18 => 
+      '2OE' => 
       array (
-        'num' => '19',
-        'sym' => '2OE',
         'desc' => 'output enable (active high)',
       ),
-      19 => 
+      'Vcc' => 
       array (
-        'num' => '20',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -15853,98 +14130,86 @@
     array (
       0 => 'Setting 1~OE high or 2OE low causes the outputs to assume a high-impedance off state.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1~OE',
+        2 => '1A0',
+        3 => '2Y0',
+        4 => '1A1',
+        5 => '2Y1',
+        6 => '1A2',
+        7 => '2Y2',
+        8 => '1A3',
+        9 => '2Y3',
+        10 => 'GND',
+        11 => '2A3',
+        12 => '1Y3',
+        13 => '2A2',
+        14 => '1Y2',
+        15 => '2A1',
+        16 => '1Y1',
+        17 => '2A0',
+        18 => '1Y0',
+        19 => '2OE',
+        20 => 'Vcc',
+      ),
+    ),
   ),
   74243 => 
   array (
     'description' => 'Quad bus transceiver; 3-state',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc243.pdf',
     'pins' => 
     array (
-      0 => 
+      '~OE~A' => 
       array (
-        'num' => '1',
-        'sym' => '~OE~A',
         'desc' => 'output enable (active low)',
       ),
-      1 => 
+      'A0' => 
       array (
-        'num' => '2',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      2 => 
-      array (
-        'num' => '3',
-        'sym' => 'A0',
         'desc' => 'data input or output',
       ),
-      3 => 
+      'A1' => 
       array (
-        'num' => '4',
-        'sym' => 'A1',
         'desc' => 'data input or output',
       ),
-      4 => 
+      'A2' => 
       array (
-        'num' => '5',
-        'sym' => 'A2',
         'desc' => 'data input or output',
       ),
-      5 => 
+      'A3' => 
       array (
-        'num' => '6',
-        'sym' => 'A3',
         'desc' => 'data input or output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      'B3' => 
       array (
-        'num' => '8',
-        'sym' => 'B3',
         'desc' => 'data output or input',
       ),
-      8 => 
+      'B2' => 
       array (
-        'num' => '9',
-        'sym' => 'B2',
         'desc' => 'data output or input',
       ),
-      9 => 
+      'B1' => 
       array (
-        'num' => '10',
-        'sym' => 'B1',
         'desc' => 'data output or input',
       ),
-      10 => 
+      'B0' => 
       array (
-        'num' => '11',
-        'sym' => 'B0',
         'desc' => 'data output or input',
       ),
-      11 => 
+      'OEB' => 
       array (
-        'num' => '12',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      12 => 
-      array (
-        'num' => '13',
-        'sym' => 'OEB',
         'desc' => 'output enable (active high)',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -15963,134 +14228,112 @@
       1 => 'When ~OE~A and OEB are high, Bn are inputs.',
       2 => 'Otherwise, An and Bn are in a high-impedance off state.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~OE~A',
+        2 => 'NC',
+        3 => 'A0',
+        4 => 'A1',
+        5 => 'A2',
+        6 => 'A3',
+        7 => 'GND',
+        8 => 'B3',
+        9 => 'B2',
+        10 => 'B1',
+        11 => 'B0',
+        12 => 'NC',
+        13 => 'OEB',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   74244 => 
   array (
     'description' => 'Octal buffer/line driver; 3-state; non-inverting',
-    'package' => 'DIP',
-    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc244.74hct244.pdf',
     'pins' => 
     array (
-      0 => 
+      '1~OE' => 
       array (
-        'num' => '1',
-        'sym' => '1~OE',
         'desc' => 'output enable (active low)',
       ),
-      1 => 
+      '1A0' => 
       array (
-        'num' => '2',
-        'sym' => '1A0',
         'desc' => 'data input',
       ),
-      2 => 
+      '2Y0' => 
       array (
-        'num' => '3',
-        'sym' => '2Y0',
         'desc' => 'bus output',
       ),
-      3 => 
+      '1A1' => 
       array (
-        'num' => '4',
-        'sym' => '1A1',
         'desc' => 'data input',
       ),
-      4 => 
+      '2Y1' => 
       array (
-        'num' => '5',
-        'sym' => '2Y1',
         'desc' => 'bus output',
       ),
-      5 => 
+      '1A2' => 
       array (
-        'num' => '6',
-        'sym' => '1A2',
         'desc' => 'data input',
       ),
-      6 => 
+      '2Y2' => 
       array (
-        'num' => '7',
-        'sym' => '2Y2',
         'desc' => 'bus output',
       ),
-      7 => 
+      '1A3' => 
       array (
-        'num' => '8',
-        'sym' => '1A3',
         'desc' => 'data input',
       ),
-      8 => 
+      '2Y3' => 
       array (
-        'num' => '9',
-        'sym' => '2Y3',
         'desc' => 'bus output',
       ),
-      9 => 
+      'GND' => 
       array (
-        'num' => '10',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      10 => 
+      '2A3' => 
       array (
-        'num' => '11',
-        'sym' => '2A3',
         'desc' => 'data input',
       ),
-      11 => 
+      '1Y3' => 
       array (
-        'num' => '12',
-        'sym' => '1Y3',
         'desc' => 'bus output',
       ),
-      12 => 
+      '2A2' => 
       array (
-        'num' => '13',
-        'sym' => '2A2',
         'desc' => 'data input',
       ),
-      13 => 
+      '1Y2' => 
       array (
-        'num' => '14',
-        'sym' => '1Y2',
         'desc' => 'bus output',
       ),
-      14 => 
+      '2A1' => 
       array (
-        'num' => '15',
-        'sym' => '2A1',
         'desc' => 'data input',
       ),
-      15 => 
+      '1Y1' => 
       array (
-        'num' => '16',
-        'sym' => '1Y1',
         'desc' => 'bus output',
       ),
-      16 => 
+      '2A0' => 
       array (
-        'num' => '17',
-        'sym' => '2A0',
         'desc' => 'data input',
       ),
-      17 => 
+      '1Y0' => 
       array (
-        'num' => '18',
-        'sym' => '1Y0',
         'desc' => 'bus output',
       ),
-      18 => 
+      '2~OE' => 
       array (
-        'num' => '19',
-        'sym' => '2~OE',
         'desc' => 'output enable (active low)',
       ),
-      19 => 
+      'Vcc' => 
       array (
-        'num' => '20',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -16111,134 +14354,118 @@
     array (
       0 => 'Setting 1~OE or 2~OE high causes the outputs to assume a high-impedance off state.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1~OE',
+        2 => '1A0',
+        3 => '2Y0',
+        4 => '1A1',
+        5 => '2Y1',
+        6 => '1A2',
+        7 => '2Y2',
+        8 => '1A3',
+        9 => '2Y3',
+        10 => 'GND',
+        11 => '2A3',
+        12 => '1Y3',
+        13 => '2A2',
+        14 => '1Y2',
+        15 => '2A1',
+        16 => '1Y1',
+        17 => '2A0',
+        18 => '1Y0',
+        19 => '2~OE',
+        20 => 'Vcc',
+      ),
+    ),
   ),
   74245 => 
   array (
     'description' => 'Octal bus transceiver; 3-state',
-    'package' => 'DIP',
-    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc245.74hct245.pdf',
     'pins' => 
     array (
-      0 => 
+      'DIR' => 
       array (
-        'num' => '1',
-        'sym' => 'DIR',
         'desc' => 'direction control',
       ),
-      1 => 
+      'A0' => 
       array (
-        'num' => '2',
-        'sym' => 'A0',
         'desc' => 'data input/output',
       ),
-      2 => 
+      'A1' => 
       array (
-        'num' => '3',
-        'sym' => 'A1',
         'desc' => 'data input/output',
       ),
-      3 => 
+      'A2' => 
       array (
-        'num' => '4',
-        'sym' => 'A2',
         'desc' => 'data input/output',
       ),
-      4 => 
+      'A3' => 
       array (
-        'num' => '5',
-        'sym' => 'A3',
         'desc' => 'data input/output',
       ),
-      5 => 
+      'A4' => 
       array (
-        'num' => '6',
-        'sym' => 'A4',
         'desc' => 'data input/output',
       ),
-      6 => 
+      'A5' => 
       array (
-        'num' => '7',
-        'sym' => 'A5',
         'desc' => 'data input/output',
       ),
-      7 => 
+      'A6' => 
       array (
-        'num' => '8',
-        'sym' => 'A6',
         'desc' => 'data input/output',
       ),
-      8 => 
+      'A7' => 
       array (
-        'num' => '9',
-        'sym' => 'A7',
         'desc' => 'data input/output',
       ),
-      9 => 
+      'GND' => 
       array (
-        'num' => '10',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      10 => 
+      'B7' => 
       array (
-        'num' => '11',
-        'sym' => 'B7',
         'desc' => 'data input/output',
       ),
-      11 => 
+      'B6' => 
       array (
-        'num' => '12',
-        'sym' => 'B6',
         'desc' => 'data input/output',
       ),
-      12 => 
+      'B5' => 
       array (
-        'num' => '13',
-        'sym' => 'B5',
         'desc' => 'data input/output',
       ),
-      13 => 
+      'B4' => 
       array (
-        'num' => '14',
-        'sym' => 'B4',
         'desc' => 'data input/output',
       ),
-      14 => 
+      'B3' => 
       array (
-        'num' => '15',
-        'sym' => 'B3',
         'desc' => 'data input/output',
       ),
-      15 => 
+      'B2' => 
       array (
-        'num' => '16',
-        'sym' => 'B2',
         'desc' => 'data input/output',
       ),
-      16 => 
+      'B1' => 
       array (
-        'num' => '17',
-        'sym' => 'B1',
         'desc' => 'data input/output',
       ),
-      17 => 
+      'B0' => 
       array (
-        'num' => '18',
-        'sym' => 'B0',
         'desc' => 'data input/output',
       ),
-      18 => 
+      '~OE' => 
       array (
-        'num' => '19',
-        'sym' => '~OE',
         'desc' => 'output enable (active low)',
       ),
-      19 => 
+      'Vcc' => 
       array (
-        'num' => '20',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -16261,110 +14488,102 @@
       1 => 'When DIR is low, Bn are inputs.',
       2 => 'When ~OE is high, An and Bn are in a high-impedance off state.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'DIR',
+        2 => 'A0',
+        3 => 'A1',
+        4 => 'A2',
+        5 => 'A3',
+        6 => 'A4',
+        7 => 'A5',
+        8 => 'A6',
+        9 => 'A7',
+        10 => 'GND',
+        11 => 'B7',
+        12 => 'B6',
+        13 => 'B5',
+        14 => 'B4',
+        15 => 'B3',
+        16 => 'B2',
+        17 => 'B1',
+        18 => 'B0',
+        19 => '~OE',
+        20 => 'Vcc',
+      ),
+    ),
   ),
   74251 => 
   array (
     'description' => '8-input multiplexer; 3-state',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc251.74hct251.pdf',
     'pins' => 
     array (
-      0 => 
+      'I__3' => 
       array (
-        'num' => '1',
-        'sym' => 'I__3',
         'desc' => 'multiplexer input',
       ),
-      1 => 
+      'I__2' => 
       array (
-        'num' => '2',
-        'sym' => 'I__2',
         'desc' => 'multiplexer input',
       ),
-      2 => 
+      'I__1' => 
       array (
-        'num' => '3',
-        'sym' => 'I__1',
         'desc' => 'multiplexer input',
       ),
-      3 => 
+      'I__0' => 
       array (
-        'num' => '4',
-        'sym' => 'I__0',
         'desc' => 'multiplexer input',
       ),
-      4 => 
+      'Y' => 
       array (
-        'num' => '5',
-        'sym' => 'Y',
         'desc' => 'multiplexer output',
       ),
-      5 => 
+      '~Y' => 
       array (
-        'num' => '6',
-        'sym' => '~Y',
         'desc' => 'complementary multiplexer output',
       ),
-      6 => 
+      '~OE' => 
       array (
-        'num' => '7',
-        'sym' => '~OE',
         'desc' => 'enable input (active low; outputs in high-impedance off state when high)',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'S__2' => 
       array (
-        'num' => '9',
-        'sym' => 'S__2',
         'desc' => 'select input',
       ),
-      9 => 
+      'S__1' => 
       array (
-        'num' => '10',
-        'sym' => 'S__1',
         'desc' => 'select input',
       ),
-      10 => 
+      'S__0' => 
       array (
-        'num' => '11',
-        'sym' => 'S__0',
         'desc' => 'select input',
       ),
-      11 => 
+      'I__7' => 
       array (
-        'num' => '12',
-        'sym' => 'I__7',
         'desc' => 'multiplexer input',
       ),
-      12 => 
+      'I__6' => 
       array (
-        'num' => '13',
-        'sym' => 'I__6',
         'desc' => 'multiplexer input',
       ),
-      13 => 
+      'I__5' => 
       array (
-        'num' => '14',
-        'sym' => 'I__5',
         'desc' => 'multiplexer input',
       ),
-      14 => 
+      'I__4' => 
       array (
-        'num' => '15',
-        'sym' => 'I__4',
         'desc' => 'multiplexer input',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -16407,110 +14626,98 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'I__3',
+        2 => 'I__2',
+        3 => 'I__1',
+        4 => 'I__0',
+        5 => 'Y',
+        6 => '~Y',
+        7 => '~OE',
+        8 => 'GND',
+        9 => 'S__2',
+        10 => 'S__1',
+        11 => 'S__0',
+        12 => 'I__7',
+        13 => 'I__6',
+        14 => 'I__5',
+        15 => 'I__4',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74253 => 
   array (
     'description' => 'Dual 4-input multiplexer; 3-state',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc253.74hct253.pdf',
     'pins' => 
     array (
-      0 => 
+      '1~OE' => 
       array (
-        'num' => '1',
-        'sym' => '1~OE',
         'desc' => 'enable input 1 (active low)',
       ),
-      1 => 
+      'S__1' => 
       array (
-        'num' => '2',
-        'sym' => 'S__1',
         'desc' => 'common data select input',
       ),
-      2 => 
+      '1I__3' => 
       array (
-        'num' => '3',
-        'sym' => '1I__3',
         'desc' => 'data input from source 1',
       ),
-      3 => 
+      '1I__2' => 
       array (
-        'num' => '4',
-        'sym' => '1I__2',
         'desc' => 'data input from source 1',
       ),
-      4 => 
+      '1I__1' => 
       array (
-        'num' => '5',
-        'sym' => '1I__1',
         'desc' => 'data input from source 1',
       ),
-      5 => 
+      '1I__0' => 
       array (
-        'num' => '6',
-        'sym' => '1I__0',
         'desc' => 'data input from source 1',
       ),
-      6 => 
+      '1Y' => 
       array (
-        'num' => '7',
-        'sym' => '1Y',
         'desc' => 'multiplexer output from source 1',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '2Y' => 
       array (
-        'num' => '9',
-        'sym' => '2Y',
         'desc' => 'multiplexer output from source 2',
       ),
-      9 => 
+      '2I__0' => 
       array (
-        'num' => '10',
-        'sym' => '2I__0',
         'desc' => 'data input from source 2',
       ),
-      10 => 
+      '2I__1' => 
       array (
-        'num' => '11',
-        'sym' => '2I__1',
         'desc' => 'data input from source 2',
       ),
-      11 => 
+      '2I__2' => 
       array (
-        'num' => '12',
-        'sym' => '2I__2',
         'desc' => 'data input from source 2',
       ),
-      12 => 
+      '2I__3' => 
       array (
-        'num' => '13',
-        'sym' => '2I__3',
         'desc' => 'data input from source 2',
       ),
-      13 => 
+      'S__0' => 
       array (
-        'num' => '14',
-        'sym' => 'S__0',
         'desc' => 'common data select input',
       ),
-      14 => 
+      '2~OE' => 
       array (
-        'num' => '15',
-        'sym' => '2~OE',
         'desc' => 'enable input 2 (active low)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -16540,110 +14747,98 @@
     array (
       0 => 'When 1~OE or 2~OE is high, the outputs are forced to a high-impedance off state.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1~OE',
+        2 => 'S__1',
+        3 => '1I__3',
+        4 => '1I__2',
+        5 => '1I__1',
+        6 => '1I__0',
+        7 => '1Y',
+        8 => 'GND',
+        9 => '2Y',
+        10 => '2I__0',
+        11 => '2I__1',
+        12 => '2I__2',
+        13 => '2I__3',
+        14 => 'S__0',
+        15 => '2~OE',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74257 => 
   array (
     'description' => 'Quad 2-input multiplexer; 3-state',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc257.74hct257.pdf',
     'pins' => 
     array (
-      0 => 
+      'S' => 
       array (
-        'num' => '1',
-        'sym' => 'S',
         'desc' => 'common data select input',
       ),
-      1 => 
+      '1I__0' => 
       array (
-        'num' => '2',
-        'sym' => '1I__0',
         'desc' => 'data input from source 0',
       ),
-      2 => 
+      '1I__1' => 
       array (
-        'num' => '3',
-        'sym' => '1I__1',
         'desc' => 'data input from source 1',
       ),
-      3 => 
+      '1Y' => 
       array (
-        'num' => '4',
-        'sym' => '1Y',
         'desc' => 'multiplexer output',
       ),
-      4 => 
+      '2I__0' => 
       array (
-        'num' => '5',
-        'sym' => '2I__0',
         'desc' => 'data input from source 0',
       ),
-      5 => 
+      '2I__1' => 
       array (
-        'num' => '6',
-        'sym' => '2I__1',
         'desc' => 'data input from source 1',
       ),
-      6 => 
+      '2Y' => 
       array (
-        'num' => '7',
-        'sym' => '2Y',
         'desc' => 'multiplexer output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '3Y' => 
       array (
-        'num' => '9',
-        'sym' => '3Y',
         'desc' => 'multiplexer output',
       ),
-      9 => 
+      '3I__1' => 
       array (
-        'num' => '10',
-        'sym' => '3I__1',
         'desc' => 'data input from source 1',
       ),
-      10 => 
+      '3I__0' => 
       array (
-        'num' => '11',
-        'sym' => '3I__0',
         'desc' => 'data input from source 0',
       ),
-      11 => 
+      '4Y' => 
       array (
-        'num' => '12',
-        'sym' => '4Y',
         'desc' => 'multiplexer output',
       ),
-      12 => 
+      '4I__1' => 
       array (
-        'num' => '13',
-        'sym' => '4I__1',
         'desc' => 'data input from source 1',
       ),
-      13 => 
+      '4I__0' => 
       array (
-        'num' => '14',
-        'sym' => '4I__0',
         'desc' => 'data input from source 0',
       ),
-      14 => 
+      '~OE' => 
       array (
-        'num' => '15',
-        'sym' => '~OE',
         'desc' => 'enable input (active low; outputs in high-impedance off state when high)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -16670,110 +14865,98 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'S',
+        2 => '1I__0',
+        3 => '1I__1',
+        4 => '1Y',
+        5 => '2I__0',
+        6 => '2I__1',
+        7 => '2Y',
+        8 => 'GND',
+        9 => '3Y',
+        10 => '3I__1',
+        11 => '3I__0',
+        12 => '4Y',
+        13 => '4I__1',
+        14 => '4I__0',
+        15 => '~OE',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74258 => 
   array (
     'description' => 'Quad 2-input multiplexer; 3-state; inverting',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc258.pdf',
     'pins' => 
     array (
-      0 => 
+      'S' => 
       array (
-        'num' => '1',
-        'sym' => 'S',
         'desc' => 'common data select input',
       ),
-      1 => 
+      '1I__0' => 
       array (
-        'num' => '2',
-        'sym' => '1I__0',
         'desc' => 'data input from source 0',
       ),
-      2 => 
+      '1I__1' => 
       array (
-        'num' => '3',
-        'sym' => '1I__1',
         'desc' => 'data input from source 1',
       ),
-      3 => 
+      '1~Y' => 
       array (
-        'num' => '4',
-        'sym' => '1~Y',
         'desc' => 'multiplexer output',
       ),
-      4 => 
+      '2I__0' => 
       array (
-        'num' => '5',
-        'sym' => '2I__0',
         'desc' => 'data input from source 0',
       ),
-      5 => 
+      '2I__1' => 
       array (
-        'num' => '6',
-        'sym' => '2I__1',
         'desc' => 'data input from source 1',
       ),
-      6 => 
+      '2~Y' => 
       array (
-        'num' => '7',
-        'sym' => '2~Y',
         'desc' => 'multiplexer output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '3~Y' => 
       array (
-        'num' => '9',
-        'sym' => '3~Y',
         'desc' => 'multiplexer output',
       ),
-      9 => 
+      '3I__1' => 
       array (
-        'num' => '10',
-        'sym' => '3I__1',
         'desc' => 'data input from source 1',
       ),
-      10 => 
+      '3I__0' => 
       array (
-        'num' => '11',
-        'sym' => '3I__0',
         'desc' => 'data input from source 0',
       ),
-      11 => 
+      '4~Y' => 
       array (
-        'num' => '12',
-        'sym' => '4~Y',
         'desc' => 'multiplexer output',
       ),
-      12 => 
+      '4I__1' => 
       array (
-        'num' => '13',
-        'sym' => '4I__1',
         'desc' => 'data input from source 1',
       ),
-      13 => 
+      '4I__0' => 
       array (
-        'num' => '14',
-        'sym' => '4I__0',
         'desc' => 'data input from source 0',
       ),
-      14 => 
+      '~OE' => 
       array (
-        'num' => '15',
-        'sym' => '~OE',
         'desc' => 'enable input (active low; outputs in high-impedance off state when high)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -16792,110 +14975,98 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'S',
+        2 => '1I__0',
+        3 => '1I__1',
+        4 => '1~Y',
+        5 => '2I__0',
+        6 => '2I__1',
+        7 => '2~Y',
+        8 => 'GND',
+        9 => '3~Y',
+        10 => '3I__1',
+        11 => '3I__0',
+        12 => '4~Y',
+        13 => '4I__1',
+        14 => '4I__0',
+        15 => '~OE',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74259 => 
   array (
     'description' => '8-bit addressable latch',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc259.74hct259.pdf',
     'pins' => 
     array (
-      0 => 
+      'A0' => 
       array (
-        'num' => '1',
-        'sym' => 'A0',
         'desc' => 'address input',
       ),
-      1 => 
+      'A1' => 
       array (
-        'num' => '2',
-        'sym' => 'A1',
         'desc' => 'address input',
       ),
-      2 => 
+      'A2' => 
       array (
-        'num' => '3',
-        'sym' => 'A2',
         'desc' => 'address input',
       ),
-      3 => 
+      'Q0' => 
       array (
-        'num' => '4',
-        'sym' => 'Q0',
         'desc' => 'latch output',
       ),
-      4 => 
+      'Q1' => 
       array (
-        'num' => '5',
-        'sym' => 'Q1',
         'desc' => 'latch output',
       ),
-      5 => 
+      'Q2' => 
       array (
-        'num' => '6',
-        'sym' => 'Q2',
         'desc' => 'latch output',
       ),
-      6 => 
+      'Q3' => 
       array (
-        'num' => '7',
-        'sym' => 'Q3',
         'desc' => 'latch output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'Q4' => 
       array (
-        'num' => '9',
-        'sym' => 'Q4',
         'desc' => 'latch output',
       ),
-      9 => 
+      'Q5' => 
       array (
-        'num' => '10',
-        'sym' => 'Q5',
         'desc' => 'latch output',
       ),
-      10 => 
+      'Q6' => 
       array (
-        'num' => '11',
-        'sym' => 'Q6',
         'desc' => 'latch output',
       ),
-      11 => 
+      'Q7' => 
       array (
-        'num' => '12',
-        'sym' => 'Q7',
         'desc' => 'latch output',
       ),
-      12 => 
+      'D' => 
       array (
-        'num' => '13',
-        'sym' => 'D',
         'desc' => 'data input',
       ),
-      13 => 
+      '~LE' => 
       array (
-        'num' => '14',
-        'sym' => '~LE',
         'desc' => 'latch enable input (active low)',
       ),
-      14 => 
+      '~MR' => 
       array (
-        'num' => '15',
-        'sym' => '~MR',
         'desc' => 'conditional reset input (active low)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -16932,98 +15103,90 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'A0',
+        2 => 'A1',
+        3 => 'A2',
+        4 => 'Q0',
+        5 => 'Q1',
+        6 => 'Q2',
+        7 => 'Q3',
+        8 => 'GND',
+        9 => 'Q4',
+        10 => 'Q5',
+        11 => 'Q6',
+        12 => 'Q7',
+        13 => 'D',
+        14 => '~LE',
+        15 => '~MR',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   7427 => 
   array (
     'description' => 'Triple 3-input NOR gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/74HC_HCT27_3.pdf',
     'pins' => 
     array (
-      0 => 
+      '1A' => 
       array (
-        'num' => '1',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      1 => 
+      '1B' => 
       array (
-        'num' => '2',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      2 => 
+      '2A' => 
       array (
-        'num' => '3',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      3 => 
+      '2B' => 
       array (
-        'num' => '4',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      4 => 
+      '2C' => 
       array (
-        'num' => '5',
-        'sym' => '2C',
         'desc' => 'data input',
       ),
-      5 => 
+      '2Y' => 
       array (
-        'num' => '6',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '3Y' => 
       array (
-        'num' => '8',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      8 => 
+      '3A' => 
       array (
-        'num' => '9',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      9 => 
+      '3B' => 
       array (
-        'num' => '10',
-        'sym' => '3B',
         'desc' => 'data input',
       ),
-      10 => 
+      '3C' => 
       array (
-        'num' => '11',
-        'sym' => '3C',
         'desc' => 'data input',
       ),
-      11 => 
+      '1Y' => 
       array (
-        'num' => '12',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      12 => 
+      '1C' => 
       array (
-        'num' => '13',
-        'sym' => '1C',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -17040,134 +15203,112 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1A',
+        2 => '1B',
+        3 => '2A',
+        4 => '2B',
+        5 => '2C',
+        6 => '2Y',
+        7 => 'GND',
+        8 => '3Y',
+        9 => '3A',
+        10 => '3B',
+        11 => '3C',
+        12 => '1Y',
+        13 => '1C',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   74273 => 
   array (
     'description' => 'Octal D-type flip-flop with reset; positive-edge trigger',
-    'package' => 'DIP',
-    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc273.74hct273.pdf',
     'pins' => 
     array (
-      0 => 
+      '~MR' => 
       array (
-        'num' => '1',
-        'sym' => '~MR',
         'desc' => 'master reset input (active low)',
       ),
-      1 => 
+      'Q0' => 
       array (
-        'num' => '2',
-        'sym' => 'Q0',
         'desc' => 'flip-flop output',
       ),
-      2 => 
+      'D0' => 
       array (
-        'num' => '3',
-        'sym' => 'D0',
         'desc' => 'data input',
       ),
-      3 => 
+      'D1' => 
       array (
-        'num' => '4',
-        'sym' => 'D1',
         'desc' => 'data input',
       ),
-      4 => 
+      'Q1' => 
       array (
-        'num' => '5',
-        'sym' => 'Q1',
         'desc' => 'flip-flop output',
       ),
-      5 => 
+      'Q2' => 
       array (
-        'num' => '6',
-        'sym' => 'Q2',
         'desc' => 'flip-flop output',
       ),
-      6 => 
+      'D2' => 
       array (
-        'num' => '7',
-        'sym' => 'D2',
         'desc' => 'data input',
       ),
-      7 => 
+      'D3' => 
       array (
-        'num' => '8',
-        'sym' => 'D3',
         'desc' => 'data input',
       ),
-      8 => 
+      'Q3' => 
       array (
-        'num' => '9',
-        'sym' => 'Q3',
         'desc' => 'flip-flop output',
       ),
-      9 => 
+      'GND' => 
       array (
-        'num' => '10',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      10 => 
+      'CP' => 
       array (
-        'num' => '11',
-        'sym' => 'CP',
         'desc' => 'clock input (low-to-high, edge-triggered)',
       ),
-      11 => 
+      'Q4' => 
       array (
-        'num' => '12',
-        'sym' => 'Q4',
         'desc' => 'flip-flop output',
       ),
-      12 => 
+      'D4' => 
       array (
-        'num' => '13',
-        'sym' => 'D4',
         'desc' => 'data input',
       ),
-      13 => 
+      'D5' => 
       array (
-        'num' => '14',
-        'sym' => 'D5',
         'desc' => 'data input',
       ),
-      14 => 
+      'Q5' => 
       array (
-        'num' => '15',
-        'sym' => 'Q5',
         'desc' => 'flip-flop output',
       ),
-      15 => 
+      'Q6' => 
       array (
-        'num' => '16',
-        'sym' => 'Q6',
         'desc' => 'flip-flop output',
       ),
-      16 => 
+      'D6' => 
       array (
-        'num' => '17',
-        'sym' => 'D6',
         'desc' => 'data input',
       ),
-      17 => 
+      'D7' => 
       array (
-        'num' => '18',
-        'sym' => 'D7',
         'desc' => 'data input',
       ),
-      18 => 
+      'Q7' => 
       array (
-        'num' => '19',
-        'sym' => 'Q7',
         'desc' => 'flip-flop output',
       ),
-      19 => 
+      'Vcc' => 
       array (
-        'num' => '20',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -17190,98 +15331,90 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~MR',
+        2 => 'Q0',
+        3 => 'D0',
+        4 => 'D1',
+        5 => 'Q1',
+        6 => 'Q2',
+        7 => 'D2',
+        8 => 'D3',
+        9 => 'Q3',
+        10 => 'GND',
+        11 => 'CP',
+        12 => 'Q4',
+        13 => 'D4',
+        14 => 'D5',
+        15 => 'Q5',
+        16 => 'Q6',
+        17 => 'D6',
+        18 => 'D7',
+        19 => 'Q7',
+        20 => 'Vcc',
+      ),
+    ),
   ),
   74280 => 
   array (
     'description' => '9-bit odd/even parity generator/checker',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc280.74hct280.pdf',
     'pins' => 
     array (
-      0 => 
+      'I__6' => 
       array (
-        'num' => '1',
-        'sym' => 'I__6',
         'desc' => 'data input',
       ),
-      1 => 
+      'I__7' => 
       array (
-        'num' => '2',
-        'sym' => 'I__7',
         'desc' => 'data input',
       ),
-      2 => 
+      'I__8' => 
       array (
-        'num' => '3',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      3 => 
-      array (
-        'num' => '4',
-        'sym' => 'I__8',
         'desc' => 'data input',
       ),
-      4 => 
+      'Σ__E' => 
       array (
-        'num' => '5',
-        'sym' => 'Σ__E',
         'desc' => 'even parity output',
       ),
-      5 => 
+      'Σ__O' => 
       array (
-        'num' => '6',
-        'sym' => 'Σ__O',
         'desc' => 'odd parity output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      'I__0' => 
       array (
-        'num' => '8',
-        'sym' => 'I__0',
         'desc' => 'data input',
       ),
-      8 => 
+      'I__1' => 
       array (
-        'num' => '9',
-        'sym' => 'I__1',
         'desc' => 'data input',
       ),
-      9 => 
+      'I__2' => 
       array (
-        'num' => '10',
-        'sym' => 'I__2',
         'desc' => 'data input',
       ),
-      10 => 
+      'I__3' => 
       array (
-        'num' => '11',
-        'sym' => 'I__3',
         'desc' => 'data input',
       ),
-      11 => 
+      'I__4' => 
       array (
-        'num' => '12',
-        'sym' => 'I__4',
         'desc' => 'data input',
       ),
-      12 => 
+      'I__5' => 
       array (
-        'num' => '13',
-        'sym' => 'I__5',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -17308,110 +15441,96 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'I__6',
+        2 => 'I__7',
+        3 => 'NC',
+        4 => 'I__8',
+        5 => 'Σ__E',
+        6 => 'Σ__O',
+        7 => 'GND',
+        8 => 'I__0',
+        9 => 'I__1',
+        10 => 'I__2',
+        11 => 'I__3',
+        12 => 'I__4',
+        13 => 'I__5',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   74283 => 
   array (
     'description' => '4-bit binary full adder with fast carry',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc283.pdf',
     'pins' => 
     array (
-      0 => 
+      'S2' => 
       array (
-        'num' => '1',
-        'sym' => 'S2',
         'desc' => 'sum output',
       ),
-      1 => 
+      'B2' => 
       array (
-        'num' => '2',
-        'sym' => 'B2',
         'desc' => 'B operand input',
       ),
-      2 => 
+      'A2' => 
       array (
-        'num' => '3',
-        'sym' => 'A2',
         'desc' => 'A operand input',
       ),
-      3 => 
+      'S1' => 
       array (
-        'num' => '4',
-        'sym' => 'S1',
         'desc' => 'sum output',
       ),
-      4 => 
+      'A1' => 
       array (
-        'num' => '5',
-        'sym' => 'A1',
         'desc' => 'A operand input',
       ),
-      5 => 
+      'B1' => 
       array (
-        'num' => '6',
-        'sym' => 'B1',
         'desc' => 'B operand input',
       ),
-      6 => 
+      'CIN' => 
       array (
-        'num' => '7',
-        'sym' => 'CIN',
         'desc' => 'carry input',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'COUT' => 
       array (
-        'num' => '9',
-        'sym' => 'COUT',
         'desc' => 'carry output',
       ),
-      9 => 
+      'S4' => 
       array (
-        'num' => '10',
-        'sym' => 'S4',
         'desc' => 'sum output',
       ),
-      10 => 
+      'B4' => 
       array (
-        'num' => '11',
-        'sym' => 'B4',
         'desc' => 'B operand input',
       ),
-      11 => 
+      'A4' => 
       array (
-        'num' => '12',
-        'sym' => 'A4',
         'desc' => 'A operand input',
       ),
-      12 => 
+      'S3' => 
       array (
-        'num' => '13',
-        'sym' => 'S3',
         'desc' => 'sum output',
       ),
-      13 => 
+      'A3' => 
       array (
-        'num' => '14',
-        'sym' => 'A3',
         'desc' => 'A operand input',
       ),
-      14 => 
+      'B3' => 
       array (
-        'num' => '15',
-        'sym' => 'B3',
         'desc' => 'B operand input',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -17488,134 +15607,114 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'S2',
+        2 => 'B2',
+        3 => 'A2',
+        4 => 'S1',
+        5 => 'A1',
+        6 => 'B1',
+        7 => 'CIN',
+        8 => 'GND',
+        9 => 'COUT',
+        10 => 'S4',
+        11 => 'B4',
+        12 => 'A4',
+        13 => 'S3',
+        14 => 'A3',
+        15 => 'B3',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74299 => 
   array (
     'description' => '8-bit universal shift register; 3-state',
-    'package' => 'DIP',
-    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc299.74hct299.pdf',
     'pins' => 
     array (
-      0 => 
+      'S0' => 
       array (
-        'num' => '1',
-        'sym' => 'S0',
         'desc' => 'mode select input',
       ),
-      1 => 
+      '~OE~1' => 
       array (
-        'num' => '2',
-        'sym' => '~OE~1',
         'desc' => 'output enable (active low)',
       ),
-      2 => 
+      '~OE~2' => 
       array (
-        'num' => '3',
-        'sym' => '~OE~2',
         'desc' => 'output enable (active low)',
       ),
-      3 => 
+      'I/O6' => 
       array (
-        'num' => '4',
-        'sym' => 'I/O6',
         'desc' => 'parallel data input/output',
       ),
-      4 => 
+      'I/O4' => 
       array (
-        'num' => '5',
-        'sym' => 'I/O4',
         'desc' => 'parallel data input/output',
       ),
-      5 => 
+      'I/O2' => 
       array (
-        'num' => '6',
-        'sym' => 'I/O2',
         'desc' => 'parallel data input/output',
       ),
-      6 => 
+      'I/O0' => 
       array (
-        'num' => '7',
-        'sym' => 'I/O0',
         'desc' => 'parallel data input/output',
       ),
-      7 => 
+      'Q0' => 
       array (
-        'num' => '8',
-        'sym' => 'Q0',
         'desc' => 'serial output (standard output)',
       ),
-      8 => 
+      '~MR' => 
       array (
-        'num' => '9',
-        'sym' => '~MR',
         'desc' => 'asynchronous master reset (active low)',
       ),
-      9 => 
+      'GND' => 
       array (
-        'num' => '10',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      10 => 
+      'DSR' => 
       array (
-        'num' => '11',
-        'sym' => 'DSR',
         'desc' => 'serial data shift-right input',
       ),
-      11 => 
+      'CP' => 
       array (
-        'num' => '12',
-        'sym' => 'CP',
         'desc' => 'clock input (low-to-high, edge-triggered)',
       ),
-      12 => 
+      'I/O1' => 
       array (
-        'num' => '13',
-        'sym' => 'I/O1',
         'desc' => 'parallel data input/output',
       ),
-      13 => 
+      'I/O3' => 
       array (
-        'num' => '14',
-        'sym' => 'I/O3',
         'desc' => 'parallel data input/output',
       ),
-      14 => 
+      'I/O5' => 
       array (
-        'num' => '15',
-        'sym' => 'I/O5',
         'desc' => 'parallel data input/output',
       ),
-      15 => 
+      'I/O7' => 
       array (
-        'num' => '16',
-        'sym' => 'I/O7',
         'desc' => 'parallel data input/output',
       ),
-      16 => 
+      'Q7' => 
       array (
-        'num' => '17',
-        'sym' => 'Q7',
         'desc' => 'serial output (standard output)',
       ),
-      17 => 
+      'DSL' => 
       array (
-        'num' => '18',
-        'sym' => 'DSL',
         'desc' => 'serial data shift-left input',
       ),
-      18 => 
+      'S1' => 
       array (
-        'num' => '19',
-        'sym' => 'S1',
         'desc' => 'mode select input',
       ),
-      19 => 
+      'Vcc' => 
       array (
-        'num' => '20',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -17669,98 +15768,82 @@
       2 => 'S1 is low and S0 is high; shift right (DSR → Q0, Q0 → Q1...)',
       3 => 'S1 and S0 are high; parallel load (I/On → Qn)',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'S0',
+        2 => '~OE~1',
+        3 => '~OE~2',
+        4 => 'I/O6',
+        5 => 'I/O4',
+        6 => 'I/O2',
+        7 => 'I/O0',
+        8 => 'Q0',
+        9 => '~MR',
+        10 => 'GND',
+        11 => 'DSR',
+        12 => 'CP',
+        13 => 'I/O1',
+        14 => 'I/O3',
+        15 => 'I/O5',
+        16 => 'I/O7',
+        17 => 'Q7',
+        18 => 'DSL',
+        19 => 'S1',
+        20 => 'Vcc',
+      ),
+    ),
   ),
   7430 => 
   array (
     'description' => '8-input NAND gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc30.74hct30.pdf',
     'pins' => 
     array (
-      0 => 
+      'A' => 
       array (
-        'num' => '1',
-        'sym' => 'A',
         'desc' => 'data input',
       ),
-      1 => 
+      'B' => 
       array (
-        'num' => '2',
-        'sym' => 'B',
         'desc' => 'data input',
       ),
-      2 => 
+      'C' => 
       array (
-        'num' => '3',
-        'sym' => 'C',
         'desc' => 'data input',
       ),
-      3 => 
+      'D' => 
       array (
-        'num' => '4',
-        'sym' => 'D',
         'desc' => 'data input',
       ),
-      4 => 
+      'E' => 
       array (
-        'num' => '5',
-        'sym' => 'E',
         'desc' => 'data input',
       ),
-      5 => 
+      'F' => 
       array (
-        'num' => '6',
-        'sym' => 'F',
         'desc' => 'data input',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      'Y' => 
       array (
-        'num' => '8',
-        'sym' => 'Y',
         'desc' => 'data output',
       ),
-      8 => 
+      'G' => 
       array (
-        'num' => '9',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      9 => 
-      array (
-        'num' => '10',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      10 => 
-      array (
-        'num' => '11',
-        'sym' => 'G',
         'desc' => 'data input',
       ),
-      11 => 
+      'H' => 
       array (
-        'num' => '12',
-        'sym' => 'H',
         'desc' => 'data input',
       ),
-      12 => 
+      'Vcc' => 
       array (
-        'num' => '13',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      13 => 
-      array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -17777,98 +15860,88 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'A',
+        2 => 'B',
+        3 => 'C',
+        4 => 'D',
+        5 => 'E',
+        6 => 'F',
+        7 => 'GND',
+        8 => 'Y',
+        9 => 'NC',
+        10 => 'NC',
+        11 => 'G',
+        12 => 'H',
+        13 => 'NC',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   7432 => 
   array (
     'description' => 'Quad 2-input OR gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc32.74hct32.pdf',
     'pins' => 
     array (
-      0 => 
+      '1A' => 
       array (
-        'num' => '1',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      1 => 
+      '1B' => 
       array (
-        'num' => '2',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      2 => 
+      '1Y' => 
       array (
-        'num' => '3',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      3 => 
+      '2A' => 
       array (
-        'num' => '4',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      4 => 
+      '2B' => 
       array (
-        'num' => '5',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      5 => 
+      '2Y' => 
       array (
-        'num' => '6',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '3Y' => 
       array (
-        'num' => '8',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      8 => 
+      '3A' => 
       array (
-        'num' => '9',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      9 => 
+      '3B' => 
       array (
-        'num' => '10',
-        'sym' => '3B',
         'desc' => 'data input',
       ),
-      10 => 
+      '4Y' => 
       array (
-        'num' => '11',
-        'sym' => '4Y',
         'desc' => 'data output',
       ),
-      11 => 
+      '4A' => 
       array (
-        'num' => '12',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      12 => 
+      '4B' => 
       array (
-        'num' => '13',
-        'sym' => '4B',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -17885,110 +15958,96 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1A',
+        2 => '1B',
+        3 => '1Y',
+        4 => '2A',
+        5 => '2B',
+        6 => '2Y',
+        7 => 'GND',
+        8 => '3Y',
+        9 => '3A',
+        10 => '3B',
+        11 => '4Y',
+        12 => '4A',
+        13 => '4B',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   74365 => 
   array (
     'description' => 'Hex buffer/line driver; 3-state; non-inverting',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc365.74hct365.pdf',
     'pins' => 
     array (
-      0 => 
+      '~OE~__1' => 
       array (
-        'num' => '1',
-        'sym' => '~OE~__1',
         'desc' => 'output enable (active low)',
       ),
-      1 => 
+      '1A' => 
       array (
-        'num' => '2',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      2 => 
+      '1Y' => 
       array (
-        'num' => '3',
-        'sym' => '1Y',
         'desc' => 'bus output',
       ),
-      3 => 
+      '2A' => 
       array (
-        'num' => '4',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      4 => 
+      '2Y' => 
       array (
-        'num' => '5',
-        'sym' => '2Y',
         'desc' => 'bus output',
       ),
-      5 => 
+      '3A' => 
       array (
-        'num' => '6',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      6 => 
+      '3Y' => 
       array (
-        'num' => '7',
-        'sym' => '3Y',
         'desc' => 'bus output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '4Y' => 
       array (
-        'num' => '9',
-        'sym' => '4Y',
         'desc' => 'bus output',
       ),
-      9 => 
+      '4A' => 
       array (
-        'num' => '10',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      10 => 
+      '5Y' => 
       array (
-        'num' => '11',
-        'sym' => '5Y',
         'desc' => 'bus output',
       ),
-      11 => 
+      '5A' => 
       array (
-        'num' => '12',
-        'sym' => '5A',
         'desc' => 'data input',
       ),
-      12 => 
+      '6Y' => 
       array (
-        'num' => '13',
-        'sym' => '6Y',
         'desc' => 'bus output',
       ),
-      13 => 
+      '6A' => 
       array (
-        'num' => '14',
-        'sym' => '6A',
         'desc' => 'data input',
       ),
-      14 => 
+      '~OE~__2' => 
       array (
-        'num' => '15',
-        'sym' => '~OE~__2',
         'desc' => 'output enable (active low)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -18009,110 +16068,98 @@
     array (
       0 => 'Setting ~OE~__1 or ~OE~__2 high causes the outputs to assume a high-impedance off state.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~OE~__1',
+        2 => '1A',
+        3 => '1Y',
+        4 => '2A',
+        5 => '2Y',
+        6 => '3A',
+        7 => '3Y',
+        8 => 'GND',
+        9 => '4Y',
+        10 => '4A',
+        11 => '5Y',
+        12 => '5A',
+        13 => '6Y',
+        14 => '6A',
+        15 => '~OE~__2',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74366 => 
   array (
     'description' => 'Hex buffer/line driver; 3-state; inverting',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc366.74hct366.pdf',
     'pins' => 
     array (
-      0 => 
+      '~OE~__1' => 
       array (
-        'num' => '1',
-        'sym' => '~OE~__1',
         'desc' => 'output enable (active low)',
       ),
-      1 => 
+      '1A' => 
       array (
-        'num' => '2',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      2 => 
+      '1Y' => 
       array (
-        'num' => '3',
-        'sym' => '1Y',
         'desc' => 'bus output',
       ),
-      3 => 
+      '2A' => 
       array (
-        'num' => '4',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      4 => 
+      '2Y' => 
       array (
-        'num' => '5',
-        'sym' => '2Y',
         'desc' => 'bus output',
       ),
-      5 => 
+      '3A' => 
       array (
-        'num' => '6',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      6 => 
+      '3Y' => 
       array (
-        'num' => '7',
-        'sym' => '3Y',
         'desc' => 'bus output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '4Y' => 
       array (
-        'num' => '9',
-        'sym' => '4Y',
         'desc' => 'bus output',
       ),
-      9 => 
+      '4A' => 
       array (
-        'num' => '10',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      10 => 
+      '5Y' => 
       array (
-        'num' => '11',
-        'sym' => '5Y',
         'desc' => 'bus output',
       ),
-      11 => 
+      '5A' => 
       array (
-        'num' => '12',
-        'sym' => '5A',
         'desc' => 'data input',
       ),
-      12 => 
+      '6Y' => 
       array (
-        'num' => '13',
-        'sym' => '6Y',
         'desc' => 'bus output',
       ),
-      13 => 
+      '6A' => 
       array (
-        'num' => '14',
-        'sym' => '6A',
         'desc' => 'data input',
       ),
-      14 => 
+      '~OE~__2' => 
       array (
-        'num' => '15',
-        'sym' => '~OE~__2',
         'desc' => 'output enable (active low)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -18133,110 +16180,98 @@
     array (
       0 => 'Setting ~OE~__1 or ~OE~__2 high causes the outputs to assume a high-impedance off state.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~OE~__1',
+        2 => '1A',
+        3 => '1Y',
+        4 => '2A',
+        5 => '2Y',
+        6 => '3A',
+        7 => '3Y',
+        8 => 'GND',
+        9 => '4Y',
+        10 => '4A',
+        11 => '5Y',
+        12 => '5A',
+        13 => '6Y',
+        14 => '6A',
+        15 => '~OE~__2',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74367 => 
   array (
     'description' => 'Hex buffer/line driver; 3-state; non-inverting',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc367.74hct367.pdf',
     'pins' => 
     array (
-      0 => 
+      '~OE~__1' => 
       array (
-        'num' => '1',
-        'sym' => '~OE~__1',
         'desc' => 'output enable (active low)',
       ),
-      1 => 
+      '1A' => 
       array (
-        'num' => '2',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      2 => 
+      '1Y' => 
       array (
-        'num' => '3',
-        'sym' => '1Y',
         'desc' => 'bus output',
       ),
-      3 => 
+      '2A' => 
       array (
-        'num' => '4',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      4 => 
+      '2Y' => 
       array (
-        'num' => '5',
-        'sym' => '2Y',
         'desc' => 'bus output',
       ),
-      5 => 
+      '3A' => 
       array (
-        'num' => '6',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      6 => 
+      '3Y' => 
       array (
-        'num' => '7',
-        'sym' => '3Y',
         'desc' => 'bus output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '4Y' => 
       array (
-        'num' => '9',
-        'sym' => '4Y',
         'desc' => 'bus output',
       ),
-      9 => 
+      '4A' => 
       array (
-        'num' => '10',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      10 => 
+      '5Y' => 
       array (
-        'num' => '11',
-        'sym' => '5Y',
         'desc' => 'bus output',
       ),
-      11 => 
+      '5A' => 
       array (
-        'num' => '12',
-        'sym' => '5A',
         'desc' => 'data input',
       ),
-      12 => 
+      '6Y' => 
       array (
-        'num' => '13',
-        'sym' => '6Y',
         'desc' => 'bus output',
       ),
-      13 => 
+      '6A' => 
       array (
-        'num' => '14',
-        'sym' => '6A',
         'desc' => 'data input',
       ),
-      14 => 
+      '~OE~__2' => 
       array (
-        'num' => '15',
-        'sym' => '~OE~__2',
         'desc' => 'output enable (active low)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -18257,110 +16292,98 @@
     array (
       0 => 'Setting ~OE~__1 or ~OE~__2 high causes the outputs to assume a high-impedance off state.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~OE~__1',
+        2 => '1A',
+        3 => '1Y',
+        4 => '2A',
+        5 => '2Y',
+        6 => '3A',
+        7 => '3Y',
+        8 => 'GND',
+        9 => '4Y',
+        10 => '4A',
+        11 => '5Y',
+        12 => '5A',
+        13 => '6Y',
+        14 => '6A',
+        15 => '~OE~__2',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74368 => 
   array (
     'description' => 'Hex buffer/line driver; 3-state; inverting',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc368.74hct368.pdf',
     'pins' => 
     array (
-      0 => 
+      '~OE~__1' => 
       array (
-        'num' => '1',
-        'sym' => '~OE~__1',
         'desc' => 'output enable (active low)',
       ),
-      1 => 
+      '1A' => 
       array (
-        'num' => '2',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      2 => 
+      '1Y' => 
       array (
-        'num' => '3',
-        'sym' => '1Y',
         'desc' => 'bus output',
       ),
-      3 => 
+      '2A' => 
       array (
-        'num' => '4',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      4 => 
+      '2Y' => 
       array (
-        'num' => '5',
-        'sym' => '2Y',
         'desc' => 'bus output',
       ),
-      5 => 
+      '3A' => 
       array (
-        'num' => '6',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      6 => 
+      '3Y' => 
       array (
-        'num' => '7',
-        'sym' => '3Y',
         'desc' => 'bus output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '4Y' => 
       array (
-        'num' => '9',
-        'sym' => '4Y',
         'desc' => 'bus output',
       ),
-      9 => 
+      '4A' => 
       array (
-        'num' => '10',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      10 => 
+      '5Y' => 
       array (
-        'num' => '11',
-        'sym' => '5Y',
         'desc' => 'bus output',
       ),
-      11 => 
+      '5A' => 
       array (
-        'num' => '12',
-        'sym' => '5A',
         'desc' => 'data input',
       ),
-      12 => 
+      '6Y' => 
       array (
-        'num' => '13',
-        'sym' => '6Y',
         'desc' => 'bus output',
       ),
-      13 => 
+      '6A' => 
       array (
-        'num' => '14',
-        'sym' => '6A',
         'desc' => 'data input',
       ),
-      14 => 
+      '~OE~__2' => 
       array (
-        'num' => '15',
-        'sym' => '~OE~__2',
         'desc' => 'output enable (active low)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -18381,134 +16404,114 @@
     array (
       0 => 'Setting ~OE~__1 or ~OE~__2 high causes the outputs to assume a high-impedance off state.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~OE~__1',
+        2 => '1A',
+        3 => '1Y',
+        4 => '2A',
+        5 => '2Y',
+        6 => '3A',
+        7 => '3Y',
+        8 => 'GND',
+        9 => '4Y',
+        10 => '4A',
+        11 => '5Y',
+        12 => '5A',
+        13 => '6Y',
+        14 => '6A',
+        15 => '~OE~__2',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74373 => 
   array (
     'description' => 'Octal D-type transparent latch; 3-state',
-    'package' => 'DIP',
-    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc373.74hct373.pdf',
     'pins' => 
     array (
-      0 => 
+      '~OE' => 
       array (
-        'num' => '1',
-        'sym' => '~OE',
         'desc' => 'output enable (active low)',
       ),
-      1 => 
+      'Q0' => 
       array (
-        'num' => '2',
-        'sym' => 'Q0',
         'desc' => 'latch output',
       ),
-      2 => 
+      'D0' => 
       array (
-        'num' => '3',
-        'sym' => 'D0',
         'desc' => 'data input',
       ),
-      3 => 
+      'D1' => 
       array (
-        'num' => '4',
-        'sym' => 'D1',
         'desc' => 'data input',
       ),
-      4 => 
+      'Q1' => 
       array (
-        'num' => '5',
-        'sym' => 'Q1',
         'desc' => 'latch output',
       ),
-      5 => 
+      'Q2' => 
       array (
-        'num' => '6',
-        'sym' => 'Q2',
         'desc' => 'latch output',
       ),
-      6 => 
+      'D2' => 
       array (
-        'num' => '7',
-        'sym' => 'D2',
         'desc' => 'data input',
       ),
-      7 => 
+      'D3' => 
       array (
-        'num' => '8',
-        'sym' => 'D3',
         'desc' => 'data input',
       ),
-      8 => 
+      'Q3' => 
       array (
-        'num' => '9',
-        'sym' => 'Q3',
         'desc' => 'latch output',
       ),
-      9 => 
+      'GND' => 
       array (
-        'num' => '10',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      10 => 
+      'LE' => 
       array (
-        'num' => '11',
-        'sym' => 'LE',
         'desc' => 'latch enable (active high)',
       ),
-      11 => 
+      'Q4' => 
       array (
-        'num' => '12',
-        'sym' => 'Q4',
         'desc' => 'latch output',
       ),
-      12 => 
+      'D4' => 
       array (
-        'num' => '13',
-        'sym' => 'D4',
         'desc' => 'data input',
       ),
-      13 => 
+      'D5' => 
       array (
-        'num' => '14',
-        'sym' => 'D5',
         'desc' => 'data input',
       ),
-      14 => 
+      'Q5' => 
       array (
-        'num' => '15',
-        'sym' => 'Q5',
         'desc' => 'latch output',
       ),
-      15 => 
+      'Q6' => 
       array (
-        'num' => '16',
-        'sym' => 'Q6',
         'desc' => 'latch output',
       ),
-      16 => 
+      'D6' => 
       array (
-        'num' => '17',
-        'sym' => 'D6',
         'desc' => 'data input',
       ),
-      17 => 
+      'D7' => 
       array (
-        'num' => '18',
-        'sym' => 'D7',
         'desc' => 'data input',
       ),
-      18 => 
+      'Q7' => 
       array (
-        'num' => '19',
-        'sym' => 'Q7',
         'desc' => 'latch output',
       ),
-      19 => 
+      'Vcc' => 
       array (
-        'num' => '20',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -18535,134 +16538,118 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~OE',
+        2 => 'Q0',
+        3 => 'D0',
+        4 => 'D1',
+        5 => 'Q1',
+        6 => 'Q2',
+        7 => 'D2',
+        8 => 'D3',
+        9 => 'Q3',
+        10 => 'GND',
+        11 => 'LE',
+        12 => 'Q4',
+        13 => 'D4',
+        14 => 'D5',
+        15 => 'Q5',
+        16 => 'Q6',
+        17 => 'D6',
+        18 => 'D7',
+        19 => 'Q7',
+        20 => 'Vcc',
+      ),
+    ),
   ),
   74374 => 
   array (
     'description' => 'Octal D-type flip-flop; positive-edge trigger; 3-state',
-    'package' => 'DIP',
-    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc374.74hct374.pdf',
     'pins' => 
     array (
-      0 => 
+      '~OE' => 
       array (
-        'num' => '1',
-        'sym' => '~OE',
         'desc' => 'output enable (active low)',
       ),
-      1 => 
+      'Q0' => 
       array (
-        'num' => '2',
-        'sym' => 'Q0',
         'desc' => 'flip-flop output',
       ),
-      2 => 
+      'D0' => 
       array (
-        'num' => '3',
-        'sym' => 'D0',
         'desc' => 'data input',
       ),
-      3 => 
+      'D1' => 
       array (
-        'num' => '4',
-        'sym' => 'D1',
         'desc' => 'data input',
       ),
-      4 => 
+      'Q1' => 
       array (
-        'num' => '5',
-        'sym' => 'Q1',
         'desc' => 'flip-flop output',
       ),
-      5 => 
+      'Q2' => 
       array (
-        'num' => '6',
-        'sym' => 'Q2',
         'desc' => 'flip-flop output',
       ),
-      6 => 
+      'D2' => 
       array (
-        'num' => '7',
-        'sym' => 'D2',
         'desc' => 'data input',
       ),
-      7 => 
+      'D3' => 
       array (
-        'num' => '8',
-        'sym' => 'D3',
         'desc' => 'data input',
       ),
-      8 => 
+      'Q3' => 
       array (
-        'num' => '9',
-        'sym' => 'Q3',
         'desc' => 'flip-flop output',
       ),
-      9 => 
+      'GND' => 
       array (
-        'num' => '10',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      10 => 
+      'CP' => 
       array (
-        'num' => '11',
-        'sym' => 'CP',
         'desc' => 'clock input (low-to-high, edge-triggered)',
       ),
-      11 => 
+      'Q4' => 
       array (
-        'num' => '12',
-        'sym' => 'Q4',
         'desc' => 'flip-flop output',
       ),
-      12 => 
+      'D4' => 
       array (
-        'num' => '13',
-        'sym' => 'D4',
         'desc' => 'data input',
       ),
-      13 => 
+      'D5' => 
       array (
-        'num' => '14',
-        'sym' => 'D5',
         'desc' => 'data input',
       ),
-      14 => 
+      'Q5' => 
       array (
-        'num' => '15',
-        'sym' => 'Q5',
         'desc' => 'flip-flop output',
       ),
-      15 => 
+      'Q6' => 
       array (
-        'num' => '16',
-        'sym' => 'Q6',
         'desc' => 'flip-flop output',
       ),
-      16 => 
+      'D6' => 
       array (
-        'num' => '17',
-        'sym' => 'D6',
         'desc' => 'data input',
       ),
-      17 => 
+      'D7' => 
       array (
-        'num' => '18',
-        'sym' => 'D7',
         'desc' => 'data input',
       ),
-      18 => 
+      'Q7' => 
       array (
-        'num' => '19',
-        'sym' => 'Q7',
         'desc' => 'flip-flop output',
       ),
-      19 => 
+      'Vcc' => 
       array (
-        'num' => '20',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -18689,134 +16676,118 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~OE',
+        2 => 'Q0',
+        3 => 'D0',
+        4 => 'D1',
+        5 => 'Q1',
+        6 => 'Q2',
+        7 => 'D2',
+        8 => 'D3',
+        9 => 'Q3',
+        10 => 'GND',
+        11 => 'CP',
+        12 => 'Q4',
+        13 => 'D4',
+        14 => 'D5',
+        15 => 'Q5',
+        16 => 'Q6',
+        17 => 'D6',
+        18 => 'D7',
+        19 => 'Q7',
+        20 => 'Vcc',
+      ),
+    ),
   ),
   74377 => 
   array (
     'description' => 'Octal D-type flip-flop with data enable; positive-edge trigger',
-    'package' => 'DIP',
-    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc377.74hct377.pdf',
     'pins' => 
     array (
-      0 => 
+      '~E' => 
       array (
-        'num' => '1',
-        'sym' => '~E',
         'desc' => 'data enable (active low)',
       ),
-      1 => 
+      'Q0' => 
       array (
-        'num' => '2',
-        'sym' => 'Q0',
         'desc' => 'flip-flop output',
       ),
-      2 => 
+      'D0' => 
       array (
-        'num' => '3',
-        'sym' => 'D0',
         'desc' => 'data input',
       ),
-      3 => 
+      'D1' => 
       array (
-        'num' => '4',
-        'sym' => 'D1',
         'desc' => 'data input',
       ),
-      4 => 
+      'Q1' => 
       array (
-        'num' => '5',
-        'sym' => 'Q1',
         'desc' => 'flip-flop output',
       ),
-      5 => 
+      'Q2' => 
       array (
-        'num' => '6',
-        'sym' => 'Q2',
         'desc' => 'flip-flop output',
       ),
-      6 => 
+      'D2' => 
       array (
-        'num' => '7',
-        'sym' => 'D2',
         'desc' => 'data input',
       ),
-      7 => 
+      'D3' => 
       array (
-        'num' => '8',
-        'sym' => 'D3',
         'desc' => 'data input',
       ),
-      8 => 
+      'Q3' => 
       array (
-        'num' => '9',
-        'sym' => 'Q3',
         'desc' => 'flip-flop output',
       ),
-      9 => 
+      'GND' => 
       array (
-        'num' => '10',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      10 => 
+      'CP' => 
       array (
-        'num' => '11',
-        'sym' => 'CP',
         'desc' => 'clock input (low-to-high, edge-triggered)',
       ),
-      11 => 
+      'Q4' => 
       array (
-        'num' => '12',
-        'sym' => 'Q4',
         'desc' => 'flip-flop output',
       ),
-      12 => 
+      'D4' => 
       array (
-        'num' => '13',
-        'sym' => 'D4',
         'desc' => 'data input',
       ),
-      13 => 
+      'D5' => 
       array (
-        'num' => '14',
-        'sym' => 'D5',
         'desc' => 'data input',
       ),
-      14 => 
+      'Q5' => 
       array (
-        'num' => '15',
-        'sym' => 'Q5',
         'desc' => 'flip-flop output',
       ),
-      15 => 
+      'Q6' => 
       array (
-        'num' => '16',
-        'sym' => 'Q6',
         'desc' => 'flip-flop output',
       ),
-      16 => 
+      'D6' => 
       array (
-        'num' => '17',
-        'sym' => 'D6',
         'desc' => 'data input',
       ),
-      17 => 
+      'D7' => 
       array (
-        'num' => '18',
-        'sym' => 'D7',
         'desc' => 'data input',
       ),
-      18 => 
+      'Q7' => 
       array (
-        'num' => '19',
-        'sym' => 'Q7',
         'desc' => 'flip-flop output',
       ),
-      19 => 
+      'Vcc' => 
       array (
-        'num' => '20',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -18843,110 +16814,102 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~E',
+        2 => 'Q0',
+        3 => 'D0',
+        4 => 'D1',
+        5 => 'Q1',
+        6 => 'Q2',
+        7 => 'D2',
+        8 => 'D3',
+        9 => 'Q3',
+        10 => 'GND',
+        11 => 'CP',
+        12 => 'Q4',
+        13 => 'D4',
+        14 => 'D5',
+        15 => 'Q5',
+        16 => 'Q6',
+        17 => 'D6',
+        18 => 'D7',
+        19 => 'Q7',
+        20 => 'Vcc',
+      ),
+    ),
   ),
   74390 => 
   array (
     'description' => 'Dual decade ripple counter',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc390.74hct390.pdf',
     'pins' => 
     array (
-      0 => 
+      '1~CP~__0' => 
       array (
-        'num' => '1',
-        'sym' => '1~CP~__0',
         'desc' => 'clock input, divide-by-2 section (high-to-low, edge-triggered)',
       ),
-      1 => 
+      '1MR' => 
       array (
-        'num' => '2',
-        'sym' => '1MR',
         'desc' => 'asynchronous master reset (active high)',
       ),
-      2 => 
+      '1Q__0' => 
       array (
-        'num' => '3',
-        'sym' => '1Q__0',
         'desc' => 'flip-flop output',
       ),
-      3 => 
+      '1~CP~__1' => 
       array (
-        'num' => '4',
-        'sym' => '1~CP~__1',
         'desc' => 'clock input, divide-by-5 section (high-to-low, edge-triggered)',
       ),
-      4 => 
+      '1Q__1' => 
       array (
-        'num' => '5',
-        'sym' => '1Q__1',
         'desc' => 'flip-flop output',
       ),
-      5 => 
+      '1Q__2' => 
       array (
-        'num' => '6',
-        'sym' => '1Q__2',
         'desc' => 'flip-flop output',
       ),
-      6 => 
+      '1Q__3' => 
       array (
-        'num' => '7',
-        'sym' => '1Q__3',
         'desc' => 'flip-flop output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '2Q__3' => 
       array (
-        'num' => '9',
-        'sym' => '2Q__3',
         'desc' => 'flip-flop output',
       ),
-      9 => 
+      '2Q__2' => 
       array (
-        'num' => '10',
-        'sym' => '2Q__2',
         'desc' => 'flip-flop output',
       ),
-      10 => 
+      '2Q__1' => 
       array (
-        'num' => '11',
-        'sym' => '2Q__1',
         'desc' => 'flip-flop output',
       ),
-      11 => 
+      '2~CP~__1' => 
       array (
-        'num' => '12',
-        'sym' => '2~CP~__1',
         'desc' => 'clock input, divide-by-5 section (high-to-low, edge-triggered)',
       ),
-      12 => 
+      '2Q__0' => 
       array (
-        'num' => '13',
-        'sym' => '2Q__0',
         'desc' => 'flip-flop output',
       ),
-      13 => 
+      '2MR' => 
       array (
-        'num' => '14',
-        'sym' => '2MR',
         'desc' => 'asynchronous master reset (active high)',
       ),
-      14 => 
+      '2~CP~__0' => 
       array (
-        'num' => '15',
-        'sym' => '2~CP~__0',
         'desc' => 'clock input, divide-by-2 section (high-to-low, edge-triggered)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -19013,98 +16976,90 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1~CP~__0',
+        2 => '1MR',
+        3 => '1Q__0',
+        4 => '1~CP~__1',
+        5 => '1Q__1',
+        6 => '1Q__2',
+        7 => '1Q__3',
+        8 => 'GND',
+        9 => '2Q__3',
+        10 => '2Q__2',
+        11 => '2Q__1',
+        12 => '2~CP~__1',
+        13 => '2Q__0',
+        14 => '2MR',
+        15 => '2~CP~__0',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74393 => 
   array (
     'description' => 'Dual 4-bit binary ripple counter',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc393.74hct393.pdf',
     'pins' => 
     array (
-      0 => 
+      '1~CP' => 
       array (
-        'num' => '1',
-        'sym' => '1~CP',
         'desc' => 'clock input (high-to-low, edge-triggered)',
       ),
-      1 => 
+      '1MR' => 
       array (
-        'num' => '2',
-        'sym' => '1MR',
         'desc' => 'asynchronous master reset (active high)',
       ),
-      2 => 
+      '1Q0' => 
       array (
-        'num' => '3',
-        'sym' => '1Q0',
         'desc' => 'flip-flop output',
       ),
-      3 => 
+      '1Q1' => 
       array (
-        'num' => '4',
-        'sym' => '1Q1',
         'desc' => 'flip-flop output',
       ),
-      4 => 
+      '1Q2' => 
       array (
-        'num' => '5',
-        'sym' => '1Q2',
         'desc' => 'flip-flop output',
       ),
-      5 => 
+      '1Q3' => 
       array (
-        'num' => '6',
-        'sym' => '1Q3',
         'desc' => 'flip-flop output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '2Q3' => 
       array (
-        'num' => '8',
-        'sym' => '2Q3',
         'desc' => 'flip-flop output',
       ),
-      8 => 
+      '2Q2' => 
       array (
-        'num' => '9',
-        'sym' => '2Q2',
         'desc' => 'flip-flop output',
       ),
-      9 => 
+      '2Q1' => 
       array (
-        'num' => '10',
-        'sym' => '2Q1',
         'desc' => 'flip-flop output',
       ),
-      10 => 
+      '2Q0' => 
       array (
-        'num' => '11',
-        'sym' => '2Q0',
         'desc' => 'flip-flop output',
       ),
-      11 => 
+      '2MR' => 
       array (
-        'num' => '12',
-        'sym' => '2MR',
         'desc' => 'asynchronous master reset (active high)',
       ),
-      12 => 
+      '2~CP' => 
       array (
-        'num' => '13',
-        'sym' => '2~CP',
         'desc' => 'clock input (high-to-low, edge-triggered)',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -19151,110 +17106,96 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1~CP',
+        2 => '1MR',
+        3 => '1Q0',
+        4 => '1Q1',
+        5 => '1Q2',
+        6 => '1Q3',
+        7 => 'GND',
+        8 => '2Q3',
+        9 => '2Q2',
+        10 => '2Q1',
+        11 => '2Q0',
+        12 => '2MR',
+        13 => '2~CP',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   7442 => 
   array (
     'description' => 'BCD to decimal decoder (1-of-10)',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc42.74hct42.pdf',
     'pins' => 
     array (
-      0 => 
+      '~Y~__0' => 
       array (
-        'num' => '1',
-        'sym' => '~Y~__0',
         'desc' => 'output',
       ),
-      1 => 
+      '~Y~__1' => 
       array (
-        'num' => '2',
-        'sym' => '~Y~__1',
         'desc' => 'output',
       ),
-      2 => 
+      '~Y~__2' => 
       array (
-        'num' => '3',
-        'sym' => '~Y~__2',
         'desc' => 'output',
       ),
-      3 => 
+      '~Y~__3' => 
       array (
-        'num' => '4',
-        'sym' => '~Y~__3',
         'desc' => 'output',
       ),
-      4 => 
+      '~Y~__4' => 
       array (
-        'num' => '5',
-        'sym' => '~Y~__4',
         'desc' => 'output',
       ),
-      5 => 
+      '~Y~__5' => 
       array (
-        'num' => '6',
-        'sym' => '~Y~__5',
         'desc' => 'output',
       ),
-      6 => 
+      '~Y~__6' => 
       array (
-        'num' => '7',
-        'sym' => '~Y~__6',
         'desc' => 'output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '~Y~__7' => 
       array (
-        'num' => '9',
-        'sym' => '~Y~__7',
         'desc' => 'output',
       ),
-      9 => 
+      '~Y~__8' => 
       array (
-        'num' => '10',
-        'sym' => '~Y~__8',
         'desc' => 'output',
       ),
-      10 => 
+      '~Y~__9' => 
       array (
-        'num' => '11',
-        'sym' => '~Y~__9',
         'desc' => 'output',
       ),
-      11 => 
+      'A__3' => 
       array (
-        'num' => '12',
-        'sym' => 'A__3',
         'desc' => 'data input',
       ),
-      12 => 
+      'A__2' => 
       array (
-        'num' => '13',
-        'sym' => 'A__2',
         'desc' => 'data input',
       ),
-      13 => 
+      'A__1' => 
       array (
-        'num' => '14',
-        'sym' => 'A__1',
         'desc' => 'data input',
       ),
-      14 => 
+      'A__0' => 
       array (
-        'num' => '15',
-        'sym' => 'A__0',
         'desc' => 'data input',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -19271,110 +17212,98 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~Y~__0',
+        2 => '~Y~__1',
+        3 => '~Y~__2',
+        4 => '~Y~__3',
+        5 => '~Y~__4',
+        6 => '~Y~__5',
+        7 => '~Y~__6',
+        8 => 'GND',
+        9 => '~Y~__7',
+        10 => '~Y~__8',
+        11 => '~Y~__9',
+        12 => 'A__3',
+        13 => 'A__2',
+        14 => 'A__1',
+        15 => 'A__0',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74423 => 
   array (
     'description' => 'Dual retriggerable monostable multivibrator with reset',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc423.74hct423.pdf',
     'pins' => 
     array (
-      0 => 
+      '1~A' => 
       array (
-        'num' => '1',
-        'sym' => '1~A',
         'desc' => 'negative-edge triggered input 1',
       ),
-      1 => 
+      '1B' => 
       array (
-        'num' => '2',
-        'sym' => '1B',
         'desc' => 'positive-edge triggered input 1',
       ),
-      2 => 
+      '1~R~D' => 
       array (
-        'num' => '3',
-        'sym' => '1~R~D',
         'desc' => 'direct reset (active low) 1',
       ),
-      3 => 
+      '1~Q' => 
       array (
-        'num' => '4',
-        'sym' => '1~Q',
         'desc' => 'active low output 1',
       ),
-      4 => 
+      '2Q' => 
       array (
-        'num' => '5',
-        'sym' => '2Q',
         'desc' => 'active high output 2',
       ),
-      5 => 
+      '2CEXT' => 
       array (
-        'num' => '6',
-        'sym' => '2CEXT',
         'desc' => 'external capacitor connection 2',
       ),
-      6 => 
+      '2REXT/CEXT' => 
       array (
-        'num' => '7',
-        'sym' => '2REXT/CEXT',
         'desc' => 'external resistor and capacitor connection 2',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '2~A' => 
       array (
-        'num' => '9',
-        'sym' => '2~A',
         'desc' => 'negative-edge triggered input 2',
       ),
-      9 => 
+      '2B' => 
       array (
-        'num' => '10',
-        'sym' => '2B',
         'desc' => 'positive-edge triggered input 2',
       ),
-      10 => 
+      '2~R~D' => 
       array (
-        'num' => '11',
-        'sym' => '2~R~D',
         'desc' => 'direct reset (active low) 2',
       ),
-      11 => 
+      '2~Q' => 
       array (
-        'num' => '12',
-        'sym' => '2~Q',
         'desc' => 'active low output 2',
       ),
-      12 => 
+      '1Q' => 
       array (
-        'num' => '13',
-        'sym' => '1Q',
         'desc' => 'active high output 1',
       ),
-      13 => 
+      '1CEXT' => 
       array (
-        'num' => '14',
-        'sym' => '1CEXT',
         'desc' => 'external capacitor connection 1',
       ),
-      14 => 
+      '1REXT/CEXT' => 
       array (
-        'num' => '15',
-        'sym' => '1REXT/CEXT',
         'desc' => 'external resistor and capacitor connection 1',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -19433,134 +17362,114 @@
     array (
       0 => 'The 74423 is identical to the 74123, except it cannot be triggered via the reset input.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1~A',
+        2 => '1B',
+        3 => '1~R~D',
+        4 => '1~Q',
+        5 => '2Q',
+        6 => '2CEXT',
+        7 => '2REXT/CEXT',
+        8 => 'GND',
+        9 => '2~A',
+        10 => '2B',
+        11 => '2~R~D',
+        12 => '2~Q',
+        13 => '1Q',
+        14 => '1CEXT',
+        15 => '1REXT/CEXT',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74540 => 
   array (
     'description' => 'Octal buffer/line driver; 3-state; inverting',
-    'package' => 'DIP',
-    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc540.74hct540.pdf',
     'pins' => 
     array (
-      0 => 
+      '~OE~1' => 
       array (
-        'num' => '1',
-        'sym' => '~OE~1',
         'desc' => 'output enable (active low)',
       ),
-      1 => 
+      'A__0' => 
       array (
-        'num' => '2',
-        'sym' => 'A__0',
         'desc' => 'data input',
       ),
-      2 => 
+      'A__1' => 
       array (
-        'num' => '3',
-        'sym' => 'A__1',
         'desc' => 'data input',
       ),
-      3 => 
+      'A__2' => 
       array (
-        'num' => '4',
-        'sym' => 'A__2',
         'desc' => 'data input',
       ),
-      4 => 
+      'A__3' => 
       array (
-        'num' => '5',
-        'sym' => 'A__3',
         'desc' => 'data input',
       ),
-      5 => 
+      'A__4' => 
       array (
-        'num' => '6',
-        'sym' => 'A__4',
         'desc' => 'data input',
       ),
-      6 => 
+      'A__5' => 
       array (
-        'num' => '7',
-        'sym' => 'A__5',
         'desc' => 'data input',
       ),
-      7 => 
+      'A__6' => 
       array (
-        'num' => '8',
-        'sym' => 'A__6',
         'desc' => 'data input',
       ),
-      8 => 
+      'A__7' => 
       array (
-        'num' => '9',
-        'sym' => 'A__7',
         'desc' => 'data input',
       ),
-      9 => 
+      'GND' => 
       array (
-        'num' => '10',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      10 => 
+      '~Y~__7' => 
       array (
-        'num' => '11',
-        'sym' => '~Y~__7',
         'desc' => 'bus output',
       ),
-      11 => 
+      '~Y~__6' => 
       array (
-        'num' => '12',
-        'sym' => '~Y~__6',
         'desc' => 'bus output',
       ),
-      12 => 
+      '~Y~__5' => 
       array (
-        'num' => '13',
-        'sym' => '~Y~__5',
         'desc' => 'bus output',
       ),
-      13 => 
+      '~Y~__4' => 
       array (
-        'num' => '14',
-        'sym' => '~Y~__4',
         'desc' => 'bus output',
       ),
-      14 => 
+      '~Y~__3' => 
       array (
-        'num' => '15',
-        'sym' => '~Y~__3',
         'desc' => 'bus output',
       ),
-      15 => 
+      '~Y~__2' => 
       array (
-        'num' => '16',
-        'sym' => '~Y~__2',
         'desc' => 'bus output',
       ),
-      16 => 
+      '~Y~__1' => 
       array (
-        'num' => '17',
-        'sym' => '~Y~__1',
         'desc' => 'bus output',
       ),
-      17 => 
+      '~Y~__0' => 
       array (
-        'num' => '18',
-        'sym' => '~Y~__0',
         'desc' => 'bus output',
       ),
-      18 => 
+      '~OE~__2' => 
       array (
-        'num' => '19',
-        'sym' => '~OE~__2',
         'desc' => 'output enable (active low)',
       ),
-      19 => 
+      'Vcc' => 
       array (
-        'num' => '20',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -19577,134 +17486,118 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~OE~1',
+        2 => 'A__0',
+        3 => 'A__1',
+        4 => 'A__2',
+        5 => 'A__3',
+        6 => 'A__4',
+        7 => 'A__5',
+        8 => 'A__6',
+        9 => 'A__7',
+        10 => 'GND',
+        11 => '~Y~__7',
+        12 => '~Y~__6',
+        13 => '~Y~__5',
+        14 => '~Y~__4',
+        15 => '~Y~__3',
+        16 => '~Y~__2',
+        17 => '~Y~__1',
+        18 => '~Y~__0',
+        19 => '~OE~__2',
+        20 => 'Vcc',
+      ),
+    ),
   ),
   74541 => 
   array (
     'description' => 'Octal buffer/line driver; 3-state; non-inverting',
-    'package' => 'DIP',
-    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc541.74hct541.pdf',
     'pins' => 
     array (
-      0 => 
+      '~OE~1' => 
       array (
-        'num' => '1',
-        'sym' => '~OE~1',
         'desc' => 'output enable (active low)',
       ),
-      1 => 
+      'A__0' => 
       array (
-        'num' => '2',
-        'sym' => 'A__0',
         'desc' => 'data input',
       ),
-      2 => 
+      'A__1' => 
       array (
-        'num' => '3',
-        'sym' => 'A__1',
         'desc' => 'data input',
       ),
-      3 => 
+      'A__2' => 
       array (
-        'num' => '4',
-        'sym' => 'A__2',
         'desc' => 'data input',
       ),
-      4 => 
+      'A__3' => 
       array (
-        'num' => '5',
-        'sym' => 'A__3',
         'desc' => 'data input',
       ),
-      5 => 
+      'A__4' => 
       array (
-        'num' => '6',
-        'sym' => 'A__4',
         'desc' => 'data input',
       ),
-      6 => 
+      'A__5' => 
       array (
-        'num' => '7',
-        'sym' => 'A__5',
         'desc' => 'data input',
       ),
-      7 => 
+      'A__6' => 
       array (
-        'num' => '8',
-        'sym' => 'A__6',
         'desc' => 'data input',
       ),
-      8 => 
+      'A__7' => 
       array (
-        'num' => '9',
-        'sym' => 'A__7',
         'desc' => 'data input',
       ),
-      9 => 
+      'GND' => 
       array (
-        'num' => '10',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      10 => 
+      'Y__7' => 
       array (
-        'num' => '11',
-        'sym' => 'Y__7',
         'desc' => 'bus output',
       ),
-      11 => 
+      'Y__6' => 
       array (
-        'num' => '12',
-        'sym' => 'Y__6',
         'desc' => 'bus output',
       ),
-      12 => 
+      'Y__5' => 
       array (
-        'num' => '13',
-        'sym' => 'Y__5',
         'desc' => 'bus output',
       ),
-      13 => 
+      'Y__4' => 
       array (
-        'num' => '14',
-        'sym' => 'Y__4',
         'desc' => 'bus output',
       ),
-      14 => 
+      'Y__3' => 
       array (
-        'num' => '15',
-        'sym' => 'Y__3',
         'desc' => 'bus output',
       ),
-      15 => 
+      'Y__2' => 
       array (
-        'num' => '16',
-        'sym' => 'Y__2',
         'desc' => 'bus output',
       ),
-      16 => 
+      'Y__1' => 
       array (
-        'num' => '17',
-        'sym' => 'Y__1',
         'desc' => 'bus output',
       ),
-      17 => 
+      'Y__0' => 
       array (
-        'num' => '18',
-        'sym' => 'Y__0',
         'desc' => 'bus output',
       ),
-      18 => 
+      '~OE~__2' => 
       array (
-        'num' => '19',
-        'sym' => '~OE~__2',
         'desc' => 'output enable (active low)',
       ),
-      19 => 
+      'Vcc' => 
       array (
-        'num' => '20',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -19721,134 +17614,118 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~OE~1',
+        2 => 'A__0',
+        3 => 'A__1',
+        4 => 'A__2',
+        5 => 'A__3',
+        6 => 'A__4',
+        7 => 'A__5',
+        8 => 'A__6',
+        9 => 'A__7',
+        10 => 'GND',
+        11 => 'Y__7',
+        12 => 'Y__6',
+        13 => 'Y__5',
+        14 => 'Y__4',
+        15 => 'Y__3',
+        16 => 'Y__2',
+        17 => 'Y__1',
+        18 => 'Y__0',
+        19 => '~OE~__2',
+        20 => 'Vcc',
+      ),
+    ),
   ),
   74563 => 
   array (
     'description' => 'Octal D-type transparent latch; 3-state; inverting',
-    'package' => 'DIP',
-    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc563.74hct563.pdf',
     'pins' => 
     array (
-      0 => 
+      '~OE' => 
       array (
-        'num' => '1',
-        'sym' => '~OE',
         'desc' => 'output enable (active low)',
       ),
-      1 => 
+      'D__0' => 
       array (
-        'num' => '2',
-        'sym' => 'D__0',
         'desc' => 'data input',
       ),
-      2 => 
+      'D__1' => 
       array (
-        'num' => '3',
-        'sym' => 'D__1',
         'desc' => 'data input',
       ),
-      3 => 
+      'D__2' => 
       array (
-        'num' => '4',
-        'sym' => 'D__2',
         'desc' => 'data input',
       ),
-      4 => 
+      'D__3' => 
       array (
-        'num' => '5',
-        'sym' => 'D__3',
         'desc' => 'data input',
       ),
-      5 => 
+      'D__4' => 
       array (
-        'num' => '6',
-        'sym' => 'D__4',
         'desc' => 'data input',
       ),
-      6 => 
+      'D__5' => 
       array (
-        'num' => '7',
-        'sym' => 'D__5',
         'desc' => 'data input',
       ),
-      7 => 
+      'D__6' => 
       array (
-        'num' => '8',
-        'sym' => 'D__6',
         'desc' => 'data input',
       ),
-      8 => 
+      'D__7' => 
       array (
-        'num' => '9',
-        'sym' => 'D__7',
         'desc' => 'data input',
       ),
-      9 => 
+      'GND' => 
       array (
-        'num' => '10',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      10 => 
+      'LE' => 
       array (
-        'num' => '11',
-        'sym' => 'LE',
         'desc' => 'latch enable (active high)',
       ),
-      11 => 
+      '~Q~__7' => 
       array (
-        'num' => '12',
-        'sym' => '~Q~__7',
         'desc' => 'latch output',
       ),
-      12 => 
+      '~Q~__6' => 
       array (
-        'num' => '13',
-        'sym' => '~Q~__6',
         'desc' => 'latch output',
       ),
-      13 => 
+      '~Q~__5' => 
       array (
-        'num' => '14',
-        'sym' => '~Q~__5',
         'desc' => 'latch output',
       ),
-      14 => 
+      '~Q~__4' => 
       array (
-        'num' => '15',
-        'sym' => '~Q~__4',
         'desc' => 'latch output',
       ),
-      15 => 
+      '~Q~__3' => 
       array (
-        'num' => '16',
-        'sym' => '~Q~__3',
         'desc' => 'latch output',
       ),
-      16 => 
+      '~Q~__2' => 
       array (
-        'num' => '17',
-        'sym' => '~Q~__2',
         'desc' => 'latch output',
       ),
-      17 => 
+      '~Q~__1' => 
       array (
-        'num' => '18',
-        'sym' => '~Q~__1',
         'desc' => 'latch output',
       ),
-      18 => 
+      '~Q~__0' => 
       array (
-        'num' => '19',
-        'sym' => '~Q~__0',
         'desc' => 'latch output',
       ),
-      19 => 
+      'Vcc' => 
       array (
-        'num' => '20',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -19865,134 +17742,118 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~OE',
+        2 => 'D__0',
+        3 => 'D__1',
+        4 => 'D__2',
+        5 => 'D__3',
+        6 => 'D__4',
+        7 => 'D__5',
+        8 => 'D__6',
+        9 => 'D__7',
+        10 => 'GND',
+        11 => 'LE',
+        12 => '~Q~__7',
+        13 => '~Q~__6',
+        14 => '~Q~__5',
+        15 => '~Q~__4',
+        16 => '~Q~__3',
+        17 => '~Q~__2',
+        18 => '~Q~__1',
+        19 => '~Q~__0',
+        20 => 'Vcc',
+      ),
+    ),
   ),
   74564 => 
   array (
     'description' => 'Octal D-type flip-flop; positive-edge trigger; 3-state; inverting',
-    'package' => 'DIP',
-    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc564.pdf',
     'pins' => 
     array (
-      0 => 
+      '~OE' => 
       array (
-        'num' => '1',
-        'sym' => '~OE',
         'desc' => 'output enable (active low)',
       ),
-      1 => 
+      'D__0' => 
       array (
-        'num' => '2',
-        'sym' => 'D__0',
         'desc' => 'data input',
       ),
-      2 => 
+      'D__1' => 
       array (
-        'num' => '3',
-        'sym' => 'D__1',
         'desc' => 'data input',
       ),
-      3 => 
+      'D__2' => 
       array (
-        'num' => '4',
-        'sym' => 'D__2',
         'desc' => 'data input',
       ),
-      4 => 
+      'D__3' => 
       array (
-        'num' => '5',
-        'sym' => 'D__3',
         'desc' => 'data input',
       ),
-      5 => 
+      'D__4' => 
       array (
-        'num' => '6',
-        'sym' => 'D__4',
         'desc' => 'data input',
       ),
-      6 => 
+      'D__5' => 
       array (
-        'num' => '7',
-        'sym' => 'D__5',
         'desc' => 'data input',
       ),
-      7 => 
+      'D__6' => 
       array (
-        'num' => '8',
-        'sym' => 'D__6',
         'desc' => 'data input',
       ),
-      8 => 
+      'D__7' => 
       array (
-        'num' => '9',
-        'sym' => 'D__7',
         'desc' => 'data input',
       ),
-      9 => 
+      'GND' => 
       array (
-        'num' => '10',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      10 => 
+      'CP' => 
       array (
-        'num' => '11',
-        'sym' => 'CP',
         'desc' => 'clock input (low-to-high, edge-triggered)',
       ),
-      11 => 
+      '~Q~__7' => 
       array (
-        'num' => '12',
-        'sym' => '~Q~__7',
         'desc' => 'flip-flop output',
       ),
-      12 => 
+      '~Q~__6' => 
       array (
-        'num' => '13',
-        'sym' => '~Q~__6',
         'desc' => 'flip-flop output',
       ),
-      13 => 
+      '~Q~__5' => 
       array (
-        'num' => '14',
-        'sym' => '~Q~__5',
         'desc' => 'flip-flop output',
       ),
-      14 => 
+      '~Q~__4' => 
       array (
-        'num' => '15',
-        'sym' => '~Q~__4',
         'desc' => 'flip-flop output',
       ),
-      15 => 
+      '~Q~__3' => 
       array (
-        'num' => '16',
-        'sym' => '~Q~__3',
         'desc' => 'flip-flop output',
       ),
-      16 => 
+      '~Q~__2' => 
       array (
-        'num' => '17',
-        'sym' => '~Q~__2',
         'desc' => 'flip-flop output',
       ),
-      17 => 
+      '~Q~__1' => 
       array (
-        'num' => '18',
-        'sym' => '~Q~__1',
         'desc' => 'flip-flop output',
       ),
-      18 => 
+      '~Q~__0' => 
       array (
-        'num' => '19',
-        'sym' => '~Q~__0',
         'desc' => 'flip-flop output',
       ),
-      19 => 
+      'Vcc' => 
       array (
-        'num' => '20',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -20011,134 +17872,118 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~OE',
+        2 => 'D__0',
+        3 => 'D__1',
+        4 => 'D__2',
+        5 => 'D__3',
+        6 => 'D__4',
+        7 => 'D__5',
+        8 => 'D__6',
+        9 => 'D__7',
+        10 => 'GND',
+        11 => 'CP',
+        12 => '~Q~__7',
+        13 => '~Q~__6',
+        14 => '~Q~__5',
+        15 => '~Q~__4',
+        16 => '~Q~__3',
+        17 => '~Q~__2',
+        18 => '~Q~__1',
+        19 => '~Q~__0',
+        20 => 'Vcc',
+      ),
+    ),
   ),
   74573 => 
   array (
     'description' => 'Octal D-type transparent latch; 3-state; non-inverting',
-    'package' => 'DIP',
-    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc573.74hct573.pdf',
     'pins' => 
     array (
-      0 => 
+      '~OE' => 
       array (
-        'num' => '1',
-        'sym' => '~OE',
         'desc' => 'output enable (active low)',
       ),
-      1 => 
+      'D__0' => 
       array (
-        'num' => '2',
-        'sym' => 'D__0',
         'desc' => 'data input',
       ),
-      2 => 
+      'D__1' => 
       array (
-        'num' => '3',
-        'sym' => 'D__1',
         'desc' => 'data input',
       ),
-      3 => 
+      'D__2' => 
       array (
-        'num' => '4',
-        'sym' => 'D__2',
         'desc' => 'data input',
       ),
-      4 => 
+      'D__3' => 
       array (
-        'num' => '5',
-        'sym' => 'D__3',
         'desc' => 'data input',
       ),
-      5 => 
+      'D__4' => 
       array (
-        'num' => '6',
-        'sym' => 'D__4',
         'desc' => 'data input',
       ),
-      6 => 
+      'D__5' => 
       array (
-        'num' => '7',
-        'sym' => 'D__5',
         'desc' => 'data input',
       ),
-      7 => 
+      'D__6' => 
       array (
-        'num' => '8',
-        'sym' => 'D__6',
         'desc' => 'data input',
       ),
-      8 => 
+      'D__7' => 
       array (
-        'num' => '9',
-        'sym' => 'D__7',
         'desc' => 'data input',
       ),
-      9 => 
+      'GND' => 
       array (
-        'num' => '10',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      10 => 
+      'LE' => 
       array (
-        'num' => '11',
-        'sym' => 'LE',
         'desc' => 'latch enable (active high)',
       ),
-      11 => 
+      'Q__7' => 
       array (
-        'num' => '12',
-        'sym' => 'Q__7',
         'desc' => 'latch output',
       ),
-      12 => 
+      'Q__6' => 
       array (
-        'num' => '13',
-        'sym' => 'Q__6',
         'desc' => 'latch output',
       ),
-      13 => 
+      'Q__5' => 
       array (
-        'num' => '14',
-        'sym' => 'Q__5',
         'desc' => 'latch output',
       ),
-      14 => 
+      'Q__4' => 
       array (
-        'num' => '15',
-        'sym' => 'Q__4',
         'desc' => 'latch output',
       ),
-      15 => 
+      'Q__3' => 
       array (
-        'num' => '16',
-        'sym' => 'Q__3',
         'desc' => 'latch output',
       ),
-      16 => 
+      'Q__2' => 
       array (
-        'num' => '17',
-        'sym' => 'Q__2',
         'desc' => 'latch output',
       ),
-      17 => 
+      'Q__1' => 
       array (
-        'num' => '18',
-        'sym' => 'Q__1',
         'desc' => 'latch output',
       ),
-      18 => 
+      'Q__0' => 
       array (
-        'num' => '19',
-        'sym' => 'Q__0',
         'desc' => 'latch output',
       ),
-      19 => 
+      'Vcc' => 
       array (
-        'num' => '20',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -20161,134 +18006,118 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~OE',
+        2 => 'D__0',
+        3 => 'D__1',
+        4 => 'D__2',
+        5 => 'D__3',
+        6 => 'D__4',
+        7 => 'D__5',
+        8 => 'D__6',
+        9 => 'D__7',
+        10 => 'GND',
+        11 => 'LE',
+        12 => 'Q__7',
+        13 => 'Q__6',
+        14 => 'Q__5',
+        15 => 'Q__4',
+        16 => 'Q__3',
+        17 => 'Q__2',
+        18 => 'Q__1',
+        19 => 'Q__0',
+        20 => 'Vcc',
+      ),
+    ),
   ),
   74574 => 
   array (
     'description' => 'Octal D-type flip-flop; positive-edge trigger; 3-state; non-inverting',
-    'package' => 'DIP',
-    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc574.74hct574.pdf',
     'pins' => 
     array (
-      0 => 
+      '~OE' => 
       array (
-        'num' => '1',
-        'sym' => '~OE',
         'desc' => 'output enable (active low)',
       ),
-      1 => 
+      'D__0' => 
       array (
-        'num' => '2',
-        'sym' => 'D__0',
         'desc' => 'data input',
       ),
-      2 => 
+      'D__1' => 
       array (
-        'num' => '3',
-        'sym' => 'D__1',
         'desc' => 'data input',
       ),
-      3 => 
+      'D__2' => 
       array (
-        'num' => '4',
-        'sym' => 'D__2',
         'desc' => 'data input',
       ),
-      4 => 
+      'D__3' => 
       array (
-        'num' => '5',
-        'sym' => 'D__3',
         'desc' => 'data input',
       ),
-      5 => 
+      'D__4' => 
       array (
-        'num' => '6',
-        'sym' => 'D__4',
         'desc' => 'data input',
       ),
-      6 => 
+      'D__5' => 
       array (
-        'num' => '7',
-        'sym' => 'D__5',
         'desc' => 'data input',
       ),
-      7 => 
+      'D__6' => 
       array (
-        'num' => '8',
-        'sym' => 'D__6',
         'desc' => 'data input',
       ),
-      8 => 
+      'D__7' => 
       array (
-        'num' => '9',
-        'sym' => 'D__7',
         'desc' => 'data input',
       ),
-      9 => 
+      'GND' => 
       array (
-        'num' => '10',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      10 => 
+      'CP' => 
       array (
-        'num' => '11',
-        'sym' => 'CP',
         'desc' => 'clock input (low-to-high, edge-triggered)',
       ),
-      11 => 
+      'Q__7' => 
       array (
-        'num' => '12',
-        'sym' => 'Q__7',
         'desc' => 'flip-flop output',
       ),
-      12 => 
+      'Q__6' => 
       array (
-        'num' => '13',
-        'sym' => 'Q__6',
         'desc' => 'flip-flop output',
       ),
-      13 => 
+      'Q__5' => 
       array (
-        'num' => '14',
-        'sym' => 'Q__5',
         'desc' => 'flip-flop output',
       ),
-      14 => 
+      'Q__4' => 
       array (
-        'num' => '15',
-        'sym' => 'Q__4',
         'desc' => 'flip-flop output',
       ),
-      15 => 
+      'Q__3' => 
       array (
-        'num' => '16',
-        'sym' => 'Q__3',
         'desc' => 'flip-flop output',
       ),
-      16 => 
+      'Q__2' => 
       array (
-        'num' => '17',
-        'sym' => 'Q__2',
         'desc' => 'flip-flop output',
       ),
-      17 => 
+      'Q__1' => 
       array (
-        'num' => '18',
-        'sym' => 'Q__1',
         'desc' => 'flip-flop output',
       ),
-      18 => 
+      'Q__0' => 
       array (
-        'num' => '19',
-        'sym' => 'Q__0',
         'desc' => 'flip-flop output',
       ),
-      19 => 
+      'Vcc' => 
       array (
-        'num' => '20',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -20315,98 +18144,94 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~OE',
+        2 => 'D__0',
+        3 => 'D__1',
+        4 => 'D__2',
+        5 => 'D__3',
+        6 => 'D__4',
+        7 => 'D__5',
+        8 => 'D__6',
+        9 => 'D__7',
+        10 => 'GND',
+        11 => 'CP',
+        12 => 'Q__7',
+        13 => 'Q__6',
+        14 => 'Q__5',
+        15 => 'Q__4',
+        16 => 'Q__3',
+        17 => 'Q__2',
+        18 => 'Q__1',
+        19 => 'Q__0',
+        20 => 'Vcc',
+      ),
+    ),
   ),
   7458 => 
   array (
     'description' => 'Dual AND-OR gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc58.pdf',
     'pins' => 
     array (
-      0 => 
+      '1A' => 
       array (
-        'num' => '1',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      1 => 
+      '2A' => 
       array (
-        'num' => '2',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      2 => 
+      '2B' => 
       array (
-        'num' => '3',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      3 => 
+      '2C' => 
       array (
-        'num' => '4',
-        'sym' => '2C',
         'desc' => 'data input',
       ),
-      4 => 
+      '2D' => 
       array (
-        'num' => '5',
-        'sym' => '2D',
         'desc' => 'data input',
       ),
-      5 => 
+      '2Y' => 
       array (
-        'num' => '6',
-        'sym' => '2Y',
         'desc' => 'data output (2A · 2B) + (2C · 2D)',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '1Y' => 
       array (
-        'num' => '8',
-        'sym' => '1Y',
         'desc' => 'data output (1A · 1B · 1C) + (1D · 1E · 1F)',
       ),
-      8 => 
+      '1D' => 
       array (
-        'num' => '9',
-        'sym' => '1D',
         'desc' => 'data input',
       ),
-      9 => 
+      '1E' => 
       array (
-        'num' => '10',
-        'sym' => '1E',
         'desc' => 'data input',
       ),
-      10 => 
+      '1F' => 
       array (
-        'num' => '11',
-        'sym' => '1F',
         'desc' => 'data input',
       ),
-      11 => 
+      '1B' => 
       array (
-        'num' => '12',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      12 => 
+      '1C' => 
       array (
-        'num' => '13',
-        'sym' => '1C',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -20425,110 +18250,96 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1A',
+        2 => '2A',
+        3 => '2B',
+        4 => '2C',
+        5 => '2D',
+        6 => '2Y',
+        7 => 'GND',
+        8 => '1Y',
+        9 => '1D',
+        10 => '1E',
+        11 => '1F',
+        12 => '1B',
+        13 => '1C',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   74590 => 
   array (
     'description' => '8-bit binary counter with output register; 3-state',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc590.pdf',
     'pins' => 
     array (
-      0 => 
+      'Q1' => 
       array (
-        'num' => '1',
-        'sym' => 'Q1',
         'desc' => 'parallel data output',
       ),
-      1 => 
+      'Q2' => 
       array (
-        'num' => '2',
-        'sym' => 'Q2',
         'desc' => 'parallel data output',
       ),
-      2 => 
+      'Q3' => 
       array (
-        'num' => '3',
-        'sym' => 'Q3',
         'desc' => 'parallel data output',
       ),
-      3 => 
+      'Q4' => 
       array (
-        'num' => '4',
-        'sym' => 'Q4',
         'desc' => 'parallel data output',
       ),
-      4 => 
+      'Q5' => 
       array (
-        'num' => '5',
-        'sym' => 'Q5',
         'desc' => 'parallel data output',
       ),
-      5 => 
+      'Q6' => 
       array (
-        'num' => '6',
-        'sym' => 'Q6',
         'desc' => 'parallel data output',
       ),
-      6 => 
+      'Q7' => 
       array (
-        'num' => '7',
-        'sym' => 'Q7',
         'desc' => 'parallel data output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '~RCO' => 
       array (
-        'num' => '9',
-        'sym' => '~RCO',
         'desc' => 'ripple carry output (active low)',
       ),
-      9 => 
+      '~MRC' => 
       array (
-        'num' => '10',
-        'sym' => '~MRC',
         'desc' => 'master reset (active low)',
       ),
-      10 => 
+      'CPC' => 
       array (
-        'num' => '11',
-        'sym' => 'CPC',
         'desc' => 'counter clock input (active high)',
       ),
-      11 => 
+      '~CE' => 
       array (
-        'num' => '12',
-        'sym' => '~CE',
         'desc' => 'count enable (active low)',
       ),
-      12 => 
+      'CPR' => 
       array (
-        'num' => '13',
-        'sym' => 'CPR',
         'desc' => 'register clock input (active high)',
       ),
-      13 => 
+      '~OE' => 
       array (
-        'num' => '14',
-        'sym' => '~OE',
         'desc' => 'output enable (active low)',
       ),
-      14 => 
+      'Q0' => 
       array (
-        'num' => '15',
-        'sym' => 'Q0',
         'desc' => 'parallel data output',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -20553,110 +18364,98 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'Q1',
+        2 => 'Q2',
+        3 => 'Q3',
+        4 => 'Q4',
+        5 => 'Q5',
+        6 => 'Q6',
+        7 => 'Q7',
+        8 => 'GND',
+        9 => '~RCO',
+        10 => '~MRC',
+        11 => 'CPC',
+        12 => '~CE',
+        13 => 'CPR',
+        14 => '~OE',
+        15 => 'Q0',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74594 => 
   array (
     'description' => '8-bit shift register with output register',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc594.74hct594.pdf',
     'pins' => 
     array (
-      0 => 
+      'Q1' => 
       array (
-        'num' => '1',
-        'sym' => 'Q1',
         'desc' => 'parallel data output',
       ),
-      1 => 
+      'Q2' => 
       array (
-        'num' => '2',
-        'sym' => 'Q2',
         'desc' => 'parallel data output',
       ),
-      2 => 
+      'Q3' => 
       array (
-        'num' => '3',
-        'sym' => 'Q3',
         'desc' => 'parallel data output',
       ),
-      3 => 
+      'Q4' => 
       array (
-        'num' => '4',
-        'sym' => 'Q4',
         'desc' => 'parallel data output',
       ),
-      4 => 
+      'Q5' => 
       array (
-        'num' => '5',
-        'sym' => 'Q5',
         'desc' => 'parallel data output',
       ),
-      5 => 
+      'Q6' => 
       array (
-        'num' => '6',
-        'sym' => 'Q6',
         'desc' => 'parallel data output',
       ),
-      6 => 
+      'Q7' => 
       array (
-        'num' => '7',
-        'sym' => 'Q7',
         'desc' => 'parallel data output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'Q7S' => 
       array (
-        'num' => '9',
-        'sym' => 'Q7S',
         'desc' => 'serial data output',
       ),
-      9 => 
+      '~SHR' => 
       array (
-        'num' => '10',
-        'sym' => '~SHR',
         'desc' => 'shift register reset (active low)',
       ),
-      10 => 
+      'SHCP' => 
       array (
-        'num' => '11',
-        'sym' => 'SHCP',
         'desc' => 'shift register clock input',
       ),
-      11 => 
+      'STCP' => 
       array (
-        'num' => '12',
-        'sym' => 'STCP',
         'desc' => 'storage register clock input',
       ),
-      12 => 
+      '~STR' => 
       array (
-        'num' => '13',
-        'sym' => '~STR',
         'desc' => 'storage register reset (active low)',
       ),
-      13 => 
+      'DS' => 
       array (
-        'num' => '14',
-        'sym' => 'DS',
         'desc' => 'serial data input',
       ),
-      14 => 
+      'Q0' => 
       array (
-        'num' => '15',
-        'sym' => 'Q0',
         'desc' => 'parallel data output',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -20692,110 +18491,98 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'Q1',
+        2 => 'Q2',
+        3 => 'Q3',
+        4 => 'Q4',
+        5 => 'Q5',
+        6 => 'Q6',
+        7 => 'Q7',
+        8 => 'GND',
+        9 => 'Q7S',
+        10 => '~SHR',
+        11 => 'SHCP',
+        12 => 'STCP',
+        13 => '~STR',
+        14 => 'DS',
+        15 => 'Q0',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74595 => 
   array (
     'description' => '8-bit serial-in, serial or parallel-out shift register with output latches; 3-state',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/74HC_HCT595_4.pdf',
     'pins' => 
     array (
-      0 => 
+      'Q1' => 
       array (
-        'num' => '1',
-        'sym' => 'Q1',
         'desc' => 'parallel data output',
       ),
-      1 => 
+      'Q2' => 
       array (
-        'num' => '2',
-        'sym' => 'Q2',
         'desc' => 'parallel data output',
       ),
-      2 => 
+      'Q3' => 
       array (
-        'num' => '3',
-        'sym' => 'Q3',
         'desc' => 'parallel data output',
       ),
-      3 => 
+      'Q4' => 
       array (
-        'num' => '4',
-        'sym' => 'Q4',
         'desc' => 'parallel data output',
       ),
-      4 => 
+      'Q5' => 
       array (
-        'num' => '5',
-        'sym' => 'Q5',
         'desc' => 'parallel data output',
       ),
-      5 => 
+      'Q6' => 
       array (
-        'num' => '6',
-        'sym' => 'Q6',
         'desc' => 'parallel data output',
       ),
-      6 => 
+      'Q7' => 
       array (
-        'num' => '7',
-        'sym' => 'Q7',
         'desc' => 'parallel data output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'Q7\'' => 
       array (
-        'num' => '9',
-        'sym' => 'Q7\'',
         'desc' => 'serial data output',
       ),
-      9 => 
+      '~MR' => 
       array (
-        'num' => '10',
-        'sym' => '~MR',
         'desc' => 'master reset (active low)',
       ),
-      10 => 
+      'SCK' => 
       array (
-        'num' => '11',
-        'sym' => 'SCK',
         'desc' => 'shift register clock input',
       ),
-      11 => 
+      'RCK' => 
       array (
-        'num' => '12',
-        'sym' => 'RCK',
         'desc' => 'storage register latch input',
       ),
-      12 => 
+      '~OE' => 
       array (
-        'num' => '13',
-        'sym' => '~OE',
         'desc' => 'output enable (active low)',
       ),
-      13 => 
+      'DS' => 
       array (
-        'num' => '14',
-        'sym' => 'DS',
         'desc' => 'serial data input',
       ),
-      14 => 
+      'Q0' => 
       array (
-        'num' => '15',
-        'sym' => 'Q0',
         'desc' => 'parallel data output',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -20842,110 +18629,98 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'Q1',
+        2 => 'Q2',
+        3 => 'Q3',
+        4 => 'Q4',
+        5 => 'Q5',
+        6 => 'Q6',
+        7 => 'Q7',
+        8 => 'GND',
+        9 => 'Q7\'',
+        10 => '~MR',
+        11 => 'SCK',
+        12 => 'RCK',
+        13 => '~OE',
+        14 => 'DS',
+        15 => 'Q0',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74597 => 
   array (
     'description' => '8-bit shift register with input flip-flops',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc597.74hct597.pdf',
     'pins' => 
     array (
-      0 => 
+      'D__1' => 
       array (
-        'num' => '1',
-        'sym' => 'D__1',
         'desc' => 'parallel data input',
       ),
-      1 => 
+      'D__2' => 
       array (
-        'num' => '2',
-        'sym' => 'D__2',
         'desc' => 'parallel data input',
       ),
-      2 => 
+      'D__3' => 
       array (
-        'num' => '3',
-        'sym' => 'D__3',
         'desc' => 'parallel data input',
       ),
-      3 => 
+      'D__4' => 
       array (
-        'num' => '4',
-        'sym' => 'D__4',
         'desc' => 'parallel data input',
       ),
-      4 => 
+      'D__5' => 
       array (
-        'num' => '5',
-        'sym' => 'D__5',
         'desc' => 'parallel data input',
       ),
-      5 => 
+      'D__6' => 
       array (
-        'num' => '6',
-        'sym' => 'D__6',
         'desc' => 'parallel data input',
       ),
-      6 => 
+      'D__7' => 
       array (
-        'num' => '7',
-        'sym' => 'D__7',
         'desc' => 'parallel data input',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'Q' => 
       array (
-        'num' => '9',
-        'sym' => 'Q',
         'desc' => 'serial data output',
       ),
-      9 => 
+      '~MR' => 
       array (
-        'num' => '10',
-        'sym' => '~MR',
         'desc' => 'asynchronous master reset (active low)',
       ),
-      10 => 
+      'SH__CP' => 
       array (
-        'num' => '11',
-        'sym' => 'SH__CP',
         'desc' => 'shift clock input (low-to-high, edge-triggered)',
       ),
-      11 => 
+      'ST__CP' => 
       array (
-        'num' => '12',
-        'sym' => 'ST__CP',
         'desc' => 'storage clock input (low-to-high, edge-triggered)',
       ),
-      12 => 
+      '~PL' => 
       array (
-        'num' => '13',
-        'sym' => '~PL',
         'desc' => 'parallel load input (active low)',
       ),
-      13 => 
+      'D__S' => 
       array (
-        'num' => '14',
-        'sym' => 'D__S',
         'desc' => 'serial data input',
       ),
-      14 => 
+      'D__0' => 
       array (
-        'num' => '15',
-        'sym' => 'D__0',
         'desc' => 'parallel data input',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -20992,134 +18767,114 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'D__1',
+        2 => 'D__2',
+        3 => 'D__3',
+        4 => 'D__4',
+        5 => 'D__5',
+        6 => 'D__6',
+        7 => 'D__7',
+        8 => 'GND',
+        9 => 'Q',
+        10 => '~MR',
+        11 => 'SH__CP',
+        12 => 'ST__CP',
+        13 => '~PL',
+        14 => 'D__S',
+        15 => 'D__0',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74640 => 
   array (
     'description' => 'Octal bus transceiver; 3-state; inverting',
-    'package' => 'DIP',
-    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc640.74hct640.pdf',
     'pins' => 
     array (
-      0 => 
+      'DIR' => 
       array (
-        'num' => '1',
-        'sym' => 'DIR',
         'desc' => 'direction control',
       ),
-      1 => 
+      'A__0' => 
       array (
-        'num' => '2',
-        'sym' => 'A__0',
         'desc' => 'data input/output',
       ),
-      2 => 
+      'A__1' => 
       array (
-        'num' => '3',
-        'sym' => 'A__1',
         'desc' => 'data input/output',
       ),
-      3 => 
+      'A__2' => 
       array (
-        'num' => '4',
-        'sym' => 'A__2',
         'desc' => 'data input/output',
       ),
-      4 => 
+      'A__3' => 
       array (
-        'num' => '5',
-        'sym' => 'A__3',
         'desc' => 'data input/output',
       ),
-      5 => 
+      'A__4' => 
       array (
-        'num' => '6',
-        'sym' => 'A__4',
         'desc' => 'data input/output',
       ),
-      6 => 
+      'A__5' => 
       array (
-        'num' => '7',
-        'sym' => 'A__5',
         'desc' => 'data input/output',
       ),
-      7 => 
+      'A__6' => 
       array (
-        'num' => '8',
-        'sym' => 'A__6',
         'desc' => 'data input/output',
       ),
-      8 => 
+      'A__7' => 
       array (
-        'num' => '9',
-        'sym' => 'A__7',
         'desc' => 'data input/output',
       ),
-      9 => 
+      'GND' => 
       array (
-        'num' => '10',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      10 => 
+      'B__7' => 
       array (
-        'num' => '11',
-        'sym' => 'B__7',
         'desc' => 'data input/output',
       ),
-      11 => 
+      'B__6' => 
       array (
-        'num' => '12',
-        'sym' => 'B__6',
         'desc' => 'data input/output',
       ),
-      12 => 
+      'B__5' => 
       array (
-        'num' => '13',
-        'sym' => 'B__5',
         'desc' => 'data input/output',
       ),
-      13 => 
+      'B__4' => 
       array (
-        'num' => '14',
-        'sym' => 'B__4',
         'desc' => 'data input/output',
       ),
-      14 => 
+      'B__3' => 
       array (
-        'num' => '15',
-        'sym' => 'B__3',
         'desc' => 'data input/output',
       ),
-      15 => 
+      'B__2' => 
       array (
-        'num' => '16',
-        'sym' => 'B__2',
         'desc' => 'data input/output',
       ),
-      16 => 
+      'B__1' => 
       array (
-        'num' => '17',
-        'sym' => 'B__1',
         'desc' => 'data input/output',
       ),
-      17 => 
+      'B__0' => 
       array (
-        'num' => '18',
-        'sym' => 'B__0',
         'desc' => 'data input/output',
       ),
-      18 => 
+      '~OE' => 
       array (
-        'num' => '19',
-        'sym' => '~OE',
         'desc' => 'output enable (active low)',
       ),
-      19 => 
+      'Vcc' => 
       array (
-        'num' => '20',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -21142,158 +18897,134 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'DIR',
+        2 => 'A__0',
+        3 => 'A__1',
+        4 => 'A__2',
+        5 => 'A__3',
+        6 => 'A__4',
+        7 => 'A__5',
+        8 => 'A__6',
+        9 => 'A__7',
+        10 => 'GND',
+        11 => 'B__7',
+        12 => 'B__6',
+        13 => 'B__5',
+        14 => 'B__4',
+        15 => 'B__3',
+        16 => 'B__2',
+        17 => 'B__1',
+        18 => 'B__0',
+        19 => '~OE',
+        20 => 'Vcc',
+      ),
+    ),
   ),
   74646 => 
   array (
     'description' => 'Octal bus transceiver/register; 3-state',
-    'package' => 'DIP',
-    'pincount' => 24,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc646.74hct646.pdf',
     'pins' => 
     array (
-      0 => 
+      'CP__AB' => 
       array (
-        'num' => '1',
-        'sym' => 'CP__AB',
         'desc' => 'A to B clock input (low-to-high, edge-triggered)',
       ),
-      1 => 
+      'S__AB' => 
       array (
-        'num' => '2',
-        'sym' => 'S__AB',
         'desc' => 'select A to B source input',
       ),
-      2 => 
+      'DIR' => 
       array (
-        'num' => '3',
-        'sym' => 'DIR',
         'desc' => 'direction control input',
       ),
-      3 => 
+      'A__0' => 
       array (
-        'num' => '4',
-        'sym' => 'A__0',
         'desc' => 'A data input/output',
       ),
-      4 => 
+      'A__1' => 
       array (
-        'num' => '5',
-        'sym' => 'A__1',
         'desc' => 'A data input/output',
       ),
-      5 => 
+      'A__2' => 
       array (
-        'num' => '6',
-        'sym' => 'A__2',
         'desc' => 'A data input/output',
       ),
-      6 => 
+      'A__3' => 
       array (
-        'num' => '7',
-        'sym' => 'A__3',
         'desc' => 'A data input/output',
       ),
-      7 => 
+      'A__4' => 
       array (
-        'num' => '8',
-        'sym' => 'A__4',
         'desc' => 'A data input/output',
       ),
-      8 => 
+      'A__5' => 
       array (
-        'num' => '9',
-        'sym' => 'A__5',
         'desc' => 'A data input/output',
       ),
-      9 => 
+      'A__6' => 
       array (
-        'num' => '10',
-        'sym' => 'A__6',
         'desc' => 'A data input/output',
       ),
-      10 => 
+      'A__7' => 
       array (
-        'num' => '11',
-        'sym' => 'A__7',
         'desc' => 'A data input/output',
       ),
-      11 => 
+      'GND' => 
       array (
-        'num' => '12',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      12 => 
+      'B__7' => 
       array (
-        'num' => '13',
-        'sym' => 'B__7',
         'desc' => 'B data input/output',
       ),
-      13 => 
+      'B__6' => 
       array (
-        'num' => '14',
-        'sym' => 'B__6',
         'desc' => 'B data input/output',
       ),
-      14 => 
+      'B__5' => 
       array (
-        'num' => '15',
-        'sym' => 'B__5',
         'desc' => 'B data input/output',
       ),
-      15 => 
+      'B__4' => 
       array (
-        'num' => '16',
-        'sym' => 'B__4',
         'desc' => 'B data input/output',
       ),
-      16 => 
+      'B__3' => 
       array (
-        'num' => '17',
-        'sym' => 'B__3',
         'desc' => 'B data input/output',
       ),
-      17 => 
+      'B__2' => 
       array (
-        'num' => '18',
-        'sym' => 'B__2',
         'desc' => 'B data input/output',
       ),
-      18 => 
+      'B__1' => 
       array (
-        'num' => '19',
-        'sym' => 'B__1',
         'desc' => 'B data input/output',
       ),
-      19 => 
+      'B__0' => 
       array (
-        'num' => '20',
-        'sym' => 'B__0',
         'desc' => 'B data input/output',
       ),
-      20 => 
+      '~OE' => 
       array (
-        'num' => '21',
-        'sym' => '~OE',
         'desc' => 'output enable (active low)',
       ),
-      21 => 
+      'S__BA' => 
       array (
-        'num' => '22',
-        'sym' => 'S__BA',
         'desc' => 'select B to A source input',
       ),
-      22 => 
+      'CP__BA' => 
       array (
-        'num' => '23',
-        'sym' => 'CP__BA',
         'desc' => 'B to A clock input (low-to-high, edge-triggered)',
       ),
-      23 => 
+      'Vcc' => 
       array (
-        'num' => '24',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -21320,158 +19051,138 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'CP__AB',
+        2 => 'S__AB',
+        3 => 'DIR',
+        4 => 'A__0',
+        5 => 'A__1',
+        6 => 'A__2',
+        7 => 'A__3',
+        8 => 'A__4',
+        9 => 'A__5',
+        10 => 'A__6',
+        11 => 'A__7',
+        12 => 'GND',
+        13 => 'B__7',
+        14 => 'B__6',
+        15 => 'B__5',
+        16 => 'B__4',
+        17 => 'B__3',
+        18 => 'B__2',
+        19 => 'B__1',
+        20 => 'B__0',
+        21 => '~OE',
+        22 => 'S__BA',
+        23 => 'CP__BA',
+        24 => 'Vcc',
+      ),
+    ),
   ),
   74652 => 
   array (
     'description' => 'Octal bus transceiver/register; 3-state',
-    'package' => 'DIP',
-    'pincount' => 24,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc652.74hct652.pdf',
     'pins' => 
     array (
-      0 => 
+      'CP__AB' => 
       array (
-        'num' => '1',
-        'sym' => 'CP__AB',
         'desc' => 'A to B clock input (low-to-high, edge-triggered)',
       ),
-      1 => 
+      'S__AB' => 
       array (
-        'num' => '2',
-        'sym' => 'S__AB',
         'desc' => 'select A to B source input',
       ),
-      2 => 
+      'OE__AB' => 
       array (
-        'num' => '3',
-        'sym' => 'OE__AB',
         'desc' => 'output enable A to B',
       ),
-      3 => 
+      'A__0' => 
       array (
-        'num' => '4',
-        'sym' => 'A__0',
         'desc' => 'A data input/output',
       ),
-      4 => 
+      'A__1' => 
       array (
-        'num' => '5',
-        'sym' => 'A__1',
         'desc' => 'A data input/output',
       ),
-      5 => 
+      'A__2' => 
       array (
-        'num' => '6',
-        'sym' => 'A__2',
         'desc' => 'A data input/output',
       ),
-      6 => 
+      'A__3' => 
       array (
-        'num' => '7',
-        'sym' => 'A__3',
         'desc' => 'A data input/output',
       ),
-      7 => 
+      'A__4' => 
       array (
-        'num' => '8',
-        'sym' => 'A__4',
         'desc' => 'A data input/output',
       ),
-      8 => 
+      'A__5' => 
       array (
-        'num' => '9',
-        'sym' => 'A__5',
         'desc' => 'A data input/output',
       ),
-      9 => 
+      'A__6' => 
       array (
-        'num' => '10',
-        'sym' => 'A__6',
         'desc' => 'A data input/output',
       ),
-      10 => 
+      'A__7' => 
       array (
-        'num' => '11',
-        'sym' => 'A__7',
         'desc' => 'A data input/output',
       ),
-      11 => 
+      'GND' => 
       array (
-        'num' => '12',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      12 => 
+      'B__7' => 
       array (
-        'num' => '13',
-        'sym' => 'B__7',
         'desc' => 'B data input/output',
       ),
-      13 => 
+      'B__6' => 
       array (
-        'num' => '14',
-        'sym' => 'B__6',
         'desc' => 'B data input/output',
       ),
-      14 => 
+      'B__5' => 
       array (
-        'num' => '15',
-        'sym' => 'B__5',
         'desc' => 'B data input/output',
       ),
-      15 => 
+      'B__4' => 
       array (
-        'num' => '16',
-        'sym' => 'B__4',
         'desc' => 'B data input/output',
       ),
-      16 => 
+      'B__3' => 
       array (
-        'num' => '17',
-        'sym' => 'B__3',
         'desc' => 'B data input/output',
       ),
-      17 => 
+      'B__2' => 
       array (
-        'num' => '18',
-        'sym' => 'B__2',
         'desc' => 'B data input/output',
       ),
-      18 => 
+      'B__1' => 
       array (
-        'num' => '19',
-        'sym' => 'B__1',
         'desc' => 'B data input/output',
       ),
-      19 => 
+      'B__0' => 
       array (
-        'num' => '20',
-        'sym' => 'B__0',
         'desc' => 'B data input/output',
       ),
-      20 => 
+      '~OE~__BA' => 
       array (
-        'num' => '21',
-        'sym' => '~OE~__BA',
         'desc' => 'output enable B to A (active low)',
       ),
-      21 => 
+      'S__BA' => 
       array (
-        'num' => '22',
-        'sym' => 'S__BA',
         'desc' => 'select B to A source input',
       ),
-      22 => 
+      'CP__BA' => 
       array (
-        'num' => '23',
-        'sym' => 'CP__BA',
         'desc' => 'B to A clock input (low-to-high, edge-triggered)',
       ),
-      23 => 
+      'Vcc' => 
       array (
-        'num' => '24',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -21510,110 +19221,106 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'CP__AB',
+        2 => 'S__AB',
+        3 => 'OE__AB',
+        4 => 'A__0',
+        5 => 'A__1',
+        6 => 'A__2',
+        7 => 'A__3',
+        8 => 'A__4',
+        9 => 'A__5',
+        10 => 'A__6',
+        11 => 'A__7',
+        12 => 'GND',
+        13 => 'B__7',
+        14 => 'B__6',
+        15 => 'B__5',
+        16 => 'B__4',
+        17 => 'B__3',
+        18 => 'B__2',
+        19 => 'B__1',
+        20 => 'B__0',
+        21 => '~OE~__BA',
+        22 => 'S__BA',
+        23 => 'CP__BA',
+        24 => 'Vcc',
+      ),
+    ),
   ),
   74670 => 
   array (
     'description' => '4 by 4 register file; 3-state',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc670.74hct670.pdf',
     'pins' => 
     array (
-      0 => 
+      'D__1' => 
       array (
-        'num' => '1',
-        'sym' => 'D__1',
         'desc' => 'data input',
       ),
-      1 => 
+      'D__2' => 
       array (
-        'num' => '2',
-        'sym' => 'D__2',
         'desc' => 'data input',
       ),
-      2 => 
+      'D__3' => 
       array (
-        'num' => '3',
-        'sym' => 'D__3',
         'desc' => 'data input',
       ),
-      3 => 
+      'R__B' => 
       array (
-        'num' => '4',
-        'sym' => 'R__B',
         'desc' => 'read address input',
       ),
-      4 => 
+      'R__A' => 
       array (
-        'num' => '5',
-        'sym' => 'R__A',
         'desc' => 'read address input',
       ),
-      5 => 
+      'Q__3' => 
       array (
-        'num' => '6',
-        'sym' => 'Q__3',
         'desc' => 'data output',
       ),
-      6 => 
+      'Q__2' => 
       array (
-        'num' => '7',
-        'sym' => 'Q__2',
         'desc' => 'data output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'Q__1' => 
       array (
-        'num' => '9',
-        'sym' => 'Q__1',
         'desc' => 'data output',
       ),
-      9 => 
+      'Q__0' => 
       array (
-        'num' => '10',
-        'sym' => 'Q__0',
         'desc' => 'data output',
       ),
-      10 => 
+      '~RE' => 
       array (
-        'num' => '11',
-        'sym' => '~RE',
         'desc' => '3-state output read enable (active low)',
       ),
-      11 => 
+      '~WE' => 
       array (
-        'num' => '12',
-        'sym' => '~WE',
         'desc' => 'write enable (active low)',
       ),
-      12 => 
+      'W__B' => 
       array (
-        'num' => '13',
-        'sym' => 'W__B',
         'desc' => 'write address input',
       ),
-      13 => 
+      'W__A' => 
       array (
-        'num' => '14',
-        'sym' => 'W__A',
         'desc' => 'write address input',
       ),
-      14 => 
+      'D__0' => 
       array (
-        'num' => '15',
-        'sym' => 'D__0',
         'desc' => 'data input',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -21626,134 +19333,114 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'D__1',
+        2 => 'D__2',
+        3 => 'D__3',
+        4 => 'R__B',
+        5 => 'R__A',
+        6 => 'Q__3',
+        7 => 'Q__2',
+        8 => 'GND',
+        9 => 'Q__1',
+        10 => 'Q__0',
+        11 => '~RE',
+        12 => '~WE',
+        13 => 'W__B',
+        14 => 'W__A',
+        15 => 'D__0',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   74688 => 
   array (
     'description' => '8-bit magnitude comparator',
-    'package' => 'DIP',
-    'pincount' => 20,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc688.74hct688.pdf',
     'pins' => 
     array (
-      0 => 
+      '~E' => 
       array (
-        'num' => '1',
-        'sym' => '~E',
         'desc' => 'enable (active low)',
       ),
-      1 => 
+      'P__0' => 
       array (
-        'num' => '2',
-        'sym' => 'P__0',
         'desc' => 'word input',
       ),
-      2 => 
+      'Q__0' => 
       array (
-        'num' => '3',
-        'sym' => 'Q__0',
         'desc' => 'word input',
       ),
-      3 => 
+      'P__1' => 
       array (
-        'num' => '4',
-        'sym' => 'P__1',
         'desc' => 'word input',
       ),
-      4 => 
+      'Q__1' => 
       array (
-        'num' => '5',
-        'sym' => 'Q__1',
         'desc' => 'word input',
       ),
-      5 => 
+      'P__2' => 
       array (
-        'num' => '6',
-        'sym' => 'P__2',
         'desc' => 'word input',
       ),
-      6 => 
+      'Q__2' => 
       array (
-        'num' => '7',
-        'sym' => 'Q__2',
         'desc' => 'word input',
       ),
-      7 => 
+      'P__3' => 
       array (
-        'num' => '8',
-        'sym' => 'P__3',
         'desc' => 'word input',
       ),
-      8 => 
+      'Q__3' => 
       array (
-        'num' => '9',
-        'sym' => 'Q__3',
         'desc' => 'word input',
       ),
-      9 => 
+      'GND' => 
       array (
-        'num' => '10',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      10 => 
+      'P__4' => 
       array (
-        'num' => '11',
-        'sym' => 'P__4',
         'desc' => 'word input',
       ),
-      11 => 
+      'Q__4' => 
       array (
-        'num' => '12',
-        'sym' => 'Q__4',
         'desc' => 'word input',
       ),
-      12 => 
+      'P__5' => 
       array (
-        'num' => '13',
-        'sym' => 'P__5',
         'desc' => 'word input',
       ),
-      13 => 
+      'Q__5' => 
       array (
-        'num' => '14',
-        'sym' => 'Q__5',
         'desc' => 'word input',
       ),
-      14 => 
+      'P__6' => 
       array (
-        'num' => '15',
-        'sym' => 'P__6',
         'desc' => 'word input',
       ),
-      15 => 
+      'Q__6' => 
       array (
-        'num' => '16',
-        'sym' => 'Q__6',
         'desc' => 'word input',
       ),
-      16 => 
+      'P__7' => 
       array (
-        'num' => '17',
-        'sym' => 'P__7',
         'desc' => 'word input',
       ),
-      17 => 
+      'Q__7' => 
       array (
-        'num' => '18',
-        'sym' => 'Q__7',
         'desc' => 'word input',
       ),
-      18 => 
+      '~P=Q~' => 
       array (
-        'num' => '19',
-        'sym' => '~P=Q~',
         'desc' => 'equal-to output (low when P = Q)',
       ),
-      19 => 
+      'Vcc' => 
       array (
-        'num' => '20',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -21776,98 +19463,94 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~E',
+        2 => 'P__0',
+        3 => 'Q__0',
+        4 => 'P__1',
+        5 => 'Q__1',
+        6 => 'P__2',
+        7 => 'Q__2',
+        8 => 'P__3',
+        9 => 'Q__3',
+        10 => 'GND',
+        11 => 'P__4',
+        12 => 'Q__4',
+        13 => 'P__5',
+        14 => 'Q__5',
+        15 => 'P__6',
+        16 => 'Q__6',
+        17 => 'P__7',
+        18 => 'Q__7',
+        19 => '~P=Q~',
+        20 => 'Vcc',
+      ),
+    ),
   ),
   7473 => 
   array (
     'description' => 'Dual J-K flip-flop with reset; negative-edge trigger',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc73.pdf',
     'pins' => 
     array (
-      0 => 
+      '1~CP' => 
       array (
-        'num' => '1',
-        'sym' => '1~CP',
         'desc' => 'clock input (high-to-low edge-triggered)',
       ),
-      1 => 
+      '1~R' => 
       array (
-        'num' => '2',
-        'sym' => '1~R',
         'desc' => 'asynchronous reset (active low)',
       ),
-      2 => 
+      '1K' => 
       array (
-        'num' => '3',
-        'sym' => '1K',
         'desc' => 'synchronous K input',
       ),
-      3 => 
+      'Vcc' => 
       array (
-        'num' => '4',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
-      4 => 
+      '2~CP' => 
       array (
-        'num' => '5',
-        'sym' => '2~CP',
         'desc' => 'clock input (high-to-low edge-triggered)',
       ),
-      5 => 
+      '2~R' => 
       array (
-        'num' => '6',
-        'sym' => '2~R',
         'desc' => 'asynchronous reset (active low)',
       ),
-      6 => 
+      '2J' => 
       array (
-        'num' => '7',
-        'sym' => '2J',
         'desc' => 'synchronous J input',
       ),
-      7 => 
+      '2~Q' => 
       array (
-        'num' => '8',
-        'sym' => '2~Q',
         'desc' => 'complement output',
       ),
-      8 => 
+      '2Q' => 
       array (
-        'num' => '9',
-        'sym' => '2Q',
         'desc' => 'true output',
       ),
-      9 => 
+      '2K' => 
       array (
-        'num' => '10',
-        'sym' => '2K',
         'desc' => 'synchronous K input',
       ),
-      10 => 
+      'GND' => 
       array (
-        'num' => '11',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      11 => 
+      '1Q' => 
       array (
-        'num' => '12',
-        'sym' => '1Q',
         'desc' => 'true output',
       ),
-      12 => 
+      '1~Q' => 
       array (
-        'num' => '13',
-        'sym' => '1~Q',
         'desc' => 'complement output',
       ),
-      13 => 
+      '1J' => 
       array (
-        'num' => '14',
-        'sym' => '1J',
         'desc' => 'synchronous J input',
       ),
     ),
@@ -21898,98 +19581,88 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1~CP',
+        2 => '1~R',
+        3 => '1K',
+        4 => 'Vcc',
+        5 => '2~CP',
+        6 => '2~R',
+        7 => '2J',
+        8 => '2~Q',
+        9 => '2Q',
+        10 => '2K',
+        11 => 'GND',
+        12 => '1Q',
+        13 => '1~Q',
+        14 => '1J',
+      ),
+    ),
   ),
   7474 => 
   array (
     'description' => 'Dual D-type flip-flop with set and reset; positive-edge trigger',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc74.74hct74.pdf',
     'pins' => 
     array (
-      0 => 
+      '1~R~D' => 
       array (
-        'num' => '1',
-        'sym' => '1~R~D',
         'desc' => 'asynchronous reset-direct input (active low)',
       ),
-      1 => 
+      '1D' => 
       array (
-        'num' => '2',
-        'sym' => '1D',
         'desc' => 'data input',
       ),
-      2 => 
+      '1CP' => 
       array (
-        'num' => '3',
-        'sym' => '1CP',
         'desc' => 'clock input (low-to-high edge-triggered)',
       ),
-      3 => 
+      '1~S~D' => 
       array (
-        'num' => '4',
-        'sym' => '1~S~D',
         'desc' => 'asynchronous set-direct input (active low)',
       ),
-      4 => 
+      '1Q' => 
       array (
-        'num' => '5',
-        'sym' => '1Q',
         'desc' => 'true output',
       ),
-      5 => 
+      '1~Q' => 
       array (
-        'num' => '6',
-        'sym' => '1~Q',
         'desc' => 'complement output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '2~Q' => 
       array (
-        'num' => '8',
-        'sym' => '2~Q',
         'desc' => 'complement output',
       ),
-      8 => 
+      '2Q' => 
       array (
-        'num' => '9',
-        'sym' => '2Q',
         'desc' => 'true output',
       ),
-      9 => 
+      '2~S~D' => 
       array (
-        'num' => '10',
-        'sym' => '2~S~D',
         'desc' => 'asynchronous set-direct input (active low)',
       ),
-      10 => 
+      '2CP' => 
       array (
-        'num' => '11',
-        'sym' => '2CP',
         'desc' => 'clock input (low-to-high edge-triggered)',
       ),
-      11 => 
+      '2D' => 
       array (
-        'num' => '12',
-        'sym' => '2D',
         'desc' => 'data input',
       ),
-      12 => 
+      '2~R~D' => 
       array (
-        'num' => '13',
-        'sym' => '2~R~D',
         'desc' => 'asynchronous reset-direct input (active low)',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -22036,110 +19709,96 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1~R~D',
+        2 => '1D',
+        3 => '1CP',
+        4 => '1~S~D',
+        5 => '1Q',
+        6 => '1~Q',
+        7 => 'GND',
+        8 => '2~Q',
+        9 => '2Q',
+        10 => '2~S~D',
+        11 => '2CP',
+        12 => '2D',
+        13 => '2~R~D',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   7475 => 
   array (
     'description' => 'Quad bistable transparent latch',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/74HC75_3.pdf',
     'pins' => 
     array (
-      0 => 
+      '1~Q' => 
       array (
-        'num' => '1',
-        'sym' => '1~Q',
         'desc' => 'complementary latch output 1',
       ),
-      1 => 
+      '1D' => 
       array (
-        'num' => '2',
-        'sym' => '1D',
         'desc' => 'data input 1',
       ),
-      2 => 
+      '2D' => 
       array (
-        'num' => '3',
-        'sym' => '2D',
         'desc' => 'data input 2',
       ),
-      3 => 
+      'LE34' => 
       array (
-        'num' => '4',
-        'sym' => 'LE34',
         'desc' => 'latch enable input for latches 3 and 4',
       ),
-      4 => 
+      'Vcc' => 
       array (
-        'num' => '5',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
-      5 => 
+      '3D' => 
       array (
-        'num' => '6',
-        'sym' => '3D',
         'desc' => 'data input 3',
       ),
-      6 => 
+      '4D' => 
       array (
-        'num' => '7',
-        'sym' => '4D',
         'desc' => 'data input 4',
       ),
-      7 => 
+      '4~Q' => 
       array (
-        'num' => '8',
-        'sym' => '4~Q',
         'desc' => 'complementary latch output 4',
       ),
-      8 => 
+      '4Q' => 
       array (
-        'num' => '9',
-        'sym' => '4Q',
         'desc' => 'latch output 4',
       ),
-      9 => 
+      '3Q' => 
       array (
-        'num' => '10',
-        'sym' => '3Q',
         'desc' => 'latch output 3',
       ),
-      10 => 
+      '3~Q' => 
       array (
-        'num' => '11',
-        'sym' => '3~Q',
         'desc' => 'complementary latch output 3',
       ),
-      11 => 
+      'GND' => 
       array (
-        'num' => '12',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      12 => 
+      'LE12' => 
       array (
-        'num' => '13',
-        'sym' => 'LE12',
         'desc' => 'latch enable input for latches 1 and 2',
       ),
-      13 => 
+      '2~Q' => 
       array (
-        'num' => '14',
-        'sym' => '2~Q',
         'desc' => 'complementary latch output 2',
       ),
-      14 => 
+      '2Q' => 
       array (
-        'num' => '15',
-        'sym' => '2Q',
         'desc' => 'latch output 2',
       ),
-      15 => 
+      '1Q' => 
       array (
-        'num' => '16',
-        'sym' => '1Q',
         'desc' => 'latch output 1',
       ),
     ),
@@ -22152,110 +19811,98 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1~Q',
+        2 => '1D',
+        3 => '2D',
+        4 => 'LE34',
+        5 => 'Vcc',
+        6 => '3D',
+        7 => '4D',
+        8 => '4~Q',
+        9 => '4Q',
+        10 => '3Q',
+        11 => '3~Q',
+        12 => 'GND',
+        13 => 'LE12',
+        14 => '2~Q',
+        15 => '2Q',
+        16 => '1Q',
+      ),
+    ),
   ),
   7485 => 
   array (
     'description' => '4-bit magnitude comparator',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc85.74hct85.pdf',
     'pins' => 
     array (
-      0 => 
+      'B__3' => 
       array (
-        'num' => '1',
-        'sym' => 'B__3',
         'desc' => 'word B input',
       ),
-      1 => 
+      'I__A<B' => 
       array (
-        'num' => '2',
-        'sym' => 'I__A<B',
         'desc' => 'A < B expansion input',
       ),
-      2 => 
+      'I__A=B' => 
       array (
-        'num' => '3',
-        'sym' => 'I__A=B',
         'desc' => 'A = B expansion input',
       ),
-      3 => 
+      'I__A>B' => 
       array (
-        'num' => '4',
-        'sym' => 'I__A>B',
         'desc' => 'A > B expansion input',
       ),
-      4 => 
+      'Q__A>B' => 
       array (
-        'num' => '5',
-        'sym' => 'Q__A>B',
         'desc' => 'A > B output',
       ),
-      5 => 
+      'Q__A=B' => 
       array (
-        'num' => '6',
-        'sym' => 'Q__A=B',
         'desc' => 'A = B output',
       ),
-      6 => 
+      'Q__A<B' => 
       array (
-        'num' => '7',
-        'sym' => 'Q__A<B',
         'desc' => 'A < B output',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      'B__0' => 
       array (
-        'num' => '9',
-        'sym' => 'B__0',
         'desc' => 'word B input',
       ),
-      9 => 
+      'A__0' => 
       array (
-        'num' => '10',
-        'sym' => 'A__0',
         'desc' => 'word A input',
       ),
-      10 => 
+      'B__1' => 
       array (
-        'num' => '11',
-        'sym' => 'B__1',
         'desc' => 'word B input',
       ),
-      11 => 
+      'A__1' => 
       array (
-        'num' => '12',
-        'sym' => 'A__1',
         'desc' => 'word A input',
       ),
-      12 => 
+      'A__2' => 
       array (
-        'num' => '13',
-        'sym' => 'A__2',
         'desc' => 'word A input',
       ),
-      13 => 
+      'B__2' => 
       array (
-        'num' => '14',
-        'sym' => 'B__2',
         'desc' => 'word B input',
       ),
-      14 => 
+      'A__3' => 
       array (
-        'num' => '15',
-        'sym' => 'A__3',
         'desc' => 'word A input',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -22307,98 +19954,90 @@
       0 => 'The least significant (or only) comparator in a chain should have I__A<B and I__A>B tied low and I__A=B tied high.',
       1 => 'To compare more than 4 bits, connect the outputs to the expansion inputs of the next significant comparator.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'B__3',
+        2 => 'I__A<B',
+        3 => 'I__A=B',
+        4 => 'I__A>B',
+        5 => 'Q__A>B',
+        6 => 'Q__A=B',
+        7 => 'Q__A<B',
+        8 => 'GND',
+        9 => 'B__0',
+        10 => 'A__0',
+        11 => 'B__1',
+        12 => 'A__1',
+        13 => 'A__2',
+        14 => 'B__2',
+        15 => 'A__3',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   7486 => 
   array (
     'description' => 'Quad 2-input XOR gate',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/74HC_HCT86_CNV_2.pdf',
     'pins' => 
     array (
-      0 => 
+      '1A' => 
       array (
-        'num' => '1',
-        'sym' => '1A',
         'desc' => 'data input',
       ),
-      1 => 
+      '1B' => 
       array (
-        'num' => '2',
-        'sym' => '1B',
         'desc' => 'data input',
       ),
-      2 => 
+      '1Y' => 
       array (
-        'num' => '3',
-        'sym' => '1Y',
         'desc' => 'data output',
       ),
-      3 => 
+      '2A' => 
       array (
-        'num' => '4',
-        'sym' => '2A',
         'desc' => 'data input',
       ),
-      4 => 
+      '2B' => 
       array (
-        'num' => '5',
-        'sym' => '2B',
         'desc' => 'data input',
       ),
-      5 => 
+      '2Y' => 
       array (
-        'num' => '6',
-        'sym' => '2Y',
         'desc' => 'data output',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      '3Y' => 
       array (
-        'num' => '8',
-        'sym' => '3Y',
         'desc' => 'data output',
       ),
-      8 => 
+      '3A' => 
       array (
-        'num' => '9',
-        'sym' => '3A',
         'desc' => 'data input',
       ),
-      9 => 
+      '3B' => 
       array (
-        'num' => '10',
-        'sym' => '3B',
         'desc' => 'data input',
       ),
-      10 => 
+      '4Y' => 
       array (
-        'num' => '11',
-        'sym' => '4Y',
         'desc' => 'data output',
       ),
-      11 => 
+      '4A' => 
       array (
-        'num' => '12',
-        'sym' => '4A',
         'desc' => 'data input',
       ),
-      12 => 
+      '4B' => 
       array (
-        'num' => '13',
-        'sym' => '4B',
         'desc' => 'data input',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -22415,98 +20054,80 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1A',
+        2 => '1B',
+        3 => '1Y',
+        4 => '2A',
+        5 => '2B',
+        6 => '2Y',
+        7 => 'GND',
+        8 => '3Y',
+        9 => '3A',
+        10 => '3B',
+        11 => '4Y',
+        12 => '4A',
+        13 => '4B',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   7490 => 
   array (
     'description' => '4-bit decade counter',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/sn74ls90.pdf',
     'pins' => 
     array (
-      0 => 
+      'CKB' => 
       array (
-        'num' => '1',
-        'sym' => 'CKB',
         'desc' => 'clock input',
       ),
-      1 => 
+      'R0(1)' => 
       array (
-        'num' => '2',
-        'sym' => 'R0(1)',
         'desc' => 'reset to 0',
       ),
-      2 => 
+      'R0(2)' => 
       array (
-        'num' => '3',
-        'sym' => 'R0(2)',
         'desc' => 'reset to 0',
       ),
-      3 => 
+      'Vcc' => 
       array (
-        'num' => '4',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      4 => 
-      array (
-        'num' => '5',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
-      5 => 
+      'R9(1)' => 
       array (
-        'num' => '6',
-        'sym' => 'R9(1)',
         'desc' => 'reset to 9',
       ),
-      6 => 
+      'R9(2)' => 
       array (
-        'num' => '7',
-        'sym' => 'R9(2)',
         'desc' => 'reset to 9',
       ),
-      7 => 
+      'Q__C' => 
       array (
-        'num' => '8',
-        'sym' => 'Q__C',
         'desc' => 'counter output',
       ),
-      8 => 
+      'Q__B' => 
       array (
-        'num' => '9',
-        'sym' => 'Q__B',
         'desc' => 'counter output',
       ),
-      9 => 
+      'GND' => 
       array (
-        'num' => '10',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      10 => 
+      'Q__D' => 
       array (
-        'num' => '11',
-        'sym' => 'Q__D',
         'desc' => 'counter output',
       ),
-      11 => 
+      'Q__A' => 
       array (
-        'num' => '12',
-        'sym' => 'Q__A',
         'desc' => 'counter output',
       ),
-      12 => 
+      'CKA' => 
       array (
-        'num' => '13',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      13 => 
-      array (
-        'num' => '14',
-        'sym' => 'CKA',
         'desc' => 'clock input',
       ),
     ),
@@ -22514,98 +20135,72 @@
     array (
       0 => 'For maximum count length, connect CKB to Q__A and apply input pulses to CKA.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'CKB',
+        2 => 'R0(1)',
+        3 => 'R0(2)',
+        4 => 'NC',
+        5 => 'Vcc',
+        6 => 'R9(1)',
+        7 => 'R9(2)',
+        8 => 'Q__C',
+        9 => 'Q__B',
+        10 => 'GND',
+        11 => 'Q__D',
+        12 => 'Q__A',
+        13 => 'NC',
+        14 => 'CKA',
+      ),
+    ),
   ),
   7493 => 
   array (
     'description' => '4-bit binary ripple counter',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => '7400',
     'datasheet' => 'http://www.standardics.nxp.com/products/hc/datasheet/74hc93.74hct93.pdf',
     'pins' => 
     array (
-      0 => 
+      '~CP~__1' => 
       array (
-        'num' => '1',
-        'sym' => '~CP~__1',
         'desc' => 'clock input, 2nd, 3rd and 4th section (high-to-low edge-triggered)',
       ),
-      1 => 
+      'MR__1' => 
       array (
-        'num' => '2',
-        'sym' => 'MR__1',
         'desc' => 'asynchronous master reset',
       ),
-      2 => 
+      'MR__2' => 
       array (
-        'num' => '3',
-        'sym' => 'MR__2',
         'desc' => 'asynchronous master reset',
       ),
-      3 => 
+      'Vcc' => 
       array (
-        'num' => '4',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      4 => 
-      array (
-        'num' => '5',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
-      5 => 
+      'Q__2' => 
       array (
-        'num' => '6',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      6 => 
-      array (
-        'num' => '7',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      7 => 
-      array (
-        'num' => '8',
-        'sym' => 'Q__2',
         'desc' => 'counter output',
       ),
-      8 => 
+      'Q__1' => 
       array (
-        'num' => '9',
-        'sym' => 'Q__1',
         'desc' => 'counter output',
       ),
-      9 => 
+      'GND' => 
       array (
-        'num' => '10',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      10 => 
+      'Q__3' => 
       array (
-        'num' => '11',
-        'sym' => 'Q__3',
         'desc' => 'counter output',
       ),
-      11 => 
+      'Q__0' => 
       array (
-        'num' => '12',
-        'sym' => 'Q__0',
         'desc' => 'counter output',
       ),
-      12 => 
+      '~CP~__0' => 
       array (
-        'num' => '13',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      13 => 
-      array (
-        'num' => '14',
-        'sym' => '~CP~__0',
         'desc' => 'clock input, 1st section (high-to-low edge-triggered)',
       ),
     ),
@@ -22639,6 +20234,26 @@
       2 => 'For a 4-bit counter, connect Q__0 to ~CP~__1, and apply count pulses to ~CP~__0.',
       3 => 'For a 3-bit counter, apply count pulses to ~CP~__1.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~CP~__1',
+        2 => 'MR__1',
+        3 => 'MR__2',
+        4 => 'NC',
+        5 => 'Vcc',
+        6 => 'NC',
+        7 => 'NC',
+        8 => 'Q__2',
+        9 => 'Q__1',
+        10 => 'GND',
+        11 => 'Q__3',
+        12 => 'Q__0',
+        13 => 'NC',
+        14 => '~CP~__0',
+      ),
+    ),
   ),
   8254 => 
   array (
@@ -22647,154 +20262,104 @@
     array (
       0 => '82C54',
     ),
-    'package' => 'DIP',
-    'pincount' => 24,
     'family' => 'Intel',
     'datasheet' => 'http://www.scs.stanford.edu/10wi-cs140/pintos/specs/8254.pdf',
     'pins' => 
     array (
-      0 => 
+      'D7' => 
       array (
-        'num' => '1',
-        'sym' => 'D7',
         'desc' => 'data bus',
       ),
-      1 => 
+      'D6' => 
       array (
-        'num' => '2',
-        'sym' => 'D6',
         'desc' => 'data bus',
       ),
-      2 => 
+      'D5' => 
       array (
-        'num' => '3',
-        'sym' => 'D5',
         'desc' => 'data bus',
       ),
-      3 => 
+      'D4' => 
       array (
-        'num' => '4',
-        'sym' => 'D4',
         'desc' => 'data bus',
       ),
-      4 => 
+      'D3' => 
       array (
-        'num' => '5',
-        'sym' => 'D3',
         'desc' => 'data bus',
       ),
-      5 => 
+      'D2' => 
       array (
-        'num' => '6',
-        'sym' => 'D2',
         'desc' => 'data bus',
       ),
-      6 => 
+      'D1' => 
       array (
-        'num' => '7',
-        'sym' => 'D1',
         'desc' => 'data bus',
       ),
-      7 => 
+      'D0' => 
       array (
-        'num' => '8',
-        'sym' => 'D0',
         'desc' => 'data bus',
       ),
-      8 => 
+      'CLK 0' => 
       array (
-        'num' => '9',
-        'sym' => 'CLK 0',
         'desc' => 'counter 0 clock input',
       ),
-      9 => 
+      'OUT 0' => 
       array (
-        'num' => '10',
-        'sym' => 'OUT 0',
         'desc' => 'counter 0 output',
       ),
-      10 => 
+      'GATE 0' => 
       array (
-        'num' => '11',
-        'sym' => 'GATE 0',
         'desc' => 'counter 0 gate input',
       ),
-      11 => 
+      'GND' => 
       array (
-        'num' => '12',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      12 => 
+      'OUT 1' => 
       array (
-        'num' => '13',
-        'sym' => 'OUT 1',
         'desc' => 'counter 1 output',
       ),
-      13 => 
+      'GATE 1' => 
       array (
-        'num' => '14',
-        'sym' => 'GATE 1',
         'desc' => 'counter 1 gate input',
       ),
-      14 => 
+      'CLK 1' => 
       array (
-        'num' => '15',
-        'sym' => 'CLK 1',
         'desc' => 'counter 1 clock input',
       ),
-      15 => 
+      'GATE 2' => 
       array (
-        'num' => '16',
-        'sym' => 'GATE 2',
         'desc' => 'counter 2 gate input',
       ),
-      16 => 
+      'OUT 2' => 
       array (
-        'num' => '17',
-        'sym' => 'OUT 2',
         'desc' => 'counter 2 output',
       ),
-      17 => 
+      'CLK 2' => 
       array (
-        'num' => '18',
-        'sym' => 'CLK 2',
         'desc' => 'counter 2 clock input',
       ),
-      18 => 
+      'A0' => 
       array (
-        'num' => '19',
-        'sym' => 'A0',
         'desc' => 'address bus',
       ),
-      19 => 
+      'A1' => 
       array (
-        'num' => '20',
-        'sym' => 'A1',
         'desc' => 'address bus',
       ),
-      20 => 
+      '~CS' => 
       array (
-        'num' => '21',
-        'sym' => '~CS',
         'desc' => 'chip select (active low)',
       ),
-      21 => 
+      '~RD' => 
       array (
-        'num' => '22',
-        'sym' => '~RD',
         'desc' => 'read enable (active low)',
       ),
-      22 => 
+      '~WR' => 
       array (
-        'num' => '23',
-        'sym' => '~WR',
         'desc' => 'write enable (active low)',
       ),
-      23 => 
+      'Vcc' => 
       array (
-        'num' => '24',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -22831,6 +20396,36 @@
       9 => 'Mode 4: software triggered strobe',
       10 => 'Mode 5: hardware triggered strobe (retriggerable)',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'D7',
+        2 => 'D6',
+        3 => 'D5',
+        4 => 'D4',
+        5 => 'D3',
+        6 => 'D2',
+        7 => 'D1',
+        8 => 'D0',
+        9 => 'CLK 0',
+        10 => 'OUT 0',
+        11 => 'GATE 0',
+        12 => 'GND',
+        13 => 'OUT 1',
+        14 => 'GATE 1',
+        15 => 'CLK 1',
+        16 => 'GATE 2',
+        17 => 'OUT 2',
+        18 => 'CLK 2',
+        19 => 'A0',
+        20 => 'A1',
+        21 => '~CS',
+        22 => '~RD',
+        23 => '~WR',
+        24 => 'Vcc',
+      ),
+    ),
   ),
   '8255A' => 
   array (
@@ -22839,250 +20434,168 @@
     array (
       0 => '82C55A',
     ),
-    'package' => 'DIP',
-    'pincount' => 40,
     'family' => 'Intel',
     'datasheet' => 'http://www.intersil.com/data/fn/fn2969.pdf',
     'pins' => 
     array (
-      0 => 
+      'PA3' => 
       array (
-        'num' => '1',
-        'sym' => 'PA3',
         'desc' => 'port A',
       ),
-      1 => 
+      'PA2' => 
       array (
-        'num' => '2',
-        'sym' => 'PA2',
         'desc' => 'port A',
       ),
-      2 => 
+      'PA1' => 
       array (
-        'num' => '3',
-        'sym' => 'PA1',
         'desc' => 'port A',
       ),
-      3 => 
+      'PA0' => 
       array (
-        'num' => '4',
-        'sym' => 'PA0',
         'desc' => 'port A',
       ),
-      4 => 
+      '~RD' => 
       array (
-        'num' => '5',
-        'sym' => '~RD',
         'desc' => 'read enable (active low)',
       ),
-      5 => 
+      '~CS' => 
       array (
-        'num' => '6',
-        'sym' => '~CS',
         'desc' => 'chip select (active low)',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      'A1' => 
       array (
-        'num' => '8',
-        'sym' => 'A1',
         'desc' => 'address input',
       ),
-      8 => 
+      'A0' => 
       array (
-        'num' => '9',
-        'sym' => 'A0',
         'desc' => 'address input',
       ),
-      9 => 
+      'PC7' => 
       array (
-        'num' => '10',
-        'sym' => 'PC7',
         'desc' => 'port C',
       ),
-      10 => 
+      'PC6' => 
       array (
-        'num' => '11',
-        'sym' => 'PC6',
         'desc' => 'port C',
       ),
-      11 => 
+      'PC5' => 
       array (
-        'num' => '12',
-        'sym' => 'PC5',
         'desc' => 'port C',
       ),
-      12 => 
+      'PC4' => 
       array (
-        'num' => '13',
-        'sym' => 'PC4',
         'desc' => 'port C',
       ),
-      13 => 
+      'PC0' => 
       array (
-        'num' => '14',
-        'sym' => 'PC0',
         'desc' => 'port C',
       ),
-      14 => 
+      'PC1' => 
       array (
-        'num' => '15',
-        'sym' => 'PC1',
         'desc' => 'port C',
       ),
-      15 => 
+      'PC2' => 
       array (
-        'num' => '16',
-        'sym' => 'PC2',
         'desc' => 'port C',
       ),
-      16 => 
+      'PC3' => 
       array (
-        'num' => '17',
-        'sym' => 'PC3',
         'desc' => 'port C',
       ),
-      17 => 
+      'PB0' => 
       array (
-        'num' => '18',
-        'sym' => 'PB0',
         'desc' => 'port B',
       ),
-      18 => 
+      'PB1' => 
       array (
-        'num' => '19',
-        'sym' => 'PB1',
         'desc' => 'port B',
       ),
-      19 => 
+      'PB2' => 
       array (
-        'num' => '20',
-        'sym' => 'PB2',
         'desc' => 'port B',
       ),
-      20 => 
+      'PB3' => 
       array (
-        'num' => '21',
-        'sym' => 'PB3',
         'desc' => 'port B',
       ),
-      21 => 
+      'PB4' => 
       array (
-        'num' => '22',
-        'sym' => 'PB4',
         'desc' => 'port B',
       ),
-      22 => 
+      'PB5' => 
       array (
-        'num' => '23',
-        'sym' => 'PB5',
         'desc' => 'port B',
       ),
-      23 => 
+      'PB6' => 
       array (
-        'num' => '24',
-        'sym' => 'PB6',
         'desc' => 'port B',
       ),
-      24 => 
+      'PB7' => 
       array (
-        'num' => '25',
-        'sym' => 'PB7',
         'desc' => 'port B',
       ),
-      25 => 
+      'Vcc' => 
       array (
-        'num' => '26',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
-      26 => 
+      'D7' => 
       array (
-        'num' => '27',
-        'sym' => 'D7',
         'desc' => 'data bus',
       ),
-      27 => 
+      'D6' => 
       array (
-        'num' => '28',
-        'sym' => 'D6',
         'desc' => 'data bus',
       ),
-      28 => 
+      'D5' => 
       array (
-        'num' => '29',
-        'sym' => 'D5',
         'desc' => 'data bus',
       ),
-      29 => 
+      'D4' => 
       array (
-        'num' => '30',
-        'sym' => 'D4',
         'desc' => 'data bus',
       ),
-      30 => 
+      'D3' => 
       array (
-        'num' => '31',
-        'sym' => 'D3',
         'desc' => 'data bus',
       ),
-      31 => 
+      'D2' => 
       array (
-        'num' => '32',
-        'sym' => 'D2',
         'desc' => 'data bus',
       ),
-      32 => 
+      'D1' => 
       array (
-        'num' => '33',
-        'sym' => 'D1',
         'desc' => 'data bus',
       ),
-      33 => 
+      'D0' => 
       array (
-        'num' => '34',
-        'sym' => 'D0',
         'desc' => 'data bus',
       ),
-      34 => 
+      'RESET' => 
       array (
-        'num' => '35',
-        'sym' => 'RESET',
         'desc' => 'reset (active high)',
       ),
-      35 => 
+      '~WR' => 
       array (
-        'num' => '36',
-        'sym' => '~WR',
         'desc' => 'write enable (active low)',
       ),
-      36 => 
+      'PA7' => 
       array (
-        'num' => '37',
-        'sym' => 'PA7',
         'desc' => 'port A',
       ),
-      37 => 
+      'PA6' => 
       array (
-        'num' => '38',
-        'sym' => 'PA6',
         'desc' => 'port A',
       ),
-      38 => 
+      'PA5' => 
       array (
-        'num' => '39',
-        'sym' => 'PA5',
         'desc' => 'port A',
       ),
-      39 => 
+      'PA4' => 
       array (
-        'num' => '40',
-        'sym' => 'PA4',
         'desc' => 'port A',
       ),
     ),
@@ -23108,274 +20621,286 @@
 <tr><td>Bits 1-3</td><td>specify bit to modify (0-7)</td></tr>
 </table>',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'PA3',
+        2 => 'PA2',
+        3 => 'PA1',
+        4 => 'PA0',
+        5 => '~RD',
+        6 => '~CS',
+        7 => 'GND',
+        8 => 'A1',
+        9 => 'A0',
+        10 => 'PC7',
+        11 => 'PC6',
+        12 => 'PC5',
+        13 => 'PC4',
+        14 => 'PC0',
+        15 => 'PC1',
+        16 => 'PC2',
+        17 => 'PC3',
+        18 => 'PB0',
+        19 => 'PB1',
+        20 => 'PB2',
+        21 => 'PB3',
+        22 => 'PB4',
+        23 => 'PB5',
+        24 => 'PB6',
+        25 => 'PB7',
+        26 => 'Vcc',
+        27 => 'D7',
+        28 => 'D6',
+        29 => 'D5',
+        30 => 'D4',
+        31 => 'D3',
+        32 => 'D2',
+        33 => 'D1',
+        34 => 'D0',
+        35 => 'RESET',
+        36 => '~WR',
+        37 => 'PA7',
+        38 => 'PA6',
+        39 => 'PA5',
+        40 => 'PA4',
+      ),
+    ),
   ),
   'A6278' => 
   array (
     'description' => 'Serial-input constant-current latched LED driver (8 outputs)',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => 'Allegro',
     'datasheet' => 'http://www.allegromicro.com/en/Products/Part_Numbers/6278/6278.pdf',
     'pins' => 
     array (
-      0 => 
+      'GND' => 
       array (
-        'num' => '1',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      1 => 
+      'DATA' => 
       array (
-        'num' => '2',
-        'sym' => 'DATA',
         'desc' => 'serial data in',
       ),
-      2 => 
+      'CLOCK' => 
       array (
-        'num' => '3',
-        'sym' => 'CLOCK',
         'desc' => 'clock input (low-to-high triggered)',
       ),
-      3 => 
+      'LATCH' => 
       array (
-        'num' => '4',
-        'sym' => 'LATCH',
         'desc' => 'data strobe input (active high)',
       ),
-      4 => 
+      'OUT0' => 
       array (
-        'num' => '5',
-        'sym' => 'OUT0',
         'desc' => 'current-sinking output',
       ),
-      5 => 
+      'OUT1' => 
       array (
-        'num' => '6',
-        'sym' => 'OUT1',
         'desc' => 'current-sinking output',
       ),
-      6 => 
+      'OUT2' => 
       array (
-        'num' => '7',
-        'sym' => 'OUT2',
         'desc' => 'current-sinking output',
       ),
-      7 => 
+      'OUT3' => 
       array (
-        'num' => '8',
-        'sym' => 'OUT3',
         'desc' => 'current-sinking output',
       ),
-      8 => 
+      'OUT4' => 
       array (
-        'num' => '9',
-        'sym' => 'OUT4',
         'desc' => 'current-sinking output',
       ),
-      9 => 
+      'OUT5' => 
       array (
-        'num' => '10',
-        'sym' => 'OUT5',
         'desc' => 'current-sinking output',
       ),
-      10 => 
+      'OUT6' => 
       array (
-        'num' => '11',
-        'sym' => 'OUT6',
         'desc' => 'current-sinking output',
       ),
-      11 => 
+      'OUT7' => 
       array (
-        'num' => '12',
-        'sym' => 'OUT7',
         'desc' => 'current-sinking output',
       ),
-      12 => 
+      '~OE' => 
       array (
-        'num' => '13',
-        'sym' => '~OE',
         'desc' => 'output enable (active low)',
       ),
-      13 => 
+      'DATA OUT' => 
       array (
-        'num' => '14',
-        'sym' => 'DATA OUT',
         'desc' => 'serial data out, for cascading',
       ),
-      14 => 
+      'REXT' => 
       array (
-        'num' => '15',
-        'sym' => 'REXT',
         'desc' => 'external resistor to ground (sets output current)',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'GND',
+        2 => 'DATA',
+        3 => 'CLOCK',
+        4 => 'LATCH',
+        5 => 'OUT0',
+        6 => 'OUT1',
+        7 => 'OUT2',
+        8 => 'OUT3',
+        9 => 'OUT4',
+        10 => 'OUT5',
+        11 => 'OUT6',
+        12 => 'OUT7',
+        13 => '~OE',
+        14 => 'DATA OUT',
+        15 => 'REXT',
+        16 => 'Vcc',
       ),
     ),
   ),
   'A6279' => 
   array (
     'description' => 'Serial-input constant-current latched LED driver (16 outputs)',
-    'package' => 'DIP',
-    'pincount' => 24,
     'family' => 'Allegro',
     'datasheet' => 'http://www.allegromicro.com/en/Products/Part_Numbers/6278/6278.pdf',
     'pins' => 
     array (
-      0 => 
+      'GND' => 
       array (
-        'num' => '1',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      1 => 
+      'DATA' => 
       array (
-        'num' => '2',
-        'sym' => 'DATA',
         'desc' => 'serial data in',
       ),
-      2 => 
+      'CLOCK' => 
       array (
-        'num' => '3',
-        'sym' => 'CLOCK',
         'desc' => 'clock input (low-to-high triggered)',
       ),
-      3 => 
+      'LATCH' => 
       array (
-        'num' => '4',
-        'sym' => 'LATCH',
         'desc' => 'data strobe input (active high)',
       ),
-      4 => 
+      'OUT0' => 
       array (
-        'num' => '5',
-        'sym' => 'OUT0',
         'desc' => 'current-sinking output',
       ),
-      5 => 
+      'OUT1' => 
       array (
-        'num' => '6',
-        'sym' => 'OUT1',
         'desc' => 'current-sinking output',
       ),
-      6 => 
+      'OUT2' => 
       array (
-        'num' => '7',
-        'sym' => 'OUT2',
         'desc' => 'current-sinking output',
       ),
-      7 => 
+      'OUT3' => 
       array (
-        'num' => '8',
-        'sym' => 'OUT3',
         'desc' => 'current-sinking output',
       ),
-      8 => 
+      'OUT4' => 
       array (
-        'num' => '9',
-        'sym' => 'OUT4',
         'desc' => 'current-sinking output',
       ),
-      9 => 
+      'OUT5' => 
       array (
-        'num' => '10',
-        'sym' => 'OUT5',
         'desc' => 'current-sinking output',
       ),
-      10 => 
+      'OUT6' => 
       array (
-        'num' => '11',
-        'sym' => 'OUT6',
         'desc' => 'current-sinking output',
       ),
-      11 => 
+      'OUT7' => 
       array (
-        'num' => '12',
-        'sym' => 'OUT7',
         'desc' => 'current-sinking output',
       ),
-      12 => 
+      'OUT8' => 
       array (
-        'num' => '13',
-        'sym' => 'OUT8',
         'desc' => 'current-sinking output',
       ),
-      13 => 
+      'OUT9' => 
       array (
-        'num' => '14',
-        'sym' => 'OUT9',
         'desc' => 'current-sinking output',
       ),
-      14 => 
+      'OUT10' => 
       array (
-        'num' => '15',
-        'sym' => 'OUT10',
         'desc' => 'current-sinking output',
       ),
-      15 => 
+      'OUT11' => 
       array (
-        'num' => '16',
-        'sym' => 'OUT11',
         'desc' => 'current-sinking output',
       ),
-      16 => 
+      'OUT12' => 
       array (
-        'num' => '17',
-        'sym' => 'OUT12',
         'desc' => 'current-sinking output',
       ),
-      17 => 
+      'OUT13' => 
       array (
-        'num' => '18',
-        'sym' => 'OUT13',
         'desc' => 'current-sinking output',
       ),
-      18 => 
+      'OUT14' => 
       array (
-        'num' => '19',
-        'sym' => 'OUT14',
         'desc' => 'current-sinking output',
       ),
-      19 => 
+      'OUT15' => 
       array (
-        'num' => '20',
-        'sym' => 'OUT15',
         'desc' => 'current-sinking output',
       ),
-      20 => 
+      '~OE' => 
       array (
-        'num' => '21',
-        'sym' => '~OE',
         'desc' => 'output enable (active low)',
       ),
-      21 => 
+      'DATA OUT' => 
       array (
-        'num' => '22',
-        'sym' => 'DATA OUT',
         'desc' => 'serial data out, for cascading',
       ),
-      22 => 
+      'REXT' => 
       array (
-        'num' => '23',
-        'sym' => 'REXT',
         'desc' => 'external resistor to ground (sets output current)',
       ),
-      23 => 
+      'Vcc' => 
       array (
-        'num' => '24',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'GND',
+        2 => 'DATA',
+        3 => 'CLOCK',
+        4 => 'LATCH',
+        5 => 'OUT0',
+        6 => 'OUT1',
+        7 => 'OUT2',
+        8 => 'OUT3',
+        9 => 'OUT4',
+        10 => 'OUT5',
+        11 => 'OUT6',
+        12 => 'OUT7',
+        13 => 'OUT8',
+        14 => 'OUT9',
+        15 => 'OUT10',
+        16 => 'OUT11',
+        17 => 'OUT12',
+        18 => 'OUT13',
+        19 => 'OUT14',
+        20 => 'OUT15',
+        21 => '~OE',
+        22 => 'DATA OUT',
+        23 => 'REXT',
+        24 => 'Vcc',
       ),
     ),
   ),
   'AD7528' => 
   array (
     'description' => 'CMOS dual 8-bit buffered multiplying DAC',
-    'package' => 'DIP',
-    'pincount' => 20,
     'aliases' => 
     array (
       0 => 'TLC7528',
@@ -23384,124 +20909,84 @@
     'datasheet' => 'http://www.analog.com/static/imported-files/data_sheets/AD7528.pdf',
     'pins' => 
     array (
-      0 => 
+      'AGND' => 
       array (
-        'num' => '1',
-        'sym' => 'AGND',
         'desc' => 'analog ground',
       ),
-      1 => 
+      'OUT A' => 
       array (
-        'num' => '2',
-        'sym' => 'OUT A',
         'desc' => 'analog current output',
       ),
-      2 => 
+      'R__FB A' => 
       array (
-        'num' => '3',
-        'sym' => 'R__FB A',
         'desc' => 'feedback resistor connection',
       ),
-      3 => 
+      'V__REF A' => 
       array (
-        'num' => '4',
-        'sym' => 'V__REF A',
         'desc' => 'input reference voltage',
       ),
-      4 => 
+      'DGND' => 
       array (
-        'num' => '5',
-        'sym' => 'DGND',
         'desc' => 'digital ground',
       ),
-      5 => 
+      '~DACA/DACB' => 
       array (
-        'num' => '6',
-        'sym' => '~DACA/DACB',
         'desc' => 'DAC select',
       ),
-      6 => 
+      '(MSB) DB7' => 
       array (
-        'num' => '7',
-        'sym' => '(MSB) DB7',
         'desc' => 'parallel data input',
       ),
-      7 => 
+      'DB6' => 
       array (
-        'num' => '8',
-        'sym' => 'DB6',
         'desc' => 'parallel data input',
       ),
-      8 => 
+      'DB5' => 
       array (
-        'num' => '9',
-        'sym' => 'DB5',
         'desc' => 'parallel data input',
       ),
-      9 => 
+      'DB4' => 
       array (
-        'num' => '10',
-        'sym' => 'DB4',
         'desc' => 'parallel data input',
       ),
-      10 => 
+      'DB3' => 
       array (
-        'num' => '11',
-        'sym' => 'DB3',
         'desc' => 'parallel data input',
       ),
-      11 => 
+      'DB2' => 
       array (
-        'num' => '12',
-        'sym' => 'DB2',
         'desc' => 'parallel data input',
       ),
-      12 => 
+      'DB1' => 
       array (
-        'num' => '13',
-        'sym' => 'DB1',
         'desc' => 'parallel data input',
       ),
-      13 => 
+      'DB0 (LSB)' => 
       array (
-        'num' => '14',
-        'sym' => 'DB0 (LSB)',
         'desc' => 'parallel data input',
       ),
-      14 => 
+      '~CS' => 
       array (
-        'num' => '15',
-        'sym' => '~CS',
         'desc' => 'chip select (active low)',
       ),
-      15 => 
+      '~WR' => 
       array (
-        'num' => '16',
-        'sym' => '~WR',
         'desc' => 'write to data register (active low)',
       ),
-      16 => 
+      'V__DD' => 
       array (
-        'num' => '17',
-        'sym' => 'V__DD',
         'desc' => 'supply voltage',
       ),
-      17 => 
+      'V__REF B' => 
       array (
-        'num' => '18',
-        'sym' => 'V__REF B',
         'desc' => 'input reference voltage',
       ),
-      18 => 
+      'R__FB B' => 
       array (
-        'num' => '19',
-        'sym' => 'R__FB B',
         'desc' => 'feedback resistor connection',
       ),
-      19 => 
+      'OUT B' => 
       array (
-        'num' => '20',
-        'sym' => 'OUT B',
         'desc' => 'analog current output',
       ),
     ),
@@ -23528,182 +21013,150 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'AGND',
+        2 => 'OUT A',
+        3 => 'R__FB A',
+        4 => 'V__REF A',
+        5 => 'DGND',
+        6 => '~DACA/DACB',
+        7 => '(MSB) DB7',
+        8 => 'DB6',
+        9 => 'DB5',
+        10 => 'DB4',
+        11 => 'DB3',
+        12 => 'DB2',
+        13 => 'DB1',
+        14 => 'DB0 (LSB)',
+        15 => '~CS',
+        16 => '~WR',
+        17 => 'V__DD',
+        18 => 'V__REF B',
+        19 => 'R__FB B',
+        20 => 'OUT B',
+      ),
+    ),
   ),
   'AD7805' => 
   array (
     'description' => '+3.3V to +5V quad 10-bit DAC',
-    'package' => 'DIP',
-    'pincount' => 28,
     'family' => 'Analog Devices',
     'datasheet' => 'http://www.analog.com/static/imported-files/data_sheets/AD7804_7805_7808_7809.pdf',
     'pins' => 
     array (
-      0 => 
+      'AGND' => 
       array (
-        'num' => '1',
-        'sym' => 'AGND',
         'desc' => 'analog ground',
       ),
-      1 => 
+      'V__OUT B' => 
       array (
-        'num' => '2',
-        'sym' => 'V__OUT B',
         'desc' => 'analog output voltage',
       ),
-      2 => 
+      'V__OUT A' => 
       array (
-        'num' => '3',
-        'sym' => 'V__OUT A',
         'desc' => 'analog output voltage',
       ),
-      3 => 
+      'REFOUT' => 
       array (
-        'num' => '4',
-        'sym' => 'REFOUT',
         'desc' => 'reference output (typically 1.23V)',
       ),
-      4 => 
+      'DB9' => 
       array (
-        'num' => '5',
-        'sym' => 'DB9',
         'desc' => 'parallel data input',
       ),
-      5 => 
+      'DB8' => 
       array (
-        'num' => '6',
-        'sym' => 'DB8',
         'desc' => 'parallel data input',
       ),
-      6 => 
+      'DB7' => 
       array (
-        'num' => '7',
-        'sym' => 'DB7',
         'desc' => 'parallel data input',
       ),
-      7 => 
+      'DB6' => 
       array (
-        'num' => '8',
-        'sym' => 'DB6',
         'desc' => 'parallel data input',
       ),
-      8 => 
+      'DB5' => 
       array (
-        'num' => '9',
-        'sym' => 'DB5',
         'desc' => 'parallel data input',
       ),
-      9 => 
+      'DB4' => 
       array (
-        'num' => '10',
-        'sym' => 'DB4',
         'desc' => 'parallel data input',
       ),
-      10 => 
+      '~LDAC' => 
       array (
-        'num' => '11',
-        'sym' => '~LDAC',
         'desc' => 'DAC register update (active low)',
       ),
-      11 => 
+      'DB3' => 
       array (
-        'num' => '12',
-        'sym' => 'DB3',
         'desc' => 'parallel data input',
       ),
-      12 => 
+      'DB2' => 
       array (
-        'num' => '13',
-        'sym' => 'DB2',
         'desc' => 'parallel data input',
       ),
-      13 => 
+      'DGND' => 
       array (
-        'num' => '14',
-        'sym' => 'DGND',
         'desc' => 'digital ground',
       ),
-      14 => 
+      'DV__DD' => 
       array (
-        'num' => '15',
-        'sym' => 'DV__DD',
         'desc' => 'digital power supply',
       ),
-      15 => 
+      '~WR' => 
       array (
-        'num' => '16',
-        'sym' => '~WR',
         'desc' => 'write to data register (active low)',
       ),
-      16 => 
+      '~CS' => 
       array (
-        'num' => '17',
-        'sym' => '~CS',
         'desc' => 'chip select (active low)',
       ),
-      17 => 
+      '~CLR' => 
       array (
-        'num' => '18',
-        'sym' => '~CLR',
         'desc' => 'asynchronous clear (active low)',
       ),
-      18 => 
+      'DB1' => 
       array (
-        'num' => '19',
-        'sym' => 'DB1',
         'desc' => 'parallel data input',
       ),
-      19 => 
+      'DB0' => 
       array (
-        'num' => '20',
-        'sym' => 'DB0',
         'desc' => 'parallel data input',
       ),
-      20 => 
+      'A1' => 
       array (
-        'num' => '21',
-        'sym' => 'A1',
         'desc' => 'DAC address input',
       ),
-      21 => 
+      'A0' => 
       array (
-        'num' => '22',
-        'sym' => 'A0',
         'desc' => 'DAC address input',
       ),
-      22 => 
+      'MODE' => 
       array (
-        'num' => '23',
-        'sym' => 'MODE',
         'desc' => 'mode input',
       ),
-      23 => 
+      'REFIN' => 
       array (
-        'num' => '24',
-        'sym' => 'REFIN',
         'desc' => 'external reference input',
       ),
-      24 => 
+      'COMP' => 
       array (
-        'num' => '25',
-        'sym' => 'COMP',
         'desc' => 'compensation pin',
       ),
-      25 => 
+      'V__OUT D' => 
       array (
-        'num' => '26',
-        'sym' => 'V__OUT D',
         'desc' => 'analog output voltge',
       ),
-      26 => 
+      'V__OUT C' => 
       array (
-        'num' => '27',
-        'sym' => 'V__OUT C',
         'desc' => 'analog output voltage',
       ),
-      27 => 
+      'AV__DD' => 
       array (
-        'num' => '28',
-        'sym' => 'AV__DD',
         'desc' => 'analog power supply',
       ),
     ),
@@ -23739,6 +21192,40 @@
         'val' => 'Vbias/16 to 31/16*Vbias',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'AGND',
+        2 => 'V__OUT B',
+        3 => 'V__OUT A',
+        4 => 'REFOUT',
+        5 => 'DB9',
+        6 => 'DB8',
+        7 => 'DB7',
+        8 => 'DB6',
+        9 => 'DB5',
+        10 => 'DB4',
+        11 => '~LDAC',
+        12 => 'DB3',
+        13 => 'DB2',
+        14 => 'DGND',
+        15 => 'DV__DD',
+        16 => '~WR',
+        17 => '~CS',
+        18 => '~CLR',
+        19 => 'DB1',
+        20 => 'DB0',
+        21 => 'A1',
+        22 => 'A0',
+        23 => 'MODE',
+        24 => 'REFIN',
+        25 => 'COMP',
+        26 => 'V__OUT D',
+        27 => 'V__OUT C',
+        28 => 'AV__DD',
+      ),
+    ),
   ),
   'ADC0808' => 
   array (
@@ -23747,178 +21234,120 @@
     array (
       0 => 'ADC0809',
     ),
-    'package' => 'DIP',
-    'pincount' => 28,
     'family' => 'National Semiconductor',
     'datasheet' => 'http://www.national.com/ds/DC/ADC0808.pdf',
     'pins' => 
     array (
-      0 => 
+      'IN3' => 
       array (
-        'num' => '1',
-        'sym' => 'IN3',
         'desc' => 'analog input 3',
       ),
-      1 => 
+      'IN4' => 
       array (
-        'num' => '2',
-        'sym' => 'IN4',
         'desc' => 'analog input 4',
       ),
-      2 => 
+      'IN5' => 
       array (
-        'num' => '3',
-        'sym' => 'IN5',
         'desc' => 'analog input 5',
       ),
-      3 => 
+      'IN6' => 
       array (
-        'num' => '4',
-        'sym' => 'IN6',
         'desc' => 'analog input 6',
       ),
-      4 => 
+      'IN7' => 
       array (
-        'num' => '5',
-        'sym' => 'IN7',
         'desc' => 'analog input 7',
       ),
-      5 => 
+      'START' => 
       array (
-        'num' => '6',
-        'sym' => 'START',
         'desc' => 'start conversion (active high)',
       ),
-      6 => 
+      'EOC' => 
       array (
-        'num' => '7',
-        'sym' => 'EOC',
         'desc' => 'end of conversion (active high)',
       ),
-      7 => 
+      'D3' => 
       array (
-        'num' => '8',
-        'sym' => 'D3',
         'desc' => 'data bus',
       ),
-      8 => 
+      'OUTPUT ENABLE' => 
       array (
-        'num' => '9',
-        'sym' => 'OUTPUT ENABLE',
         'desc' => 'data output enable',
       ),
-      9 => 
+      'CLOCK' => 
       array (
-        'num' => '10',
-        'sym' => 'CLOCK',
         'desc' => 'clock input',
       ),
-      10 => 
+      'V__CC' => 
       array (
-        'num' => '11',
-        'sym' => 'V__CC',
         'desc' => 'supply voltage',
       ),
-      11 => 
+      'V__REF(+)' => 
       array (
-        'num' => '12',
-        'sym' => 'V__REF(+)',
         'desc' => 'positive voltage reference',
       ),
-      12 => 
+      'GND' => 
       array (
-        'num' => '13',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      13 => 
+      'D1' => 
       array (
-        'num' => '14',
-        'sym' => 'D1',
         'desc' => 'data bus',
       ),
-      14 => 
+      'D2' => 
       array (
-        'num' => '15',
-        'sym' => 'D2',
         'desc' => 'data bus',
       ),
-      15 => 
+      'V__REF(-)' => 
       array (
-        'num' => '16',
-        'sym' => 'V__REF(-)',
         'desc' => 'negative voltage reference',
       ),
-      16 => 
+      'D0' => 
       array (
-        'num' => '17',
-        'sym' => 'D0',
         'desc' => 'data bus (LSB)',
       ),
-      17 => 
+      'D4' => 
       array (
-        'num' => '18',
-        'sym' => 'D4',
         'desc' => 'data bus',
       ),
-      18 => 
+      'D5' => 
       array (
-        'num' => '19',
-        'sym' => 'D5',
         'desc' => 'data bus',
       ),
-      19 => 
+      'D6' => 
       array (
-        'num' => '20',
-        'sym' => 'D6',
         'desc' => 'data bus',
       ),
-      20 => 
+      'D7' => 
       array (
-        'num' => '21',
-        'sym' => 'D7',
         'desc' => 'data bus (MSB)',
       ),
-      21 => 
+      'ALE' => 
       array (
-        'num' => '22',
-        'sym' => 'ALE',
         'desc' => 'address latch enable (positive-edge trigger)',
       ),
-      22 => 
+      'A2' => 
       array (
-        'num' => '23',
-        'sym' => 'A2',
         'desc' => 'channel select (MSB)',
       ),
-      23 => 
+      'A1' => 
       array (
-        'num' => '24',
-        'sym' => 'A1',
         'desc' => 'channel select',
       ),
-      24 => 
+      'A0' => 
       array (
-        'num' => '25',
-        'sym' => 'A0',
         'desc' => 'channel select (LSB)',
       ),
-      25 => 
+      'IN0' => 
       array (
-        'num' => '26',
-        'sym' => 'IN0',
         'desc' => 'analog channel 0',
       ),
-      26 => 
+      'IN1' => 
       array (
-        'num' => '27',
-        'sym' => 'IN1',
         'desc' => 'analog channel 1',
       ),
-      27 => 
+      'IN2' => 
       array (
-        'num' => '28',
-        'sym' => 'IN2',
         'desc' => 'analog channel 2',
       ),
     ),
@@ -23996,6 +21425,40 @@
     array (
       0 => 'The ADC0808 is a more accurate version of the ADC0809.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'IN3',
+        2 => 'IN4',
+        3 => 'IN5',
+        4 => 'IN6',
+        5 => 'IN7',
+        6 => 'START',
+        7 => 'EOC',
+        8 => 'D3',
+        9 => 'OUTPUT ENABLE',
+        10 => 'CLOCK',
+        11 => 'V__CC',
+        12 => 'V__REF(+)',
+        13 => 'GND',
+        14 => 'D1',
+        15 => 'D2',
+        16 => 'V__REF(-)',
+        17 => 'D0',
+        18 => 'D4',
+        19 => 'D5',
+        20 => 'D6',
+        21 => 'D7',
+        22 => 'ALE',
+        23 => 'A2',
+        24 => 'A1',
+        25 => 'A0',
+        26 => 'IN0',
+        27 => 'IN1',
+        28 => 'IN2',
+      ),
+    ),
   ),
   'ATMEGA168' => 
   array (
@@ -24007,178 +21470,116 @@
       1 => 'ATmega88',
       2 => 'ATmega328P',
     ),
-    'package' => 'DIP',
-    'pincount' => 28,
     'family' => 'Atmel',
     'datasheet' => 'http://www.atmel.com/dyn/resources/prod_documents/doc2545.pdf',
     'pins' => 
     array (
-      0 => 
+      '(PCINT14/~RESET) PC6' => 
       array (
-        'num' => '1',
-        'sym' => '(PCINT14/~RESET) PC6',
         'desc' => 'reset (active low); port C',
       ),
-      1 => 
+      '(PCINT16/RXD) PD0' => 
       array (
-        'num' => '2',
-        'sym' => '(PCINT16/RXD) PD0',
         'desc' => 'port D',
       ),
-      2 => 
+      '(PCINT17/TXD) PD1' => 
       array (
-        'num' => '3',
-        'sym' => '(PCINT17/TXD) PD1',
         'desc' => 'port D',
       ),
-      3 => 
+      '(PCINT18/INT0) PD2' => 
       array (
-        'num' => '4',
-        'sym' => '(PCINT18/INT0) PD2',
         'desc' => 'external interrupt 0; port D',
       ),
-      4 => 
+      '(PCINT19/OC2B/INT1) PD3' => 
       array (
-        'num' => '5',
-        'sym' => '(PCINT19/OC2B/INT1) PD3',
         'desc' => 'external interrupt 1; port D',
       ),
-      5 => 
+      '(PCINT20/XCK/T0) PD4' => 
       array (
-        'num' => '6',
-        'sym' => '(PCINT20/XCK/T0) PD4',
         'desc' => 'port D',
       ),
-      6 => 
+      'Vcc' => 
       array (
-        'num' => '7',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '(PCINT6/XTAL1/TOSC1) PB6' => 
       array (
-        'num' => '9',
-        'sym' => '(PCINT6/XTAL1/TOSC1) PB6',
         'desc' => 'clock oscillator pin 1; port B',
       ),
-      9 => 
+      '(PCINT17/XTAL2/TOSC2) PB7' => 
       array (
-        'num' => '10',
-        'sym' => '(PCINT17/XTAL2/TOSC2) PB7',
         'desc' => 'clock oscillator pin 2; port B',
       ),
-      10 => 
+      '(PCINT21/OC0B/T1) PD5' => 
       array (
-        'num' => '11',
-        'sym' => '(PCINT21/OC0B/T1) PD5',
         'desc' => 'port D',
       ),
-      11 => 
+      '(PCINT22/OC0A/AIN0) PD6' => 
       array (
-        'num' => '12',
-        'sym' => '(PCINT22/OC0A/AIN0) PD6',
         'desc' => 'port D',
       ),
-      12 => 
+      '(PCINT23/AIN1) PD7' => 
       array (
-        'num' => '13',
-        'sym' => '(PCINT23/AIN1) PD7',
         'desc' => 'port D',
       ),
-      13 => 
+      '(PCINT0/CLKO/ICP1) PB0' => 
       array (
-        'num' => '14',
-        'sym' => '(PCINT0/CLKO/ICP1) PB0',
         'desc' => 'clock output; port B',
       ),
-      14 => 
+      'PB1 (OC1A/PCINT1)' => 
       array (
-        'num' => '15',
-        'sym' => 'PB1 (OC1A/PCINT1)',
         'desc' => 'port B',
       ),
-      15 => 
+      'PB2 (~SS/OC1B/PCINT2)' => 
       array (
-        'num' => '16',
-        'sym' => 'PB2 (~SS/OC1B/PCINT2)',
         'desc' => 'SPI slave select; port B',
       ),
-      16 => 
+      'PB3 (MOSI/OC2A/PCINT3)' => 
       array (
-        'num' => '17',
-        'sym' => 'PB3 (MOSI/OC2A/PCINT3)',
         'desc' => 'SPI master output/slave input; port B',
       ),
-      17 => 
+      'PB4 (MISO/PCINT4)' => 
       array (
-        'num' => '18',
-        'sym' => 'PB4 (MISO/PCINT4)',
         'desc' => 'SPI master input/slave output; port B',
       ),
-      18 => 
+      'PB5 (SCK/PCINT5)' => 
       array (
-        'num' => '19',
-        'sym' => 'PB5 (SCK/PCINT5)',
         'desc' => 'SPI master clock; port B',
       ),
-      19 => 
+      'AVcc' => 
       array (
-        'num' => '20',
-        'sym' => 'AVcc',
         'desc' => 'A/D converter supply voltage',
       ),
-      20 => 
+      'AREF' => 
       array (
-        'num' => '21',
-        'sym' => 'AREF',
         'desc' => 'analog reference for A/D converter',
       ),
-      21 => 
+      'PC0 (ADC0/PCINT8)' => 
       array (
-        'num' => '22',
-        'sym' => 'GND',
-        'desc' => 'ground',
-      ),
-      22 => 
-      array (
-        'num' => '23',
-        'sym' => 'PC0 (ADC0/PCINT8)',
         'desc' => 'port C',
       ),
-      23 => 
+      'PC1 (ADC1/PCINT9)' => 
       array (
-        'num' => '24',
-        'sym' => 'PC1 (ADC1/PCINT9)',
         'desc' => 'port C',
       ),
-      24 => 
+      'PC2 (ADC2/PCINT10)' => 
       array (
-        'num' => '25',
-        'sym' => 'PC2 (ADC2/PCINT10)',
         'desc' => 'port C',
       ),
-      25 => 
+      'PC3 (ADC3/PCINT11)' => 
       array (
-        'num' => '26',
-        'sym' => 'PC3 (ADC3/PCINT11)',
         'desc' => 'port C',
       ),
-      26 => 
+      'PC4 (ADC4/SDA/PCINT12)' => 
       array (
-        'num' => '27',
-        'sym' => 'PC4 (ADC4/SDA/PCINT12)',
         'desc' => 'I2C Data pin; port C',
       ),
-      27 => 
+      'PC5 (ADC5/SCL/PCINT13)' => 
       array (
-        'num' => '28',
-        'sym' => 'PC5 (ADC5/SCL/PCINT13)',
         'desc' => 'I2C Clock pin; port C',
       ),
     ),
@@ -24232,6 +21633,40 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '(PCINT14/~RESET) PC6',
+        2 => '(PCINT16/RXD) PD0',
+        3 => '(PCINT17/TXD) PD1',
+        4 => '(PCINT18/INT0) PD2',
+        5 => '(PCINT19/OC2B/INT1) PD3',
+        6 => '(PCINT20/XCK/T0) PD4',
+        7 => 'Vcc',
+        8 => 'GND',
+        9 => '(PCINT6/XTAL1/TOSC1) PB6',
+        10 => '(PCINT17/XTAL2/TOSC2) PB7',
+        11 => '(PCINT21/OC0B/T1) PD5',
+        12 => '(PCINT22/OC0A/AIN0) PD6',
+        13 => '(PCINT23/AIN1) PD7',
+        14 => '(PCINT0/CLKO/ICP1) PB0',
+        15 => 'PB1 (OC1A/PCINT1)',
+        16 => 'PB2 (~SS/OC1B/PCINT2)',
+        17 => 'PB3 (MOSI/OC2A/PCINT3)',
+        18 => 'PB4 (MISO/PCINT4)',
+        19 => 'PB5 (SCK/PCINT5)',
+        20 => 'AVcc',
+        21 => 'AREF',
+        22 => 'GND',
+        23 => 'PC0 (ADC0/PCINT8)',
+        24 => 'PC1 (ADC1/PCINT9)',
+        25 => 'PC2 (ADC2/PCINT10)',
+        26 => 'PC3 (ADC3/PCINT11)',
+        27 => 'PC4 (ADC4/SDA/PCINT12)',
+        28 => 'PC5 (ADC5/SCL/PCINT13)',
+      ),
+    ),
   ),
   'ATMEGA32' => 
   array (
@@ -24241,250 +21676,164 @@
     array (
       0 => 'ATmega16',
     ),
-    'package' => 'DIP',
-    'pincount' => 40,
     'family' => 'Atmel',
     'datasheet' => 'http://www.atmel.com/dyn/resources/prod_documents/doc8155.pdf',
     'pins' => 
     array (
-      0 => 
+      '(XCK0/T0) PB0' => 
       array (
-        'num' => '1',
-        'sym' => '(XCK0/T0) PB0',
         'desc' => 'port B',
       ),
-      1 => 
+      '(T1) PB1' => 
       array (
-        'num' => '2',
-        'sym' => '(T1) PB1',
         'desc' => 'port B',
       ),
-      2 => 
+      '(INT2/AIN0) PB2' => 
       array (
-        'num' => '3',
-        'sym' => '(INT2/AIN0) PB2',
         'desc' => 'external interrupt 2; port B',
       ),
-      3 => 
+      '(OC0/AIN1) PB3' => 
       array (
-        'num' => '4',
-        'sym' => '(OC0/AIN1) PB3',
         'desc' => 'port B',
       ),
-      4 => 
+      '(~SS~) PB4' => 
       array (
-        'num' => '5',
-        'sym' => '(~SS~) PB4',
         'desc' => 'SPI slave select; port B',
       ),
-      5 => 
+      '(MOSI) PB5' => 
       array (
-        'num' => '6',
-        'sym' => '(MOSI) PB5',
         'desc' => 'SPI master output/slave input; port B',
       ),
-      6 => 
+      '(MISO) PB6' => 
       array (
-        'num' => '7',
-        'sym' => '(MISO) PB6',
         'desc' => 'SPI master input/slave output; port B',
       ),
-      7 => 
+      '(SCK) PB7' => 
       array (
-        'num' => '8',
-        'sym' => '(SCK) PB7',
         'desc' => 'SPI master clock; port B',
       ),
-      8 => 
+      '~RESET' => 
       array (
-        'num' => '9',
-        'sym' => '~RESET',
         'desc' => 'reset (active low)',
       ),
-      9 => 
+      'Vcc' => 
       array (
-        'num' => '10',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
-      10 => 
+      'GND' => 
       array (
-        'num' => '11',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      11 => 
+      'XTAL2' => 
       array (
-        'num' => '12',
-        'sym' => 'XTAL2',
         'desc' => 'clock oscillator pin 2',
       ),
-      12 => 
+      'XTAL1' => 
       array (
-        'num' => '13',
-        'sym' => 'XTAL1',
         'desc' => 'clock oscillator pin 1',
       ),
-      13 => 
+      '(RXD) PD0' => 
       array (
-        'num' => '14',
-        'sym' => '(RXD) PD0',
         'desc' => 'UART receive; port D',
       ),
-      14 => 
+      '(TXD) PD1' => 
       array (
-        'num' => '15',
-        'sym' => '(TXD) PD1',
         'desc' => 'UART transmit; port D',
       ),
-      15 => 
+      '(INT0) PD2' => 
       array (
-        'num' => '16',
-        'sym' => '(INT0) PD2',
         'desc' => 'external interrupt 0; port D',
       ),
-      16 => 
+      '(INT1) PD3' => 
       array (
-        'num' => '17',
-        'sym' => '(INT1) PD3',
         'desc' => 'external interrupt 1; port D',
       ),
-      17 => 
+      '(OC1B) PD4' => 
       array (
-        'num' => '18',
-        'sym' => '(OC1B) PD4',
         'desc' => 'port D',
       ),
-      18 => 
+      '(OC1A) PD5' => 
       array (
-        'num' => '19',
-        'sym' => '(OC1A) PD5',
         'desc' => 'port D',
       ),
-      19 => 
+      '(ICP1) PD6' => 
       array (
-        'num' => '20',
-        'sym' => '(ICP1) PD6',
         'desc' => 'port D',
       ),
-      20 => 
+      'PD7 (OC2)' => 
       array (
-        'num' => '21',
-        'sym' => 'PD7 (OC2)',
         'desc' => 'port D',
       ),
-      21 => 
+      'PC0 (SCL)' => 
       array (
-        'num' => '22',
-        'sym' => 'PC0 (SCL)',
         'desc' => '2-wire clock line; port C',
       ),
-      22 => 
+      'PC1 (SDA)' => 
       array (
-        'num' => '23',
-        'sym' => 'PC1 (SDA)',
         'desc' => '2-wire data line; port C',
       ),
-      23 => 
+      'PC2 (TCK)' => 
       array (
-        'num' => '24',
-        'sym' => 'PC2 (TCK)',
         'desc' => 'JTAG test clock; port C',
       ),
-      24 => 
+      'PC3 (TMS)' => 
       array (
-        'num' => '25',
-        'sym' => 'PC3 (TMS)',
         'desc' => 'JTAG test mode select; port C',
       ),
-      25 => 
+      'PC4 (TDO)' => 
       array (
-        'num' => '26',
-        'sym' => 'PC4 (TDO)',
         'desc' => 'JTAG test data output; port C',
       ),
-      26 => 
+      'PC5 (TDI)' => 
       array (
-        'num' => '27',
-        'sym' => 'PC5 (TDI)',
         'desc' => 'JTAG test data input; port C',
       ),
-      27 => 
+      'PC6 (TOSC1)' => 
       array (
-        'num' => '28',
-        'sym' => 'PC6 (TOSC1)',
         'desc' => 'timer oscillator pin 1; port C',
       ),
-      28 => 
+      'PC7 (TOSC2)' => 
       array (
-        'num' => '29',
-        'sym' => 'PC7 (TOSC2)',
         'desc' => 'timer oscillator pin 2; port C',
       ),
-      29 => 
+      'AVcc' => 
       array (
-        'num' => '30',
-        'sym' => 'AVcc',
         'desc' => 'A/D converter supply voltage',
       ),
-      30 => 
+      'AREF' => 
       array (
-        'num' => '31',
-        'sym' => 'GND',
-        'desc' => 'ground',
-      ),
-      31 => 
-      array (
-        'num' => '32',
-        'sym' => 'AREF',
         'desc' => 'analog reference for A/D converter',
       ),
-      32 => 
+      'PA7 (ADC7)' => 
       array (
-        'num' => '33',
-        'sym' => 'PA7 (ADC7)',
         'desc' => 'port A',
       ),
-      33 => 
+      'PA6 (ADC6)' => 
       array (
-        'num' => '34',
-        'sym' => 'PA6 (ADC6)',
         'desc' => 'port A',
       ),
-      34 => 
+      'PA5 (ADC5)' => 
       array (
-        'num' => '35',
-        'sym' => 'PA5 (ADC5)',
         'desc' => 'port A',
       ),
-      35 => 
+      'PA4 (ADC4)' => 
       array (
-        'num' => '36',
-        'sym' => 'PA4 (ADC4)',
         'desc' => 'port A',
       ),
-      36 => 
+      'PA3 (ADC3)' => 
       array (
-        'num' => '37',
-        'sym' => 'PA3 (ADC3)',
         'desc' => 'port A',
       ),
-      37 => 
+      'PA2 (ADC2)' => 
       array (
-        'num' => '38',
-        'sym' => 'PA2 (ADC2)',
         'desc' => 'port A',
       ),
-      38 => 
+      'PA1 (ADC1)' => 
       array (
-        'num' => '39',
-        'sym' => 'PA1 (ADC1)',
         'desc' => 'port A',
       ),
-      39 => 
+      'PA0 (ADC0)' => 
       array (
-        'num' => '40',
-        'sym' => 'PA0 (ADC0)',
         'desc' => 'port A',
       ),
     ),
@@ -24526,6 +21875,52 @@
         'val' => '32',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '(XCK0/T0) PB0',
+        2 => '(T1) PB1',
+        3 => '(INT2/AIN0) PB2',
+        4 => '(OC0/AIN1) PB3',
+        5 => '(~SS~) PB4',
+        6 => '(MOSI) PB5',
+        7 => '(MISO) PB6',
+        8 => '(SCK) PB7',
+        9 => '~RESET',
+        10 => 'Vcc',
+        11 => 'GND',
+        12 => 'XTAL2',
+        13 => 'XTAL1',
+        14 => '(RXD) PD0',
+        15 => '(TXD) PD1',
+        16 => '(INT0) PD2',
+        17 => '(INT1) PD3',
+        18 => '(OC1B) PD4',
+        19 => '(OC1A) PD5',
+        20 => '(ICP1) PD6',
+        21 => 'PD7 (OC2)',
+        22 => 'PC0 (SCL)',
+        23 => 'PC1 (SDA)',
+        24 => 'PC2 (TCK)',
+        25 => 'PC3 (TMS)',
+        26 => 'PC4 (TDO)',
+        27 => 'PC5 (TDI)',
+        28 => 'PC6 (TOSC1)',
+        29 => 'PC7 (TOSC2)',
+        30 => 'AVcc',
+        31 => 'GND',
+        32 => 'AREF',
+        33 => 'PA7 (ADC7)',
+        34 => 'PA6 (ADC6)',
+        35 => 'PA5 (ADC5)',
+        36 => 'PA4 (ADC4)',
+        37 => 'PA3 (ADC3)',
+        38 => 'PA2 (ADC2)',
+        39 => 'PA1 (ADC1)',
+        40 => 'PA0 (ADC0)',
+      ),
+    ),
   ),
   'ATMEGA644P' => 
   array (
@@ -24537,250 +21932,164 @@
       1 => 'ATmega324P',
       2 => 'ATmega1284P',
     ),
-    'package' => 'DIP',
-    'pincount' => 40,
     'family' => 'Atmel',
     'datasheet' => 'http://www.atmel.com/dyn/resources/prod_documents/doc8011.pdf',
     'pins' => 
     array (
-      0 => 
+      '(PCINT8/XCK0/T0) PB0' => 
       array (
-        'num' => '1',
-        'sym' => '(PCINT8/XCK0/T0) PB0',
         'desc' => 'port B',
       ),
-      1 => 
+      '(PCINT9/CLKO/T1) PB1' => 
       array (
-        'num' => '2',
-        'sym' => '(PCINT9/CLKO/T1) PB1',
         'desc' => 'clock output; port B',
       ),
-      2 => 
+      '(PCINT10/INT2/AIN0) PB2' => 
       array (
-        'num' => '3',
-        'sym' => '(PCINT10/INT2/AIN0) PB2',
         'desc' => 'external interrupt 2; port B',
       ),
-      3 => 
+      '(PCINT11/OC0A/AIN1) PB3' => 
       array (
-        'num' => '4',
-        'sym' => '(PCINT11/OC0A/AIN1) PB3',
         'desc' => 'port B',
       ),
-      4 => 
+      '(PCINT12/OC0B/~SS~) PB4' => 
       array (
-        'num' => '5',
-        'sym' => '(PCINT12/OC0B/~SS~) PB4',
         'desc' => 'SPI slave select; port B',
       ),
-      5 => 
+      '(PCINT13/ICP3*/MOSI) PB5' => 
       array (
-        'num' => '6',
-        'sym' => '(PCINT13/ICP3*/MOSI) PB5',
         'desc' => 'SPI master output/slave input; port B',
       ),
-      6 => 
+      '(PCINT14/OC3A*/MISO) PB6' => 
       array (
-        'num' => '7',
-        'sym' => '(PCINT14/OC3A*/MISO) PB6',
         'desc' => 'SPI master input/slave output; port B',
       ),
-      7 => 
+      '(PCINT15/OC3B*/SCK) PB7' => 
       array (
-        'num' => '8',
-        'sym' => '(PCINT15/OC3B*/SCK) PB7',
         'desc' => 'SPI master clock; port B',
       ),
-      8 => 
+      '~RESET' => 
       array (
-        'num' => '9',
-        'sym' => '~RESET',
         'desc' => 'reset (active low)',
       ),
-      9 => 
+      'Vcc' => 
       array (
-        'num' => '10',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
-      10 => 
+      'GND' => 
       array (
-        'num' => '11',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      11 => 
+      'XTAL2' => 
       array (
-        'num' => '12',
-        'sym' => 'XTAL2',
         'desc' => 'clock oscillator pin 2',
       ),
-      12 => 
+      'XTAL1' => 
       array (
-        'num' => '13',
-        'sym' => 'XTAL1',
         'desc' => 'clock oscillator pin 1',
       ),
-      13 => 
+      '(PCINT24/RXD0) PD0' => 
       array (
-        'num' => '14',
-        'sym' => '(PCINT24/RXD0) PD0',
         'desc' => 'port D',
       ),
-      14 => 
+      '(PCINT25/TXD0) PD1' => 
       array (
-        'num' => '15',
-        'sym' => '(PCINT25/TXD0) PD1',
         'desc' => 'port D',
       ),
-      15 => 
+      '(PCINT26/RXD1/INT0) PD2' => 
       array (
-        'num' => '16',
-        'sym' => '(PCINT26/RXD1/INT0) PD2',
         'desc' => 'external interrupt 0; port D',
       ),
-      16 => 
+      '(PCINT27/TXD1/INT1) PD3' => 
       array (
-        'num' => '17',
-        'sym' => '(PCINT27/TXD1/INT1) PD3',
         'desc' => 'external interrupt 1; port D',
       ),
-      17 => 
+      '(PCINT28/XCK1/OC1B) PD4' => 
       array (
-        'num' => '18',
-        'sym' => '(PCINT28/XCK1/OC1B) PD4',
         'desc' => 'port D',
       ),
-      18 => 
+      '(PCINT29/OC1A) PD5' => 
       array (
-        'num' => '19',
-        'sym' => '(PCINT29/OC1A) PD5',
         'desc' => 'port D',
       ),
-      19 => 
+      '(PCINT30/OC2B/ICP) PD6' => 
       array (
-        'num' => '20',
-        'sym' => '(PCINT30/OC2B/ICP) PD6',
         'desc' => 'port D',
       ),
-      20 => 
+      'PD7 (OC2A/PCINT31)' => 
       array (
-        'num' => '21',
-        'sym' => 'PD7 (OC2A/PCINT31)',
         'desc' => 'port D',
       ),
-      21 => 
+      'PC0 (SCL/PCINT16)' => 
       array (
-        'num' => '22',
-        'sym' => 'PC0 (SCL/PCINT16)',
         'desc' => '2-wire clock line; port C',
       ),
-      22 => 
+      'PC1 (SDA/PCINT17)' => 
       array (
-        'num' => '23',
-        'sym' => 'PC1 (SDA/PCINT17)',
         'desc' => '2-wire data line; port C',
       ),
-      23 => 
+      'PC2 (TCK/PCINT18)' => 
       array (
-        'num' => '24',
-        'sym' => 'PC2 (TCK/PCINT18)',
         'desc' => 'JTAG test clock; port C',
       ),
-      24 => 
+      'PC3 (TMS/PCINT19)' => 
       array (
-        'num' => '25',
-        'sym' => 'PC3 (TMS/PCINT19)',
         'desc' => 'JTAG test mode select; port C',
       ),
-      25 => 
+      'PC4 (TDO/PCINT20)' => 
       array (
-        'num' => '26',
-        'sym' => 'PC4 (TDO/PCINT20)',
         'desc' => 'JTAG test data output; port C',
       ),
-      26 => 
+      'PC5 (TDI/PCINT21)' => 
       array (
-        'num' => '27',
-        'sym' => 'PC5 (TDI/PCINT21)',
         'desc' => 'JTAG test data input; port C',
       ),
-      27 => 
+      'PC6 (TOSC1/PCINT22)' => 
       array (
-        'num' => '28',
-        'sym' => 'PC6 (TOSC1/PCINT22)',
         'desc' => 'timer oscillator pin 1; port C',
       ),
-      28 => 
+      'PC7 (TOSC2/PCINT23)' => 
       array (
-        'num' => '29',
-        'sym' => 'PC7 (TOSC2/PCINT23)',
         'desc' => 'timer oscillator pin 2; port C',
       ),
-      29 => 
+      'AVcc' => 
       array (
-        'num' => '30',
-        'sym' => 'AVcc',
         'desc' => 'A/D converter supply voltage',
       ),
-      30 => 
+      'AREF' => 
       array (
-        'num' => '31',
-        'sym' => 'GND',
-        'desc' => 'ground',
-      ),
-      31 => 
-      array (
-        'num' => '32',
-        'sym' => 'AREF',
         'desc' => 'analog reference for A/D converter',
       ),
-      32 => 
+      'PA7 (ADC7/PCINT7)' => 
       array (
-        'num' => '33',
-        'sym' => 'PA7 (ADC7/PCINT7)',
         'desc' => 'port A',
       ),
-      33 => 
+      'PA6 (ADC6/PCINT6)' => 
       array (
-        'num' => '34',
-        'sym' => 'PA6 (ADC6/PCINT6)',
         'desc' => 'port A',
       ),
-      34 => 
+      'PA5 (ADC5/PCINT5)' => 
       array (
-        'num' => '35',
-        'sym' => 'PA5 (ADC5/PCINT5)',
         'desc' => 'port A',
       ),
-      35 => 
+      'PA4 (ADC4/PCINT4)' => 
       array (
-        'num' => '36',
-        'sym' => 'PA4 (ADC4/PCINT4)',
         'desc' => 'port A',
       ),
-      36 => 
+      'PA3 (ADC3/PCINT3)' => 
       array (
-        'num' => '37',
-        'sym' => 'PA3 (ADC3/PCINT3)',
         'desc' => 'port A',
       ),
-      37 => 
+      'PA2 (ADC2/PCINT2)' => 
       array (
-        'num' => '38',
-        'sym' => 'PA2 (ADC2/PCINT2)',
         'desc' => 'port A',
       ),
-      38 => 
+      'PA1 (ADC1/PCINT1)' => 
       array (
-        'num' => '39',
-        'sym' => 'PA1 (ADC1/PCINT1)',
         'desc' => 'port A',
       ),
-      39 => 
+      'PA0 (ADC0/PCINT0)' => 
       array (
-        'num' => '40',
-        'sym' => 'PA0 (ADC0/PCINT0)',
         'desc' => 'port A',
       ),
     ),
@@ -24832,183 +22141,167 @@
     array (
       0 => 'ICP3, OC3A, OC3B present on ATmega1284P only',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '(PCINT8/XCK0/T0) PB0',
+        2 => '(PCINT9/CLKO/T1) PB1',
+        3 => '(PCINT10/INT2/AIN0) PB2',
+        4 => '(PCINT11/OC0A/AIN1) PB3',
+        5 => '(PCINT12/OC0B/~SS~) PB4',
+        6 => '(PCINT13/ICP3*/MOSI) PB5',
+        7 => '(PCINT14/OC3A*/MISO) PB6',
+        8 => '(PCINT15/OC3B*/SCK) PB7',
+        9 => '~RESET',
+        10 => 'Vcc',
+        11 => 'GND',
+        12 => 'XTAL2',
+        13 => 'XTAL1',
+        14 => '(PCINT24/RXD0) PD0',
+        15 => '(PCINT25/TXD0) PD1',
+        16 => '(PCINT26/RXD1/INT0) PD2',
+        17 => '(PCINT27/TXD1/INT1) PD3',
+        18 => '(PCINT28/XCK1/OC1B) PD4',
+        19 => '(PCINT29/OC1A) PD5',
+        20 => '(PCINT30/OC2B/ICP) PD6',
+        21 => 'PD7 (OC2A/PCINT31)',
+        22 => 'PC0 (SCL/PCINT16)',
+        23 => 'PC1 (SDA/PCINT17)',
+        24 => 'PC2 (TCK/PCINT18)',
+        25 => 'PC3 (TMS/PCINT19)',
+        26 => 'PC4 (TDO/PCINT20)',
+        27 => 'PC5 (TDI/PCINT21)',
+        28 => 'PC6 (TOSC1/PCINT22)',
+        29 => 'PC7 (TOSC2/PCINT23)',
+        30 => 'AVcc',
+        31 => 'GND',
+        32 => 'AREF',
+        33 => 'PA7 (ADC7/PCINT7)',
+        34 => 'PA6 (ADC6/PCINT6)',
+        35 => 'PA5 (ADC5/PCINT5)',
+        36 => 'PA4 (ADC4/PCINT4)',
+        37 => 'PA3 (ADC3/PCINT3)',
+        38 => 'PA2 (ADC2/PCINT2)',
+        39 => 'PA1 (ADC1/PCINT1)',
+        40 => 'PA0 (ADC0/PCINT0)',
+      ),
+    ),
   ),
   'ATMEGA8' => 
   array (
     'name' => 'ATmega8',
     'description' => '8-bit AVR® microcontroller',
-    'package' => 'DIP',
-    'pincount' => 28,
     'family' => 'Atmel',
     'datasheet' => 'http://www.atmel.com/dyn/resources/prod_documents/doc2486.pdf',
     'pins' => 
     array (
-      0 => 
+      '(~RESET) PC6' => 
       array (
-        'num' => '1',
-        'sym' => '(~RESET) PC6',
         'desc' => 'reset (active low); port C',
       ),
-      1 => 
+      '(RXD) PD0' => 
       array (
-        'num' => '2',
-        'sym' => '(RXD) PD0',
         'desc' => 'UART receive; port D',
       ),
-      2 => 
+      '(TXD) PD1' => 
       array (
-        'num' => '3',
-        'sym' => '(TXD) PD1',
         'desc' => 'UART transmit; port D',
       ),
-      3 => 
+      '(INT0) PD2' => 
       array (
-        'num' => '4',
-        'sym' => '(INT0) PD2',
         'desc' => 'external interrupt 0; port D',
       ),
-      4 => 
+      '(INT1) PD3' => 
       array (
-        'num' => '5',
-        'sym' => '(INT1) PD3',
         'desc' => 'external interrupt 1; port D',
       ),
-      5 => 
+      '(XCK/T0) PD4' => 
       array (
-        'num' => '6',
-        'sym' => '(XCK/T0) PD4',
         'desc' => 'port D',
       ),
-      6 => 
+      'Vcc' => 
       array (
-        'num' => '7',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      8 => 
+      '(XTAL1/TOSC1) PB6' => 
       array (
-        'num' => '9',
-        'sym' => '(XTAL1/TOSC1) PB6',
         'desc' => 'clock oscillator pin 1; port B',
       ),
-      9 => 
+      '(XTAL2/TOSC2) PB7' => 
       array (
-        'num' => '10',
-        'sym' => '(XTAL2/TOSC2) PB7',
         'desc' => 'clock oscillator pin 2; port B',
       ),
-      10 => 
+      '(T1) PD5' => 
       array (
-        'num' => '11',
-        'sym' => '(T1) PD5',
         'desc' => 'port D',
       ),
-      11 => 
+      '(AIN0) PD6' => 
       array (
-        'num' => '12',
-        'sym' => '(AIN0) PD6',
         'desc' => 'port D',
       ),
-      12 => 
+      '(AIN1) PD7' => 
       array (
-        'num' => '13',
-        'sym' => '(AIN1) PD7',
         'desc' => 'port D',
       ),
-      13 => 
+      '(ICP1) PB0' => 
       array (
-        'num' => '14',
-        'sym' => '(ICP1) PB0',
         'desc' => 'port B',
       ),
-      14 => 
+      'PB1 (OC1A)' => 
       array (
-        'num' => '15',
-        'sym' => 'PB1 (OC1A)',
         'desc' => 'port B',
       ),
-      15 => 
+      'PB2 (SS/OC1B)' => 
       array (
-        'num' => '16',
-        'sym' => 'PB2 (SS/OC1B)',
         'desc' => 'SPI slave select; port B',
       ),
-      16 => 
+      'PB3 (MOSI/OC2)' => 
       array (
-        'num' => '17',
-        'sym' => 'PB3 (MOSI/OC2)',
         'desc' => 'SPI master output/slave input; port B',
       ),
-      17 => 
+      'PB4 (MISO)' => 
       array (
-        'num' => '18',
-        'sym' => 'PB4 (MISO)',
         'desc' => 'SPI master input/slave output; port B',
       ),
-      18 => 
+      'PB5 (SCK)' => 
       array (
-        'num' => '19',
-        'sym' => 'PB5 (SCK)',
         'desc' => 'SPI master clock; port B',
       ),
-      19 => 
+      'AVcc' => 
       array (
-        'num' => '20',
-        'sym' => 'AVcc',
         'desc' => 'A/D converter supply voltage',
       ),
-      20 => 
+      'AREF' => 
       array (
-        'num' => '21',
-        'sym' => 'AREF',
         'desc' => 'analog reference for A/D converter',
       ),
-      21 => 
+      'PC0 (ADC0)' => 
       array (
-        'num' => '22',
-        'sym' => 'GND',
-        'desc' => 'ground',
-      ),
-      22 => 
-      array (
-        'num' => '23',
-        'sym' => 'PC0 (ADC0)',
         'desc' => 'port C',
       ),
-      23 => 
+      'PC1 (ADC1)' => 
       array (
-        'num' => '24',
-        'sym' => 'PC1 (ADC1)',
         'desc' => 'port C',
       ),
-      24 => 
+      'PC2 (ADC2)' => 
       array (
-        'num' => '25',
-        'sym' => 'PC2 (ADC2)',
         'desc' => 'port C',
       ),
-      25 => 
+      'PC3 (ADC3)' => 
       array (
-        'num' => '26',
-        'sym' => 'PC3 (ADC3)',
         'desc' => 'port C',
       ),
-      26 => 
+      'PC4 (ADC4/SCL)' => 
       array (
-        'num' => '27',
-        'sym' => 'PC4 (ADC4/SCL)',
         'desc' => '2-wire clock; port C',
       ),
-      27 => 
+      'PC5 (ADC5/SDA)' => 
       array (
-        'num' => '28',
-        'sym' => 'PC5 (ADC5/SDA)',
         'desc' => '2-wire data; port C',
       ),
     ),
@@ -25044,6 +22337,40 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '(~RESET) PC6',
+        2 => '(RXD) PD0',
+        3 => '(TXD) PD1',
+        4 => '(INT0) PD2',
+        5 => '(INT1) PD3',
+        6 => '(XCK/T0) PD4',
+        7 => 'Vcc',
+        8 => 'GND',
+        9 => '(XTAL1/TOSC1) PB6',
+        10 => '(XTAL2/TOSC2) PB7',
+        11 => '(T1) PD5',
+        12 => '(AIN0) PD6',
+        13 => '(AIN1) PD7',
+        14 => '(ICP1) PB0',
+        15 => 'PB1 (OC1A)',
+        16 => 'PB2 (SS/OC1B)',
+        17 => 'PB3 (MOSI/OC2)',
+        18 => 'PB4 (MISO)',
+        19 => 'PB5 (SCK)',
+        20 => 'AVcc',
+        21 => 'AREF',
+        22 => 'GND',
+        23 => 'PC0 (ADC0)',
+        24 => 'PC1 (ADC1)',
+        25 => 'PC2 (ADC2)',
+        26 => 'PC3 (ADC3)',
+        27 => 'PC4 (ADC4/SCL)',
+        28 => 'PC5 (ADC5/SDA)',
+      ),
+    ),
   ),
   'ATTINY12' => 
   array (
@@ -25055,58 +22382,40 @@
       1 => 'ATTiny12L-4',
       2 => 'ATTiny12-8',
     ),
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'atmel',
     'datasheet' => 'http://www.atmel.com/dyn/resources/prod_documents/doc1006.pdf',
     'pins' => 
     array (
-      0 => 
+      'PB5 / ~RESET~' => 
       array (
-        'num' => '1',
-        'sym' => 'PB5 / ~RESET~',
         'desc' => 'PB5 / chip reset (active low)',
       ),
-      1 => 
+      'PB3 / XTAL1' => 
       array (
-        'num' => '2',
-        'sym' => 'PB3 / XTAL1',
         'desc' => 'PB3 / Inverting oscillator amplifier input',
       ),
-      2 => 
+      'PB4 / XTAL2' => 
       array (
-        'num' => '3',
-        'sym' => 'PB4 / XTAL2',
         'desc' => 'PB4 / Inverting oscillator amplifier output',
       ),
-      3 => 
+      'GND' => 
       array (
-        'num' => '4',
-        'sym' => 'GND',
         'desc' => 'Ground',
       ),
-      4 => 
+      'PB0 / AIN0 / MOSI' => 
       array (
-        'num' => '5',
-        'sym' => 'PB0 / AIN0 / MOSI',
         'desc' => 'PB0 / Analog comparator positive input / Serial programming input',
       ),
-      5 => 
+      'PB1 / INT0 / AIN1 / MISO' => 
       array (
-        'num' => '6',
-        'sym' => 'PB1 / INT0 / AIN1 / MISO',
         'desc' => 'PB1 / External interrupt 0 / Analog comparator negative input / Serial programming input',
       ),
-      6 => 
+      'PB2 / T0 / SCK' => 
       array (
-        'num' => '7',
-        'sym' => 'PB2 / T0 / SCK',
         'desc' => 'PB2 / Timer/Counter 0 external counter input / Serial clock',
       ),
-      7 => 
+      'V__CC' => 
       array (
-        'num' => '8',
-        'sym' => 'V__CC',
         'desc' => 'Supply voltage',
       ),
     ),
@@ -25169,63 +22478,59 @@
     array (
       0 => 'Also availablle in SOIC package (same pinout)',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'PB5 / ~RESET~',
+        2 => 'PB3 / XTAL1',
+        3 => 'PB4 / XTAL2',
+        4 => 'GND',
+        5 => 'PB0 / AIN0 / MOSI',
+        6 => 'PB1 / INT0 / AIN1 / MISO',
+        7 => 'PB2 / T0 / SCK',
+        8 => 'V__CC',
+      ),
+    ),
   ),
   'ATTINY13' => 
   array (
     'name' => 'ATtiny13',
     'description' => '8-bit AVR® microcontroller',
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'Atmel',
     'datasheet' => 'http://www.atmel.com/dyn/resources/prod_documents/doc2535.pdf',
     'pins' => 
     array (
-      0 => 
+      '(PCINT5/~RESET~/ADC0/dW) PB5' => 
       array (
-        'num' => '1',
-        'sym' => '(PCINT5/~RESET~/ADC0/dW) PB5',
         'desc' => 'reset (active low); port B',
       ),
-      1 => 
+      '(PCINT3/CLKI/ADC3) PB3' => 
       array (
-        'num' => '2',
-        'sym' => '(PCINT3/CLKI/ADC3) PB3',
         'desc' => 'external clock input; port B',
       ),
-      2 => 
+      '(PCINT4/ADC2) PB4' => 
       array (
-        'num' => '3',
-        'sym' => '(PCINT4/ADC2) PB4',
         'desc' => 'port B',
       ),
-      3 => 
+      'GND' => 
       array (
-        'num' => '4',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      4 => 
+      'PB0 (MOSI/AIN0/OC0A/PCINT0)' => 
       array (
-        'num' => '5',
-        'sym' => 'PB0 (MOSI/AIN0/OC0A/PCINT0)',
         'desc' => 'SPI master output/slave input; port B',
       ),
-      5 => 
+      'PB1 (MISO/AIN1/OC0B/INT0/PCINT1)' => 
       array (
-        'num' => '6',
-        'sym' => 'PB1 (MISO/AIN1/OC0B/INT0/PCINT1)',
         'desc' => 'SPI master input/slave output; port B',
       ),
-      6 => 
+      'PB2 (SCK/ADC1/T0/PCINT2)' => 
       array (
-        'num' => '7',
-        'sym' => 'PB2 (SCK/ADC1/T0/PCINT2)',
         'desc' => 'SPI master clock; port B',
       ),
-      7 => 
+      'Vcc' => 
       array (
-        'num' => '8',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -25261,6 +22566,20 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '(PCINT5/~RESET~/ADC0/dW) PB5',
+        2 => '(PCINT3/CLKI/ADC3) PB3',
+        3 => '(PCINT4/ADC2) PB4',
+        4 => 'GND',
+        5 => 'PB0 (MOSI/AIN0/OC0A/PCINT0)',
+        6 => 'PB1 (MISO/AIN1/OC0B/INT0/PCINT1)',
+        7 => 'PB2 (SCK/ADC1/T0/PCINT2)',
+        8 => 'Vcc',
+      ),
+    ),
   ),
   'ATTINY2313' => 
   array (
@@ -25270,130 +22589,88 @@
     array (
       0 => 'ATtiny4313',
     ),
-    'package' => 'DIP',
-    'pincount' => 20,
     'family' => 'Atmel',
     'datasheet' => 'http://www.atmel.com/dyn/resources/prod_documents/DOC8246.PDF',
     'pins' => 
     array (
-      0 => 
+      '(~RESET~/dW) PA2' => 
       array (
-        'num' => '1',
-        'sym' => '(~RESET~/dW) PA2',
         'desc' => 'reset (active low)',
       ),
-      1 => 
+      '(RXD) PD0' => 
       array (
-        'num' => '2',
-        'sym' => '(RXD) PD0',
         'desc' => 'UART receive; port D',
       ),
-      2 => 
+      '(TXD) PD1' => 
       array (
-        'num' => '3',
-        'sym' => '(TXD) PD1',
         'desc' => 'UART transmit; port D',
       ),
-      3 => 
+      '(XTAL2) PA1' => 
       array (
-        'num' => '4',
-        'sym' => '(XTAL2) PA1',
         'desc' => 'clock oscillator pin 2; port A',
       ),
-      4 => 
+      '(XTAL1) PA0' => 
       array (
-        'num' => '5',
-        'sym' => '(XTAL1) PA0',
         'desc' => 'clock oscillator pin 1; port A',
       ),
-      5 => 
+      '(CKOUT/XCK/INT0) PD2' => 
       array (
-        'num' => '6',
-        'sym' => '(CKOUT/XCK/INT0) PD2',
         'desc' => 'external interrupt 0; clock output; port D',
       ),
-      6 => 
+      '(INT1) PD3' => 
       array (
-        'num' => '7',
-        'sym' => '(INT1) PD3',
         'desc' => 'external interrupt 1; port D',
       ),
-      7 => 
+      '(T0) PD4' => 
       array (
-        'num' => '8',
-        'sym' => '(T0) PD4',
         'desc' => 'port D',
       ),
-      8 => 
+      '(OC0B/T1) PD5' => 
       array (
-        'num' => '9',
-        'sym' => '(OC0B/T1) PD5',
         'desc' => 'port D',
       ),
-      9 => 
+      'GND' => 
       array (
-        'num' => '10',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      10 => 
+      'PD6 (ICP)' => 
       array (
-        'num' => '11',
-        'sym' => 'PD6 (ICP)',
         'desc' => 'port D',
       ),
-      11 => 
+      'PB0 (AIN0/PCINT0)' => 
       array (
-        'num' => '12',
-        'sym' => 'PB0 (AIN0/PCINT0)',
         'desc' => 'port B',
       ),
-      12 => 
+      'PB1 (AIN1/PCINT1)' => 
       array (
-        'num' => '13',
-        'sym' => 'PB1 (AIN1/PCINT1)',
         'desc' => 'port B',
       ),
-      13 => 
+      'PB2 (OC0A/PCINT2)' => 
       array (
-        'num' => '14',
-        'sym' => 'PB2 (OC0A/PCINT2)',
         'desc' => 'port B',
       ),
-      14 => 
+      'PB3 (OC1A/PCINT3)' => 
       array (
-        'num' => '15',
-        'sym' => 'PB3 (OC1A/PCINT3)',
         'desc' => 'port B',
       ),
-      15 => 
+      'PB4 (OC1B/PCINT4)' => 
       array (
-        'num' => '16',
-        'sym' => 'PB4 (OC1B/PCINT4)',
         'desc' => 'port B',
       ),
-      16 => 
+      'PB5 (MOSI/DI/SDA/PCINT5)' => 
       array (
-        'num' => '17',
-        'sym' => 'PB5 (MOSI/DI/SDA/PCINT5)',
         'desc' => '3-wire data input; 2-wire data; port B',
       ),
-      17 => 
+      'PB6 (MISO/DO/PCINT6)' => 
       array (
-        'num' => '18',
-        'sym' => 'PB6 (MISO/DO/PCINT6)',
         'desc' => '3-wire data output; port B',
       ),
-      18 => 
+      'PB7 (UCSK/SCL/PCINT7)' => 
       array (
-        'num' => '19',
-        'sym' => 'PB7 (UCSK/SCL/PCINT7)',
         'desc' => '3-wire clock; 2-wire clock; port B',
       ),
-      19 => 
+      'Vcc' => 
       array (
-        'num' => '20',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -25441,6 +22718,32 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '(~RESET~/dW) PA2',
+        2 => '(RXD) PD0',
+        3 => '(TXD) PD1',
+        4 => '(XTAL2) PA1',
+        5 => '(XTAL1) PA0',
+        6 => '(CKOUT/XCK/INT0) PD2',
+        7 => '(INT1) PD3',
+        8 => '(T0) PD4',
+        9 => '(OC0B/T1) PD5',
+        10 => 'GND',
+        11 => 'PD6 (ICP)',
+        12 => 'PB0 (AIN0/PCINT0)',
+        13 => 'PB1 (AIN1/PCINT1)',
+        14 => 'PB2 (OC0A/PCINT2)',
+        15 => 'PB3 (OC1A/PCINT3)',
+        16 => 'PB4 (OC1B/PCINT4)',
+        17 => 'PB5 (MOSI/DI/SDA/PCINT5)',
+        18 => 'PB6 (MISO/DO/PCINT6)',
+        19 => 'PB7 (UCSK/SCL/PCINT7)',
+        20 => 'Vcc',
+      ),
+    ),
   ),
   'ATTINY85' => 
   array (
@@ -25451,58 +22754,40 @@
       0 => 'ATtiny25',
       1 => 'ATtiny45',
     ),
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'Atmel',
     'datasheet' => 'http://www.atmel.com/dyn/resources/prod_documents/doc2586.pdf',
     'pins' => 
     array (
-      0 => 
+      '(PCINT5/~RESET~/ADC0/dW) PB5' => 
       array (
-        'num' => '1',
-        'sym' => '(PCINT5/~RESET~/ADC0/dW) PB5',
         'desc' => 'reset (active low); port B',
       ),
-      1 => 
+      '(PCINT3/XTAL1/CLKI/~OC1B~/ADC3) PB3' => 
       array (
-        'num' => '2',
-        'sym' => '(PCINT3/XTAL1/CLKI/~OC1B~/ADC3) PB3',
         'desc' => 'crystal connection; external clock input; port B',
       ),
-      2 => 
+      '(PCINT4/XTAL2/CLKO/OC1B/ADC2) PB4' => 
       array (
-        'num' => '3',
-        'sym' => '(PCINT4/XTAL2/CLKO/OC1B/ADC2) PB4',
         'desc' => 'crystal connection; clock output; port B',
       ),
-      3 => 
+      'GND' => 
       array (
-        'num' => '4',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      4 => 
+      'PB0 (MOSI/DI/SDA/AIN0/OC0A/~OC1A~/AREF/PCINT0)' => 
       array (
-        'num' => '5',
-        'sym' => 'PB0 (MOSI/DI/SDA/AIN0/OC0A/~OC1A~/AREF/PCINT0)',
         'desc' => 'SPI master output/slave input; 2-wire data; ADC reference; port B',
       ),
-      5 => 
+      'PB1 (MISO/DO/AIN1/OC0B/OC1A/PCINT1)' => 
       array (
-        'num' => '6',
-        'sym' => 'PB1 (MISO/DO/AIN1/OC0B/OC1A/PCINT1)',
         'desc' => 'SPI master input/slave output; port B',
       ),
-      6 => 
+      'PB2 (SCK/USCK/SCL/ADC1/T0/INT0/PCINT2)' => 
       array (
-        'num' => '7',
-        'sym' => 'PB2 (SCK/USCK/SCL/ADC1/T0/INT0/PCINT2)',
         'desc' => 'SPI master clock; 2-wire clock; external interrupt 0; port B',
       ),
-      7 => 
+      'Vcc' => 
       array (
-        'num' => '8',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -25553,6 +22838,54 @@
         'unit' => 'MHz',
       ),
     ),
+    'packages' => 
+    array (
+      'PDIP' => 
+      array (
+        1 => '(PCINT5/~RESET~/ADC0/dW) PB5',
+        2 => '(PCINT3/XTAL1/CLKI/~OC1B~/ADC3) PB3',
+        3 => '(PCINT4/XTAL2/CLKO/OC1B/ADC2) PB4',
+        4 => 'GND',
+        5 => 'PB0 (MOSI/DI/SDA/AIN0/OC0A/~OC1A~/AREF/PCINT0)',
+        6 => 'PB1 (MISO/DO/AIN1/OC0B/OC1A/PCINT1)',
+        7 => 'PB2 (SCK/USCK/SCL/ADC1/T0/INT0/PCINT2)',
+        8 => 'Vcc',
+      ),
+      'SOIC' => 
+      array (
+        1 => '(PCINT5/~RESET~/ADC0/dW) PB5',
+        2 => '(PCINT3/XTAL1/CLKI/~OC1B~/ADC3) PB3',
+        3 => '(PCINT4/XTAL2/CLKO/OC1B/ADC2) PB4',
+        4 => 'GND',
+        5 => 'PB0 (MOSI/DI/SDA/AIN0/OC0A/~OC1A~/AREF/PCINT0)',
+        6 => 'PB1 (MISO/DO/AIN1/OC0B/OC1A/PCINT1)',
+        7 => 'PB2 (SCK/USCK/SCL/ADC1/T0/INT0/PCINT2)',
+        8 => 'Vcc',
+      ),
+      'TSSOP' => 
+      array (
+        1 => '(PCINT5/~RESET~/ADC0/dW) PB5',
+        2 => '(PCINT3/XTAL1/CLKI/~OC1B~/ADC3) PB3',
+        3 => '(PCINT4/XTAL2/CLKO/OC1B/ADC2) PB4',
+        4 => 'GND',
+        5 => 'PB0 (MOSI/DI/SDA/AIN0/OC0A/~OC1A~/AREF/PCINT0)',
+        6 => 'PB1 (MISO/DO/AIN1/OC0B/OC1A/PCINT1)',
+        7 => 'PB2 (SCK/USCK/SCL/ADC1/T0/INT0/PCINT2)',
+        8 => 'Vcc',
+      ),
+      'QFN' => 
+      array (
+        1 => '(PCINT5/~RESET~/ADC0/dW) PB5',
+        2 => '(PCINT3/XTAL1/CLKI/~OC1B~/ADC3) PB3',
+        5 => '(PCINT4/XTAL2/CLKO/OC1B/ADC2) PB4',
+        8 => 'GND',
+        11 => 'PB0 (MOSI/DI/SDA/AIN0/OC0A/~OC1A~/AREF/PCINT0)',
+        12 => 'PB1 (MISO/DO/AIN1/OC0B/OC1A/PCINT1)',
+        14 => 'PB2 (SCK/USCK/SCL/ADC1/T0/INT0/PCINT2)',
+        15 => 'Vcc',
+        'BOTTOM_PLATE' => 'GND',
+      ),
+    ),
   ),
   'AY-3-8910' => 
   array (
@@ -25561,250 +22894,160 @@
     array (
       0 => 'YM2149',
     ),
-    'package' => 'DIP',
-    'pincount' => 40,
     'family' => 'General Instrument',
     'datasheet' => 'http://www.ym2149.com/ay8910.pdf',
     'pins' => 
     array (
-      0 => 
+      'GND' => 
       array (
-        'num' => '1',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      1 => 
+      'ANALOG B' => 
       array (
-        'num' => '2',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      2 => 
-      array (
-        'num' => '3',
-        'sym' => 'ANALOG B',
         'desc' => 'analog output, channel B',
       ),
-      3 => 
+      'ANALOG A' => 
       array (
-        'num' => '4',
-        'sym' => 'ANALOG A',
         'desc' => 'analog output, channel A',
       ),
-      4 => 
+      'IOB7' => 
       array (
-        'num' => '5',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      5 => 
-      array (
-        'num' => '6',
-        'sym' => 'IOB7',
         'desc' => 'I/O port B',
       ),
-      6 => 
+      'IOB6' => 
       array (
-        'num' => '7',
-        'sym' => 'IOB6',
         'desc' => 'I/O port B',
       ),
-      7 => 
+      'IOB5' => 
       array (
-        'num' => '8',
-        'sym' => 'IOB5',
         'desc' => 'I/O port B',
       ),
-      8 => 
+      'IOB4' => 
       array (
-        'num' => '9',
-        'sym' => 'IOB4',
         'desc' => 'I/O port B',
       ),
-      9 => 
+      'IOB3' => 
       array (
-        'num' => '10',
-        'sym' => 'IOB3',
         'desc' => 'I/O port B',
       ),
-      10 => 
+      'IOB2' => 
       array (
-        'num' => '11',
-        'sym' => 'IOB2',
         'desc' => 'I/O port B',
       ),
-      11 => 
+      'IOB1' => 
       array (
-        'num' => '12',
-        'sym' => 'IOB1',
         'desc' => 'I/O port B',
       ),
-      12 => 
+      'IOB0' => 
       array (
-        'num' => '13',
-        'sym' => 'IOB0',
         'desc' => 'I/O port B',
       ),
-      13 => 
+      'IOA7' => 
       array (
-        'num' => '14',
-        'sym' => 'IOA7',
         'desc' => 'I/O port A',
       ),
-      14 => 
+      'IOA6' => 
       array (
-        'num' => '15',
-        'sym' => 'IOA6',
         'desc' => 'I/O port A',
       ),
-      15 => 
+      'IOA5' => 
       array (
-        'num' => '16',
-        'sym' => 'IOA5',
         'desc' => 'I/O port A',
       ),
-      16 => 
+      'IOA4' => 
       array (
-        'num' => '17',
-        'sym' => 'IOA4',
         'desc' => 'I/O port A',
       ),
-      17 => 
+      'IOA3' => 
       array (
-        'num' => '18',
-        'sym' => 'IOA3',
         'desc' => 'I/O port A',
       ),
-      18 => 
+      'IOA2' => 
       array (
-        'num' => '19',
-        'sym' => 'IOA2',
         'desc' => 'I/O port A',
       ),
-      19 => 
+      'IOA1' => 
       array (
-        'num' => '20',
-        'sym' => 'IOA1',
         'desc' => 'I/O port A',
       ),
-      20 => 
+      'IOA0' => 
       array (
-        'num' => '21',
-        'sym' => 'IOA0',
         'desc' => 'I/O port A',
       ),
-      21 => 
+      'CLOCK' => 
       array (
-        'num' => '22',
-        'sym' => 'CLOCK',
         'desc' => 'clock input',
       ),
-      22 => 
+      '~RESET' => 
       array (
-        'num' => '23',
-        'sym' => '~RESET',
         'desc' => 'master reset (active low)',
       ),
-      23 => 
+      '~A9' => 
       array (
-        'num' => '24',
-        'sym' => '~A9',
         'desc' => 'chip select',
       ),
-      24 => 
+      'A8' => 
       array (
-        'num' => '25',
-        'sym' => 'A8',
         'desc' => 'chip select',
       ),
-      25 => 
+      'TEST 2/~SEL' => 
       array (
-        'num' => '26',
-        'sym' => 'TEST 2/~SEL',
         'desc' => 'test pin (do not connect)',
       ),
-      26 => 
+      'BDIR' => 
       array (
-        'num' => '27',
-        'sym' => 'BDIR',
         'desc' => 'bus direction',
       ),
-      27 => 
+      'BC2' => 
       array (
-        'num' => '28',
-        'sym' => 'BC2',
         'desc' => 'bus control',
       ),
-      28 => 
+      'BC1' => 
       array (
-        'num' => '29',
-        'sym' => 'BC1',
         'desc' => 'bus control',
       ),
-      29 => 
+      'DA7' => 
       array (
-        'num' => '30',
-        'sym' => 'DA7',
         'desc' => 'data/address bus',
       ),
-      30 => 
+      'DA6' => 
       array (
-        'num' => '31',
-        'sym' => 'DA6',
         'desc' => 'data/address bus',
       ),
-      31 => 
+      'DA5' => 
       array (
-        'num' => '32',
-        'sym' => 'DA5',
         'desc' => 'data/address bus',
       ),
-      32 => 
+      'DA4' => 
       array (
-        'num' => '33',
-        'sym' => 'DA4',
         'desc' => 'data/address bus',
       ),
-      33 => 
+      'DA3' => 
       array (
-        'num' => '34',
-        'sym' => 'DA3',
         'desc' => 'data/address bus',
       ),
-      34 => 
+      'DA2' => 
       array (
-        'num' => '35',
-        'sym' => 'DA2',
         'desc' => 'data/address bus',
       ),
-      35 => 
+      'DA1' => 
       array (
-        'num' => '36',
-        'sym' => 'DA1',
         'desc' => 'data/address bus',
       ),
-      36 => 
+      'DA0' => 
       array (
-        'num' => '37',
-        'sym' => 'DA0',
         'desc' => 'data/address bus',
       ),
-      37 => 
+      'ANALOG C' => 
       array (
-        'num' => '38',
-        'sym' => 'ANALOG C',
         'desc' => 'analog output, channel C',
       ),
-      38 => 
+      'TEST 1' => 
       array (
-        'num' => '39',
-        'sym' => 'TEST 1',
         'desc' => 'test pin (do not connect)',
       ),
-      39 => 
+      'Vcc' => 
       array (
-        'num' => '40',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -25860,62 +23103,90 @@
 <tr><td>$0F</td><td>I/O port B data</td></tr>
 </table>',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'GND',
+        2 => 'NC',
+        3 => 'ANALOG B',
+        4 => 'ANALOG A',
+        5 => 'NC',
+        6 => 'IOB7',
+        7 => 'IOB6',
+        8 => 'IOB5',
+        9 => 'IOB4',
+        10 => 'IOB3',
+        11 => 'IOB2',
+        12 => 'IOB1',
+        13 => 'IOB0',
+        14 => 'IOA7',
+        15 => 'IOA6',
+        16 => 'IOA5',
+        17 => 'IOA4',
+        18 => 'IOA3',
+        19 => 'IOA2',
+        20 => 'IOA1',
+        21 => 'IOA0',
+        22 => 'CLOCK',
+        23 => '~RESET',
+        24 => '~A9',
+        25 => 'A8',
+        26 => 'TEST 2/~SEL',
+        27 => 'BDIR',
+        28 => 'BC2',
+        29 => 'BC1',
+        30 => 'DA7',
+        31 => 'DA6',
+        32 => 'DA5',
+        33 => 'DA4',
+        34 => 'DA3',
+        35 => 'DA2',
+        36 => 'DA1',
+        37 => 'DA0',
+        38 => 'ANALOG C',
+        39 => 'TEST 1',
+        40 => 'Vcc',
+      ),
+    ),
   ),
   'DS1307' => 
   array (
     'description' => '64 x 8, serial, I2C real-time clock',
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'Maxim',
     'datasheet' => 'http://datasheets.maxim-ic.com/en/ds/DS1307.pdf',
     'pins' => 
     array (
-      0 => 
+      'X1' => 
       array (
-        'num' => '1',
-        'sym' => 'X1',
         'desc' => '32.768kHz crystal connection',
       ),
-      1 => 
+      'X2' => 
       array (
-        'num' => '2',
-        'sym' => 'X2',
         'desc' => '32.768kHz crystal connection',
       ),
-      2 => 
+      'V__BAT' => 
       array (
-        'num' => '3',
-        'sym' => 'V__BAT',
         'desc' => 'backup supply voltage (e.g. 3V lithium coin cell)',
       ),
-      3 => 
+      'GND' => 
       array (
-        'num' => '4',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      4 => 
+      'SDA' => 
       array (
-        'num' => '5',
-        'sym' => 'SDA',
         'desc' => 'serial data input/output',
       ),
-      5 => 
+      'SCL' => 
       array (
-        'num' => '6',
-        'sym' => 'SCL',
         'desc' => 'serial clock input',
       ),
-      6 => 
+      'SQW/OUT' => 
       array (
-        'num' => '7',
-        'sym' => 'SQW/OUT',
         'desc' => 'square wave output',
       ),
-      7 => 
+      'Vcc' => 
       array (
-        'num' => '8',
-        'sym' => 'Vcc',
         'desc' => 'primary supply voltage',
       ),
     ),
@@ -25925,6 +23196,20 @@
       1 => 'Square wave output can be 1Hz, 4.096kHz, 8.192kHz, or 32.768kHz.',
       2 => 'Reads/writes are inhibited when Vcc falls below 1.25 x V__BAT.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'X1',
+        2 => 'X2',
+        3 => 'V__BAT',
+        4 => 'GND',
+        5 => 'SDA',
+        6 => 'SCL',
+        7 => 'SQW/OUT',
+        8 => 'Vcc',
+      ),
+    ),
   ),
   'DS1620' => 
   array (
@@ -25932,58 +23217,40 @@
     'aliases' => 
     array (
     ),
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'Maxim',
     'datasheet' => 'http://datasheets.maxim-ic.com/en/ds/DS1620.pdf',
     'pins' => 
     array (
-      0 => 
+      'DQ' => 
       array (
-        'num' => '1',
-        'sym' => 'DQ',
         'desc' => '3-Wire input/output',
       ),
-      1 => 
+      'CLK/~CONV~' => 
       array (
-        'num' => '2',
-        'sym' => 'CLK/~CONV~',
         'desc' => '3-Wire clock input & stand-alone convert input',
       ),
-      2 => 
+      '~RST~' => 
       array (
-        'num' => '3',
-        'sym' => '~RST~',
         'desc' => 'reset',
       ),
-      3 => 
+      'GND' => 
       array (
-        'num' => '4',
-        'sym' => 'GND',
         'desc' => 'power ground',
       ),
-      4 => 
+      'T__COM' => 
       array (
-        'num' => '5',
-        'sym' => 'T__COM',
         'desc' => 'Hi/Lo combined trigger',
       ),
-      5 => 
+      'T__LOW' => 
       array (
-        'num' => '6',
-        'sym' => 'T__LOW',
         'desc' => 'low Temp trigger',
       ),
-      6 => 
+      'T__HIGH' => 
       array (
-        'num' => '7',
-        'sym' => 'T__HIGH',
         'desc' => 'high Temp trigger',
       ),
-      7 => 
+      'V__DD' => 
       array (
-        'num' => '8',
-        'sym' => 'V__DD',
         'desc' => '+3V to +5V',
       ),
     ),
@@ -26012,100 +23279,44 @@
     array (
       0 => 'Temperature excursions beyond user defined Max / Min limits will trigger T__HIGH or T__LOW outputs for application driven temperature correction.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'DQ',
+        2 => 'CLK/~CONV~',
+        3 => '~RST~',
+        4 => 'GND',
+        5 => 'T__COM',
+        6 => 'T__LOW',
+        7 => 'T__HIGH',
+        8 => 'V__DD',
+      ),
+    ),
   ),
   'DS32KHZ' => 
   array (
     'name' => 'DS32kHz',
     'description' => '32.768kHz temperature-compensated crystal oscillator',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => 'Maxim',
     'datasheet' => 'http://datasheets.maxim-ic.com/en/ds/DS32kHz.pdf',
     'pins' => 
     array (
-      0 => 
+      'GND' => 
       array (
-        'num' => '1',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      1 => 
-      array (
-        'num' => '2',
-        'sym' => '',
-        'desc' => 'no pin',
-      ),
-      2 => 
-      array (
-        'num' => '3',
-        'sym' => '',
-        'desc' => 'no pin',
-      ),
-      3 => 
-      array (
-        'num' => '4',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      4 => 
+      'V__BAT' => 
       array (
-        'num' => '5',
-        'sym' => 'V__BAT',
         'desc' => '+3V nominal backup supply voltage',
       ),
-      5 => 
+      '32kHz' => 
       array (
-        'num' => '6',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      6 => 
-      array (
-        'num' => '7',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      7 => 
-      array (
-        'num' => '8',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      8 => 
-      array (
-        'num' => '9',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      9 => 
-      array (
-        'num' => '10',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      10 => 
-      array (
-        'num' => '11',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      11 => 
-      array (
-        'num' => '12',
-        'sym' => '32kHz',
         'desc' => '32.768kHz push-pull output',
       ),
-      12 => 
+      'Vcc' => 
       array (
-        'num' => '13',
-        'sym' => 'Vcc',
         'desc' => 'primary supply voltage',
-      ),
-      13 => 
-      array (
-        'num' => '14',
-        'sym' => 'NC',
-        'desc' => 'no connection',
       ),
     ),
     'specs' => 
@@ -26123,6 +23334,84 @@
         'unit' => 'ppm',
       ),
     ),
+    'packages' => 
+    array (
+      'SO' => 
+      array (
+        1 => '32kHz',
+        2 => 'Vcc',
+        3 => 'NC',
+        4 => 'NC',
+        5 => 'NC',
+        6 => 'NC',
+        7 => 'NC',
+        8 => 'NC',
+        9 => 'NC',
+        10 => 'NC',
+        11 => 'NC',
+        12 => 'NC',
+        13 => 'GND',
+        14 => 'V__BAT',
+        15 => 'NC',
+        16 => 'NC',
+      ),
+      'EDIP' => 
+      array (
+        1 => 'NC',
+        2 => 'NOT_PRESENT',
+        3 => 'NOT_PRESENT',
+        4 => 'GND',
+        5 => 'V__BAT',
+        6 => 'NC',
+        7 => 'NC',
+        8 => 'NC',
+        9 => 'NC',
+        10 => 'NC',
+        11 => 'NC',
+        12 => '32kHz',
+        13 => 'Vcc',
+        14 => 'NC',
+      ),
+      'BGA' => 
+      array (
+        'A1' => 'GND',
+        'A2' => 'GND',
+        'A3' => 'GND',
+        'A4' => 'V__BAT',
+        'A5' => 'V__BAT',
+        'A6' => 'GND',
+        'A7' => 'NC',
+        'A8' => 'NC',
+        'A9' => 'GND',
+        'B1' => 'GND',
+        'B2' => 'GND',
+        'B3' => 'GND',
+        'B4' => 'V__BAT',
+        'B5' => 'V__BAT',
+        'B6' => 'GND',
+        'B7' => 'NC',
+        'B8' => 'NC',
+        'B9' => 'GND',
+        'C1' => 'GND',
+        'C2' => 'Vcc',
+        'C3' => 'Vcc',
+        'C4' => '32kHz',
+        'C5' => '32kHz',
+        'C6' => 'GND',
+        'C7' => 'NC',
+        'C8' => 'NC',
+        'C9' => 'GND',
+        'D1' => 'GND',
+        'D2' => 'Vcc',
+        'D3' => 'Vcc',
+        'D4' => '32kHz',
+        'D5' => '32kHz',
+        'D6' => 'GND',
+        'D7' => 'NC',
+        'D8' => 'NC',
+        'D9' => 'GND',
+      ),
+    ),
   ),
   'HSN-1000' => 
   array (
@@ -26130,94 +23419,44 @@
     'aliases' => 
     array (
     ),
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => 'Maxwell',
     'datasheet' => 'http://www.maxwell.com/products/microelectronics/docs/HSN1000_REV3.PDF',
     'pins' => 
     array (
-      0 => 
+      'V__L' => 
       array (
-        'num' => '1',
-        'sym' => 'V__L',
         'desc' => 'load voltage',
       ),
-      1 => 
+      '~NED' => 
       array (
-        'num' => '2',
-        'sym' => '~NED',
         'desc' => 'nuclear event detection (active low)',
       ),
-      2 => 
+      'CAP1' => 
       array (
-        'num' => '3',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      3 => 
-      array (
-        'num' => '4',
-        'sym' => 'CAP1',
         'desc' => 'external capacitor',
       ),
-      4 => 
+      'CAP2' => 
       array (
-        'num' => '5',
-        'sym' => 'CAP2',
         'desc' => 'external capacitor',
       ),
-      5 => 
+      'BIT' => 
       array (
-        'num' => '6',
-        'sym' => 'BIT',
         'desc' => 'built-in test',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'package ground and case',
       ),
-      7 => 
+      'V__B' => 
       array (
-        'num' => '8',
-        'sym' => 'V__B',
         'desc' => 'pin diode bias',
       ),
-      8 => 
+      'THR_ADJ' => 
       array (
-        'num' => '9',
-        'sym' => 'THR_ADJ',
         'desc' => 'threshold adjust',
       ),
-      9 => 
+      'V__H' => 
       array (
-        'num' => '10',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      10 => 
-      array (
-        'num' => '11',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      11 => 
-      array (
-        'num' => '12',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      12 => 
-      array (
-        'num' => '13',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      13 => 
-      array (
-        'num' => '14',
-        'sym' => 'V__H',
         'desc' => 'hardened supply voltage',
       ),
     ),
@@ -26272,6 +23511,26 @@
     array (
       0 => 'Less than a 30% variation in detection threshold can be expected over the entire operating temperature range.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'V__L',
+        2 => '~NED',
+        3 => 'NC',
+        4 => 'CAP1',
+        5 => 'CAP2',
+        6 => 'BIT',
+        7 => 'GND',
+        8 => 'V__B',
+        9 => 'THR_ADJ',
+        10 => 'NC',
+        11 => 'NC',
+        12 => 'NC',
+        13 => 'NC',
+        14 => 'V__H',
+      ),
+    ),
   ),
   'ICL7660' => 
   array (
@@ -26280,57 +23539,35 @@
     array (
       0 => 'MAX1044',
     ),
-    'package' => 'DIP',
-    'pincount' => 8,
     'datasheet' => 'http://www.intersil.com/data/fn/fn3072.pdf',
     'pins' => 
     array (
-      0 => 
+      'CAP+' => 
       array (
-        'num' => '1',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      1 => 
-      array (
-        'num' => '2',
-        'sym' => 'CAP+',
         'desc' => 'connection to + terminal of charge-pump capacitor',
       ),
-      2 => 
+      'GND' => 
       array (
-        'num' => '3',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      3 => 
+      'CAP-' => 
       array (
-        'num' => '4',
-        'sym' => 'CAP-',
         'desc' => 'connection to - terminal of charge-pump capacitor',
       ),
-      4 => 
+      'V__OUT' => 
       array (
-        'num' => '5',
-        'sym' => 'V__OUT',
         'desc' => 'negative voltage output',
       ),
-      5 => 
+      'LV' => 
       array (
-        'num' => '6',
-        'sym' => 'LV',
         'desc' => 'low voltage; connect to ground for V+ < 3.5V',
       ),
-      6 => 
+      'OSC' => 
       array (
-        'num' => '7',
-        'sym' => 'OSC',
         'desc' => 'oscillator control input',
       ),
-      7 => 
+      'V+' => 
       array (
-        'num' => '8',
-        'sym' => 'V+',
         'desc' => 'positive supply voltage (1.5V to 10V)',
       ),
     ),
@@ -26338,182 +23575,138 @@
     array (
       0 => 'Basic negative voltage converter: 10µF capacitor across pins 2 and 4; 10µF capacitor across pin 5 (negative lead) and ground (positive lead).',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'NC',
+        2 => 'CAP+',
+        3 => 'GND',
+        4 => 'CAP-',
+        5 => 'V__OUT',
+        6 => 'LV',
+        7 => 'OSC',
+        8 => 'V+',
+      ),
+    ),
   ),
   'ICM7228B' => 
   array (
     'description' => '8-digit LED display decoder/driver, common cathode',
-    'package' => 'DIP',
-    'pincount' => 28,
     'family' => 'Intersil',
     'datasheet' => 'http://www.intersil.com/data/fn/fn3160.pdf',
     'pins' => 
     array (
-      0 => 
+      'DIGIT 4' => 
       array (
-        'num' => '1',
-        'sym' => 'DIGIT 4',
         'desc' => 'digit 4 cathode',
       ),
-      1 => 
+      'DIGIT 6' => 
       array (
-        'num' => '2',
-        'sym' => 'DIGIT 6',
         'desc' => 'digit 6 cathode',
       ),
-      2 => 
+      'DIGIT 3' => 
       array (
-        'num' => '3',
-        'sym' => 'DIGIT 3',
         'desc' => 'digit 3 cathode',
       ),
-      3 => 
+      'DIGIT 1' => 
       array (
-        'num' => '4',
-        'sym' => 'DIGIT 1',
         'desc' => 'digit 1 cathode',
       ),
-      4 => 
+      'ID6' => 
       array (
-        'num' => '5',
-        'sym' => 'ID6',
         'desc' => 'data bit 6 (HEXA/~CODE-B~)',
       ),
-      5 => 
+      'ID5' => 
       array (
-        'num' => '6',
-        'sym' => 'ID5',
         'desc' => 'data bit 5 (~DECODE~)',
       ),
-      6 => 
+      'ID7' => 
       array (
-        'num' => '7',
-        'sym' => 'ID7',
         'desc' => 'data bit 7 (DATA COMING)',
       ),
-      7 => 
+      '~WRITE' => 
       array (
-        'num' => '8',
-        'sym' => '~WRITE',
         'desc' => 'write (active low, low-to-high edge triggered)',
       ),
-      8 => 
+      'MODE' => 
       array (
-        'num' => '9',
-        'sym' => 'MODE',
         'desc' => 'mode select (control or data word)',
       ),
-      9 => 
+      'ID4' => 
       array (
-        'num' => '10',
-        'sym' => 'ID4',
         'desc' => 'data bit 4 (~SHUTDOWN~)',
       ),
-      10 => 
+      'ID1' => 
       array (
-        'num' => '11',
-        'sym' => 'ID1',
         'desc' => 'data bit 1',
       ),
-      11 => 
+      'ID0' => 
       array (
-        'num' => '12',
-        'sym' => 'ID0',
         'desc' => 'data bit 0',
       ),
-      12 => 
+      'ID2' => 
       array (
-        'num' => '13',
-        'sym' => 'ID2',
         'desc' => 'data bit 2',
       ),
-      13 => 
+      'ID3' => 
       array (
-        'num' => '14',
-        'sym' => 'ID3',
         'desc' => 'data bit 3',
       ),
-      14 => 
+      'DP' => 
       array (
-        'num' => '15',
-        'sym' => 'DP',
         'desc' => 'decimal point anode',
       ),
-      15 => 
+      'SEG a' => 
       array (
-        'num' => '16',
-        'sym' => 'SEG a',
         'desc' => 'segment a anode',
       ),
-      16 => 
+      'SEG b' => 
       array (
-        'num' => '17',
-        'sym' => 'SEG b',
         'desc' => 'segment b anode',
       ),
-      17 => 
+      'SEG d' => 
       array (
-        'num' => '18',
-        'sym' => 'SEG d',
         'desc' => 'segment d anode',
       ),
-      18 => 
+      'Vcc' => 
       array (
-        'num' => '19',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
-      19 => 
+      'SEG c' => 
       array (
-        'num' => '20',
-        'sym' => 'SEG c',
         'desc' => 'segment c anode',
       ),
-      20 => 
+      'SEG e' => 
       array (
-        'num' => '21',
-        'sym' => 'SEG e',
         'desc' => 'segment e anode',
       ),
-      21 => 
+      'SEG f' => 
       array (
-        'num' => '22',
-        'sym' => 'SEG f',
         'desc' => 'segment f anode',
       ),
-      22 => 
+      'SEG g' => 
       array (
-        'num' => '23',
-        'sym' => 'SEG g',
         'desc' => 'segment g anode',
       ),
-      23 => 
+      'DIGIT 8' => 
       array (
-        'num' => '24',
-        'sym' => 'DIGIT 8',
         'desc' => 'digit 8 cathode',
       ),
-      24 => 
+      'DIGIT 2' => 
       array (
-        'num' => '25',
-        'sym' => 'DIGIT 2',
         'desc' => 'digit 2 cathode',
       ),
-      25 => 
+      'DIGIT 5' => 
       array (
-        'num' => '26',
-        'sym' => 'DIGIT 5',
         'desc' => 'digit 5 cathode',
       ),
-      26 => 
+      'DIGIT 7' => 
       array (
-        'num' => '27',
-        'sym' => 'DIGIT 7',
         'desc' => 'digit 7 cathode',
       ),
-      27 => 
+      'GND' => 
       array (
-        'num' => '28',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
     ),
@@ -26576,6 +23769,40 @@
     array (
       0 => 'When MODE is low, data is loaded into display RAM. When MODE is high, data is loaded into control register.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'DIGIT 4',
+        2 => 'DIGIT 6',
+        3 => 'DIGIT 3',
+        4 => 'DIGIT 1',
+        5 => 'ID6',
+        6 => 'ID5',
+        7 => 'ID7',
+        8 => '~WRITE',
+        9 => 'MODE',
+        10 => 'ID4',
+        11 => 'ID1',
+        12 => 'ID0',
+        13 => 'ID2',
+        14 => 'ID3',
+        15 => 'DP',
+        16 => 'SEG a',
+        17 => 'SEG b',
+        18 => 'SEG d',
+        19 => 'Vcc',
+        20 => 'SEG c',
+        21 => 'SEG e',
+        22 => 'SEG f',
+        23 => 'SEG g',
+        24 => 'DIGIT 8',
+        25 => 'DIGIT 2',
+        26 => 'DIGIT 5',
+        27 => 'DIGIT 7',
+        28 => 'GND',
+      ),
+    ),
   ),
   'LF347' => 
   array (
@@ -26584,94 +23811,64 @@
     array (
       0 => 'LF147',
     ),
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LF/LF147.pdf',
     'pins' => 
     array (
-      0 => 
+      '1OUT' => 
       array (
-        'num' => '1',
-        'sym' => '1OUT',
         'desc' => 'output 1',
       ),
-      1 => 
+      '1IN-' => 
       array (
-        'num' => '2',
-        'sym' => '1IN-',
         'desc' => 'inverting input 1',
       ),
-      2 => 
+      '1IN+' => 
       array (
-        'num' => '3',
-        'sym' => '1IN+',
         'desc' => 'non-inverting input 1',
       ),
-      3 => 
+      'Vcc' => 
       array (
-        'num' => '4',
-        'sym' => 'Vcc',
         'desc' => 'positive supply voltage',
       ),
-      4 => 
+      '2IN+' => 
       array (
-        'num' => '5',
-        'sym' => '2IN+',
         'desc' => 'non-inverting input 2',
       ),
-      5 => 
+      '2IN-' => 
       array (
-        'num' => '6',
-        'sym' => '2IN-',
         'desc' => 'inverting input 2',
       ),
-      6 => 
+      '2OUT' => 
       array (
-        'num' => '7',
-        'sym' => '2OUT',
         'desc' => 'output 2',
       ),
-      7 => 
+      '3OUT' => 
       array (
-        'num' => '8',
-        'sym' => '3OUT',
         'desc' => 'output 3',
       ),
-      8 => 
+      '3IN-' => 
       array (
-        'num' => '9',
-        'sym' => '3IN-',
         'desc' => 'inverting input 3',
       ),
-      9 => 
+      '3IN+' => 
       array (
-        'num' => '10',
-        'sym' => '3IN+',
         'desc' => 'non-inverting input 3',
       ),
-      10 => 
+      'Vss' => 
       array (
-        'num' => '11',
-        'sym' => 'Vss',
         'desc' => 'negative supply voltage',
       ),
-      11 => 
+      '4IN+' => 
       array (
-        'num' => '12',
-        'sym' => '4IN+',
         'desc' => 'non-inverting input 4',
       ),
-      12 => 
+      '4IN-' => 
       array (
-        'num' => '13',
-        'sym' => '4IN-',
         'desc' => 'inverting input 4',
       ),
-      13 => 
+      '4OUT' => 
       array (
-        'num' => '14',
-        'sym' => '4OUT',
         'desc' => 'output 4',
       ),
     ),
@@ -26718,62 +23915,64 @@
         'unit' => 'mA',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1OUT',
+        2 => '1IN-',
+        3 => '1IN+',
+        4 => 'Vcc',
+        5 => '2IN+',
+        6 => '2IN-',
+        7 => '2OUT',
+        8 => '3OUT',
+        9 => '3IN-',
+        10 => '3IN+',
+        11 => 'Vss',
+        12 => '4IN+',
+        13 => '4IN-',
+        14 => '4OUT',
+      ),
+    ),
   ),
   'LF353' => 
   array (
     'description' => 'Wide bandwidth dual JFET-input operational amplifier',
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LF/LF353.pdf',
     'pins' => 
     array (
-      0 => 
+      '1OUT' => 
       array (
-        'num' => '1',
-        'sym' => '1OUT',
         'desc' => 'output 1',
       ),
-      1 => 
+      '1IN-' => 
       array (
-        'num' => '2',
-        'sym' => '1IN-',
         'desc' => 'inverting input 1',
       ),
-      2 => 
+      '1IN+' => 
       array (
-        'num' => '3',
-        'sym' => '1IN+',
         'desc' => 'non-inverting input 1',
       ),
-      3 => 
+      'Vss' => 
       array (
-        'num' => '4',
-        'sym' => 'Vss',
         'desc' => 'negative supply voltage',
       ),
-      4 => 
+      '2IN+' => 
       array (
-        'num' => '5',
-        'sym' => '2IN+',
         'desc' => 'non-inverting input 2',
       ),
-      5 => 
+      '2IN-' => 
       array (
-        'num' => '6',
-        'sym' => '2IN-',
         'desc' => 'inverting input 2',
       ),
-      6 => 
+      '2OUT' => 
       array (
-        'num' => '7',
-        'sym' => '2OUT',
         'desc' => 'output 2',
       ),
-      7 => 
+      'Vcc' => 
       array (
-        'num' => '8',
-        'sym' => 'Vcc',
         'desc' => 'positive supply voltage',
       ),
     ),
@@ -26826,63 +24025,51 @@
         'unit' => 'mA',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1OUT',
+        2 => '1IN-',
+        3 => '1IN+',
+        4 => 'Vss',
+        5 => '2IN+',
+        6 => '2IN-',
+        7 => '2OUT',
+        8 => 'Vcc',
+      ),
+    ),
   ),
   'LF411' => 
   array (
     'description' => 'Low-offset, low-drift JFET-input operational amplifier',
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LF/LF411.pdf',
     'pins' => 
     array (
-      0 => 
+      'BAL' => 
       array (
-        'num' => '1',
-        'sym' => 'BAL',
         'desc' => 'balance',
       ),
-      1 => 
+      'IN-' => 
       array (
-        'num' => '2',
-        'sym' => 'IN-',
         'desc' => 'inverting input',
       ),
-      2 => 
+      'IN+' => 
       array (
-        'num' => '3',
-        'sym' => 'IN+',
         'desc' => 'non-inverting input',
       ),
-      3 => 
+      'Vss' => 
       array (
-        'num' => '4',
-        'sym' => 'Vss',
         'desc' => 'negative supply voltage',
       ),
-      4 => 
+      'OUT' => 
       array (
-        'num' => '5',
-        'sym' => 'BAL',
-        'desc' => 'balance',
-      ),
-      5 => 
-      array (
-        'num' => '6',
-        'sym' => 'OUT',
         'desc' => 'output',
       ),
-      6 => 
+      'Vcc' => 
       array (
-        'num' => '7',
-        'sym' => 'Vcc',
         'desc' => 'positive supply voltage',
-      ),
-      7 => 
-      array (
-        'num' => '8',
-        'sym' => 'NC',
-        'desc' => 'no connection',
       ),
     ),
     'specs' => 
@@ -26924,62 +24111,58 @@
         'unit' => 'mA',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'BAL',
+        2 => 'IN-',
+        3 => 'IN+',
+        4 => 'Vss',
+        5 => 'BAL',
+        6 => 'OUT',
+        7 => 'Vcc',
+        8 => 'NC',
+      ),
+    ),
   ),
   'LF412' => 
   array (
     'description' => 'Low-offset, low-drift dual JFET-input operational amplifier',
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LF/LF412.pdf',
     'pins' => 
     array (
-      0 => 
+      '1OUT' => 
       array (
-        'num' => '1',
-        'sym' => '1OUT',
         'desc' => 'output 1',
       ),
-      1 => 
+      '1IN-' => 
       array (
-        'num' => '2',
-        'sym' => '1IN-',
         'desc' => 'inverting input 1',
       ),
-      2 => 
+      '1IN+' => 
       array (
-        'num' => '3',
-        'sym' => '1IN+',
         'desc' => 'non-inverting input 1',
       ),
-      3 => 
+      'Vss' => 
       array (
-        'num' => '4',
-        'sym' => 'Vss',
         'desc' => 'negative supply voltage',
       ),
-      4 => 
+      '2IN+' => 
       array (
-        'num' => '5',
-        'sym' => '2IN+',
         'desc' => 'non-inverting input 2',
       ),
-      5 => 
+      '2IN-' => 
       array (
-        'num' => '6',
-        'sym' => '2IN-',
         'desc' => 'inverting input 2',
       ),
-      6 => 
+      '2OUT' => 
       array (
-        'num' => '7',
-        'sym' => '2OUT',
         'desc' => 'output 2',
       ),
-      7 => 
+      'Vcc' => 
       array (
-        'num' => '8',
-        'sym' => 'Vcc',
         'desc' => 'positive supply voltage',
       ),
     ),
@@ -27022,98 +24205,82 @@
         'unit' => 'mA',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1OUT',
+        2 => '1IN-',
+        3 => '1IN+',
+        4 => 'Vss',
+        5 => '2IN+',
+        6 => '2IN-',
+        7 => '2OUT',
+        8 => 'Vcc',
+      ),
+    ),
   ),
   'LF444' => 
   array (
     'description' => 'Quad low-power JFET-input operational amplifier',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LF/LF444.pdf',
     'pins' => 
     array (
-      0 => 
+      '1OUT' => 
       array (
-        'num' => '1',
-        'sym' => '1OUT',
         'desc' => 'output 1',
       ),
-      1 => 
+      '1IN-' => 
       array (
-        'num' => '2',
-        'sym' => '1IN-',
         'desc' => 'inverting input 1',
       ),
-      2 => 
+      '1IN+' => 
       array (
-        'num' => '3',
-        'sym' => '1IN+',
         'desc' => 'non-inverting input 1',
       ),
-      3 => 
+      'Vcc' => 
       array (
-        'num' => '4',
-        'sym' => 'Vcc',
         'desc' => 'positive supply voltage',
       ),
-      4 => 
+      '2IN+' => 
       array (
-        'num' => '5',
-        'sym' => '2IN+',
         'desc' => 'non-inverting input 2',
       ),
-      5 => 
+      '2IN-' => 
       array (
-        'num' => '6',
-        'sym' => '2IN-',
         'desc' => 'inverting input 2',
       ),
-      6 => 
+      '2OUT' => 
       array (
-        'num' => '7',
-        'sym' => '2OUT',
         'desc' => 'output 2',
       ),
-      7 => 
+      '3OUT' => 
       array (
-        'num' => '8',
-        'sym' => '3OUT',
         'desc' => 'output 3',
       ),
-      8 => 
+      '3IN-' => 
       array (
-        'num' => '9',
-        'sym' => '3IN-',
         'desc' => 'inverting input 3',
       ),
-      9 => 
+      '3IN+' => 
       array (
-        'num' => '10',
-        'sym' => '3IN+',
         'desc' => 'non-inverting input 3',
       ),
-      10 => 
+      'Vss' => 
       array (
-        'num' => '11',
-        'sym' => 'Vss',
         'desc' => 'negative supply voltage',
       ),
-      11 => 
+      '4IN+' => 
       array (
-        'num' => '12',
-        'sym' => '4IN+',
         'desc' => 'non-inverting input 4',
       ),
-      12 => 
+      '4IN-' => 
       array (
-        'num' => '13',
-        'sym' => '4IN-',
         'desc' => 'inverting input 4',
       ),
-      13 => 
+      '4OUT' => 
       array (
-        'num' => '14',
-        'sym' => '4OUT',
         'desc' => 'output 4',
       ),
     ),
@@ -27156,6 +24323,26 @@
         'unit' => 'mA',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1OUT',
+        2 => '1IN-',
+        3 => '1IN+',
+        4 => 'Vcc',
+        5 => '2IN+',
+        6 => '2IN-',
+        7 => '2OUT',
+        8 => '3OUT',
+        9 => '3IN-',
+        10 => '3IN+',
+        11 => 'Vss',
+        12 => '4IN+',
+        13 => '4IN-',
+        14 => '4OUT',
+      ),
+    ),
   ),
   'LM301A' => 
   array (
@@ -27165,58 +24352,40 @@
       0 => 'LM101A',
       1 => 'LM201A',
     ),
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM101A.pdf',
     'pins' => 
     array (
-      0 => 
+      'BAL/COMP' => 
       array (
-        'num' => '1',
-        'sym' => 'BAL/COMP',
         'desc' => 'balance/compensation',
       ),
-      1 => 
+      'IN-' => 
       array (
-        'num' => '2',
-        'sym' => 'IN-',
         'desc' => 'inverting input',
       ),
-      2 => 
+      'IN+' => 
       array (
-        'num' => '3',
-        'sym' => 'IN+',
         'desc' => 'non-inverting input',
       ),
-      3 => 
+      'Vss' => 
       array (
-        'num' => '4',
-        'sym' => 'Vss',
         'desc' => 'negative supply voltage',
       ),
-      4 => 
+      'BAL' => 
       array (
-        'num' => '5',
-        'sym' => 'BAL',
         'desc' => 'balance',
       ),
-      5 => 
+      'OUT' => 
       array (
-        'num' => '6',
-        'sym' => 'OUT',
         'desc' => 'output',
       ),
-      6 => 
+      'Vcc' => 
       array (
-        'num' => '7',
-        'sym' => 'Vcc',
         'desc' => 'positive supply voltage',
       ),
-      7 => 
+      'COMP' => 
       array (
-        'num' => '8',
-        'sym' => 'COMP',
         'desc' => 'compensation',
       ),
     ),
@@ -27273,6 +24442,20 @@
         'unit' => 'mA',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'BAL/COMP',
+        2 => 'IN-',
+        3 => 'IN+',
+        4 => 'Vss',
+        5 => 'BAL',
+        6 => 'OUT',
+        7 => 'Vcc',
+        8 => 'COMP',
+      ),
+    ),
   ),
   'LM311' => 
   array (
@@ -27281,58 +24464,40 @@
     array (
       0 => 'LM111',
     ),
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM111.pdf',
     'pins' => 
     array (
-      0 => 
+      'GND' => 
       array (
-        'num' => '1',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      1 => 
+      'IN+' => 
       array (
-        'num' => '2',
-        'sym' => 'IN+',
         'desc' => 'non-inverting input',
       ),
-      2 => 
+      'IN-' => 
       array (
-        'num' => '3',
-        'sym' => 'IN-',
         'desc' => 'inverting input',
       ),
-      3 => 
+      'Vss' => 
       array (
-        'num' => '4',
-        'sym' => 'Vss',
         'desc' => 'negative supply voltage',
       ),
-      4 => 
+      'BAL' => 
       array (
-        'num' => '5',
-        'sym' => 'BAL',
         'desc' => 'balance',
       ),
-      5 => 
+      'BAL/STROBE' => 
       array (
-        'num' => '6',
-        'sym' => 'BAL/STROBE',
         'desc' => 'balance/strobe',
       ),
-      6 => 
+      'OUT' => 
       array (
-        'num' => '7',
-        'sym' => 'OUT',
         'desc' => 'output',
       ),
-      7 => 
+      'Vcc' => 
       array (
-        'num' => '8',
-        'sym' => 'Vcc',
         'desc' => 'positive supply voltage',
       ),
     ),
@@ -27367,99 +24532,67 @@
         'unit' => 'mA',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'GND',
+        2 => 'IN+',
+        3 => 'IN-',
+        4 => 'Vss',
+        5 => 'BAL',
+        6 => 'BAL/STROBE',
+        7 => 'OUT',
+        8 => 'Vcc',
+      ),
+    ),
   ),
   'LM319' => 
   array (
     'description' => 'High speed dual comparator',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM319.pdf',
     'pins' => 
     array (
-      0 => 
+      'GND 1' => 
       array (
-        'num' => '1',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      1 => 
-      array (
-        'num' => '2',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      2 => 
-      array (
-        'num' => '3',
-        'sym' => 'GND 1',
         'desc' => 'ground 1',
       ),
-      3 => 
+      '+INPUT 1' => 
       array (
-        'num' => '4',
-        'sym' => '+INPUT 1',
         'desc' => 'non-inverting input 1',
       ),
-      4 => 
+      '-INPUT 1' => 
       array (
-        'num' => '5',
-        'sym' => '-INPUT 1',
         'desc' => 'inverting input 1',
       ),
-      5 => 
+      'V-' => 
       array (
-        'num' => '6',
-        'sym' => 'V-',
         'desc' => 'negative supply voltage',
       ),
-      6 => 
+      'OUTPUT 2' => 
       array (
-        'num' => '7',
-        'sym' => 'OUTPUT 2',
         'desc' => 'output 2',
       ),
-      7 => 
+      'GND 2' => 
       array (
-        'num' => '8',
-        'sym' => 'GND 2',
         'desc' => 'ground 2',
       ),
-      8 => 
+      '+INPUT 2' => 
       array (
-        'num' => '9',
-        'sym' => '+INPUT 2',
         'desc' => 'non-inverting input 2',
       ),
-      9 => 
+      '-INPUT 2' => 
       array (
-        'num' => '10',
-        'sym' => '-INPUT 2',
         'desc' => 'inverting input 2',
       ),
-      10 => 
+      'V+' => 
       array (
-        'num' => '11',
-        'sym' => 'V+',
         'desc' => 'positive supply voltage',
       ),
-      11 => 
+      'OUTPUT 1' => 
       array (
-        'num' => '12',
-        'sym' => 'OUTPUT 1',
         'desc' => 'output 1',
-      ),
-      12 => 
-      array (
-        'num' => '13',
-        'sym' => 'NC',
-        'desc' => 'not connected',
-      ),
-      13 => 
-      array (
-        'num' => '14',
-        'sym' => 'NC',
-        'desc' => 'not connected',
       ),
     ),
     'specs' => 
@@ -27495,6 +24628,26 @@
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'NC',
+        2 => 'NC',
+        3 => 'GND 1',
+        4 => '+INPUT 1',
+        5 => '-INPUT 1',
+        6 => 'V-',
+        7 => 'OUTPUT 2',
+        8 => 'GND 2',
+        9 => '+INPUT 2',
+        10 => '-INPUT 2',
+        11 => 'V+',
+        12 => 'OUTPUT 1',
+        13 => 'NC',
+        14 => 'NC',
+      ),
+    ),
   ),
   'LM324' => 
   array (
@@ -27504,94 +24657,64 @@
       0 => 'LM124',
       1 => 'LM224',
     ),
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM124.pdf',
     'pins' => 
     array (
-      0 => 
+      '1OUT' => 
       array (
-        'num' => '1',
-        'sym' => '1OUT',
         'desc' => 'output 1',
       ),
-      1 => 
+      '1IN-' => 
       array (
-        'num' => '2',
-        'sym' => '1IN-',
         'desc' => 'inverting input 1',
       ),
-      2 => 
+      '1IN+' => 
       array (
-        'num' => '3',
-        'sym' => '1IN+',
         'desc' => 'non-inverting input 1',
       ),
-      3 => 
+      'Vcc' => 
       array (
-        'num' => '4',
-        'sym' => 'Vcc',
         'desc' => 'positive supply voltage',
       ),
-      4 => 
+      '2IN+' => 
       array (
-        'num' => '5',
-        'sym' => '2IN+',
         'desc' => 'non-inverting input 2',
       ),
-      5 => 
+      '2IN-' => 
       array (
-        'num' => '6',
-        'sym' => '2IN-',
         'desc' => 'inverting input 2',
       ),
-      6 => 
+      '2OUT' => 
       array (
-        'num' => '7',
-        'sym' => '2OUT',
         'desc' => 'output 2',
       ),
-      7 => 
+      '3OUT' => 
       array (
-        'num' => '8',
-        'sym' => '3OUT',
         'desc' => 'output 3',
       ),
-      8 => 
+      '3IN-' => 
       array (
-        'num' => '9',
-        'sym' => '3IN-',
         'desc' => 'inverting input 3',
       ),
-      9 => 
+      '3IN+' => 
       array (
-        'num' => '10',
-        'sym' => '3IN+',
         'desc' => 'non-inverting input 3',
       ),
-      10 => 
+      'GND' => 
       array (
-        'num' => '11',
-        'sym' => 'GND',
         'desc' => 'ground/negative supply voltage',
       ),
-      11 => 
+      '4IN+' => 
       array (
-        'num' => '12',
-        'sym' => '4IN+',
         'desc' => 'non-inverting input 4',
       ),
-      12 => 
+      '4IN-' => 
       array (
-        'num' => '13',
-        'sym' => '4IN-',
         'desc' => 'inverting input 4',
       ),
-      13 => 
+      '4OUT' => 
       array (
-        'num' => '14',
-        'sym' => '4OUT',
         'desc' => 'output 4',
       ),
     ),
@@ -27640,98 +24763,88 @@
         'unit' => 'mA',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1OUT',
+        2 => '1IN-',
+        3 => '1IN+',
+        4 => 'Vcc',
+        5 => '2IN+',
+        6 => '2IN-',
+        7 => '2OUT',
+        8 => '3OUT',
+        9 => '3IN-',
+        10 => '3IN+',
+        11 => 'GND',
+        12 => '4IN+',
+        13 => '4IN-',
+        14 => '4OUT',
+      ),
+    ),
   ),
   'LM339' => 
   array (
     'description' => 'Low-power, low-offset quad comparator',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM139.pdf',
     'pins' => 
     array (
-      0 => 
+      'OUTPUT 2' => 
       array (
-        'num' => '1',
-        'sym' => 'OUTPUT 2',
         'desc' => 'output 2',
       ),
-      1 => 
+      'OUTPUT 1' => 
       array (
-        'num' => '2',
-        'sym' => 'OUTPUT 1',
         'desc' => 'output 1',
       ),
-      2 => 
+      'V+' => 
       array (
-        'num' => '3',
-        'sym' => 'V+',
         'desc' => 'positive supply voltage',
       ),
-      3 => 
+      '-INPUT 1' => 
       array (
-        'num' => '4',
-        'sym' => '-INPUT 1',
         'desc' => 'inverting input 1',
       ),
-      4 => 
+      '+INPUT 1' => 
       array (
-        'num' => '5',
-        'sym' => '+INPUT 1',
         'desc' => 'non-inverting input 1',
       ),
-      5 => 
+      '-INPUT 2' => 
       array (
-        'num' => '6',
-        'sym' => '-INPUT 2',
         'desc' => 'inverting input 2',
       ),
-      6 => 
+      '+INPUT 2' => 
       array (
-        'num' => '7',
-        'sym' => '+INPUT 2',
         'desc' => 'non-inverting input 2',
       ),
-      7 => 
+      '-INPUT 3' => 
       array (
-        'num' => '8',
-        'sym' => '-INPUT 3',
         'desc' => 'inverting input 3',
       ),
-      8 => 
+      '+INPUT 3' => 
       array (
-        'num' => '9',
-        'sym' => '+INPUT 3',
         'desc' => 'non-inverting input 3',
       ),
-      9 => 
+      '-INPUT 4' => 
       array (
-        'num' => '10',
-        'sym' => '-INPUT 4',
         'desc' => 'inverting input 4',
       ),
-      10 => 
+      '+INPUT 4' => 
       array (
-        'num' => '11',
-        'sym' => '+INPUT 4',
         'desc' => 'non-inverting input 4',
       ),
-      11 => 
+      'GND' => 
       array (
-        'num' => '12',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      12 => 
+      'OUTPUT 4' => 
       array (
-        'num' => '13',
-        'sym' => 'OUTPUT 4',
         'desc' => 'output 4',
       ),
-      13 => 
+      'OUTPUT 3' => 
       array (
-        'num' => '14',
-        'sym' => 'OUTPUT 3',
         'desc' => 'output 3',
       ),
     ),
@@ -27774,6 +24887,26 @@
         'unit' => 'µs',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'OUTPUT 2',
+        2 => 'OUTPUT 1',
+        3 => 'V+',
+        4 => '-INPUT 1',
+        5 => '+INPUT 1',
+        6 => '-INPUT 2',
+        7 => '+INPUT 2',
+        8 => '-INPUT 3',
+        9 => '+INPUT 3',
+        10 => '-INPUT 4',
+        11 => '+INPUT 4',
+        12 => 'GND',
+        13 => 'OUTPUT 4',
+        14 => 'OUTPUT 3',
+      ),
+    ),
   ),
   'LM348' => 
   array (
@@ -27783,94 +24916,64 @@
       0 => 'LM148',
       1 => 'LM248',
     ),
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM148.pdf',
     'pins' => 
     array (
-      0 => 
+      '1OUT' => 
       array (
-        'num' => '1',
-        'sym' => '1OUT',
         'desc' => 'output 1',
       ),
-      1 => 
+      '1IN-' => 
       array (
-        'num' => '2',
-        'sym' => '1IN-',
         'desc' => 'inverting input 1',
       ),
-      2 => 
+      '1IN+' => 
       array (
-        'num' => '3',
-        'sym' => '1IN+',
         'desc' => 'non-inverting input 1',
       ),
-      3 => 
+      'Vcc' => 
       array (
-        'num' => '4',
-        'sym' => 'Vcc',
         'desc' => 'positive supply voltage',
       ),
-      4 => 
+      '2IN+' => 
       array (
-        'num' => '5',
-        'sym' => '2IN+',
         'desc' => 'non-inverting input 2',
       ),
-      5 => 
+      '2IN-' => 
       array (
-        'num' => '6',
-        'sym' => '2IN-',
         'desc' => 'inverting input 2',
       ),
-      6 => 
+      '2OUT' => 
       array (
-        'num' => '7',
-        'sym' => '2OUT',
         'desc' => 'output 2',
       ),
-      7 => 
+      '3OUT' => 
       array (
-        'num' => '8',
-        'sym' => '3OUT',
         'desc' => 'output 3',
       ),
-      8 => 
+      '3IN-' => 
       array (
-        'num' => '9',
-        'sym' => '3IN-',
         'desc' => 'inverting input 3',
       ),
-      9 => 
+      '3IN+' => 
       array (
-        'num' => '10',
-        'sym' => '3IN+',
         'desc' => 'non-inverting input 3',
       ),
-      10 => 
+      'Vss' => 
       array (
-        'num' => '11',
-        'sym' => 'Vss',
         'desc' => 'negative supply voltage',
       ),
-      11 => 
+      '4IN+' => 
       array (
-        'num' => '12',
-        'sym' => '4IN+',
         'desc' => 'non-inverting input 4',
       ),
-      12 => 
+      '4IN-' => 
       array (
-        'num' => '13',
-        'sym' => '4IN-',
         'desc' => 'inverting input 4',
       ),
-      13 => 
+      '4OUT' => 
       array (
-        'num' => '14',
-        'sym' => '4OUT',
         'desc' => 'output 4',
       ),
     ),
@@ -27917,6 +25020,26 @@
         'unit' => 'mA',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1OUT',
+        2 => '1IN-',
+        3 => '1IN+',
+        4 => 'Vcc',
+        5 => '2IN+',
+        6 => '2IN-',
+        7 => '2OUT',
+        8 => '3OUT',
+        9 => '3IN-',
+        10 => '3IN+',
+        11 => 'Vss',
+        12 => '4IN+',
+        13 => '4IN-',
+        14 => '4OUT',
+      ),
+    ),
   ),
   'LM358' => 
   array (
@@ -27927,58 +25050,40 @@
       1 => 'LM258',
       2 => 'LM2904',
     ),
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM158.pdf',
     'pins' => 
     array (
-      0 => 
+      '1OUT' => 
       array (
-        'num' => '1',
-        'sym' => '1OUT',
         'desc' => 'output 1',
       ),
-      1 => 
+      '1IN-' => 
       array (
-        'num' => '2',
-        'sym' => '1IN-',
         'desc' => 'inverting input 1',
       ),
-      2 => 
+      '1IN+' => 
       array (
-        'num' => '3',
-        'sym' => '1IN+',
         'desc' => 'non-inverting input 1',
       ),
-      3 => 
+      'GND' => 
       array (
-        'num' => '4',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      4 => 
+      '2IN+' => 
       array (
-        'num' => '5',
-        'sym' => '2IN+',
         'desc' => 'non-inverting input 2',
       ),
-      5 => 
+      '2IN-' => 
       array (
-        'num' => '6',
-        'sym' => '2IN-',
         'desc' => 'inverting input 1',
       ),
-      6 => 
+      '2OUT' => 
       array (
-        'num' => '7',
-        'sym' => '2OUT',
         'desc' => 'output 2',
       ),
-      7 => 
+      'Vcc' => 
       array (
-        'num' => '8',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -28019,98 +25124,50 @@
         'unit' => 'mA',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1OUT',
+        2 => '1IN-',
+        3 => '1IN+',
+        4 => 'GND',
+        5 => '2IN+',
+        6 => '2IN-',
+        7 => '2OUT',
+        8 => 'Vcc',
+      ),
+    ),
   ),
   'LM380' => 
   array (
     'description' => '2.5W audio power amplifier',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM380.pdf',
     'pins' => 
     array (
-      0 => 
+      'BYPASS' => 
       array (
-        'num' => '1',
-        'sym' => 'BYPASS',
         'desc' => 'bypass',
       ),
-      1 => 
+      'IN+' => 
       array (
-        'num' => '2',
-        'sym' => 'IN+',
         'desc' => 'non-inverting input',
       ),
-      2 => 
+      'GND' => 
       array (
-        'num' => '3',
-        'sym' => 'GND',
         'desc' => 'ground (heat sink)',
       ),
-      3 => 
+      'IN-' => 
       array (
-        'num' => '4',
-        'sym' => 'GND',
-        'desc' => 'ground (heat sink)',
-      ),
-      4 => 
-      array (
-        'num' => '5',
-        'sym' => 'GND',
-        'desc' => 'ground (heat sink)',
-      ),
-      5 => 
-      array (
-        'num' => '6',
-        'sym' => 'IN-',
         'desc' => 'inverting input',
       ),
-      6 => 
+      'OUT' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
-        'desc' => 'ground',
-      ),
-      7 => 
-      array (
-        'num' => '8',
-        'sym' => 'OUT',
         'desc' => 'output',
       ),
-      8 => 
+      'Vcc' => 
       array (
-        'num' => '9',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      9 => 
-      array (
-        'num' => '10',
-        'sym' => 'GND',
-        'desc' => 'ground (heat sink)',
-      ),
-      10 => 
-      array (
-        'num' => '11',
-        'sym' => 'GND',
-        'desc' => 'ground (heat sink)',
-      ),
-      11 => 
-      array (
-        'num' => '12',
-        'sym' => 'GND',
-        'desc' => 'ground (heat sink)',
-      ),
-      12 => 
-      array (
-        'num' => '13',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      13 => 
-      array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -28165,98 +25222,56 @@
         'unit' => 'kΩ',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'BYPASS',
+        2 => 'IN+',
+        3 => 'GND',
+        4 => 'GND',
+        5 => 'GND',
+        6 => 'IN-',
+        7 => 'GND',
+        8 => 'OUT',
+        9 => 'NC',
+        10 => 'GND',
+        11 => 'GND',
+        12 => 'GND',
+        13 => 'NC',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   'LM384' => 
   array (
     'description' => '5W audio power amplifier',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM384.pdf',
     'pins' => 
     array (
-      0 => 
+      'BYPASS' => 
       array (
-        'num' => '1',
-        'sym' => 'BYPASS',
         'desc' => 'bypass',
       ),
-      1 => 
+      'IN+' => 
       array (
-        'num' => '2',
-        'sym' => 'IN+',
         'desc' => 'non-inverting input',
       ),
-      2 => 
+      'GND' => 
       array (
-        'num' => '3',
-        'sym' => 'GND',
         'desc' => 'ground (heat sink)',
       ),
-      3 => 
+      'IN-' => 
       array (
-        'num' => '4',
-        'sym' => 'GND',
-        'desc' => 'ground (heat sink)',
-      ),
-      4 => 
-      array (
-        'num' => '5',
-        'sym' => 'GND',
-        'desc' => 'ground (heat sink)',
-      ),
-      5 => 
-      array (
-        'num' => '6',
-        'sym' => 'IN-',
         'desc' => 'inverting input',
       ),
-      6 => 
+      'OUT' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
-        'desc' => 'ground',
-      ),
-      7 => 
-      array (
-        'num' => '8',
-        'sym' => 'OUT',
         'desc' => 'output',
       ),
-      8 => 
+      'Vcc' => 
       array (
-        'num' => '9',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      9 => 
-      array (
-        'num' => '10',
-        'sym' => 'GND',
-        'desc' => 'ground (heat sink)',
-      ),
-      10 => 
-      array (
-        'num' => '11',
-        'sym' => 'GND',
-        'desc' => 'ground (heat sink)',
-      ),
-      11 => 
-      array (
-        'num' => '12',
-        'sym' => 'GND',
-        'desc' => 'ground (heat sink)',
-      ),
-      12 => 
-      array (
-        'num' => '13',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      13 => 
-      array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -28311,63 +25326,61 @@
         'unit' => 'kΩ',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'BYPASS',
+        2 => 'IN+',
+        3 => 'GND',
+        4 => 'GND',
+        5 => 'GND',
+        6 => 'IN-',
+        7 => 'GND',
+        8 => 'OUT',
+        9 => 'NC',
+        10 => 'GND',
+        11 => 'GND',
+        12 => 'GND',
+        13 => 'NC',
+        14 => 'Vcc',
+      ),
+    ),
   ),
   'LM386' => 
   array (
     'description' => 'Low voltage audio power amplifier',
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM386.pdf',
     'pins' => 
     array (
-      0 => 
+      'GAIN' => 
       array (
-        'num' => '1',
-        'sym' => 'GAIN',
         'desc' => 'gain adjustment',
       ),
-      1 => 
+      'IN-' => 
       array (
-        'num' => '2',
-        'sym' => 'IN-',
         'desc' => 'inverting input',
       ),
-      2 => 
+      'IN+' => 
       array (
-        'num' => '3',
-        'sym' => 'IN+',
         'desc' => 'non-inverting input',
       ),
-      3 => 
+      'GND' => 
       array (
-        'num' => '4',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      4 => 
+      'OUT' => 
       array (
-        'num' => '5',
-        'sym' => 'OUT',
         'desc' => 'output',
       ),
-      5 => 
+      'Vcc' => 
       array (
-        'num' => '6',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
-      6 => 
+      'BYPASS' => 
       array (
-        'num' => '7',
-        'sym' => 'BYPASS',
         'desc' => 'bypass',
-      ),
-      7 => 
-      array (
-        'num' => '8',
-        'sym' => 'GAIN',
-        'desc' => 'gain adjustment',
       ),
     ),
     'specs' => 
@@ -28420,6 +25433,20 @@
     array (
       0 => 'The gain can be varied between 20 and 200 with a resistor in series with a capacitor across pins 1 and 8.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'GAIN',
+        2 => 'IN-',
+        3 => 'IN+',
+        4 => 'GND',
+        5 => 'OUT',
+        6 => 'Vcc',
+        7 => 'BYPASS',
+        8 => 'GAIN',
+      ),
+    ),
   ),
   'LM393' => 
   array (
@@ -28429,58 +25456,40 @@
       0 => 'LM193',
       1 => 'LM293',
     ),
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'linear',
     'datasheet' => 'http://www.national.com/ds/LM/LM193.pdf',
     'pins' => 
     array (
-      0 => 
+      '1OUT' => 
       array (
-        'num' => '1',
-        'sym' => '1OUT',
         'desc' => 'output 1',
       ),
-      1 => 
+      '1IN-' => 
       array (
-        'num' => '2',
-        'sym' => '1IN-',
         'desc' => 'inverting input 1',
       ),
-      2 => 
+      '1IN+' => 
       array (
-        'num' => '3',
-        'sym' => '1IN+',
         'desc' => 'non-inverting input 1',
       ),
-      3 => 
+      'GND' => 
       array (
-        'num' => '4',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      4 => 
+      '2IN+' => 
       array (
-        'num' => '5',
-        'sym' => '2IN+',
         'desc' => 'non-inverting input 2',
       ),
-      5 => 
+      '2IN-' => 
       array (
-        'num' => '6',
-        'sym' => '2IN-',
         'desc' => 'inverting input 2',
       ),
-      6 => 
+      '2OUT' => 
       array (
-        'num' => '7',
-        'sym' => '2OUT',
         'desc' => 'output 2',
       ),
-      7 => 
+      'Vcc' => 
       array (
-        'num' => '8',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -28511,62 +25520,58 @@
         'unit' => 'mA',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1OUT',
+        2 => '1IN-',
+        3 => '1IN+',
+        4 => 'GND',
+        5 => '2IN+',
+        6 => '2IN-',
+        7 => '2OUT',
+        8 => 'Vcc',
+      ),
+    ),
   ),
   'MAX1771' => 
   array (
     'description' => 'High-efficiency, low IQ, step-up DC-DC controller',
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'Maxim',
     'datasheet' => 'http://datasheets.maxim-ic.com/en/ds/MAX1771.pdf',
     'pins' => 
     array (
-      0 => 
+      'EXT' => 
       array (
-        'num' => '1',
-        'sym' => 'EXT',
         'desc' => 'gate drive for external n-channel power transistor',
       ),
-      1 => 
+      'Vcc' => 
       array (
-        'num' => '2',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
-      2 => 
+      'FB' => 
       array (
-        'num' => '3',
-        'sym' => 'FB',
         'desc' => 'feedback input for adjustable output (tie to GND for fixed output)',
       ),
-      3 => 
+      'SHDN' => 
       array (
-        'num' => '4',
-        'sym' => 'SHDN',
         'desc' => 'shutdown (active high)',
       ),
-      4 => 
+      'REF' => 
       array (
-        'num' => '5',
-        'sym' => 'REF',
         'desc' => '1.5V reference output',
       ),
-      5 => 
+      'AGND' => 
       array (
-        'num' => '6',
-        'sym' => 'AGND',
         'desc' => 'analog ground',
       ),
-      6 => 
+      'GND' => 
       array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'output driver (high-current) ground',
       ),
-      7 => 
+      'CS' => 
       array (
-        'num' => '8',
-        'sym' => 'CS',
         'desc' => 'current sense amplifier input',
       ),
     ),
@@ -28595,110 +25600,90 @@
         'unit' => 'W',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'EXT',
+        2 => 'Vcc',
+        3 => 'FB',
+        4 => 'SHDN',
+        5 => 'REF',
+        6 => 'AGND',
+        7 => 'GND',
+        8 => 'CS',
+      ),
+    ),
   ),
   'MAX232' => 
   array (
     'description' => '+5V-powered multichannel RS-232 driver/receiver',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => 'Maxim',
     'datasheet' => 'http://datasheets.maxim-ic.com/en/ds/MAX220-MAX249.pdf',
     'pins' => 
     array (
-      0 => 
+      'C1+' => 
       array (
-        'num' => '1',
-        'sym' => 'C1+',
         'desc' => 'capacitor 1 connection',
       ),
-      1 => 
+      'V+' => 
       array (
-        'num' => '2',
-        'sym' => 'V+',
         'desc' => '+10V output',
       ),
-      2 => 
+      'C1-' => 
       array (
-        'num' => '3',
-        'sym' => 'C1-',
         'desc' => 'capacitor 1 connection',
       ),
-      3 => 
+      'C2+' => 
       array (
-        'num' => '4',
-        'sym' => 'C2+',
         'desc' => 'capacitor 2 connection',
       ),
-      4 => 
+      'C2-' => 
       array (
-        'num' => '5',
-        'sym' => 'C2-',
         'desc' => 'capacitor 2 connection',
       ),
-      5 => 
+      'V-' => 
       array (
-        'num' => '6',
-        'sym' => 'V-',
         'desc' => '-10V output',
       ),
-      6 => 
+      'T2__OUT' => 
       array (
-        'num' => '7',
-        'sym' => 'T2__OUT',
         'desc' => 'TTL/CMOS output',
       ),
-      7 => 
+      'R2__IN' => 
       array (
-        'num' => '8',
-        'sym' => 'R2__IN',
         'desc' => 'RS-232 input',
       ),
-      8 => 
+      'R2__OUT' => 
       array (
-        'num' => '9',
-        'sym' => 'R2__OUT',
         'desc' => 'RS-232 output',
       ),
-      9 => 
+      'T2__IN' => 
       array (
-        'num' => '10',
-        'sym' => 'T2__IN',
         'desc' => 'TTL/CMOS input',
       ),
-      10 => 
+      'T1__IN' => 
       array (
-        'num' => '11',
-        'sym' => 'T1__IN',
         'desc' => 'TTL/CMOS input',
       ),
-      11 => 
+      'R1__OUT' => 
       array (
-        'num' => '12',
-        'sym' => 'R1__OUT',
         'desc' => 'RS-232 output',
       ),
-      12 => 
+      'R1__IN' => 
       array (
-        'num' => '13',
-        'sym' => 'R1__IN',
         'desc' => 'RS-232 input',
       ),
-      13 => 
+      'T1__OUT' => 
       array (
-        'num' => '14',
-        'sym' => 'T1__OUT',
         'desc' => 'TTL/CMOS output',
       ),
-      14 => 
+      'GND' => 
       array (
-        'num' => '15',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => '+5V supply voltage',
       ),
     ),
@@ -28716,62 +25701,66 @@
       0 => 'Use five capacitors; C1 between pins 1 and 3, C2 between pins 4 and 5, C3 between pin 2 and +5v, C4 between ground and pin 6, and C5 between +5V and ground. See datasheet for schematic.',
       1 => 'C1 through C5 should be 1.0 µF electrolytic capacitors.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'C1+',
+        2 => 'V+',
+        3 => 'C1-',
+        4 => 'C2+',
+        5 => 'C2-',
+        6 => 'V-',
+        7 => 'T2__OUT',
+        8 => 'R2__IN',
+        9 => 'R2__OUT',
+        10 => 'T2__IN',
+        11 => 'T1__IN',
+        12 => 'R1__OUT',
+        13 => 'R1__IN',
+        14 => 'T1__OUT',
+        15 => 'GND',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   'MC34063' => 
   array (
     'description' => 'Step up/down inverting switching regulator',
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'power',
     'datasheet' => 'http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF',
     'pins' => 
     array (
-      0 => 
+      'SW C' => 
       array (
-        'num' => '1',
-        'sym' => 'SW C',
         'desc' => 'switch collector',
       ),
-      1 => 
+      'SW E' => 
       array (
-        'num' => '2',
-        'sym' => 'SW E',
         'desc' => 'switch emitter',
       ),
-      2 => 
+      'CAP' => 
       array (
-        'num' => '3',
-        'sym' => 'CAP',
         'desc' => 'timing capacitor',
       ),
-      3 => 
+      'GND' => 
       array (
-        'num' => '4',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      4 => 
+      'COMP IN' => 
       array (
-        'num' => '5',
-        'sym' => 'COMP IN',
         'desc' => 'comparator inverting input',
       ),
-      5 => 
+      'Vcc' => 
       array (
-        'num' => '6',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
-      6 => 
+      'I__pk SENSE' => 
       array (
-        'num' => '7',
-        'sym' => 'I__pk SENSE',
         'desc' => 'I__pk sense',
       ),
-      7 => 
+      'DRIVER C' => 
       array (
-        'num' => '8',
-        'sym' => 'DRIVER C',
         'desc' => 'driver collector',
       ),
     ),
@@ -28794,6 +25783,20 @@
         'unit' => 'A',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'SW C',
+        2 => 'SW E',
+        3 => 'CAP',
+        4 => 'GND',
+        5 => 'COMP IN',
+        6 => 'Vcc',
+        7 => 'I__pk SENSE',
+        8 => 'DRIVER C',
+      ),
+    ),
   ),
   'MCP23017' => 
   array (
@@ -28801,237 +25804,187 @@
     'aliases' => 
     array (
     ),
-    'package' => 'DIP',
-    'pincount' => 28,
     'family' => 'Microchip',
     'datasheet' => 'http://ww1.microchip.com/downloads/en/DeviceDoc/21952b.pdf',
     'pins' => 
     array (
-      0 => 
+      'GPB0' => 
       array (
-        'num' => '1',
-        'sym' => 'GPB0',
         'desc' => 'Bidirectional I/O pin.',
       ),
-      1 => 
+      'GPB1' => 
       array (
-        'num' => '2',
-        'sym' => 'GPB1',
         'desc' => 'Bidirectional I/O pin.',
       ),
-      2 => 
+      'GPB2' => 
       array (
-        'num' => '3',
-        'sym' => 'GPB2',
         'desc' => 'Bidirectional I/O pin.',
       ),
-      3 => 
+      'GPB3' => 
       array (
-        'num' => '4',
-        'sym' => 'GPB3',
         'desc' => 'Bidirectional I/O pin.',
       ),
-      4 => 
+      'GPB4' => 
       array (
-        'num' => '5',
-        'sym' => 'GPB4',
         'desc' => 'Bidirectional I/O pin.',
       ),
-      5 => 
+      'GPB5' => 
       array (
-        'num' => '6',
-        'sym' => 'GPB5',
         'desc' => 'Bidirectional I/O pin.',
       ),
-      6 => 
+      'GPB6' => 
       array (
-        'num' => '7',
-        'sym' => 'GPB6',
         'desc' => 'Bidirectional I/O pin.',
       ),
-      7 => 
+      'GPB7' => 
       array (
-        'num' => '8',
-        'sym' => 'GPB7',
         'desc' => 'Bidirectional I/O pin.',
       ),
-      8 => 
+      'V__DD' => 
       array (
-        'num' => '9',
-        'sym' => 'V__DD',
         'desc' => 'Power',
       ),
-      9 => 
+      'V__SS' => 
       array (
-        'num' => '10',
-        'sym' => 'V__SS',
         'desc' => 'Ground',
       ),
-      10 => 
+      'SCL' => 
       array (
-        'num' => '11',
-        'sym' => 'NC',
-        'desc' => 'Not connected',
-      ),
-      11 => 
-      array (
-        'num' => '12',
-        'sym' => 'SCL',
         'desc' => 'Serial clock input',
       ),
-      12 => 
+      'SDA' => 
       array (
-        'num' => '13',
-        'sym' => 'SDA',
         'desc' => 'Serial data I/O',
       ),
-      13 => 
+      'A0' => 
       array (
-        'num' => '14',
-        'sym' => 'NC',
-        'desc' => 'Not connected',
-      ),
-      14 => 
-      array (
-        'num' => '15',
-        'sym' => 'A0',
         'desc' => 'Hardware address pin. Must be externally biased.',
       ),
-      15 => 
+      'A1' => 
       array (
-        'num' => '16',
-        'sym' => 'A1',
         'desc' => 'Hardware address pin. Must be externally biased.',
       ),
-      16 => 
+      'A2' => 
       array (
-        'num' => '17',
-        'sym' => 'A2',
         'desc' => 'Hardware address pin. Must be externally biased.',
       ),
-      17 => 
+      '~RESET' => 
       array (
-        'num' => '18',
-        'sym' => '~RESET',
         'desc' => 'Hardware reset. Must be externally biased.',
       ),
-      18 => 
+      'INTB' => 
       array (
-        'num' => '19',
-        'sym' => 'INTB',
         'desc' => 'Interrupt output for PORTB. Can be configured as active-high, active-low or open-drain.',
       ),
-      19 => 
+      'INTA' => 
       array (
-        'num' => '20',
-        'sym' => 'INTA',
         'desc' => 'Interrupt output for PORTB. Can be configured as active-high, active-low or open-drain.',
       ),
-      20 => 
+      'GPA0' => 
       array (
-        'num' => '21',
-        'sym' => 'GPA0',
         'desc' => 'Bidirectional I/O pin.',
       ),
-      21 => 
+      'GPA1' => 
       array (
-        'num' => '22',
-        'sym' => 'GPA1',
         'desc' => 'Bidirectional I/O pin.',
       ),
-      22 => 
+      'GPA2' => 
       array (
-        'num' => '23',
-        'sym' => 'GPA2',
         'desc' => 'Bidirectional I/O pin.',
       ),
-      23 => 
+      'GPA3' => 
       array (
-        'num' => '24',
-        'sym' => 'GPA3',
         'desc' => 'Bidirectional I/O pin.',
       ),
-      24 => 
+      'GPA4' => 
       array (
-        'num' => '25',
-        'sym' => 'GPA4',
         'desc' => 'Bidirectional I/O pin.',
       ),
-      25 => 
+      'GPA5' => 
       array (
-        'num' => '26',
-        'sym' => 'GPA5',
         'desc' => 'Bidirectional I/O pin.',
       ),
-      26 => 
+      'GPA6' => 
       array (
-        'num' => '27',
-        'sym' => 'GPA6',
         'desc' => 'Bidirectional I/O pin.',
       ),
-      27 => 
+      'GPA7' => 
       array (
-        'num' => '28',
-        'sym' => 'GPA7',
         'desc' => 'Bidirectional I/O pin.',
+      ),
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'GPB0',
+        2 => 'GPB1',
+        3 => 'GPB2',
+        4 => 'GPB3',
+        5 => 'GPB4',
+        6 => 'GPB5',
+        7 => 'GPB6',
+        8 => 'GPB7',
+        9 => 'V__DD',
+        10 => 'V__SS',
+        11 => 'NC',
+        12 => 'SCL',
+        13 => 'SDA',
+        14 => 'NC',
+        15 => 'A0',
+        16 => 'A1',
+        17 => 'A2',
+        18 => '~RESET',
+        19 => 'INTB',
+        20 => 'INTA',
+        21 => 'GPA0',
+        22 => 'GPA1',
+        23 => 'GPA2',
+        24 => 'GPA3',
+        25 => 'GPA4',
+        26 => 'GPA5',
+        27 => 'GPA6',
+        28 => 'GPA7',
       ),
     ),
   ),
   'MCP3002' => 
   array (
     'description' => 'Dual channel 10-bit ADC with SPI interface',
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'Microchip',
     'datasheet' => 'http://ww1.microchip.com/downloads/en/DeviceDoc/21294d.pdf',
     'pins' => 
     array (
-      0 => 
+      '~CS~/SHDN' => 
       array (
-        'num' => '1',
-        'sym' => '~CS~/SHDN',
         'desc' => 'chip select/shutdown',
       ),
-      1 => 
+      'CH0' => 
       array (
-        'num' => '2',
-        'sym' => 'CH0',
         'desc' => 'channel 0 analog input',
       ),
-      2 => 
+      'CH1' => 
       array (
-        'num' => '3',
-        'sym' => 'CH1',
         'desc' => 'channel 1 analog input',
       ),
-      3 => 
+      'GND' => 
       array (
-        'num' => '4',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      4 => 
+      'D__IN' => 
       array (
-        'num' => '5',
-        'sym' => 'D__IN',
         'desc' => 'serial data in',
       ),
-      5 => 
+      'D__OUT' => 
       array (
-        'num' => '6',
-        'sym' => 'D__OUT',
         'desc' => 'serial data out',
       ),
-      6 => 
+      'CLK' => 
       array (
-        'num' => '7',
-        'sym' => 'CLK',
         'desc' => 'serial clock',
       ),
-      7 => 
+      'V__CC/V__REF' => 
       array (
-        'num' => '8',
-        'sym' => 'V__CC/V__REF',
         'desc' => '+2.7V to 5.5V supply/reference voltage',
       ),
     ),
@@ -29066,6 +26019,20 @@
         'unit' => 'µA',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~CS~/SHDN',
+        2 => 'CH0',
+        3 => 'CH1',
+        4 => 'GND',
+        5 => 'D__IN',
+        6 => 'D__OUT',
+        7 => 'CLK',
+        8 => 'V__CC/V__REF',
+      ),
+    ),
   ),
   'MCP3201' => 
   array (
@@ -29074,58 +26041,40 @@
     'aliases' => 
     array (
     ),
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'Microchip',
     'datasheet' => 'http://ww1.microchip.com/downloads/en/DeviceDoc/21290e.pdf',
     'pins' => 
     array (
-      0 => 
+      'V__Ref' => 
       array (
-        'num' => '1',
-        'sym' => 'V__Ref',
         'desc' => 'Analog reference voltage',
       ),
-      1 => 
+      'IN+' => 
       array (
-        'num' => '2',
-        'sym' => 'IN+',
         'desc' => 'Positive analog input',
       ),
-      2 => 
+      'IN-' => 
       array (
-        'num' => '3',
-        'sym' => 'IN-',
         'desc' => 'Negative analog input',
       ),
-      3 => 
+      'V__SS' => 
       array (
-        'num' => '4',
-        'sym' => 'V__SS',
         'desc' => 'Ground',
       ),
-      4 => 
+      '~CS~/SHDN' => 
       array (
-        'num' => '5',
-        'sym' => '~CS~/SHDN',
         'desc' => 'Chip select/shutdown',
       ),
-      5 => 
+      'D__OUT' => 
       array (
-        'num' => '6',
-        'sym' => 'D__OUT',
         'desc' => 'SPI data out',
       ),
-      6 => 
+      'CLK' => 
       array (
-        'num' => '7',
-        'sym' => 'CLK',
         'desc' => 'SPI Clock',
       ),
-      7 => 
+      'V__DD' => 
       array (
-        'num' => '8',
-        'sym' => 'V__DD',
         'desc' => 'Positive supply voltage (+2.7 to 5.5V)',
       ),
     ),
@@ -29178,6 +26127,20 @@
     array (
       0 => 'Also available with 2 channels (MCP3202), 4 channels (MCP3204) and 8 channels (MCP3208)',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'V__Ref',
+        2 => 'IN+',
+        3 => 'IN-',
+        4 => 'V__SS',
+        5 => '~CS~/SHDN',
+        6 => 'D__OUT',
+        7 => 'CLK',
+        8 => 'V__DD',
+      ),
+    ),
   ),
   'MCP3202' => 
   array (
@@ -29186,58 +26149,40 @@
     'aliases' => 
     array (
     ),
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'Microchip',
     'datasheet' => 'http://ww1.microchip.com/downloads/aen/DeviceDoc/21034e.pdf',
     'pins' => 
     array (
-      0 => 
+      '~CS~/SHDN' => 
       array (
-        'num' => '1',
-        'sym' => '~CS~/SHDN',
         'desc' => 'Chip select/Shutdown',
       ),
-      1 => 
+      'CH0' => 
       array (
-        'num' => '2',
-        'sym' => 'CH0',
         'desc' => 'Channel 1 analog input',
       ),
-      2 => 
+      'CH1' => 
       array (
-        'num' => '3',
-        'sym' => 'CH1',
         'desc' => 'Channel 2 analog input',
       ),
-      3 => 
+      'V__SS' => 
       array (
-        'num' => '4',
-        'sym' => 'V__SS',
         'desc' => 'Ground',
       ),
-      4 => 
+      'D__IN' => 
       array (
-        'num' => '5',
-        'sym' => 'D__IN',
         'desc' => 'SPI data input',
       ),
-      5 => 
+      'D__OUT' => 
       array (
-        'num' => '6',
-        'sym' => 'D__OUT',
         'desc' => 'SPI data output',
       ),
-      6 => 
+      'CLK' => 
       array (
-        'num' => '7',
-        'sym' => 'CLK',
         'desc' => 'SPI clock',
       ),
-      7 => 
+      'V__DD/V__REF' => 
       array (
-        'num' => '8',
-        'sym' => 'V__DD/V__REF',
         'desc' => 'Supply voltage/analog reference voltage',
       ),
     ),
@@ -29290,6 +26235,20 @@
     array (
       0 => 'Also available with 1 channel (MCP3201), 4 channels (MCP3204) and 8 channels (MCP3208)',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~CS~/SHDN',
+        2 => 'CH0',
+        3 => 'CH1',
+        4 => 'V__SS',
+        5 => 'D__IN',
+        6 => 'D__OUT',
+        7 => 'CLK',
+        8 => 'V__DD/V__REF',
+      ),
+    ),
   ),
   'MCP3204' => 
   array (
@@ -29298,94 +26257,56 @@
     'aliases' => 
     array (
     ),
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => 'microchip',
     'datasheet' => 'http://ww1.microchip.com/downloads/en/devicedoc/21298c.pdf',
     'pins' => 
     array (
-      0 => 
+      'CH0' => 
       array (
-        'num' => '1',
-        'sym' => 'CH0',
         'desc' => 'Analog channel 0 input',
       ),
-      1 => 
+      'CH1' => 
       array (
-        'num' => '2',
-        'sym' => 'CH1',
         'desc' => 'Analog channel 1 input',
       ),
-      2 => 
+      'CH2' => 
       array (
-        'num' => '3',
-        'sym' => 'CH2',
         'desc' => 'Analog channel 2 input',
       ),
-      3 => 
+      'CH3' => 
       array (
-        'num' => '4',
-        'sym' => 'CH3',
         'desc' => 'Analog channel 3 input',
       ),
-      4 => 
+      'DGND' => 
       array (
-        'num' => '5',
-        'sym' => 'NC',
-        'desc' => 'Not connected',
-      ),
-      5 => 
-      array (
-        'num' => '6',
-        'sym' => 'NC',
-        'desc' => 'Not connected',
-      ),
-      6 => 
-      array (
-        'num' => '7',
-        'sym' => 'DGND',
         'desc' => 'Digital ground',
       ),
-      7 => 
+      '~CS~/SHDN' => 
       array (
-        'num' => '8',
-        'sym' => '~CS~/SHDN',
         'desc' => 'Chip select / Shutdown',
       ),
-      8 => 
+      'D__IN' => 
       array (
-        'num' => '9',
-        'sym' => 'D__IN',
         'desc' => 'Serial data input',
       ),
-      9 => 
+      'D__OUT' => 
       array (
-        'num' => '10',
-        'sym' => 'D__OUT',
         'desc' => 'Serial data output',
       ),
-      10 => 
+      'CLK' => 
       array (
-        'num' => '11',
-        'sym' => 'CLK',
         'desc' => 'SPI clock',
       ),
-      11 => 
+      'AGND' => 
       array (
-        'num' => '12',
-        'sym' => 'AGND',
         'desc' => 'Analog ground',
       ),
-      12 => 
+      'V__REF' => 
       array (
-        'num' => '13',
-        'sym' => 'V__REF',
         'desc' => 'Analog reference input voltage',
       ),
-      13 => 
+      'V__DD' => 
       array (
-        'num' => '14',
-        'sym' => 'V__DD',
         'desc' => '+2.7 to 5.5 V power supply',
       ),
     ),
@@ -29424,6 +26345,26 @@
     array (
       0 => 'Also available as one-channel (MCP3201), two-channel (MCP3202) and eight-channel (MCP3208) version',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'CH0',
+        2 => 'CH1',
+        3 => 'CH2',
+        4 => 'CH3',
+        5 => 'NC',
+        6 => 'NC',
+        7 => 'DGND',
+        8 => '~CS~/SHDN',
+        9 => 'D__IN',
+        10 => 'D__OUT',
+        11 => 'CLK',
+        12 => 'AGND',
+        13 => 'V__REF',
+        14 => 'V__DD',
+      ),
+    ),
   ),
   'NE5532' => 
   array (
@@ -29431,58 +26372,40 @@
     'aliases' => 
     array (
     ),
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'Fairchild',
     'datasheet' => 'http://www.fairchildsemi.com/ds/NE/NE5532.pdf',
     'pins' => 
     array (
-      0 => 
+      '1OUT' => 
       array (
-        'num' => '1',
-        'sym' => '1OUT',
         'desc' => 'Output 1',
       ),
-      1 => 
+      '1IN-' => 
       array (
-        'num' => '2',
-        'sym' => '1IN-',
         'desc' => 'Inverting input 1',
       ),
-      2 => 
+      '1IN+' => 
       array (
-        'num' => '3',
-        'sym' => '1IN+',
         'desc' => 'Non-inverting input 1',
       ),
-      3 => 
+      'GND' => 
       array (
-        'num' => '4',
-        'sym' => 'GND',
         'desc' => 'Ground',
       ),
-      4 => 
+      '2IN+' => 
       array (
-        'num' => '5',
-        'sym' => '2IN+',
         'desc' => 'Non-inverting input 2',
       ),
-      5 => 
+      '2IN-' => 
       array (
-        'num' => '6',
-        'sym' => '2IN-',
         'desc' => 'Inverting input 2',
       ),
-      6 => 
+      '2OUT' => 
       array (
-        'num' => '7',
-        'sym' => '2OUT',
         'desc' => 'Output 2',
       ),
-      7 => 
+      'Vcc' => 
       array (
-        'num' => '8',
-        'sym' => 'Vcc',
         'desc' => 'Supply voltage',
       ),
     ),
@@ -29525,6 +26448,20 @@
         'unit' => '°C',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1OUT',
+        2 => '1IN-',
+        3 => '1IN+',
+        4 => 'GND',
+        5 => '2IN+',
+        6 => '2IN-',
+        7 => '2OUT',
+        8 => 'Vcc',
+      ),
+    ),
   ),
   'PCF8574' => 
   array (
@@ -29533,106 +26470,72 @@
     array (
       0 => 'PCF8574P',
     ),
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => 'Philips',
     'datasheet' => 'http://www.nxp.com/acrobat_download/datasheets/PCF8574_4.pdf',
     'pins' => 
     array (
-      0 => 
+      'A0' => 
       array (
-        'num' => '1',
-        'sym' => 'A0',
         'desc' => 'address input 0',
       ),
-      1 => 
+      'A1' => 
       array (
-        'num' => '2',
-        'sym' => 'A1',
         'desc' => 'address input 1',
       ),
-      2 => 
+      'A2' => 
       array (
-        'num' => '3',
-        'sym' => 'A2',
         'desc' => 'address input 2',
       ),
-      3 => 
+      'P0' => 
       array (
-        'num' => '4',
-        'sym' => 'P0',
         'desc' => 'quasi-bidirectional I/O 0',
       ),
-      4 => 
+      'P1' => 
       array (
-        'num' => '5',
-        'sym' => 'P1',
         'desc' => 'quasi-bidirectional I/O 1',
       ),
-      5 => 
+      'P2' => 
       array (
-        'num' => '6',
-        'sym' => 'P2',
         'desc' => 'quasi-bidirectional I/O 2',
       ),
-      6 => 
+      'P3' => 
       array (
-        'num' => '7',
-        'sym' => 'P3',
         'desc' => 'quasi-bidirectional I/O 3',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'supply ground',
       ),
-      8 => 
+      'P4' => 
       array (
-        'num' => '9',
-        'sym' => 'P4',
         'desc' => 'quasi-bidirectional I/O 4',
       ),
-      9 => 
+      'P5' => 
       array (
-        'num' => '10',
-        'sym' => 'P5',
         'desc' => 'quasi-bidirectional I/O 5',
       ),
-      10 => 
+      'P6' => 
       array (
-        'num' => '11',
-        'sym' => 'P6',
         'desc' => 'quasi-bidirectional I/O 6',
       ),
-      11 => 
+      'P7' => 
       array (
-        'num' => '12',
-        'sym' => 'P7',
         'desc' => 'quasi-bidirectional I/O 7',
       ),
-      12 => 
+      '~INT' => 
       array (
-        'num' => '13',
-        'sym' => '~INT',
         'desc' => 'interrupt output (active LOW)',
       ),
-      13 => 
+      'SCL' => 
       array (
-        'num' => '14',
-        'sym' => 'SCL',
         'desc' => 'serial clock line',
       ),
-      14 => 
+      'SDA' => 
       array (
-        'num' => '15',
-        'sym' => 'SDA',
         'desc' => 'serial data line',
       ),
-      15 => 
+      'Vcc' => 
       array (
-        'num' => '16',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
     ),
@@ -29679,6 +26582,28 @@
     array (
       0 => 'I2C address range: 0x40-0x4e (7-bit address range: 0x20-0x27)',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'A0',
+        2 => 'A1',
+        3 => 'A2',
+        4 => 'P0',
+        5 => 'P1',
+        6 => 'P2',
+        7 => 'P3',
+        8 => 'GND',
+        9 => 'P4',
+        10 => 'P5',
+        11 => 'P6',
+        12 => 'P7',
+        13 => '~INT',
+        14 => 'SCL',
+        15 => 'SDA',
+        16 => 'Vcc',
+      ),
+    ),
   ),
   'PIC12F683' => 
   array (
@@ -29686,58 +26611,40 @@
     'aliases' => 
     array (
     ),
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'Microchip',
     'datasheet' => 'http://ww1.microchip.com/downloads/en/DeviceDoc/41211D_.pdf',
     'pins' => 
     array (
-      0 => 
+      'VDD' => 
       array (
-        'num' => '1',
-        'sym' => 'VDD',
         'desc' => 'Positive supply',
       ),
-      1 => 
+      'GP5/T1CKI/OSC1/CLKIN' => 
       array (
-        'num' => '2',
-        'sym' => 'GP5/T1CKI/OSC1/CLKIN',
         'desc' => 'GPIO 5, Timer1 clock, Crystal/Resonator, External clock input',
       ),
-      2 => 
+      'GP4/AN3/~T1G~/OSC2/CLKOUT' => 
       array (
-        'num' => '3',
-        'sym' => 'GP4/AN3/~T1G~/OSC2/CLKOUT',
         'desc' => 'GPIO 4, A/D Channel 3 input, Timer1 gate, Crystal/Resonator, FOSC/4 output',
       ),
-      3 => 
+      'GP3/~MCLR~/VPP' => 
       array (
-        'num' => '4',
-        'sym' => 'GP3/~MCLR~/VPP',
         'desc' => 'GPIO 3, Master Clear, Programming voltage',
       ),
-      4 => 
+      'GP2/AN2/T0CKI/INT/COUT/CCP1' => 
       array (
-        'num' => '5',
-        'sym' => 'GP2/AN2/T0CKI/INT/COUT/CCP1',
         'desc' => 'GPIO 2, A/D Channel 2 input, Timer0 clock input, External Interrupt, Comparator 1 output, Capture input/Compare output/PWM output',
       ),
-      5 => 
+      'GP1/AN1/CIN-/VREF/ICSPCLK' => 
       array (
-        'num' => '6',
-        'sym' => 'GP1/AN1/CIN-/VREF/ICSPCLK',
         'desc' => 'GPIO 1, A/D Channel 1 input, Comparator 1 input, External Voltage Reference, Serial Programming Clock',
       ),
-      6 => 
+      'GP0/AN0/CIN+/ICSPDAT/ULPWU' => 
       array (
-        'num' => '7',
-        'sym' => 'GP0/AN0/CIN+/ICSPDAT/ULPWU',
         'desc' => 'GPIO 0, Comparator 1 input, Serial Programming Data I/O, Ultra Low-Power Wake-up input',
       ),
-      7 => 
+      'VSS' => 
       array (
-        'num' => '8',
-        'sym' => 'VSS',
         'desc' => 'Ground reference',
       ),
     ),
@@ -29772,6 +26679,20 @@
     array (
       0 => 'The Low Pin-count (8) PIC® Flash microcontroller products offer all of the advantages of the well recognized mid-range x14 architecture with standardized features including a wide operating voltage of 2.0-5.5 volts, on-board EEPROM Data Memory, and nanoWatt Technology. Standard analog peripherals include up to 4 channels of 10-bit A/D, an analog comparator module with a single comparator, programmable on-chip voltage reference and a Standard Capture/Compare/PWM (CCP) module.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'VDD',
+        2 => 'GP5/T1CKI/OSC1/CLKIN',
+        3 => 'GP4/AN3/~T1G~/OSC2/CLKOUT',
+        4 => 'GP3/~MCLR~/VPP',
+        5 => 'GP2/AN2/T0CKI/INT/COUT/CCP1',
+        6 => 'GP1/AN1/CIN-/VREF/ICSPCLK',
+        7 => 'GP0/AN0/CIN+/ICSPDAT/ULPWU',
+        8 => 'VSS',
+      ),
+    ),
   ),
   'PIC16F1936' => 
   array (
@@ -29779,178 +26700,116 @@
     'aliases' => 
     array (
     ),
-    'package' => 'DIP',
-    'pincount' => 28,
     'family' => 'Microchip 16F',
     'datasheet' => 'http://ww1.microchip.com/downloads/en/DeviceDoc/41364C.pdf',
     'pins' => 
     array (
-      0 => 
+      'VPP/~MCLR~/RE3' => 
       array (
-        'num' => '1',
-        'sym' => 'VPP/~MCLR~/RE3',
         'desc' => 'Programming voltage, Master Clear, General purpose input',
       ),
-      1 => 
+      'SEG12/VCAP/~SS~/SRNQ/C2OUT/C12IN0-/AN0/RA0' => 
       array (
-        'num' => '2',
-        'sym' => 'SEG12/VCAP/~SS~/SRNQ/C2OUT/C12IN0-/AN0/RA0',
         'desc' => 'LCD Analog output, Filter capacitor, Slave Select input, SR Latch inverting output, Comparator C2 output, Comparator C1 or C2 negative input, A/D Channel 0 input, General purpose I/O',
       ),
-      2 => 
+      'SEG7/C12IN1-/AN1/RA1' => 
       array (
-        'num' => '3',
-        'sym' => 'SEG7/C12IN1-/AN1/RA1',
         'desc' => 'LCD Analog output, Comparator C1 or C2 negative input, A/D Channel 1 input, General purpose I/O',
       ),
-      3 => 
+      'COM2/DACOUT/VREF-/C2IN+/AN2/RA2' => 
       array (
-        'num' => '4',
-        'sym' => 'COM2/DACOUT/VREF-/C2IN+/AN2/RA2',
         'desc' => 'LCD Analog output, Comparator Voltage Reference output, A/D Negative Voltage Reference input, Comparator C2 positive input, A/D Channel 2 input, General purpose I/O',
       ),
-      4 => 
+      'SEG15/COM3/VREF+/C1IN+/AN3/RA3' => 
       array (
-        'num' => '5',
-        'sym' => 'SEG15/COM3/VREF+/C1IN+/AN3/RA3',
         'desc' => 'LCD Analog output, LCD Analog output, A/D Voltage Reference input, Comparator C1 positive input, A/D Channel 3 input, General purpose I/O',
       ),
-      5 => 
+      'SEG4/CCP5/SRQ/T0CKI/CPS6/C1OUT/RA4' => 
       array (
-        'num' => '6',
-        'sym' => 'SEG4/CCP5/SRQ/T0CKI/CPS6/C1OUT/RA4',
         'desc' => 'LCD Analog output, Capture/Compare/PWM5, SR Latch non-inverting output, Timer0 clock input, Capacitive sensing input 6, Comparator C1 output, General purpose I/O',
       ),
-      6 => 
+      'SEG5/VCAP/~SS~/SRNQ/CPS7/C2OUT/AN4/RA5' => 
       array (
-        'num' => '7',
-        'sym' => 'SEG5/VCAP/~SS~/SRNQ/CPS7/C2OUT/AN4/RA5',
         'desc' => 'LCD Analog output, Filter capacitor, Slave Select input, SR Latch inverting output, Capacitive sensing input 7, Comparator C2 output, A/D Channel 4 input, General purpose I/O',
       ),
-      7 => 
+      'GND' => 
       array (
-        'num' => '8',
-        'sym' => 'GND',
         'desc' => 'Ground reference',
       ),
-      8 => 
+      'SEG2/CLKIN/OSC1/RA7' => 
       array (
-        'num' => '9',
-        'sym' => 'SEG2/CLKIN/OSC1/RA7',
         'desc' => 'LCD Analog output, External clock input, Crystal/Resonator, General purpose I/O',
       ),
-      9 => 
+      'SEG1/VCAP/CLKOUT/OSC2/RA6' => 
       array (
-        'num' => '10',
-        'sym' => 'SEG1/VCAP/CLKOUT/OSC2/RA6',
         'desc' => 'LCD Analog output, Filter capacitor, FOSC/4 output, Crystal/Resonator, General purpose I/O',
       ),
-      10 => 
+      'P2B/T1CKI/T1OSO/RC0' => 
       array (
-        'num' => '11',
-        'sym' => 'P2B/T1CKI/T1OSO/RC0',
         'desc' => 'PWM output, Timer1 clock input, Timer1 oscillator connection, General purpose I/O',
       ),
-      11 => 
+      'P2A/CCP2/T1OSI/RC1' => 
       array (
-        'num' => '12',
-        'sym' => 'P2A/CCP2/T1OSI/RC1',
         'desc' => 'PWM output, Capture/Compare/PWM2, Timer1 oscillator connection, General purpose I/O',
       ),
-      12 => 
+      'SEG3/P1A/CCP1/RC2' => 
       array (
-        'num' => '13',
-        'sym' => 'SEG3/P1A/CCP1/RC2',
         'desc' => 'LCD Analog output, PWM output, Capture/Compare/PWM1, General purpose I/O',
       ),
-      13 => 
+      'SEG6/SCL/SCK/RC3' => 
       array (
-        'num' => '14',
-        'sym' => 'SEG6/SCL/SCK/RC3',
         'desc' => 'LCD Analog output, I2C clock, SPI clock, General purpose I/O',
       ),
-      14 => 
+      'RC4/SDI/SDA/T1G/SEG11' => 
       array (
-        'num' => '15',
-        'sym' => 'RC4/SDI/SDA/T1G/SEG11',
         'desc' => 'General purpose I/O, SPI data input, I2C data input/output, Timer1 Gate input, LCD Analog output,',
       ),
-      15 => 
+      'RC5/SDO/SEG10' => 
       array (
-        'num' => '16',
-        'sym' => 'RC5/SDO/SEG10',
         'desc' => 'General purpose I/O, SPI data output, LCD Analog output',
       ),
-      16 => 
+      'RC6/TX/CK/CCP3/P3A/SEG9' => 
       array (
-        'num' => '17',
-        'sym' => 'RC6/TX/CK/CCP3/P3A/SEG9',
         'desc' => 'General purpose I/O, USART asynchronous transmit, USART synchronous clock, Capture/Compare/PWM3, PWM output, LCD Analog output',
       ),
-      17 => 
+      'RC7/RX/DT/P3B/SEG8' => 
       array (
-        'num' => '18',
-        'sym' => 'RC7/RX/DT/P3B/SEG8',
         'desc' => 'General purpose I/O, USART asynchronous input, USART synchronous data, PWM output, LCD Analog output',
       ),
-      18 => 
+      'VCC' => 
       array (
-        'num' => '19',
-        'sym' => 'GND',
-        'desc' => 'Ground reference',
-      ),
-      19 => 
-      array (
-        'num' => '20',
-        'sym' => 'VCC',
         'desc' => 'Positive supply',
       ),
-      20 => 
+      'RB0/AN12/CPS0/CCP4/SRI/INT/SEG0' => 
       array (
-        'num' => '21',
-        'sym' => 'RB0/AN12/CPS0/CCP4/SRI/INT/SEG0',
         'desc' => 'General purpose I/O, A/D Channel 12 input, Capacitive sensing input 0, Capture/Compare/PWM4, SR Latch input, External interrupt, LCD analog output',
       ),
-      21 => 
+      'RB1/AN10/C12IN3-/CPS1/P1C/VLCD1' => 
       array (
-        'num' => '22',
-        'sym' => 'RB1/AN10/C12IN3-/CPS1/P1C/VLCD1',
         'desc' => 'General purpose I/O, A/D Channel 10 input, Comparator C1 or C2 negative input, Capacitive sensing input 1, PWM output, LCD analog input',
       ),
-      22 => 
+      'RB2/AN8/CPS2/P1B/VLCD2' => 
       array (
-        'num' => '23',
-        'sym' => 'RB2/AN8/CPS2/P1B/VLCD2',
         'desc' => 'General purpose I/O, A/D Channel 8 input, Capacitive sensing input 2, PWM output',
       ),
-      23 => 
+      'RB3/AN9/C12IN2-/CPS3/CCP2/P2A/VLCD3' => 
       array (
-        'num' => '24',
-        'sym' => 'RB3/AN9/C12IN2-/CPS3/CCP2/P2A/VLCD3',
         'desc' => 'General purpose I/O, A/D Channel 9 input, Comparator C1 or C2 negative input, Capacitive sensing input 3, Capture/Compare/PWM2, PWM output, LCD analog input',
       ),
-      24 => 
+      'RB4/AN11/CPS4/P1D/COM0' => 
       array (
-        'num' => '25',
-        'sym' => 'RB4/AN11/CPS4/P1D/COM0',
         'desc' => 'General purpose I/O, A/D Channel 11 input, Capacitive sensing input 4, PWM output, LCD Analog output',
       ),
-      25 => 
+      'RB5/AN13/CPS5/P2B/CCP3/P3A/T1G/COM1' => 
       array (
-        'num' => '26',
-        'sym' => 'RB5/AN13/CPS5/P2B/CCP3/P3A/T1G/COM1',
         'desc' => 'General purpose I/O, A/D Channel 13 input, Capacitive sensing input 5, PWM output, Capture/Compare/PWM3, PWM output, Timer1 Gate input, LCD Analog output',
       ),
-      26 => 
+      'RB6/ICSPCLK/ICDCLK/SEG14' => 
       array (
-        'num' => '27',
-        'sym' => 'RB6/ICSPCLK/ICDCLK/SEG14',
         'desc' => 'General purpose I/O, Serial Programming Clock, In-Circuit Debug Clock, LCD Analog output',
       ),
-      27 => 
+      'RB7/ICSPDAT/ICDDAT/SEG13' => 
       array (
-        'num' => '28',
-        'sym' => 'RB7/ICSPDAT/ICDDAT/SEG13',
         'desc' => 'General purpose I/O, ICSP Data I/O, In-Circuit Data I/O, LCD Analog output',
       ),
     ),
@@ -29985,127 +26844,123 @@
     array (
       0 => 'Internal 32MHz oscillator, 60 LCD segment drive support, Integrated Capacitive mTouch Sensing Module',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'VPP/~MCLR~/RE3',
+        2 => 'SEG12/VCAP/~SS~/SRNQ/C2OUT/C12IN0-/AN0/RA0',
+        3 => 'SEG7/C12IN1-/AN1/RA1',
+        4 => 'COM2/DACOUT/VREF-/C2IN+/AN2/RA2',
+        5 => 'SEG15/COM3/VREF+/C1IN+/AN3/RA3',
+        6 => 'SEG4/CCP5/SRQ/T0CKI/CPS6/C1OUT/RA4',
+        7 => 'SEG5/VCAP/~SS~/SRNQ/CPS7/C2OUT/AN4/RA5',
+        8 => 'GND',
+        9 => 'SEG2/CLKIN/OSC1/RA7',
+        10 => 'SEG1/VCAP/CLKOUT/OSC2/RA6',
+        11 => 'P2B/T1CKI/T1OSO/RC0',
+        12 => 'P2A/CCP2/T1OSI/RC1',
+        13 => 'SEG3/P1A/CCP1/RC2',
+        14 => 'SEG6/SCL/SCK/RC3',
+        15 => 'RC4/SDI/SDA/T1G/SEG11',
+        16 => 'RC5/SDO/SEG10',
+        17 => 'RC6/TX/CK/CCP3/P3A/SEG9',
+        18 => 'RC7/RX/DT/P3B/SEG8',
+        19 => 'GND',
+        20 => 'VCC',
+        21 => 'RB0/AN12/CPS0/CCP4/SRI/INT/SEG0',
+        22 => 'RB1/AN10/C12IN3-/CPS1/P1C/VLCD1',
+        23 => 'RB2/AN8/CPS2/P1B/VLCD2',
+        24 => 'RB3/AN9/C12IN2-/CPS3/CCP2/P2A/VLCD3',
+        25 => 'RB4/AN11/CPS4/P1D/COM0',
+        26 => 'RB5/AN13/CPS5/P2B/CCP3/P3A/T1G/COM1',
+        27 => 'RB6/ICSPCLK/ICDCLK/SEG14',
+        28 => 'RB7/ICSPDAT/ICDDAT/SEG13',
+      ),
+    ),
   ),
   'PIC16F84A' => 
   array (
     'description' => 'PIC16F84A Microcontroller',
-    'package' => 'DIP',
-    'pincount' => 18,
     'family' => 'Microchip',
     'datasheet' => 'http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1335&dDocName=en010230',
     'pins' => 
     array (
-      0 => 
+      'RA2' => 
       array (
-        'num' => '1',
-        'sym' => 'RA2',
         'desc' => 'Bi-directional I/O port',
       ),
-      1 => 
+      'RA3' => 
       array (
-        'num' => '2',
-        'sym' => 'RA3',
         'desc' => 'Bi-directional I/O port',
       ),
-      2 => 
+      'RA4/T0CKI' => 
       array (
-        'num' => '3',
-        'sym' => 'RA4/T0CKI',
         'desc' => 'Bi-directional I/O port',
       ),
-      3 => 
+      '~MCLR' => 
       array (
-        'num' => '4',
-        'sym' => '~MCLR',
         'desc' => 'Master Clear (Reset) input/programming voltage
 input. This pin is an active low RESET to the device.',
       ),
-      4 => 
+      'GND' => 
       array (
-        'num' => '5',
-        'sym' => 'GND',
         'desc' => 'Ground reference for logic and I/O pins.',
       ),
-      5 => 
+      'RB0/INT' => 
       array (
-        'num' => '6',
-        'sym' => 'RB0/INT',
         'desc' => 'External interrupt',
       ),
-      6 => 
+      'RB1' => 
       array (
-        'num' => '7',
-        'sym' => 'RB1',
         'desc' => 'Bi-directional I/O port',
       ),
-      7 => 
+      'RB2' => 
       array (
-        'num' => '8',
-        'sym' => 'RB2',
         'desc' => 'Bi-directional I/O port',
       ),
-      8 => 
+      'RB3' => 
       array (
-        'num' => '9',
-        'sym' => 'RB3',
         'desc' => 'Bi-directional I/O port',
       ),
-      9 => 
+      'RB4' => 
       array (
-        'num' => '10',
-        'sym' => 'RB4',
         'desc' => 'Interrupt-on-change pin.',
       ),
-      10 => 
+      'RB5' => 
       array (
-        'num' => '11',
-        'sym' => 'RB5',
         'desc' => 'Interrupt-on-change pin.',
       ),
-      11 => 
+      'RB6' => 
       array (
-        'num' => '12',
-        'sym' => 'RB6',
         'desc' => 'Interrupt-on-change pin, Serial programming clock',
       ),
-      12 => 
+      'RB7' => 
       array (
-        'num' => '13',
-        'sym' => 'RB7',
         'desc' => 'Interrupt-on-change pin, Serial programming data.',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'Positive supply for logic and I/O pins.',
       ),
-      14 => 
+      'OSC2/CLKIN' => 
       array (
-        'num' => '15',
-        'sym' => 'OSC2/CLKIN',
         'desc' => 'Oscillator crystal output. Connects to crystal or
 resonator in Crystal Oscillator mode. In RC mode,
 OSC2 pin outputs CLKOUT, which has 1/4 the
 frequency of OSC1 and denotes the instruction
 cycle rate.',
       ),
-      15 => 
+      'OSC1/CLKOUT' => 
       array (
-        'num' => '16',
-        'sym' => 'OSC1/CLKOUT',
         'desc' => 'Oscillator crystal input/external clock source input',
       ),
-      16 => 
+      'RA0' => 
       array (
-        'num' => '17',
-        'sym' => 'RA0',
         'desc' => 'Bi-directional I/O port',
       ),
-      17 => 
+      'RA1' => 
       array (
-        'num' => '18',
-        'sym' => 'RA1',
         'desc' => 'Bi-directional I/O port',
       ),
     ),
@@ -30134,6 +26989,30 @@ cycle rate.',
     array (
       0 => '18-pin Flash/EEPROM 8-bit Microcontroller',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'RA2',
+        2 => 'RA3',
+        3 => 'RA4/T0CKI',
+        4 => '~MCLR',
+        5 => 'GND',
+        6 => 'RB0/INT',
+        7 => 'RB1',
+        8 => 'RB2',
+        9 => 'RB3',
+        10 => 'RB4',
+        11 => 'RB5',
+        12 => 'RB6',
+        13 => 'RB7',
+        14 => 'Vcc',
+        15 => 'OSC2/CLKIN',
+        16 => 'OSC1/CLKOUT',
+        17 => 'RA0',
+        18 => 'RA1',
+      ),
+    ),
   ),
   'PIC18F13K50' => 
   array (
@@ -30142,130 +27021,88 @@ cycle rate.',
     array (
       0 => 'PIC18F14K50',
     ),
-    'package' => 'DIP',
-    'pincount' => 20,
     'family' => 'Microchip 18F',
     'datasheet' => 'http://ww1.microchip.com/downloads/en/DeviceDoc/41350C.pdf',
     'pins' => 
     array (
-      0 => 
+      'VCC' => 
       array (
-        'num' => '1',
-        'sym' => 'VCC',
         'desc' => 'Positive supply for logic and I/O pins',
       ),
-      1 => 
+      'RA5/OSC1/CLKIN' => 
       array (
-        'num' => '2',
-        'sym' => 'RA5/OSC1/CLKIN',
         'desc' => 'Digital I/O, Oscillator crystal input or external clock input, External clock source input.',
       ),
-      2 => 
+      'RA4/AN3/OSC2/CLKOUT' => 
       array (
-        'num' => '3',
-        'sym' => 'RA4/AN3/OSC2/CLKOUT',
         'desc' => 'Digital I/O, ADC channel 3, Oscillator crystal output., In RC mode, OSC2 pin outputs CLKOUT',
       ),
-      3 => 
+      'RA3/~MCLR~/VPP' => 
       array (
-        'num' => '4',
-        'sym' => 'RA3/~MCLR~/VPP',
         'desc' => 'Digital input, Active-low Master Clear with internal pull-up, High voltage programming input',
       ),
-      4 => 
+      'RC5/CCP1/P1A/T0CKI' => 
       array (
-        'num' => '5',
-        'sym' => 'RC5/CCP1/P1A/T0CKI',
         'desc' => 'Digital I/O, Capture 1 input/Compare 1 output/PWM 1 output, Enhanced CCP1 PWM output, Timer0 external clock input',
       ),
-      5 => 
+      'RC4/P1B/C12OUT/SRQ' => 
       array (
-        'num' => '6',
-        'sym' => 'RC4/P1B/C12OUT/SRQ',
         'desc' => 'Digital I/O, Enhanced CCP1 PWM output, Comparator C1 and C2 output, SR Latch output',
       ),
-      6 => 
+      'RC3/AN7/P1C/C12IN3-/PGM' => 
       array (
-        'num' => '7',
-        'sym' => 'RC3/AN7/P1C/C12IN3-/PGM',
         'desc' => 'Digital I/O, ADC channel 7, Enhanced CCP1 PWM output, Comparator C1 and C2 inverting input, Low-Voltage ICSP Programming enable pin',
       ),
-      7 => 
+      'RC6/AN8/~SS~/T13CKI/T1OSCI' => 
       array (
-        'num' => '8',
-        'sym' => 'RC6/AN8/~SS~/T13CKI/T1OSCI',
         'desc' => 'Digital I/O, ADC channel 8, SPI slave select input, Timer0 and Timer3 external clock input, Timer1 oscillator input',
       ),
-      8 => 
+      'RC7/AN9/SDO/T1OSCO' => 
       array (
-        'num' => '9',
-        'sym' => 'RC7/AN9/SDO/T1OSCO',
         'desc' => 'Digital I/O, ADC channel 9, SPI data out, Timer1 oscillator output',
       ),
-      9 => 
+      'RB7/TX/CK' => 
       array (
-        'num' => '10',
-        'sym' => 'RB7/TX/CK',
         'desc' => 'Digital I/O, EUSART asynchronous transmit, EUSART synchronous clock (see related RX/DT)',
       ),
-      10 => 
+      'RB6/SCK/SCI' => 
       array (
-        'num' => '11',
-        'sym' => 'RB6/SCK/SCI',
         'desc' => 'Digital I/O, Synchronous serial clock input/output for SPI mode, Synchronous serial clock input/output for I2C mode',
       ),
-      11 => 
+      'RB5/AN11/RX/DT' => 
       array (
-        'num' => '12',
-        'sym' => 'RB5/AN11/RX/DT',
         'desc' => 'Digital I/O, ADC channel 11, EUSART asynchronous receive, EUSART synchronous data (see related RX/TX)',
       ),
-      12 => 
+      'RB4/AN10/SDI/SDA' => 
       array (
-        'num' => '13',
-        'sym' => 'RB4/AN10/SDI/SDA',
         'desc' => 'Digital I/O, ADC channel 10, SPI data in, I2C data I/O',
       ),
-      13 => 
+      'RC2/AN6/P1D/C12IN2-/CVREF/INT2' => 
       array (
-        'num' => '14',
-        'sym' => 'RC2/AN6/P1D/C12IN2-/CVREF/INT2',
         'desc' => 'Digital I/O, ADC channel 6, Enhanced CCP1 PWM output, Comparator C1 and C2 inverting input, Comparator reference voltage output, External, interrupt 0',
       ),
-      14 => 
+      'RC1/AN5/C12IN-/INT1/VREF-' => 
       array (
-        'num' => '15',
-        'sym' => 'RC1/AN5/C12IN-/INT1/VREF-',
         'desc' => 'Digital I/O, ADC channel 5, Comparator C1 and C2 non-inverting input, External interrupt 0, Comparator reference voltage (low) input',
       ),
-      15 => 
+      'RC0/AN4/C12IN+/INT0/VREF+' => 
       array (
-        'num' => '16',
-        'sym' => 'RC0/AN4/C12IN+/INT0/VREF+',
         'desc' => 'Digital I/O, ADC channel 4, Comparator C1 and C2 non-inverting input, External interrupt 0, Comparator reference voltage (high) input',
       ),
-      16 => 
+      'VUSB' => 
       array (
-        'num' => '17',
-        'sym' => 'VUSB',
         'desc' => 'Positive supply for USB transceiver',
       ),
-      17 => 
+      'RA1/D-/PGC' => 
       array (
-        'num' => '18',
-        'sym' => 'RA1/D-/PGC',
         'desc' => 'Digital input, USB differential minus line (input/output), ICSP programming clock pin',
       ),
-      18 => 
+      'RA0/D+/PGD' => 
       array (
-        'num' => '19',
-        'sym' => 'RA0/D+/PGD',
         'desc' => 'Digital input, USB differential plus line (input/output), ICSP programming data pin',
       ),
-      19 => 
+      'GND' => 
       array (
-        'num' => '20',
-        'sym' => 'GND',
         'desc' => 'Ground reference for logic and I/O pins',
       ),
     ),
@@ -30300,6 +27137,32 @@ cycle rate.',
     array (
       0 => 'High Performance PIC18 Core, USB v2.0 compliant interface',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'VCC',
+        2 => 'RA5/OSC1/CLKIN',
+        3 => 'RA4/AN3/OSC2/CLKOUT',
+        4 => 'RA3/~MCLR~/VPP',
+        5 => 'RC5/CCP1/P1A/T0CKI',
+        6 => 'RC4/P1B/C12OUT/SRQ',
+        7 => 'RC3/AN7/P1C/C12IN3-/PGM',
+        8 => 'RC6/AN8/~SS~/T13CKI/T1OSCI',
+        9 => 'RC7/AN9/SDO/T1OSCO',
+        10 => 'RB7/TX/CK',
+        11 => 'RB6/SCK/SCI',
+        12 => 'RB5/AN11/RX/DT',
+        13 => 'RB4/AN10/SDI/SDA',
+        14 => 'RC2/AN6/P1D/C12IN2-/CVREF/INT2',
+        15 => 'RC1/AN5/C12IN-/INT1/VREF-',
+        16 => 'RC0/AN4/C12IN+/INT0/VREF+',
+        17 => 'VUSB',
+        18 => 'RA1/D-/PGC',
+        19 => 'RA0/D+/PGD',
+        20 => 'GND',
+      ),
+    ),
   ),
   'PIC18F4550' => 
   array (
@@ -30307,250 +27170,160 @@ cycle rate.',
     'aliases' => 
     array (
     ),
-    'package' => 'DIP',
-    'pincount' => 40,
     'family' => 'Microchip',
     'datasheet' => 'http://ww1.microchip.com/downloads/en/DeviceDoc/39632e.pdf',
     'pins' => 
     array (
-      0 => 
+      '~MCLR~/V__PP/RE3' => 
       array (
-        'num' => '1',
-        'sym' => '~MCLR~/V__PP/RE3',
         'desc' => '.',
       ),
-      1 => 
+      'RA0/AN0' => 
       array (
-        'num' => '2',
-        'sym' => 'RA0/AN0',
         'desc' => '.',
       ),
-      2 => 
+      'RA1/AN1' => 
       array (
-        'num' => '3',
-        'sym' => 'RA1/AN1',
         'desc' => '.',
       ),
-      3 => 
+      'RA2/AN2/V__REF-/CV__REF' => 
       array (
-        'num' => '4',
-        'sym' => 'RA2/AN2/V__REF-/CV__REF',
         'desc' => '.',
       ),
-      4 => 
+      'RA3/AN3/V__REF+' => 
       array (
-        'num' => '5',
-        'sym' => 'RA3/AN3/V__REF+',
         'desc' => '.',
       ),
-      5 => 
+      'RA4/T0CKI/C1OUT/RCV' => 
       array (
-        'num' => '6',
-        'sym' => 'RA4/T0CKI/C1OUT/RCV',
         'desc' => '.',
       ),
-      6 => 
+      'RA5/AN4/~SS~/HLVDIN/C2OUT' => 
       array (
-        'num' => '7',
-        'sym' => 'RA5/AN4/~SS~/HLVDIN/C2OUT',
         'desc' => '.',
       ),
-      7 => 
+      'RE0/AN5/CK1SPP' => 
       array (
-        'num' => '8',
-        'sym' => 'RE0/AN5/CK1SPP',
         'desc' => '.',
       ),
-      8 => 
+      'RE1/AN6/CK2SPP' => 
       array (
-        'num' => '9',
-        'sym' => 'RE1/AN6/CK2SPP',
         'desc' => '.',
       ),
-      9 => 
+      'RE2/AN7/OESPP' => 
       array (
-        'num' => '10',
-        'sym' => 'RE2/AN7/OESPP',
         'desc' => '.',
       ),
-      10 => 
+      'V__DD' => 
       array (
-        'num' => '11',
-        'sym' => 'V__DD',
         'desc' => 'Positive supply for logic and I/O pins.',
       ),
-      11 => 
+      'V__SS' => 
       array (
-        'num' => '12',
-        'sym' => 'V__SS',
         'desc' => 'Ground reference for logic and I/O pins.',
       ),
-      12 => 
+      'OSC1/CLKI' => 
       array (
-        'num' => '13',
-        'sym' => 'OSC1/CLKI',
         'desc' => '.',
       ),
-      13 => 
+      'OSC2/CLKO/RA6' => 
       array (
-        'num' => '14',
-        'sym' => 'OSC2/CLKO/RA6',
         'desc' => '.',
       ),
-      14 => 
+      'RC0/T1OSO/T13CKI' => 
       array (
-        'num' => '15',
-        'sym' => 'RC0/T1OSO/T13CKI',
         'desc' => '.',
       ),
-      15 => 
+      'RC1/T1OSI/CPP2/~UOE~' => 
       array (
-        'num' => '16',
-        'sym' => 'RC1/T1OSI/CPP2/~UOE~',
         'desc' => '.',
       ),
-      16 => 
+      'RC2/CCP1/P1A' => 
       array (
-        'num' => '17',
-        'sym' => 'RC2/CCP1/P1A',
         'desc' => '.',
       ),
-      17 => 
+      'V__USB' => 
       array (
-        'num' => '18',
-        'sym' => 'V__USB',
         'desc' => 'Internal USB 3.3V voltage regulator.',
       ),
-      18 => 
+      'RD0/SPP0' => 
       array (
-        'num' => '19',
-        'sym' => 'RD0/SPP0',
         'desc' => '.',
       ),
-      19 => 
+      'RD1/SPP1' => 
       array (
-        'num' => '20',
-        'sym' => 'RD1/SPP1',
         'desc' => '.',
       ),
-      20 => 
+      'RD2/SPP2' => 
       array (
-        'num' => '21',
-        'sym' => 'RD2/SPP2',
         'desc' => '.',
       ),
-      21 => 
+      'RD3/SPP3' => 
       array (
-        'num' => '22',
-        'sym' => 'RD3/SPP3',
         'desc' => '.',
       ),
-      22 => 
+      'RC4/D__-/VM' => 
       array (
-        'num' => '23',
-        'sym' => 'RC4/D__-/VM',
         'desc' => '.',
       ),
-      23 => 
+      'RC5/D__+/VP' => 
       array (
-        'num' => '24',
-        'sym' => 'RC5/D__+/VP',
         'desc' => '.',
       ),
-      24 => 
+      'RC6/TX/CK' => 
       array (
-        'num' => '25',
-        'sym' => 'RC6/TX/CK',
         'desc' => '.',
       ),
-      25 => 
+      'RC7/RX/DT/SDO' => 
       array (
-        'num' => '26',
-        'sym' => 'RC7/RX/DT/SDO',
         'desc' => '.',
       ),
-      26 => 
+      'RD4/SPP4' => 
       array (
-        'num' => '27',
-        'sym' => 'RD4/SPP4',
         'desc' => '.',
       ),
-      27 => 
+      'RD5/SPP5/P1B' => 
       array (
-        'num' => '28',
-        'sym' => 'RD5/SPP5/P1B',
         'desc' => '.',
       ),
-      28 => 
+      'RD6/SPP6/P1C' => 
       array (
-        'num' => '29',
-        'sym' => 'RD6/SPP6/P1C',
         'desc' => '.',
       ),
-      29 => 
+      'RD7/SPP7/P1D' => 
       array (
-        'num' => '30',
-        'sym' => 'RD7/SPP7/P1D',
         'desc' => '.',
       ),
-      30 => 
+      'RB0/AN12/INT0/FLT0/SDI/SDA' => 
       array (
-        'num' => '31',
-        'sym' => 'V__SS',
-        'desc' => 'Ground reference for logic and I/O pins.',
-      ),
-      31 => 
-      array (
-        'num' => '32',
-        'sym' => 'V__DD',
-        'desc' => 'Positive supply for logic and I/O pins.',
-      ),
-      32 => 
-      array (
-        'num' => '33',
-        'sym' => 'RB0/AN12/INT0/FLT0/SDI/SDA',
         'desc' => '.',
       ),
-      33 => 
+      'RB1/AN10/INT1/SCK/SCL' => 
       array (
-        'num' => '34',
-        'sym' => 'RB1/AN10/INT1/SCK/SCL',
         'desc' => '.',
       ),
-      34 => 
+      'RB2/AN8/INT2/VMO' => 
       array (
-        'num' => '35',
-        'sym' => 'RB2/AN8/INT2/VMO',
         'desc' => '.',
       ),
-      35 => 
+      'RB3/AN9/CCP2/VPO' => 
       array (
-        'num' => '36',
-        'sym' => 'RB3/AN9/CCP2/VPO',
         'desc' => '.',
       ),
-      36 => 
+      'RB4/AN11/KBI0/CSSPP' => 
       array (
-        'num' => '37',
-        'sym' => 'RB4/AN11/KBI0/CSSPP',
         'desc' => '.',
       ),
-      37 => 
+      'RB5/KBI1/PGM' => 
       array (
-        'num' => '38',
-        'sym' => 'RB5/KBI1/PGM',
         'desc' => '.',
       ),
-      38 => 
+      'RB6/KBI2/PGC' => 
       array (
-        'num' => '39',
-        'sym' => 'RB6/KBI2/PGC',
         'desc' => '.',
       ),
-      39 => 
+      'RB6/KBI3/PGD' => 
       array (
-        'num' => '40',
-        'sym' => 'RB6/KBI3/PGD',
         'desc' => '.',
       ),
     ),
@@ -30563,110 +27336,122 @@ cycle rate.',
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~MCLR~/V__PP/RE3',
+        2 => 'RA0/AN0',
+        3 => 'RA1/AN1',
+        4 => 'RA2/AN2/V__REF-/CV__REF',
+        5 => 'RA3/AN3/V__REF+',
+        6 => 'RA4/T0CKI/C1OUT/RCV',
+        7 => 'RA5/AN4/~SS~/HLVDIN/C2OUT',
+        8 => 'RE0/AN5/CK1SPP',
+        9 => 'RE1/AN6/CK2SPP',
+        10 => 'RE2/AN7/OESPP',
+        11 => 'V__DD',
+        12 => 'V__SS',
+        13 => 'OSC1/CLKI',
+        14 => 'OSC2/CLKO/RA6',
+        15 => 'RC0/T1OSO/T13CKI',
+        16 => 'RC1/T1OSI/CPP2/~UOE~',
+        17 => 'RC2/CCP1/P1A',
+        18 => 'V__USB',
+        19 => 'RD0/SPP0',
+        20 => 'RD1/SPP1',
+        21 => 'RD2/SPP2',
+        22 => 'RD3/SPP3',
+        23 => 'RC4/D__-/VM',
+        24 => 'RC5/D__+/VP',
+        25 => 'RC6/TX/CK',
+        26 => 'RC7/RX/DT/SDO',
+        27 => 'RD4/SPP4',
+        28 => 'RD5/SPP5/P1B',
+        29 => 'RD6/SPP6/P1C',
+        30 => 'RD7/SPP7/P1D',
+        31 => 'V__SS',
+        32 => 'V__DD',
+        33 => 'RB0/AN12/INT0/FLT0/SDI/SDA',
+        34 => 'RB1/AN10/INT1/SCK/SCL',
+        35 => 'RB2/AN8/INT2/VMO',
+        36 => 'RB3/AN9/CCP2/VPO',
+        37 => 'RB4/AN11/KBI0/CSSPP',
+        38 => 'RB5/KBI1/PGM',
+        39 => 'RB6/KBI2/PGC',
+        40 => 'RB6/KBI3/PGD',
+      ),
+    ),
   ),
   'PS2501' => 
   array (
     'description' => '4-channel optoisolator',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => 'CEL',
     'datasheet' => 'http://www.cel.com/pdf/datasheets/ps2501.pdf',
     'pins' => 
     array (
-      0 => 
+      '+1' => 
       array (
-        'num' => '1',
-        'sym' => '+1',
         'desc' => 'anode 1',
       ),
-      1 => 
+      -1 => 
       array (
-        'num' => '2',
-        'sym' => '-1',
         'desc' => 'cathode 1',
       ),
-      2 => 
+      '+2' => 
       array (
-        'num' => '3',
-        'sym' => '+2',
         'desc' => 'anode 2',
       ),
-      3 => 
+      -2 => 
       array (
-        'num' => '4',
-        'sym' => '-2',
         'desc' => 'cathode 2',
       ),
-      4 => 
+      '+3' => 
       array (
-        'num' => '5',
-        'sym' => '+3',
         'desc' => 'anode 3',
       ),
-      5 => 
+      -3 => 
       array (
-        'num' => '6',
-        'sym' => '-3',
         'desc' => 'cathode 3',
       ),
-      6 => 
+      '+4' => 
       array (
-        'num' => '7',
-        'sym' => '+4',
         'desc' => 'anode 4',
       ),
-      7 => 
+      -4 => 
       array (
-        'num' => '8',
-        'sym' => '-4',
         'desc' => 'cathode 4',
       ),
-      8 => 
+      'E4' => 
       array (
-        'num' => '9',
-        'sym' => 'E4',
         'desc' => 'emitter 4',
       ),
-      9 => 
+      'C4' => 
       array (
-        'num' => '10',
-        'sym' => 'C4',
         'desc' => 'collector 4',
       ),
-      10 => 
+      'E3' => 
       array (
-        'num' => '11',
-        'sym' => 'E3',
         'desc' => 'emitter 3',
       ),
-      11 => 
+      'C3' => 
       array (
-        'num' => '12',
-        'sym' => 'C3',
         'desc' => 'collector 3',
       ),
-      12 => 
+      'E2' => 
       array (
-        'num' => '13',
-        'sym' => 'E2',
         'desc' => 'emitter 2',
       ),
-      13 => 
+      'C2' => 
       array (
-        'num' => '14',
-        'sym' => 'C2',
         'desc' => 'collector 2',
       ),
-      14 => 
+      'E1' => 
       array (
-        'num' => '15',
-        'sym' => 'E1',
         'desc' => 'emitter 1',
       ),
-      15 => 
+      'C1' => 
       array (
-        'num' => '16',
-        'sym' => 'C1',
         'desc' => 'collector 1',
       ),
     ),
@@ -30695,110 +27480,86 @@ cycle rate.',
         'unit' => 'µs',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '+1',
+        2 => '-1',
+        3 => '+2',
+        4 => '-2',
+        5 => '+3',
+        6 => '-3',
+        7 => '+4',
+        8 => '-4',
+        9 => 'E4',
+        10 => 'C4',
+        11 => 'E3',
+        12 => 'C3',
+        13 => 'E2',
+        14 => 'C2',
+        15 => 'E1',
+        16 => 'C1',
+      ),
+    ),
   ),
   'SN754410' => 
   array (
     'description' => 'Quadruple half-H driver',
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => 'TI',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/sn754410.pdf',
     'pins' => 
     array (
-      0 => 
+      '1,2EN' => 
       array (
-        'num' => '1',
-        'sym' => '1,2EN',
         'desc' => 'enable (drivers 1 and 2)',
       ),
-      1 => 
+      '1A' => 
       array (
-        'num' => '2',
-        'sym' => '1A',
         'desc' => 'input 1',
       ),
-      2 => 
+      '1Y' => 
       array (
-        'num' => '3',
-        'sym' => '1Y',
         'desc' => 'driver 1 output',
       ),
-      3 => 
+      'GND' => 
       array (
-        'num' => '4',
-        'sym' => 'GND',
         'desc' => 'ground (heat sink)',
       ),
-      4 => 
+      '2Y' => 
       array (
-        'num' => '5',
-        'sym' => 'GND',
-        'desc' => 'ground (heat sink)',
-      ),
-      5 => 
-      array (
-        'num' => '6',
-        'sym' => '2Y',
         'desc' => 'driver 2 output',
       ),
-      6 => 
+      '2A' => 
       array (
-        'num' => '7',
-        'sym' => '2A',
         'desc' => 'input 2',
       ),
-      7 => 
+      'V__CC2' => 
       array (
-        'num' => '8',
-        'sym' => 'V__CC2',
         'desc' => 'output supply voltage',
       ),
-      8 => 
+      '3,4EN' => 
       array (
-        'num' => '9',
-        'sym' => '3,4EN',
         'desc' => 'enable (drivers 3 and 4)',
       ),
-      9 => 
+      '3A' => 
       array (
-        'num' => '10',
-        'sym' => '3A',
         'desc' => 'input 3',
       ),
-      10 => 
+      '3Y' => 
       array (
-        'num' => '11',
-        'sym' => '3Y',
         'desc' => 'driver 3 output',
       ),
-      11 => 
+      '4Y' => 
       array (
-        'num' => '12',
-        'sym' => 'GND',
-        'desc' => 'ground (heat sink)',
-      ),
-      12 => 
-      array (
-        'num' => '13',
-        'sym' => 'GND',
-        'desc' => 'ground (heat sink)',
-      ),
-      13 => 
-      array (
-        'num' => '14',
-        'sym' => '4Y',
         'desc' => 'driver 4 output',
       ),
-      14 => 
+      '4A' => 
       array (
-        'num' => '15',
-        'sym' => '4A',
         'desc' => 'input 4',
       ),
-      15 => 
+      'V__CC1' => 
       array (
-        'num' => '16',
-        'sym' => 'V__CC1',
         'desc' => 'logic supply voltage',
       ),
     ),
@@ -30825,6 +27586,28 @@ cycle rate.',
     array (
       0 => 'When an EN line is low, the corresponding outputs assume a high-impedance off state.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1,2EN',
+        2 => '1A',
+        3 => '1Y',
+        4 => 'GND',
+        5 => 'GND',
+        6 => '2Y',
+        7 => '2A',
+        8 => 'V__CC2',
+        9 => '3,4EN',
+        10 => '3A',
+        11 => '3Y',
+        12 => 'GND',
+        13 => 'GND',
+        14 => '4Y',
+        15 => '4A',
+        16 => 'V__CC1',
+      ),
+    ),
   ),
   'SN75468' => 
   array (
@@ -30833,106 +27616,72 @@ cycle rate.',
     array (
       0 => 'SN75469',
     ),
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => 'TI',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/sn75468.pdf',
     'pins' => 
     array (
-      0 => 
+      '1B' => 
       array (
-        'num' => '1',
-        'sym' => '1B',
         'desc' => 'base 1',
       ),
-      1 => 
+      '2B' => 
       array (
-        'num' => '2',
-        'sym' => '2B',
         'desc' => 'base 2',
       ),
-      2 => 
+      '3B' => 
       array (
-        'num' => '3',
-        'sym' => '3B',
         'desc' => 'base 3',
       ),
-      3 => 
+      '4B' => 
       array (
-        'num' => '4',
-        'sym' => '4B',
         'desc' => 'base 4',
       ),
-      4 => 
+      '5B' => 
       array (
-        'num' => '5',
-        'sym' => '5B',
         'desc' => 'base 5',
       ),
-      5 => 
+      '6B' => 
       array (
-        'num' => '6',
-        'sym' => '6B',
         'desc' => 'base 6',
       ),
-      6 => 
+      '7B' => 
       array (
-        'num' => '7',
-        'sym' => '7B',
         'desc' => 'base 7',
       ),
-      7 => 
+      'E' => 
       array (
-        'num' => '8',
-        'sym' => 'E',
         'desc' => 'common emitter (ground)',
       ),
-      8 => 
+      'COM' => 
       array (
-        'num' => '9',
-        'sym' => 'COM',
         'desc' => 'common',
       ),
-      9 => 
+      '7C' => 
       array (
-        'num' => '10',
-        'sym' => '7C',
         'desc' => 'collector 7',
       ),
-      10 => 
+      '6C' => 
       array (
-        'num' => '11',
-        'sym' => '6C',
         'desc' => 'collector 6',
       ),
-      11 => 
+      '5C' => 
       array (
-        'num' => '12',
-        'sym' => '5C',
         'desc' => 'collector 5',
       ),
-      12 => 
+      '4C' => 
       array (
-        'num' => '13',
-        'sym' => '4C',
         'desc' => 'collector 4',
       ),
-      13 => 
+      '3C' => 
       array (
-        'num' => '14',
-        'sym' => '3C',
         'desc' => 'collector 3',
       ),
-      14 => 
+      '2C' => 
       array (
-        'num' => '15',
-        'sym' => '2C',
         'desc' => 'collector 2',
       ),
-      15 => 
+      '1C' => 
       array (
-        'num' => '16',
-        'sym' => '1C',
         'desc' => 'collector 1',
       ),
     ),
@@ -30972,6 +27721,28 @@ cycle rate.',
       0 => 'SN75468 is designed for use with 5V TTL/CMOS devices.',
       1 => 'SN75469 is designed for use with 6V-15V CMOS/PMOS devices.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1B',
+        2 => '2B',
+        3 => '3B',
+        4 => '4B',
+        5 => '5B',
+        6 => '6B',
+        7 => '7B',
+        8 => 'E',
+        9 => 'COM',
+        10 => '7C',
+        11 => '6C',
+        12 => '5C',
+        13 => '4C',
+        14 => '3C',
+        15 => '2C',
+        16 => '1C',
+      ),
+    ),
   ),
   'TC649' => 
   array (
@@ -30979,58 +27750,40 @@ cycle rate.',
     'aliases' => 
     array (
     ),
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'Microchip',
     'datasheet' => 'http://ww1.microchip.com/downloads/en/DeviceDoc/21449c.pdf',
     'pins' => 
     array (
-      0 => 
+      'V__IN' => 
       array (
-        'num' => '1',
-        'sym' => 'V__IN',
         'desc' => 'temperature sensor; voltage range of 1.25V to 2.65V (typical)',
       ),
-      1 => 
+      'C__F' => 
       array (
-        'num' => '2',
-        'sym' => 'C__F',
         'desc' => 'positive terminal for PWM ramp generator timing capacitor; 1 µF for 30 Hz PWM',
       ),
-      2 => 
+      'V__AS' => 
       array (
-        'num' => '3',
-        'sym' => 'V__AS',
         'desc' => 'auto-shutdown voltage; auto-shutdown occurs when V__IN <= V__AS',
       ),
-      3 => 
+      'GND' => 
       array (
-        'num' => '4',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      4 => 
+      'SENSE' => 
       array (
-        'num' => '5',
-        'sym' => 'SENSE',
         'desc' => 'fan rotation pulses; absense of pulses indicates a fault',
       ),
-      5 => 
+      '~FAULT~' => 
       array (
-        'num' => '6',
-        'sym' => '~FAULT~',
         'desc' => 'goes low to indicate a fault condition',
       ),
-      6 => 
+      'V__OUT' => 
       array (
-        'num' => '7',
-        'sym' => 'V__OUT',
         'desc' => 'active high complimentary output that drives the fan motor through an NPN transistor or N-channel MOSFET',
       ),
-      7 => 
+      'V__DD' => 
       array (
-        'num' => '8',
-        'sym' => 'V__DD',
         'desc' => 'power supply',
       ),
     ),
@@ -31043,104 +27796,96 @@ cycle rate.',
         'unit' => 'V',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'V__IN',
+        2 => 'C__F',
+        3 => 'V__AS',
+        4 => 'GND',
+        5 => 'SENSE',
+        6 => '~FAULT~',
+        7 => 'V__OUT',
+        8 => 'V__DD',
+      ),
+    ),
   ),
   'TIL311' => 
   array (
     'description' => 'Hexadecimal display with logic',
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => 'LED',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/til311.pdf',
     'pins' => 
     array (
-      0 => 
+      'V__LED' => 
       array (
-        'num' => '1',
-        'sym' => 'V__LED',
         'desc' => 'LED supply voltage',
       ),
-      1 => 
+      'B' => 
       array (
-        'num' => '2',
-        'sym' => 'B',
         'desc' => 'Latch data input B',
       ),
-      2 => 
+      'A' => 
       array (
-        'num' => '3',
-        'sym' => 'A',
         'desc' => 'Latch data input A',
       ),
-      3 => 
+      'DP__L' => 
       array (
-        'num' => '4',
-        'sym' => 'DP__L',
         'desc' => 'Left decimal point cathode',
       ),
-      4 => 
+      '~STROBE' => 
       array (
-        'num' => '5',
-        'sym' => '~STROBE',
         'desc' => 'Latch strobe input (active low)',
       ),
-      5 => 
+      'GND' => 
       array (
-        'num' => '6',
-        'sym' => '',
-        'desc' => 'no pin',
-      ),
-      6 => 
-      array (
-        'num' => '7',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      7 => 
+      'BLANK' => 
       array (
-        'num' => '8',
-        'sym' => 'BLANK',
         'desc' => 'Display blanking input (active high)',
       ),
-      8 => 
+      'DP__R' => 
       array (
-        'num' => '9',
-        'sym' => '',
-        'desc' => 'no pin',
-      ),
-      9 => 
-      array (
-        'num' => '10',
-        'sym' => 'DP__R',
         'desc' => 'Right decimal point cathode',
       ),
-      10 => 
+      'D' => 
       array (
-        'num' => '11',
-        'sym' => '',
-        'desc' => 'no pin',
-      ),
-      11 => 
-      array (
-        'num' => '12',
-        'sym' => 'D',
         'desc' => 'Latch data input D',
       ),
-      12 => 
+      'C' => 
       array (
-        'num' => '13',
-        'sym' => 'C',
         'desc' => 'Latch data input C',
       ),
-      13 => 
+      'Vcc' => 
       array (
-        'num' => '14',
-        'sym' => 'Vcc',
         'desc' => 'Logic supply voltage',
       ),
     ),
     'notes' => 
     array (
       0 => 'Decimal points are driven independently and current-limiting resistors (typically 1kΩ) are required.',
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'V__LED',
+        2 => 'B',
+        3 => 'A',
+        4 => 'DP__L',
+        5 => '~STROBE',
+        6 => 'NOT_PRESENT',
+        7 => 'GND',
+        8 => 'BLANK',
+        9 => 'NOT_PRESENT',
+        10 => 'DP__R',
+        11 => 'NOT_PRESENT',
+        12 => 'D',
+        13 => 'C',
+        14 => 'Vcc',
+      ),
     ),
   ),
   'TL081' => 
@@ -31151,59 +27896,37 @@ cycle rate.',
       0 => 'TL061',
       1 => 'TL071',
     ),
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'linear',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/tl08a.pdf',
     'pins' => 
     array (
-      0 => 
+      'OFFSET N1' => 
       array (
-        'num' => '1',
-        'sym' => 'OFFSET N1',
         'desc' => 'offset',
       ),
-      1 => 
+      'IN-' => 
       array (
-        'num' => '2',
-        'sym' => 'IN-',
         'desc' => 'inverting input',
       ),
-      2 => 
+      'IN+' => 
       array (
-        'num' => '3',
-        'sym' => 'IN+',
         'desc' => 'non-inverting input',
       ),
-      3 => 
+      'V__CC-' => 
       array (
-        'num' => '4',
-        'sym' => 'V__CC-',
         'desc' => 'negative supply voltage',
       ),
-      4 => 
+      'OFFSET N2' => 
       array (
-        'num' => '5',
-        'sym' => 'OFFSET N2',
         'desc' => 'offset',
       ),
-      5 => 
+      'OUT' => 
       array (
-        'num' => '6',
-        'sym' => 'OUT',
         'desc' => 'output',
       ),
-      6 => 
+      'V__CC+' => 
       array (
-        'num' => '7',
-        'sym' => 'V__CC+',
         'desc' => 'positive supply voltage',
-      ),
-      7 => 
-      array (
-        'num' => '8',
-        'sym' => 'NC',
-        'desc' => 'no connection',
       ),
     ),
     'specs' => 
@@ -31282,6 +28005,20 @@ cycle rate.',
       0 => 'The TL06x series are low-power versions of the TL08x series.',
       1 => 'The TL07x series are low-noise versions of the TL08x series.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'OFFSET N1',
+        2 => 'IN-',
+        3 => 'IN+',
+        4 => 'V__CC-',
+        5 => 'OFFSET N2',
+        6 => 'OUT',
+        7 => 'V__CC+',
+        8 => 'NC',
+      ),
+    ),
   ),
   'TL082' => 
   array (
@@ -31291,58 +28028,40 @@ cycle rate.',
       0 => 'TL062',
       1 => 'TL072',
     ),
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'linear',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/tl081a.pdf',
     'pins' => 
     array (
-      0 => 
+      '1OUT' => 
       array (
-        'num' => '1',
-        'sym' => '1OUT',
         'desc' => 'output 1',
       ),
-      1 => 
+      '1IN-' => 
       array (
-        'num' => '2',
-        'sym' => '1IN-',
         'desc' => 'inverting input 1',
       ),
-      2 => 
+      '1IN+' => 
       array (
-        'num' => '3',
-        'sym' => '1IN+',
         'desc' => 'non-inverting input 1',
       ),
-      3 => 
+      'V__CC-' => 
       array (
-        'num' => '4',
-        'sym' => 'V__CC-',
         'desc' => 'negative supply voltage',
       ),
-      4 => 
+      '2IN+' => 
       array (
-        'num' => '5',
-        'sym' => '2IN+',
         'desc' => 'non-inverting input 2',
       ),
-      5 => 
+      '2IN-' => 
       array (
-        'num' => '6',
-        'sym' => '2IN-',
         'desc' => 'inverting input 2',
       ),
-      6 => 
+      '2OUT' => 
       array (
-        'num' => '7',
-        'sym' => '2OUT',
         'desc' => 'output 2',
       ),
-      7 => 
+      'V__CC+' => 
       array (
-        'num' => '8',
-        'sym' => 'V__CC+',
         'desc' => 'positive supply voltage',
       ),
     ),
@@ -31422,6 +28141,20 @@ cycle rate.',
       0 => 'The TL06x series are low-power versions of the TL08x series.',
       1 => 'The TL07x series are low-noise versions of the TL08x series.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1OUT',
+        2 => '1IN-',
+        3 => '1IN+',
+        4 => 'V__CC-',
+        5 => '2IN+',
+        6 => '2IN-',
+        7 => '2OUT',
+        8 => 'V__CC+',
+      ),
+    ),
   ),
   'TL084' => 
   array (
@@ -31431,94 +28164,64 @@ cycle rate.',
       0 => 'TL064',
       1 => 'TL074',
     ),
-    'package' => 'DIP',
-    'pincount' => 14,
     'family' => 'linear',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/tl081a.pdf',
     'pins' => 
     array (
-      0 => 
+      '1OUT' => 
       array (
-        'num' => '1',
-        'sym' => '1OUT',
         'desc' => 'output 1',
       ),
-      1 => 
+      '1IN-' => 
       array (
-        'num' => '2',
-        'sym' => '1IN-',
         'desc' => 'inverting input 1',
       ),
-      2 => 
+      '1IN+' => 
       array (
-        'num' => '3',
-        'sym' => '1IN+',
         'desc' => 'non-inverting input 1',
       ),
-      3 => 
+      'V__CC+' => 
       array (
-        'num' => '4',
-        'sym' => 'V__CC+',
         'desc' => 'positive supply voltage',
       ),
-      4 => 
+      '2IN+' => 
       array (
-        'num' => '5',
-        'sym' => '2IN+',
         'desc' => 'non-inverting input 2',
       ),
-      5 => 
+      '2IN-' => 
       array (
-        'num' => '6',
-        'sym' => '2IN-',
         'desc' => 'inverting input 2',
       ),
-      6 => 
+      '2OUT' => 
       array (
-        'num' => '7',
-        'sym' => '2OUT',
         'desc' => 'output 2',
       ),
-      7 => 
+      '3OUT' => 
       array (
-        'num' => '8',
-        'sym' => '3OUT',
         'desc' => 'output 3',
       ),
-      8 => 
+      '3IN-' => 
       array (
-        'num' => '9',
-        'sym' => '3IN-',
         'desc' => 'inverting input 3',
       ),
-      9 => 
+      '3IN+' => 
       array (
-        'num' => '10',
-        'sym' => '3IN+',
         'desc' => 'non-inverting input 3',
       ),
-      10 => 
+      'V__CC-' => 
       array (
-        'num' => '11',
-        'sym' => 'V__CC-',
         'desc' => 'negative supply voltage',
       ),
-      11 => 
+      '4IN+' => 
       array (
-        'num' => '12',
-        'sym' => '4IN+',
         'desc' => 'non-inverting input 4',
       ),
-      12 => 
+      '4IN-' => 
       array (
-        'num' => '13',
-        'sym' => '4IN-',
         'desc' => 'inverting input 4',
       ),
-      13 => 
+      '4OUT' => 
       array (
-        'num' => '14',
-        'sym' => '4OUT',
         'desc' => 'output 4',
       ),
     ),
@@ -31598,6 +28301,26 @@ cycle rate.',
       0 => 'The TL06x series are low-power versions of the TL08x series.',
       1 => 'The TL07x series are low-noise versions of the TL08x series.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1OUT',
+        2 => '1IN-',
+        3 => '1IN+',
+        4 => 'V__CC+',
+        5 => '2IN+',
+        6 => '2IN-',
+        7 => '2OUT',
+        8 => '3OUT',
+        9 => '3IN-',
+        10 => '3IN+',
+        11 => 'V__CC-',
+        12 => '4IN+',
+        13 => '4IN-',
+        14 => '4OUT',
+      ),
+    ),
   ),
   'TLC272' => 
   array (
@@ -31606,58 +28329,40 @@ cycle rate.',
     'aliases' => 
     array (
     ),
-    'package' => 'DIP',
-    'pincount' => 8,
     'family' => 'opamps',
     'datasheet' => 'http://www.hep.upenn.edu/SNO/daq/parts/tlc272.pdf',
     'pins' => 
     array (
-      0 => 
+      '1OUT' => 
       array (
-        'num' => '1',
-        'sym' => '1OUT',
         'desc' => 'First opamp output',
       ),
-      1 => 
+      '1IN-' => 
       array (
-        'num' => '2',
-        'sym' => '1IN-',
         'desc' => 'First opamp inverting input',
       ),
-      2 => 
+      '1IN+' => 
       array (
-        'num' => '3',
-        'sym' => '1IN+',
         'desc' => 'First opamp non-inverting input',
       ),
-      3 => 
+      'GND' => 
       array (
-        'num' => '4',
-        'sym' => 'GND',
         'desc' => 'Ground',
       ),
-      4 => 
+      '2IN+' => 
       array (
-        'num' => '5',
-        'sym' => '2IN+',
         'desc' => 'Second opamp non-inverting input',
       ),
-      5 => 
+      '2IN-' => 
       array (
-        'num' => '6',
-        'sym' => '2IN-',
         'desc' => 'Second opamp inverting input',
       ),
-      6 => 
+      '2OUT' => 
       array (
-        'num' => '7',
-        'sym' => '2OUT',
         'desc' => 'Second opamp output',
       ),
-      7 => 
+      'V__DD' => 
       array (
-        'num' => '8',
-        'sym' => 'V__DD',
         'desc' => 'Supply voltage',
       ),
     ),
@@ -31693,6 +28398,20 @@ cycle rate.',
       0 => 'Pinout LM358 compatible',
       1 => 'Designed for high-impedance measurement applications',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1OUT',
+        2 => '1IN-',
+        3 => '1IN+',
+        4 => 'GND',
+        5 => '2IN+',
+        6 => '2IN-',
+        7 => '2OUT',
+        8 => 'V__DD',
+      ),
+    ),
   ),
   'TMS9918A' => 
   array (
@@ -31700,250 +28419,168 @@ cycle rate.',
     'aliases' => 
     array (
     ),
-    'package' => 'DIP',
-    'pincount' => 40,
     'family' => 'Texas Instruments',
     'datasheet' => 'http://www.cs.columbia.edu/~sedwards/papers/TMS9918.pdf',
     'pins' => 
     array (
-      0 => 
+      '~RAS' => 
       array (
-        'num' => '1',
-        'sym' => '~RAS',
         'desc' => 'VRAM row address strobe',
       ),
-      1 => 
+      '~CAS' => 
       array (
-        'num' => '2',
-        'sym' => '~CAS',
         'desc' => 'VRAM column address strobe',
       ),
-      2 => 
+      'AD7' => 
       array (
-        'num' => '3',
-        'sym' => 'AD7',
         'desc' => 'VRAM address/data bus (least significant bit)',
       ),
-      3 => 
+      'AD6' => 
       array (
-        'num' => '4',
-        'sym' => 'AD6',
         'desc' => 'VRAM address/data bus',
       ),
-      4 => 
+      'AD5' => 
       array (
-        'num' => '5',
-        'sym' => 'AD5',
         'desc' => 'VRAM address/data bus',
       ),
-      5 => 
+      'AD4' => 
       array (
-        'num' => '6',
-        'sym' => 'AD4',
         'desc' => 'VRAM address/data bus',
       ),
-      6 => 
+      'AD3' => 
       array (
-        'num' => '7',
-        'sym' => 'AD3',
         'desc' => 'VRAM address/data bus',
       ),
-      7 => 
+      'AD2' => 
       array (
-        'num' => '8',
-        'sym' => 'AD2',
         'desc' => 'VRAM address/data bus',
       ),
-      8 => 
+      'AD1' => 
       array (
-        'num' => '9',
-        'sym' => 'AD1',
         'desc' => 'VRAM address/data bus',
       ),
-      9 => 
+      'AD0' => 
       array (
-        'num' => '10',
-        'sym' => 'AD0',
         'desc' => 'VRAM address/data bus (most significant bit)',
       ),
-      10 => 
+      'R/~W' => 
       array (
-        'num' => '11',
-        'sym' => 'R/~W',
         'desc' => 'VRAM write strobe',
       ),
-      11 => 
+      'GND' => 
       array (
-        'num' => '12',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      12 => 
+      'MODE' => 
       array (
-        'num' => '13',
-        'sym' => 'MODE',
         'desc' => 'CPU interface mode select (usu. a CPU address line)',
       ),
-      13 => 
+      '~CSW' => 
       array (
-        'num' => '14',
-        'sym' => '~CSW',
         'desc' => 'CPU-VDP write strobe',
       ),
-      14 => 
+      '~CSR' => 
       array (
-        'num' => '15',
-        'sym' => '~CSR',
         'desc' => 'CPU-VDP read strobe',
       ),
-      15 => 
+      '~INT' => 
       array (
-        'num' => '16',
-        'sym' => '~INT',
         'desc' => 'CPU interrupt output',
       ),
-      16 => 
+      'CD7' => 
       array (
-        'num' => '17',
-        'sym' => 'CD7',
         'desc' => 'CPU data bus (least significant bit)',
       ),
-      17 => 
+      'CD6' => 
       array (
-        'num' => '18',
-        'sym' => 'CD6',
         'desc' => 'CPU data bus',
       ),
-      18 => 
+      'CD5' => 
       array (
-        'num' => '19',
-        'sym' => 'CD5',
         'desc' => 'CPU data bus',
       ),
-      19 => 
+      'CD4' => 
       array (
-        'num' => '20',
-        'sym' => 'CD4',
         'desc' => 'CPU data bus',
       ),
-      20 => 
+      'CD3' => 
       array (
-        'num' => '21',
-        'sym' => 'CD3',
         'desc' => 'CPU data bus',
       ),
-      21 => 
+      'CD2' => 
       array (
-        'num' => '22',
-        'sym' => 'CD2',
         'desc' => 'CPU data bus',
       ),
-      22 => 
+      'CD1' => 
       array (
-        'num' => '23',
-        'sym' => 'CD1',
         'desc' => 'CPU data bus',
       ),
-      23 => 
+      'CD0' => 
       array (
-        'num' => '24',
-        'sym' => 'CD0',
         'desc' => 'CPU data bus (most significant bit)',
       ),
-      24 => 
+      'RD7' => 
       array (
-        'num' => '25',
-        'sym' => 'RD7',
         'desc' => 'VRAM read data bus (least significant bit)',
       ),
-      25 => 
+      'RD6' => 
       array (
-        'num' => '26',
-        'sym' => 'RD6',
         'desc' => 'VRAM read data bus',
       ),
-      26 => 
+      'RD5' => 
       array (
-        'num' => '27',
-        'sym' => 'RD5',
         'desc' => 'VRAM read data bus',
       ),
-      27 => 
+      'RD4' => 
       array (
-        'num' => '28',
-        'sym' => 'RD4',
         'desc' => 'VRAM read data bus',
       ),
-      28 => 
+      'RD3' => 
       array (
-        'num' => '29',
-        'sym' => 'RD3',
         'desc' => 'VRAM read data bus',
       ),
-      29 => 
+      'RD2' => 
       array (
-        'num' => '30',
-        'sym' => 'RD2',
         'desc' => 'VRAM read data bus',
       ),
-      30 => 
+      'RD1' => 
       array (
-        'num' => '31',
-        'sym' => 'RD1',
         'desc' => 'VRAM read data bus',
       ),
-      31 => 
+      'RD0' => 
       array (
-        'num' => '32',
-        'sym' => 'RD0',
         'desc' => 'VRAM read data bus (most significant bit)',
       ),
-      32 => 
+      'Vcc' => 
       array (
-        'num' => '33',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
-      33 => 
+      '~RESET~/SYNC' => 
       array (
-        'num' => '34',
-        'sym' => '~RESET~/SYNC',
         'desc' => 'reset (active low; when above +9V, sync input for ext. video)',
       ),
-      34 => 
+      'EXTVDP' => 
       array (
-        'num' => '35',
-        'sym' => 'EXTVDP',
         'desc' => 'external VDP input',
       ),
-      35 => 
+      'COMVID' => 
       array (
-        'num' => '36',
-        'sym' => 'COMVID',
         'desc' => 'composite video output',
       ),
-      36 => 
+      'GROMCLK' => 
       array (
-        'num' => '37',
-        'sym' => 'GROMCLK',
         'desc' => 'VDP output clock; XTAL/24',
       ),
-      37 => 
+      'CPUCLK' => 
       array (
-        'num' => '38',
-        'sym' => 'CPUCLK',
         'desc' => 'VDP color burst frequency clock',
       ),
-      38 => 
+      'XTAL1' => 
       array (
-        'num' => '39',
-        'sym' => 'XTAL1',
         'desc' => 'crystal input',
       ),
-      39 => 
+      'XTAL2' => 
       array (
-        'num' => '40',
-        'sym' => 'XTAL2',
         'desc' => 'crystal input',
       ),
     ),
@@ -32014,6 +28651,52 @@ cycle rate.',
 <tr><td>Multicolor mode</td><td>64x48 solid 4x4-pixel blocks of any color, sprites</td></tr>
 </table>',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~RAS',
+        2 => '~CAS',
+        3 => 'AD7',
+        4 => 'AD6',
+        5 => 'AD5',
+        6 => 'AD4',
+        7 => 'AD3',
+        8 => 'AD2',
+        9 => 'AD1',
+        10 => 'AD0',
+        11 => 'R/~W',
+        12 => 'GND',
+        13 => 'MODE',
+        14 => '~CSW',
+        15 => '~CSR',
+        16 => '~INT',
+        17 => 'CD7',
+        18 => 'CD6',
+        19 => 'CD5',
+        20 => 'CD4',
+        21 => 'CD3',
+        22 => 'CD2',
+        23 => 'CD1',
+        24 => 'CD0',
+        25 => 'RD7',
+        26 => 'RD6',
+        27 => 'RD5',
+        28 => 'RD4',
+        29 => 'RD3',
+        30 => 'RD2',
+        31 => 'RD1',
+        32 => 'RD0',
+        33 => 'Vcc',
+        34 => '~RESET~/SYNC',
+        35 => 'EXTVDP',
+        36 => 'COMVID',
+        37 => 'GROMCLK',
+        38 => 'CPUCLK',
+        39 => 'XTAL1',
+        40 => 'XTAL2',
+      ),
+    ),
   ),
   'TMS9928A' => 
   array (
@@ -32022,250 +28705,168 @@ cycle rate.',
     array (
       0 => 'TMS9929A',
     ),
-    'package' => 'DIP',
-    'pincount' => 40,
     'family' => 'Texas Instruments',
     'datasheet' => 'http://www.cs.columbia.edu/~sedwards/papers/TMS9918.pdf',
     'pins' => 
     array (
-      0 => 
+      '~RAS' => 
       array (
-        'num' => '1',
-        'sym' => '~RAS',
         'desc' => 'VRAM row address strobe',
       ),
-      1 => 
+      '~CAS' => 
       array (
-        'num' => '2',
-        'sym' => '~CAS',
         'desc' => 'VRAM column address strobe',
       ),
-      2 => 
+      'AD7' => 
       array (
-        'num' => '3',
-        'sym' => 'AD7',
         'desc' => 'VRAM address/data bus (least significant bit)',
       ),
-      3 => 
+      'AD6' => 
       array (
-        'num' => '4',
-        'sym' => 'AD6',
         'desc' => 'VRAM address/data bus',
       ),
-      4 => 
+      'AD5' => 
       array (
-        'num' => '5',
-        'sym' => 'AD5',
         'desc' => 'VRAM address/data bus',
       ),
-      5 => 
+      'AD4' => 
       array (
-        'num' => '6',
-        'sym' => 'AD4',
         'desc' => 'VRAM address/data bus',
       ),
-      6 => 
+      'AD3' => 
       array (
-        'num' => '7',
-        'sym' => 'AD3',
         'desc' => 'VRAM address/data bus',
       ),
-      7 => 
+      'AD2' => 
       array (
-        'num' => '8',
-        'sym' => 'AD2',
         'desc' => 'VRAM address/data bus',
       ),
-      8 => 
+      'AD1' => 
       array (
-        'num' => '9',
-        'sym' => 'AD1',
         'desc' => 'VRAM address/data bus',
       ),
-      9 => 
+      'AD0' => 
       array (
-        'num' => '10',
-        'sym' => 'AD0',
         'desc' => 'VRAM address/data bus (most significant bit)',
       ),
-      10 => 
+      'R/~W' => 
       array (
-        'num' => '11',
-        'sym' => 'R/~W',
         'desc' => 'VRAM write strobe',
       ),
-      11 => 
+      'GND' => 
       array (
-        'num' => '12',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      12 => 
+      'MODE' => 
       array (
-        'num' => '13',
-        'sym' => 'MODE',
         'desc' => 'CPU interface mode select (usu. a CPU address line)',
       ),
-      13 => 
+      '~CSW' => 
       array (
-        'num' => '14',
-        'sym' => '~CSW',
         'desc' => 'CPU-VDP write strobe',
       ),
-      14 => 
+      '~CSR' => 
       array (
-        'num' => '15',
-        'sym' => '~CSR',
         'desc' => 'CPU-VDP read strobe',
       ),
-      15 => 
+      '~INT' => 
       array (
-        'num' => '16',
-        'sym' => '~INT',
         'desc' => 'CPU interrupt output',
       ),
-      16 => 
+      'CD7' => 
       array (
-        'num' => '17',
-        'sym' => 'CD7',
         'desc' => 'CPU data bus (least significant bit)',
       ),
-      17 => 
+      'CD6' => 
       array (
-        'num' => '18',
-        'sym' => 'CD6',
         'desc' => 'CPU data bus',
       ),
-      18 => 
+      'CD5' => 
       array (
-        'num' => '19',
-        'sym' => 'CD5',
         'desc' => 'CPU data bus',
       ),
-      19 => 
+      'CD4' => 
       array (
-        'num' => '20',
-        'sym' => 'CD4',
         'desc' => 'CPU data bus',
       ),
-      20 => 
+      'CD3' => 
       array (
-        'num' => '21',
-        'sym' => 'CD3',
         'desc' => 'CPU data bus',
       ),
-      21 => 
+      'CD2' => 
       array (
-        'num' => '22',
-        'sym' => 'CD2',
         'desc' => 'CPU data bus',
       ),
-      22 => 
+      'CD1' => 
       array (
-        'num' => '23',
-        'sym' => 'CD1',
         'desc' => 'CPU data bus',
       ),
-      23 => 
+      'CD0' => 
       array (
-        'num' => '24',
-        'sym' => 'CD0',
         'desc' => 'CPU data bus (most significant bit)',
       ),
-      24 => 
+      'RD7' => 
       array (
-        'num' => '25',
-        'sym' => 'RD7',
         'desc' => 'VRAM read data bus (least significant bit)',
       ),
-      25 => 
+      'RD6' => 
       array (
-        'num' => '26',
-        'sym' => 'RD6',
         'desc' => 'VRAM read data bus',
       ),
-      26 => 
+      'RD5' => 
       array (
-        'num' => '27',
-        'sym' => 'RD5',
         'desc' => 'VRAM read data bus',
       ),
-      27 => 
+      'RD4' => 
       array (
-        'num' => '28',
-        'sym' => 'RD4',
         'desc' => 'VRAM read data bus',
       ),
-      28 => 
+      'RD3' => 
       array (
-        'num' => '29',
-        'sym' => 'RD3',
         'desc' => 'VRAM read data bus',
       ),
-      29 => 
+      'RD2' => 
       array (
-        'num' => '30',
-        'sym' => 'RD2',
         'desc' => 'VRAM read data bus',
       ),
-      30 => 
+      'RD1' => 
       array (
-        'num' => '31',
-        'sym' => 'RD1',
         'desc' => 'VRAM read data bus',
       ),
-      31 => 
+      'RD0' => 
       array (
-        'num' => '32',
-        'sym' => 'RD0',
         'desc' => 'VRAM read data bus (most significant bit)',
       ),
-      32 => 
+      'Vcc' => 
       array (
-        'num' => '33',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
-      33 => 
+      '~RESET~/SYNC' => 
       array (
-        'num' => '34',
-        'sym' => '~RESET~/SYNC',
         'desc' => 'reset (active low; when above +9V, sync input for ext. video)',
       ),
-      34 => 
+      'B-Y' => 
       array (
-        'num' => '35',
-        'sym' => 'B-Y',
         'desc' => 'B-Y color difference output',
       ),
-      35 => 
+      'Y' => 
       array (
-        'num' => '36',
-        'sym' => 'Y',
         'desc' => 'luminance/sync output',
       ),
-      36 => 
+      'GROMCLK' => 
       array (
-        'num' => '37',
-        'sym' => 'GROMCLK',
         'desc' => 'VDP output clock; XTAL/24',
       ),
-      37 => 
+      'R-Y' => 
       array (
-        'num' => '38',
-        'sym' => 'R-Y',
         'desc' => 'R-Y color difference output',
       ),
-      38 => 
+      'XTAL1' => 
       array (
-        'num' => '39',
-        'sym' => 'XTAL1',
         'desc' => 'crystal input',
       ),
-      39 => 
+      'XTAL2' => 
       array (
-        'num' => '40',
-        'sym' => 'XTAL2',
         'desc' => 'crystal input',
       ),
     ),
@@ -32274,135 +28875,123 @@ cycle rate.',
       0 => 'See <a href=\'TMS9918A\'>TMS9918A</a>',
       1 => 'TMS9928A outputs 60Hz video, TMS9929A outputs 50Hz video',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '~RAS',
+        2 => '~CAS',
+        3 => 'AD7',
+        4 => 'AD6',
+        5 => 'AD5',
+        6 => 'AD4',
+        7 => 'AD3',
+        8 => 'AD2',
+        9 => 'AD1',
+        10 => 'AD0',
+        11 => 'R/~W',
+        12 => 'GND',
+        13 => 'MODE',
+        14 => '~CSW',
+        15 => '~CSR',
+        16 => '~INT',
+        17 => 'CD7',
+        18 => 'CD6',
+        19 => 'CD5',
+        20 => 'CD4',
+        21 => 'CD3',
+        22 => 'CD2',
+        23 => 'CD1',
+        24 => 'CD0',
+        25 => 'RD7',
+        26 => 'RD6',
+        27 => 'RD5',
+        28 => 'RD4',
+        29 => 'RD3',
+        30 => 'RD2',
+        31 => 'RD1',
+        32 => 'RD0',
+        33 => 'Vcc',
+        34 => '~RESET~/SYNC',
+        35 => 'B-Y',
+        36 => 'Y',
+        37 => 'GROMCLK',
+        38 => 'R-Y',
+        39 => 'XTAL1',
+        40 => 'XTAL2',
+      ),
+    ),
   ),
   'TPIC6B595' => 
   array (
     'description' => 'Power logic 8-bit shift register',
-    'package' => 'DIP',
-    'pincount' => 20,
     'family' => 'TI',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/tpic6b595.pdf',
     'pins' => 
     array (
-      0 => 
+      'Vcc' => 
       array (
-        'num' => '1',
-        'sym' => 'NC',
-        'desc' => 'no connection',
-      ),
-      1 => 
-      array (
-        'num' => '2',
-        'sym' => 'Vcc',
         'desc' => 'supply voltage',
       ),
-      2 => 
+      'SER IN' => 
       array (
-        'num' => '3',
-        'sym' => 'SER IN',
         'desc' => 'serial data input',
       ),
-      3 => 
+      'DRAIN0' => 
       array (
-        'num' => '4',
-        'sym' => 'DRAIN0',
         'desc' => 'drain output',
       ),
-      4 => 
+      'DRAIN1' => 
       array (
-        'num' => '5',
-        'sym' => 'DRAIN1',
         'desc' => 'drain output',
       ),
-      5 => 
+      'DRAIN2' => 
       array (
-        'num' => '6',
-        'sym' => 'DRAIN2',
         'desc' => 'drain output',
       ),
-      6 => 
+      'DRAIN3' => 
       array (
-        'num' => '7',
-        'sym' => 'DRAIN3',
         'desc' => 'drain output',
       ),
-      7 => 
+      '~SRCLR' => 
       array (
-        'num' => '8',
-        'sym' => '~SRCLR',
         'desc' => 'clear (active low)',
       ),
-      8 => 
+      '~G' => 
       array (
-        'num' => '9',
-        'sym' => '~G',
         'desc' => 'output enable (active low)',
       ),
-      9 => 
+      'GND' => 
       array (
-        'num' => '10',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      10 => 
+      'RCK' => 
       array (
-        'num' => '11',
-        'sym' => 'GND',
-        'desc' => 'ground',
-      ),
-      11 => 
-      array (
-        'num' => '12',
-        'sym' => 'RCK',
         'desc' => 'storage register latch input',
       ),
-      12 => 
+      'SRCK' => 
       array (
-        'num' => '13',
-        'sym' => 'SRCK',
         'desc' => 'shift register clock input',
       ),
-      13 => 
+      'DRAIN4' => 
       array (
-        'num' => '14',
-        'sym' => 'DRAIN4',
         'desc' => 'drain output',
       ),
-      14 => 
+      'DRAIN5' => 
       array (
-        'num' => '15',
-        'sym' => 'DRAIN5',
         'desc' => 'drain output',
       ),
-      15 => 
+      'DRAIN6' => 
       array (
-        'num' => '16',
-        'sym' => 'DRAIN6',
         'desc' => 'drain output',
       ),
-      16 => 
+      'DRAIN7' => 
       array (
-        'num' => '17',
-        'sym' => 'DRAIN7',
         'desc' => 'drain output',
       ),
-      17 => 
+      'SER OUT' => 
       array (
-        'num' => '18',
-        'sym' => 'SER OUT',
         'desc' => 'serial data output',
-      ),
-      18 => 
-      array (
-        'num' => '19',
-        'sym' => 'GND',
-        'desc' => 'ground',
-      ),
-      19 => 
-      array (
-        'num' => '20',
-        'sym' => 'NC',
-        'desc' => 'no connection',
       ),
     ),
     'specs' => 
@@ -32432,6 +29021,32 @@ cycle rate.',
         'unit' => 'ns',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'NC',
+        2 => 'Vcc',
+        3 => 'SER IN',
+        4 => 'DRAIN0',
+        5 => 'DRAIN1',
+        6 => 'DRAIN2',
+        7 => 'DRAIN3',
+        8 => '~SRCLR',
+        9 => '~G',
+        10 => 'GND',
+        11 => 'GND',
+        12 => 'RCK',
+        13 => 'SRCK',
+        14 => 'DRAIN4',
+        15 => 'DRAIN5',
+        16 => 'DRAIN6',
+        17 => 'DRAIN7',
+        18 => 'SER OUT',
+        19 => 'GND',
+        20 => 'NC',
+      ),
+    ),
   ),
   'ULN2003' => 
   array (
@@ -32441,106 +29056,72 @@ cycle rate.',
       0 => 'ULN2002',
       1 => 'ULN2004',
     ),
-    'package' => 'DIP',
-    'pincount' => 16,
     'family' => 'TI',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/uln2003a.pdf',
     'pins' => 
     array (
-      0 => 
+      '1B' => 
       array (
-        'num' => '1',
-        'sym' => '1B',
         'desc' => 'base 1',
       ),
-      1 => 
+      '2B' => 
       array (
-        'num' => '2',
-        'sym' => '2B',
         'desc' => 'base 2',
       ),
-      2 => 
+      '3B' => 
       array (
-        'num' => '3',
-        'sym' => '3B',
         'desc' => 'base 3',
       ),
-      3 => 
+      '4B' => 
       array (
-        'num' => '4',
-        'sym' => '4B',
         'desc' => 'base 4',
       ),
-      4 => 
+      '5B' => 
       array (
-        'num' => '5',
-        'sym' => '5B',
         'desc' => 'base 5',
       ),
-      5 => 
+      '6B' => 
       array (
-        'num' => '6',
-        'sym' => '6B',
         'desc' => 'base 6',
       ),
-      6 => 
+      '7B' => 
       array (
-        'num' => '7',
-        'sym' => '7B',
         'desc' => 'base 7',
       ),
-      7 => 
+      'E' => 
       array (
-        'num' => '8',
-        'sym' => 'E',
         'desc' => 'common emitter (ground)',
       ),
-      8 => 
+      'COM' => 
       array (
-        'num' => '9',
-        'sym' => 'COM',
         'desc' => 'common',
       ),
-      9 => 
+      '7C' => 
       array (
-        'num' => '10',
-        'sym' => '7C',
         'desc' => 'collector 7',
       ),
-      10 => 
+      '6C' => 
       array (
-        'num' => '11',
-        'sym' => '6C',
         'desc' => 'collector 6',
       ),
-      11 => 
+      '5C' => 
       array (
-        'num' => '12',
-        'sym' => '5C',
         'desc' => 'collector 5',
       ),
-      12 => 
+      '4C' => 
       array (
-        'num' => '13',
-        'sym' => '4C',
         'desc' => 'collector 4',
       ),
-      13 => 
+      '3C' => 
       array (
-        'num' => '14',
-        'sym' => '3C',
         'desc' => 'collector 3',
       ),
-      14 => 
+      '2C' => 
       array (
-        'num' => '15',
-        'sym' => '2C',
         'desc' => 'collector 2',
       ),
-      15 => 
+      '1C' => 
       array (
-        'num' => '16',
-        'sym' => '1C',
         'desc' => 'collector 1',
       ),
     ),
@@ -32582,122 +29163,106 @@ cycle rate.',
       1 => 'ULN2003 is designed for use with 5V TTL/CMOS devices.',
       2 => 'ULN2004 is designed for use with 6V to 15V CMOS devices.',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1B',
+        2 => '2B',
+        3 => '3B',
+        4 => '4B',
+        5 => '5B',
+        6 => '6B',
+        7 => '7B',
+        8 => 'E',
+        9 => 'COM',
+        10 => '7C',
+        11 => '6C',
+        12 => '5C',
+        13 => '4C',
+        14 => '3C',
+        15 => '2C',
+        16 => '1C',
+      ),
+    ),
   ),
   'ULN2803' => 
   array (
     'description' => 'Eight darlington array',
-    'package' => 'DIP',
-    'pincount' => 18,
     'family' => 'TI',
     'datasheet' => 'http://focus.ti.com/lit/ds/symlink/uln2803a.pdf',
     'pins' => 
     array (
-      0 => 
+      '1B' => 
       array (
-        'num' => '1',
-        'sym' => '1B',
         'desc' => 'base 1',
       ),
-      1 => 
+      '2B' => 
       array (
-        'num' => '2',
-        'sym' => '2B',
         'desc' => 'base 2',
       ),
-      2 => 
+      '3B' => 
       array (
-        'num' => '3',
-        'sym' => '3B',
         'desc' => 'base 3',
       ),
-      3 => 
+      '4B' => 
       array (
-        'num' => '4',
-        'sym' => '4B',
         'desc' => 'base 4',
       ),
-      4 => 
+      '5B' => 
       array (
-        'num' => '5',
-        'sym' => '5B',
         'desc' => 'base 5',
       ),
-      5 => 
+      '6B' => 
       array (
-        'num' => '6',
-        'sym' => '6B',
         'desc' => 'base 6',
       ),
-      6 => 
+      '7B' => 
       array (
-        'num' => '7',
-        'sym' => '7B',
         'desc' => 'base 7',
       ),
-      7 => 
+      '8B' => 
       array (
-        'num' => '8',
-        'sym' => '8B',
         'desc' => 'base 8',
       ),
-      8 => 
+      'GND' => 
       array (
-        'num' => '9',
-        'sym' => 'GND',
         'desc' => 'ground',
       ),
-      9 => 
+      'COM' => 
       array (
-        'num' => '10',
-        'sym' => 'COM',
         'desc' => 'common',
       ),
-      10 => 
+      '8C' => 
       array (
-        'num' => '11',
-        'sym' => '8C',
         'desc' => 'collector 8',
       ),
-      11 => 
+      '7C' => 
       array (
-        'num' => '12',
-        'sym' => '7C',
         'desc' => 'collector 7',
       ),
-      12 => 
+      '6C' => 
       array (
-        'num' => '13',
-        'sym' => '6C',
         'desc' => 'collector 6',
       ),
-      13 => 
+      '5C' => 
       array (
-        'num' => '14',
-        'sym' => '5C',
         'desc' => 'collector 5',
       ),
-      14 => 
+      '4C' => 
       array (
-        'num' => '15',
-        'sym' => '4C',
         'desc' => 'collector 4',
       ),
-      15 => 
+      '3C' => 
       array (
-        'num' => '16',
-        'sym' => '3C',
         'desc' => 'collector 3',
       ),
-      16 => 
+      '2C' => 
       array (
-        'num' => '17',
-        'sym' => '2C',
         'desc' => 'collector 2',
       ),
-      17 => 
+      '1C' => 
       array (
-        'num' => '18',
-        'sym' => '1C',
         'desc' => 'collector 1',
       ),
     ),
@@ -32728,24 +29293,42 @@ cycle rate.',
         'unit' => 'mA',
       ),
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => '1B',
+        2 => '2B',
+        3 => '3B',
+        4 => '4B',
+        5 => '5B',
+        6 => '6B',
+        7 => '7B',
+        8 => '8B',
+        9 => 'GND',
+        10 => 'COM',
+        11 => '8C',
+        12 => '7C',
+        13 => '6C',
+        14 => '5C',
+        15 => '4C',
+        16 => '3C',
+        17 => '2C',
+        18 => '1C',
+      ),
+    ),
   ),
   'WIRE' => 
   array (
     'description' => 'A piece of wire',
-    'package' => 'DIP',
-    'pincount' => 2,
     'pins' => 
     array (
-      0 => 
+      'W1' => 
       array (
-        'num' => '1',
-        'sym' => 'W1',
         'desc' => 'one end of the wire',
       ),
-      1 => 
+      'W2' => 
       array (
-        'num' => '2',
-        'sym' => 'W2',
         'desc' => 'the other end of the wire',
       ),
     ),
@@ -32755,6 +29338,14 @@ cycle rate.',
       1 => 'Resistance is usually pretty low.',
       2 => 'It bends!',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'W1',
+        2 => 'W2',
+      ),
+    ),
   ),
   'Z80' => 
   array (
@@ -32762,250 +29353,168 @@ cycle rate.',
     'aliases' => 
     array (
     ),
-    'package' => 'DIP',
-    'pincount' => 40,
     'family' => 'Zilog',
     'datasheet' => 'http://www.z80.info/zip/z80.pdf',
     'pins' => 
     array (
-      0 => 
+      'A11' => 
       array (
-        'num' => '1',
-        'sym' => 'A11',
         'desc' => 'Address Line 11 Output',
       ),
-      1 => 
+      'A12' => 
       array (
-        'num' => '2',
-        'sym' => 'A12',
         'desc' => 'Address Line 12 Output',
       ),
-      2 => 
+      'A13' => 
       array (
-        'num' => '3',
-        'sym' => 'A13',
         'desc' => 'Address Line 13 Output',
       ),
-      3 => 
+      'A14' => 
       array (
-        'num' => '4',
-        'sym' => 'A14',
         'desc' => 'Address Line 14 Output',
       ),
-      4 => 
+      'A15' => 
       array (
-        'num' => '5',
-        'sym' => 'A15',
         'desc' => 'Address Line 15 Output',
       ),
-      5 => 
+      'CLK' => 
       array (
-        'num' => '6',
-        'sym' => 'CLK',
         'desc' => 'Clock Input',
       ),
-      6 => 
+      'D4' => 
       array (
-        'num' => '7',
-        'sym' => 'D4',
         'desc' => 'Data Line 4',
       ),
-      7 => 
+      'D5' => 
       array (
-        'num' => '8',
-        'sym' => 'D5',
         'desc' => 'Data Line 5',
       ),
-      8 => 
+      'D3' => 
       array (
-        'num' => '9',
-        'sym' => 'D3',
         'desc' => 'Data Line 3',
       ),
-      9 => 
+      'D6' => 
       array (
-        'num' => '10',
-        'sym' => 'D6',
         'desc' => 'Data Line 6',
       ),
-      10 => 
+      'Vcc' => 
       array (
-        'num' => '11',
-        'sym' => 'Vcc',
         'desc' => 'Power +5V',
       ),
-      11 => 
+      'D2' => 
       array (
-        'num' => '12',
-        'sym' => 'D2',
         'desc' => 'Data Line 2',
       ),
-      12 => 
+      'D7' => 
       array (
-        'num' => '13',
-        'sym' => 'D7',
         'desc' => 'Data Line 7',
       ),
-      13 => 
+      'D0' => 
       array (
-        'num' => '14',
-        'sym' => 'D0',
         'desc' => 'Data Line 0',
       ),
-      14 => 
+      'D1' => 
       array (
-        'num' => '15',
-        'sym' => 'D1',
         'desc' => 'Data Line 1',
       ),
-      15 => 
+      '~INT~' => 
       array (
-        'num' => '16',
-        'sym' => '~INT~',
         'desc' => 'Maskable Interrupt Input (Active Low)',
       ),
-      16 => 
+      '~NMI~' => 
       array (
-        'num' => '17',
-        'sym' => '~NMI~',
         'desc' => 'Non-Maskable Interrupt Input (Active Low)',
       ),
-      17 => 
+      '~HALT~' => 
       array (
-        'num' => '18',
-        'sym' => '~HALT~',
         'desc' => 'Halt State Output (Active Low)',
       ),
-      18 => 
+      '~MREQ~' => 
       array (
-        'num' => '19',
-        'sym' => '~MREQ~',
         'desc' => 'Memory Request Output (Active Low)',
       ),
-      19 => 
+      '~IORQ~' => 
       array (
-        'num' => '20',
-        'sym' => '~IORQ~',
         'desc' => 'Input/Output Request Output (Active Low)',
       ),
-      20 => 
+      '~RD~' => 
       array (
-        'num' => '21',
-        'sym' => '~RD~',
         'desc' => 'Read Request Output (Active Low)',
       ),
-      21 => 
+      '~WR~' => 
       array (
-        'num' => '22',
-        'sym' => '~WR~',
         'desc' => 'Write Request Output (Active Low)',
       ),
-      22 => 
+      '~BUSACK~' => 
       array (
-        'num' => '23',
-        'sym' => '~BUSACK~',
         'desc' => 'Acknowledge Bus Request for DMA Output (Active Low)',
       ),
-      23 => 
+      '~WAIT~' => 
       array (
-        'num' => '24',
-        'sym' => '~WAIT~',
         'desc' => 'Wait Request Input (Active Low)',
       ),
-      24 => 
+      '~BUSREQ~' => 
       array (
-        'num' => '25',
-        'sym' => '~BUSREQ~',
         'desc' => 'Bus Request Input (Active Low)',
       ),
-      25 => 
+      '~RESET~' => 
       array (
-        'num' => '26',
-        'sym' => '~RESET~',
         'desc' => 'Reset Input (Active Low)',
       ),
-      26 => 
+      '~M1~' => 
       array (
-        'num' => '27',
-        'sym' => '~M1~',
         'desc' => 'Machine Cycle 1 Output (Active Low)',
       ),
-      27 => 
+      '~RFSH~' => 
       array (
-        'num' => '28',
-        'sym' => '~RFSH~',
         'desc' => 'Dynamic Memory Refresh Output (Active Low)',
       ),
-      28 => 
+      'GND' => 
       array (
-        'num' => '29',
-        'sym' => 'GND',
         'desc' => 'Power Ground',
       ),
-      29 => 
+      'A0' => 
       array (
-        'num' => '30',
-        'sym' => 'A0',
         'desc' => 'Address Line 1 Output',
       ),
-      30 => 
+      'A1' => 
       array (
-        'num' => '31',
-        'sym' => 'A1',
         'desc' => 'Address Line 1 Output',
       ),
-      31 => 
+      'A2' => 
       array (
-        'num' => '32',
-        'sym' => 'A2',
         'desc' => 'Address Line 2 Output',
       ),
-      32 => 
+      'A3' => 
       array (
-        'num' => '33',
-        'sym' => 'A3',
         'desc' => 'Address Line 3 Output',
       ),
-      33 => 
+      'A4' => 
       array (
-        'num' => '34',
-        'sym' => 'A4',
         'desc' => 'Address Line 4 Output',
       ),
-      34 => 
+      'A5' => 
       array (
-        'num' => '35',
-        'sym' => 'A5',
         'desc' => 'Address Line 5 Output',
       ),
-      35 => 
+      'A6' => 
       array (
-        'num' => '36',
-        'sym' => 'A6',
         'desc' => 'Address Line 6 Output',
       ),
-      36 => 
+      'A7' => 
       array (
-        'num' => '37',
-        'sym' => 'A7',
         'desc' => 'Address Line 7 Output',
       ),
-      37 => 
+      'A8' => 
       array (
-        'num' => '38',
-        'sym' => 'A8',
         'desc' => 'Address Line 8 Output',
       ),
-      38 => 
+      'A9' => 
       array (
-        'num' => '39',
-        'sym' => 'A9',
         'desc' => 'Address Line 9 Output',
       ),
-      39 => 
+      'A10' => 
       array (
-        'num' => '40',
-        'sym' => 'A10',
         'desc' => 'Address Line 10 Output',
       ),
     ),
@@ -33042,6 +29551,52 @@ cycle rate.',
 </table>',
       1 => 'All general-purpose registers are duplicated in the prime set (A\', F\',B\', C\', D\', E\', H\', L\')',
     ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'A11',
+        2 => 'A12',
+        3 => 'A13',
+        4 => 'A14',
+        5 => 'A15',
+        6 => 'CLK',
+        7 => 'D4',
+        8 => 'D5',
+        9 => 'D3',
+        10 => 'D6',
+        11 => 'Vcc',
+        12 => 'D2',
+        13 => 'D7',
+        14 => 'D0',
+        15 => 'D1',
+        16 => '~INT~',
+        17 => '~NMI~',
+        18 => '~HALT~',
+        19 => '~MREQ~',
+        20 => '~IORQ~',
+        21 => '~RD~',
+        22 => '~WR~',
+        23 => '~BUSACK~',
+        24 => '~WAIT~',
+        25 => '~BUSREQ~',
+        26 => '~RESET~',
+        27 => '~M1~',
+        28 => '~RFSH~',
+        29 => 'GND',
+        30 => 'A0',
+        31 => 'A1',
+        32 => 'A2',
+        33 => 'A3',
+        34 => 'A4',
+        35 => 'A5',
+        36 => 'A6',
+        37 => 'A7',
+        38 => 'A8',
+        39 => 'A9',
+        40 => 'A10',
+      ),
+    ),
   ),
   'Z80PIO' => 
   array (
@@ -33049,250 +29604,168 @@ cycle rate.',
     'aliases' => 
     array (
     ),
-    'package' => 'DIP',
-    'pincount' => 40,
     'family' => 'Zilog',
     'datasheet' => 'http://www.zilog.com/docs/z80/ps0180.pdf',
     'pins' => 
     array (
-      0 => 
+      'D2' => 
       array (
-        'num' => '1',
-        'sym' => 'D2',
         'desc' => 'Data Line 2 To CPU (Bi-Directional)',
       ),
-      1 => 
+      'D7' => 
       array (
-        'num' => '2',
-        'sym' => 'D7',
         'desc' => 'Data Line 7 To CPU (Bi-Directional)',
       ),
-      2 => 
+      'D6' => 
       array (
-        'num' => '3',
-        'sym' => 'D6',
         'desc' => 'Data Line 6 To CPU (Bi-Directional)',
       ),
-      3 => 
+      '~CE~' => 
       array (
-        'num' => '4',
-        'sym' => '~CE~',
         'desc' => 'Chip Enable Input (Active Low)',
       ),
-      4 => 
+      'C/~D~' => 
       array (
-        'num' => '5',
-        'sym' => 'C/~D~',
         'desc' => 'Control/Data Select (High = Ctrl, Low = Data)',
       ),
-      5 => 
+      'B/~A~' => 
       array (
-        'num' => '6',
-        'sym' => 'B/~A~',
         'desc' => 'Port A or B Select (Low = A, High = B)',
       ),
-      6 => 
+      'PA7' => 
       array (
-        'num' => '7',
-        'sym' => 'PA7',
         'desc' => 'Peripheral Port A Line 7 (Bi-Directional)',
       ),
-      7 => 
+      'PA6' => 
       array (
-        'num' => '8',
-        'sym' => 'PA6',
         'desc' => 'Peripheral Port A Line 6 (Bi-Directional)',
       ),
-      8 => 
+      'PA5' => 
       array (
-        'num' => '9',
-        'sym' => 'PA5',
         'desc' => 'Peripheral Port A Line 5 (Bi-Directional)',
       ),
-      9 => 
+      'PA4' => 
       array (
-        'num' => '10',
-        'sym' => 'PA4',
         'desc' => 'Peripheral Port A Line 4 (Bi-Directional)',
       ),
-      10 => 
+      'GND' => 
       array (
-        'num' => '11',
-        'sym' => 'GND',
         'desc' => 'Power Ground',
       ),
-      11 => 
+      'PA3' => 
       array (
-        'num' => '12',
-        'sym' => 'PA3',
         'desc' => 'Peripheral Port A Line 3 (Bi-Directional)',
       ),
-      12 => 
+      'PA2' => 
       array (
-        'num' => '13',
-        'sym' => 'PA2',
         'desc' => 'Peripheral Port A Line 2 (Bi-Directional)',
       ),
-      13 => 
+      'PA1' => 
       array (
-        'num' => '14',
-        'sym' => 'PA1',
         'desc' => 'Peripheral Port A Line 1 (Bi-Directional)',
       ),
-      14 => 
+      'PA0' => 
       array (
-        'num' => '15',
-        'sym' => 'PA0',
         'desc' => 'Peripheral Port A Line 0 (Bi-Directional)',
       ),
-      15 => 
+      '~ASTB~' => 
       array (
-        'num' => '16',
-        'sym' => '~ASTB~',
         'desc' => 'Port A Strobe Input from Peripheral (Active Low)',
       ),
-      16 => 
+      '~BSTB~' => 
       array (
-        'num' => '17',
-        'sym' => '~BSTB~',
         'desc' => 'Port B Strobe Input from Peripherial (Active Low)',
       ),
-      17 => 
+      'ARDY' => 
       array (
-        'num' => '18',
-        'sym' => 'ARDY',
         'desc' => 'Register A Ready Output (Active High)',
       ),
-      18 => 
+      'D0' => 
       array (
-        'num' => '19',
-        'sym' => 'D0',
         'desc' => 'Data Line 0 To CPU (Bi-Directional)',
       ),
-      19 => 
+      'D1' => 
       array (
-        'num' => '20',
-        'sym' => 'D1',
         'desc' => 'Data Line 1 To CPU (Bi-Directional)',
       ),
-      20 => 
+      'BRDY' => 
       array (
-        'num' => '21',
-        'sym' => 'BRDY',
         'desc' => 'Register B Ready Output (Active High)',
       ),
-      21 => 
+      'IEO' => 
       array (
-        'num' => '22',
-        'sym' => 'IEO',
         'desc' => 'Interrupt Enable Output (Active High)',
       ),
-      22 => 
+      '~INT~' => 
       array (
-        'num' => '23',
-        'sym' => '~INT~',
         'desc' => 'Interrupt Input (Active Low)',
       ),
-      23 => 
+      'IEI' => 
       array (
-        'num' => '24',
-        'sym' => 'IEI',
         'desc' => 'Interrupt Enable Input (Active High)',
       ),
-      24 => 
+      'CLK' => 
       array (
-        'num' => '25',
-        'sym' => 'CLK',
         'desc' => 'System Clock Input',
       ),
-      25 => 
+      '+5V' => 
       array (
-        'num' => '26',
-        'sym' => '+5V',
         'desc' => 'Power 5V DC',
       ),
-      26 => 
+      'PB0' => 
       array (
-        'num' => '27',
-        'sym' => 'PB0',
         'desc' => 'Peripheral Port A Line 0 (Bi-Directional)',
       ),
-      27 => 
+      'PB1' => 
       array (
-        'num' => '28',
-        'sym' => 'PB1',
         'desc' => 'Peripheral Port A Line 1 (Bi-Directional)',
       ),
-      28 => 
+      'PB2' => 
       array (
-        'num' => '29',
-        'sym' => 'PB2',
         'desc' => 'Peripheral Port A Line 2 (Bi-Directional)',
       ),
-      29 => 
+      'PB3' => 
       array (
-        'num' => '30',
-        'sym' => 'PB3',
         'desc' => 'Peripheral Port A Line 3 (Bi-Directional)',
       ),
-      30 => 
+      'PB4' => 
       array (
-        'num' => '31',
-        'sym' => 'PB4',
         'desc' => 'Peripheral Port A Line 4 (Bi-Directional)',
       ),
-      31 => 
+      'PB5' => 
       array (
-        'num' => '32',
-        'sym' => 'PB5',
         'desc' => 'Peripheral Port A Line 5 (Bi-Directional)',
       ),
-      32 => 
+      'PB6' => 
       array (
-        'num' => '33',
-        'sym' => 'PB6',
         'desc' => 'Peripheral Port A Line 6 (Bi-Directional)',
       ),
-      33 => 
+      'PB7' => 
       array (
-        'num' => '34',
-        'sym' => 'PB7',
         'desc' => 'Peripheral Port A Line 7 (Bi-Directional)',
       ),
-      34 => 
+      '~RD~' => 
       array (
-        'num' => '35',
-        'sym' => '~RD~',
         'desc' => 'Read Request Input from CPU (Active Low)',
       ),
-      35 => 
+      '~IORQ~' => 
       array (
-        'num' => '36',
-        'sym' => '~IORQ~',
         'desc' => 'Input/Output Request Input from CPU (Active Low)',
       ),
-      36 => 
+      '~M1~' => 
       array (
-        'num' => '37',
-        'sym' => '~M1~',
         'desc' => 'Machine Cycle 1 Input from CPU (Active Low)',
       ),
-      37 => 
+      'D3' => 
       array (
-        'num' => '38',
-        'sym' => 'D3',
         'desc' => 'Data Line 3 To CPU (Bi-Directional)',
       ),
-      38 => 
+      'D4' => 
       array (
-        'num' => '39',
-        'sym' => 'D4',
         'desc' => 'Data Line 4 To CPU (Bi-Directional)',
       ),
-      39 => 
+      'D5' => 
       array (
-        'num' => '40',
-        'sym' => 'D5',
         'desc' => 'Data Line 5 To CPU (Bi-Directional)',
       ),
     ),
@@ -33321,6 +29794,52 @@ cycle rate.',
     array (
       0 => 'The Z8O Parallel I/O (PlO) Circuit is a programmable, two port device which provides a TTL compatible interface between peripheral devices and the Z80-GPU. The CPU can configure the Z8O-PIO to interface with a wide range of peripheral devices with no other external logic required, Typical peripheral devices that are fully compatible with the Z80-PIO include most keyboards, paper tape readers and punches, printers, PROM programmers, etc. The Z8O-PIO is packaged in a 40-pin DIP, or a 44-pin PLCC, or a 44-pin OFP. NMOS and CMOS versions are also available. Major features of the Z80-PlO include.',
       1 => 'One of the unique features of the Z80-PlO that separates it from other interface controllers is that all data transfer between the peripheral device and the CPU is accomplished under total interrupt control. The interrupt logic of the PIO permits full usage of the efficient interrupt capabilities of the Z80-CPU during I/0 transfers. All logic necessary to implement a fully nested interrupt structure is included in the PIO so that additional circuits are not required. Another unique feature of the PlO is that it can be programmed to interrupt the CPU on the occurrence of specified status conditions in the peripheral device. For example, the PlO can be programmed to interrupt if any specified peripheral alarm conditions should occur. This interrupt capability reduces the amount of time that the processor must spend in polling peripheral status.',
+    ),
+    'packages' => 
+    array (
+      'DIP' => 
+      array (
+        1 => 'D2',
+        2 => 'D7',
+        3 => 'D6',
+        4 => '~CE~',
+        5 => 'C/~D~',
+        6 => 'B/~A~',
+        7 => 'PA7',
+        8 => 'PA6',
+        9 => 'PA5',
+        10 => 'PA4',
+        11 => 'GND',
+        12 => 'PA3',
+        13 => 'PA2',
+        14 => 'PA1',
+        15 => 'PA0',
+        16 => '~ASTB~',
+        17 => '~BSTB~',
+        18 => 'ARDY',
+        19 => 'D0',
+        20 => 'D1',
+        21 => 'BRDY',
+        22 => 'IEO',
+        23 => '~INT~',
+        24 => 'IEI',
+        25 => 'CLK',
+        26 => '+5V',
+        27 => 'PB0',
+        28 => 'PB1',
+        29 => 'PB2',
+        30 => 'PB3',
+        31 => 'PB4',
+        32 => 'PB5',
+        33 => 'PB6',
+        34 => 'PB7',
+        35 => '~RD~',
+        36 => '~IORQ~',
+        37 => '~M1~',
+        38 => 'D3',
+        39 => 'D4',
+        40 => 'D5',
+      ),
     ),
   ),
 );
