@@ -14,6 +14,7 @@ import HomePage from './components/HomePage'
 import Search from './components/Search'
 import ChipPage from './components/ChipPage'
 import FormattedChipText from './components/FormattedChipText'
+import ChipPackage from './components/ChipPackage'
 
 const routes = [
     { path: '/', component: HomePage },
@@ -26,6 +27,7 @@ const router = new VueRouter({
 
 Vue.component(Search.name, Search);
 Vue.component(FormattedChipText.name, FormattedChipText);
+Vue.component(ChipPackage.name, ChipPackage);
 
 const app = new Vue({
     router: router

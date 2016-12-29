@@ -10,41 +10,25 @@
         <a v-if="chip.datasheet" :href="chip.datasheet">PDF datasheet</a>
         <div class="pins">
             <h4>Pins</h4>
-            <table class="diagram">
-                <tbody>
-                    <tr>
-                        <td></td><td class="lefttoppinnum"></td>
-                        <td class="righttoppinnum"></td><td></td>
-                    </tr>
-                    <tr v-for="i in chip.pins.length/2">
-                        <td class="leftpinsym"><formatted-chip-text :text="chip.pins[i-1].sym"></formatted-chip-text></td>
-                        <td class="leftpinnum">{{i}}{{i==1?' •':''}}</td>
-                        <td class="rightpinnum">{{chip.pins.length-i+1}}</td>
-                        <td class="rightpinsym"><formatted-chip-text :text="chip.pins[chip.pins.length-i].sym"></formatted-chip-text></td>
-                    </tr>
-                    <tr>
-                        <td></td><td class="leftbottompinnum"></td>
-                        <td class="rightbottompinnum"></td><td></td>
-                    </tr>
-                </tbody>
-            </table>
             <table class="table">
                 <thead>
                     <tr>
-                        <th>Pin</th>
                         <th>Symbol</th>
                         <th>Description</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr v-for="pin in chip.pins">
-                        <td>{{pin.num}}</td>
-                        <td><formatted-chip-text :text="pin.sym"></formatted-chip-text></td>
+                    <tr v-for="(pin, sym) in chip.pins">
+                        <td><formatted-chip-text :text="sym"></formatted-chip-text></td>
                         <td><formatted-chip-text :text="pin.desc"></formatted-chip-text></td>
                     </tr>
                 </tbody>
             </table>
         <div>
+        <div>
+            <h4>Packages</h4>
+            <chip-package v-for="(pinMap, package) in chip.packages" :package=package :pin-map=pinMap></chip-package>
+        </div>
         <div v-if="chip.specs" class="specifications">
             <h4>Specifications</h4>
             <small class="hint">(typical values under recommended operating conditions, unless specified)</small>
