@@ -1,5 +1,5 @@
 <template>
-    <div id="chippage">
+    <div id="chippage" v-if="chip">
         <h1 class="chipid">
             {{key}}
             <small v-if="chip.aliases && chip.aliases.length>0" class="aliases">
@@ -10,7 +10,7 @@
         <a v-if="chip.datasheet" :href="chip.datasheet">PDF datasheet</a>
         <div class="pins">
             <h4>Pins</h4>
-            <table class="table">
+            <table class="bordered responsive-table">
                 <thead>
                     <tr>
                         <th>Symbol</th>
@@ -25,14 +25,29 @@
                 </tbody>
             </table>
         <div>
-        <div>
-            <h4>Packages</h4>
-            <chip-package v-for="(pinMap, package) in chip.packages" :package=package :pin-map=pinMap></chip-package>
-        </div>
+        <section>
+            <div class="card">
+                <div class="card-content">
+                    <h4>Packages</h4>
+                </div>
+                <div class="card-tabs">
+                    <ul class="tabs tabs-fixed-width">
+                        <li :class="{tab: true, active: chip.activePackage == package}" v-for="(pinMap, package) in chip.packages" >
+                            <a v-text="package" @click="selectPackage(package)"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-content teal">
+                    <div v-if="activePackage && chip.packages[activePackage]" >
+                        <chip-package :package=activePackage :pin-map=chip.packages[activePackage]></chip-package>
+                    </div>
+                </div>
+            </div>
+        </section>
         <div v-if="chip.specs" class="specifications">
             <h4>Specifications</h4>
             <small class="hint">(typical values under recommended operating conditions, unless specified)</small>
-            <table class="table">
+            <table class="bordered responsive-table">
                 <thead>
                 <tr>
                     <th>Parameter</th>
@@ -63,99 +78,56 @@
             Check with the manufacturer's datasheet for up-to-date information.
         </small>
     </div>
-    <hr>
+
     <search></search>
 </template>
 
 <script>
 export default {
-    name: 'chippage',
+    name: 'chip-page',
+    data: function() {
+        return {
+            activePackage: null
+        };
+    },
+    mounted: function() {
+        this.activePackage = this._getFirstPackage();
+    },
     computed: {
         key (){
             return this.$route.params.chip
         },
         chip (){
-            if (!this.key || !window.chipdb[this.key]) {
-                // TODO FIX
-                router.replace('/');
+            var chip = window.chipdb.getChip(this.key);
+            if (!chip) {
+                //router.replace('/');
             }
-            return window.chipdb[this.key]
+            return chip;
+        }
+    },
+    watch: {
+        chip: function(chip) {
+            for(var p in chip.packages) {
+                this.selectPackage(p);
+                break;
+            }
+        }
+    },
+    methods: {
+        selectPackage: function(p) {
+            this.activePackage = p;
+        },
+        _getFirstPackage: function(p) {
+            if(this.chip) {
+                for(var p in this.chip.packages) {
+                    return p;
+                }
+            }
+            return null;
         }
     }
 }
 </script>
 
 <style>
-    .table
-    {
-      border-collapse: collapse;
-    }
-    .table td
-    {
-      border: 1px solid black;
-      padding: 3px;
-      vertical-align: top;
-    }
-    .table th
-    {
-      border: 1px solid black;
-      border-bottom: 3px solid black;
-      padding: 3px;
-    }
-
-    .pins .diagram
-    {
-      border-collapse: collapse;
-      margin: 0 auto;
-    }
-    .pins .diagram .leftpinsym
-    {
-      padding-right: 5px;
-    }
-    .pins .diagram .rightpinsym
-    {
-      padding-left: 5px;
-    }
-    .pins .diagram .leftpinsym,
-    .pins .diagram .rightpinnum,
-    .pins .diagram .righttoppinnum,
-    .pins .diagram .rightbottompinnum
-    {
-      text-align: right;
-    }
-    .pins .diagram .rightpinsym,
-    .pins .diagram .leftpinnum,
-    .pins .diagram .lefttoppinnum,
-    .pins .diagram .leftbottompinnum
-    {
-      text-align: left;
-    }
-    .pins .diagram .leftpinnum,
-    .pins .diagram .rightpinnum
-    {
-      min-width: 50px;
-      padding: 5px;
-    }
-    .pins .diagram .leftpinnum
-    {
-      border: 0;
-      border-left: 1px solid black;
-    }
-    .pins .diagram .rightpinnum
-    {
-      border: 0;
-      border-right: 1px solid black;
-    }
-    .pins .diagram .lefttoppinnum,
-    .pins .diagram .righttoppinnum
-    {
-      border: 0;
-      border-bottom: 1px solid black;
-    }
-    .pins .diagram .leftbottompinnum,
-    .pins .diagram .rightbottompinnum
-    {
-      border: 0;
-      border-top: 1px solid black;
-    }
 </style>

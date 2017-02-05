@@ -1,0 +1,26 @@
+{
+  "short_name": "ChipDB",
+  "name": "Chip Database",
+  "icons": [
+    {
+      "src": "images/chipdb-icon-1x.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "images/chipdb-icon-2x.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "images/chipdb-icon-4x.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/#/",
+  "theme_color": "#21F396",
+  "background_color": "#000000",
+  "display": "standalone",
+  "orientation": "portrait"
+}

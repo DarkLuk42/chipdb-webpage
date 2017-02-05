@@ -1,10 +1,13 @@
 <template>
-    <div class="search">
-        <h1 v-text="searchQuery"></h1>
-        <input type="search" v-model="searchQuery"/>
-        <ul>
-            <li v-for="(chip, key) in chips"><router-link :to="'/chip/'+key"><strong>{{key}}</strong> {{chip.description}}</router-link></li>
-        </ul>
+    <div class="row">
+        <div class="input-field col s12">
+            <i class="material-icons prefix">search</i>
+            <input id="search_input" type="search" v-model="searchQuery">
+            <label for="search_input">Name or description</label>
+            <ul class="autocomplete-content dropdown-content">
+                <li v-for="(chip, key) in chips"><router-link :to="'/chip/'+key"><strong>{{key}}</strong> {{chip.description}}</router-link></li>
+            </ul>
+        </div>
     </div>
 </template>
 
@@ -19,18 +22,11 @@ export default {
   },
   computed: {
       chips (){
-          var chips = {};
           if (this.searchQuery.length >= 2) {
-              for (var key in this.chipdb) {
-                  if (this.chipdb.hasOwnProperty(key)) {
-                      var chip = this.chipdb[key];
-                      if (key.toUpperCase().indexOf(this.searchQuery.toUpperCase()) != -1) {
-                          chips[key] = chip;
-                      }
-                  }
-              }
+              var chips = window.chipdb.findChips(this.searchQuery);
+              return chips;
           }
-          return chips;
+          return {};
       }
   }
 }
