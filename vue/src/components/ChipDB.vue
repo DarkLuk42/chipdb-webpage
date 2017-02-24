@@ -19,7 +19,9 @@ export default {
     data () {
         return {
             url: '/data/chipdb.json',
-            chipdb: {}
+            packages: {},
+            version: '',
+            chips: {}
         }
     },
     mounted: function() {
@@ -27,41 +29,43 @@ export default {
     },
     computed: {
         loaded: function() {
-            for(var key in this.chipdb) {
-                console.log("loaded");
-                return true;
+            for(var key in this.chips) {
+                if (this.chips.hasOwnProperty(key)) {
+                    return true;
+                }
             }
-            console.log("not loaded");
             return false;
         }
     },
     methods: {
         fetchChipDB: function() {
             this.$http.get(this.url).then(function(response) {
-                this.$set(this, "chipdb", response.body);
+                this.packages = response.body.packages;
+                this.version = response.body.version;
+                this.chips = response.body.chips;
             })
         },
         findChips: function(searchQuery) {
             var searchResult = {};
-            for (var key in this.chipdb) {
-                if (this.chipdb.hasOwnProperty(key)) {
-                    var chip = this.chipdb[key];
+            for (var key in this.chips) {
+                if (this.chips.hasOwnProperty(key)) {
+                    var chip = this.chips[key];
                     if (this._stringContains(key, searchQuery)) {
                         searchResult[key] = chip;
                     }
                 }
             }
-            for (var key in this.chipdb) {
-                if (this.chipdb.hasOwnProperty(key)) {
-                    var chip = this.chipdb[key];
+            for (var key in this.chips) {
+                if (this.chips.hasOwnProperty(key)) {
+                    var chip = this.chips[key];
                     if (chip.aliases && this._stringContains(chip.aliases.join(", "), searchQuery)) {
                         searchResult[key] = chip;
                     }
                 }
             }
-            for (var key in this.chipdb) {
-                if (this.chipdb.hasOwnProperty(key)) {
-                    var chip = this.chipdb[key];
+            for (var key in this.chips) {
+                if (this.chips.hasOwnProperty(key)) {
+                    var chip = this.chips[key];
                     if (chip.description && this._stringContains(chip.description, searchQuery)) {
                         searchResult[key] = chip;
                     }
@@ -70,7 +74,18 @@ export default {
             return searchResult;
         },
         getChip: function(key) {
-            return this.chipdb[key] ? this.chipdb[key] : null;
+            return this.chips[key] ? this.chips[key] : null;
+        },
+        getPackageType: function(p) {
+            for (var packageType in this.packages) {
+                if (this.packages.hasOwnProperty(packageType) && packageType.indexOf('_') != 0) {
+                    var subPackages = this.packages[packageType];
+                    if (this._stringContains(subPackages.join(","), p)) {
+                        return packageType;
+                    }
+                }
+            }
+            return null;
         },
         _stringContains: function(haystack, needle, caseSensitive) {
             caseSensitive = typeof(caseSensitive) == "undefined" ? false : !!caseSensitive;

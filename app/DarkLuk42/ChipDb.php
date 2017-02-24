@@ -47,14 +47,14 @@ class ChipDb
      * @return array
      */
     private static function load($dir, $overwriteNotNormalized = false) {
-        $chipDb = array();
+        $chips = array();
 
         foreach (self::listFiles($dir) AS $file)
         {
             $validator = new Chip();
             $validator->load($file);
 
-            $chipDb[$validator->getFilename()] = $validator->getChip();
+            $chips[$validator->getFilename()] = $validator->getChip();
             $warnings = $validator->getWarnings();
             if (!empty($warnings)) {
                 foreach ($warnings as $warning) {
@@ -72,7 +72,21 @@ class ChipDb
             }
         }
 
-        return $chipDb;
+        $packages = array(
+            'SIP' => explode(',', Chip::PACKAGES_SIP),
+            'SIP_Z' => explode(',', Chip::PACKAGES_SIP_Z),
+            'DIP' => explode(',', Chip::PACKAGES_DIP),
+            'DIP_Z' => explode(',', Chip::PACKAGES_DIP_Z),
+            'Q' => explode(',', Chip::PACKAGES_Q),
+            'ARRAY' => explode(',', Chip::PACKAGES_ARRAY),
+            '_ALL' => explode(',', Chip::ALL_PACKAGES)
+        );
+
+        return array(
+            'packages' => $packages,
+            'version' => date('Y-m-d H:i:s'),
+            'chips' => $chips
+        );
     }
 
 

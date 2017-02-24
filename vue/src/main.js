@@ -47,6 +47,7 @@ import Search from './components/Search'
 import ChipPage from './components/ChipPage'
 import FormattedChipText from './components/FormattedChipText'
 import ChipPackage from './components/ChipPackage'
+import SvgComponent from './components/SvgComponent'
 import ChipDB from './components/ChipDB'
 
 const routes = [
@@ -61,6 +62,7 @@ const router = new VueRouter({
 Vue.component(Search.name, Search);
 Vue.component(FormattedChipText.name, FormattedChipText);
 Vue.component(ChipPackage.name, ChipPackage);
+Vue.component(SvgComponent.name, SvgComponent);
 //Vue.component(ChipDB.name, ChipDB);
 
 window.chipdb = new Vue(ChipDB).$mount('#chip-db');

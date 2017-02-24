@@ -1,51 +1,6 @@
 <template>
-    <div class="package">
-        {{package}}
-
-        <template v-if="mainType=='TYPE_SINGLE'">
-            TODO
-        </template>
-
-        <template v-if="mainType=='TYPE_DOUBLE'">
-            <svg viewBox="0 0 100 120" class="package-type-double">
-                <rect x="0" y="0" width="100" height="120" fill="none" class="border"></rect>
-
-                <rect :x="getChipPos().left" :y="getChipPos().top" :width="getChipPos().width" :height="getChipPos().height" stroke="black" stroke-width="1" fill="none" class="chip"></rect>
-                <circle :cx="getChipPos().left+5" :cy="getChipPos().top+5" r=2 fill="black" class="alignment"></circle>
-
-                <template v-for="num in pinCount">
-                    <text :text-anchor="isPinLeft(num)?'start':'end'" :x="getPinX(num, -3)" :y="getPinY(num)+3" font-family="Arial" font-size="8">{{num}}</text>
-                    <text :text-anchor="isPinLeft(num)?'end':'start'" :x="getPinX(num, 8)" :y="getPinY(num)+3" font-family="Arial" font-size="8">{{getPin(num)}}</text>
-                    <line :x1="getPinX(num)" :y1="getPinY(num)" :x2="getPinX(num, 5)" :y2="getPinY(num)" stroke="black"></line>
-                </template>
-            </svg>
-        </template>
-
-        <template v-if="mainType=='TYPE_QUAD'">
-            <svg viewBox="0 0 100 120" class="package-type-double">
-                <rect x="0" y="0" width="100" height="120" fill="none" class="border"></rect>
-
-                <rect :x="getChipPos().left" :y="getChipPos().top" :width="getChipPos().width" :height="getChipPos().height" stroke="black" stroke-width="1" fill="none" class="chip"></rect>
-                <circle :cx="getChipPos().left+5" :cy="getChipPos().top+5" r=2 fill="black" class="alignment"></circle>
-
-                <template v-for="num in pinCount">
-                    <text :text-anchor="isPinLeft(num)?'start':'end'" :x="getPinX(num, -3)" :y="getPinY(num)+3" font-family="Arial" font-size="8">{{num}}</text>
-                    <text :text-anchor="isPinLeft(num)?'end':'start'" :x="getPinX(num, 8)" :y="getPinY(num)+3" font-family="Arial" font-size="8">{{getPin(num)}}</text>
-                    <line :x1="getPinX(num)" :y1="getPinY(num)" :x2="getPinX(num, 5)" :y2="getPinY(num)" stroke="black"></line>
-                </template>
-            </svg>
-        </template>
-
-        <template v-if="mainType=='TYPE_ARRAY'">
-            TODO
-        </template>
-
-        <div v-if="extraPins.length>0" class="extra-pins">
-            <h5>extra Pins</h5>
-            <ul>
-                <li v-for="extraPin in extraPins">{{extraPin}}: {{getPin(extraPin)}}</li>
-            </ul>
-        </div>
+    <div>
+        <svg-component :render=render>
     </div>
 </template>
 
@@ -63,16 +18,79 @@ export default {
         }
     },
     computed: {
+        render: function() {
+            switch(this.mainType) {
+                case 'DIP':
+                    return this.renderDip;
+                case 'SIP':
+                case 'Q':
+                case 'ARRAY':
+                default:
+                    return function() {
+                        this.defaultColor = Math.random() < 0.5 ? 'red' : 'green';
+                        this.drawCircle(50, 25, 12.5);
+                    };
+            }
+        },
+        renderDip: function() {
+            var chipPackage = this;
+
+            return function() {
+                this.defaultStokeWidth = 0.01; // inches
+                this.defaultFontSize = 0.05; // inches
+                var pinsHalf = chipPackage.pinCount/2;
+
+                var spacingTop = 0.2;
+                var spacingLeft = 0.4;
+                var chipWidth = 3*0.1;
+                var chipHeight = (pinsHalf-1)*0.1;
+                var chipWidthExtra = -0.033*2;
+                var chipHeightExtra = 0.033*2;
+
+                this.width = chipWidth+2*spacingLeft; // inches
+                this.height = chipHeight+2*spacingTop; // inches
+                for(var x = 0; x <= this.width; x+=0.1) {
+                    for(var y = 0; y <= this.height; y+=0.1) {
+                        //this.drawCircle(x, y, 0.005, 'red');
+                    }
+                }
+
+                this.drawRect(spacingLeft-chipWidthExtra/2, spacingTop-chipHeightExtra/2, chipWidth+chipWidthExtra, chipHeight+chipHeightExtra);
+                this.drawArc(spacingLeft+chipWidth/2, spacingTop-chipHeightExtra/2, 0.075/2, 90, 270);
+
+                for(var p = 0; p < chipPackage.pinCount; p++) {
+                    var pin = chipPackage.getPin(p);
+                    var pinX1 = spacingLeft+(p >= pinsHalf ? chipWidth : 0);
+                    var pinX2 = pinX1 + (p >= pinsHalf ? chipWidthExtra/2 : -chipWidthExtra/2);
+                    var pinY1 = spacingTop + (p >= pinsHalf ? pinsHalf-1-(p%pinsHalf) : (p%pinsHalf))*0.1;
+                    var pinY2 = pinY1;
+
+                    this.drawLine(pinX1, pinY1, pinX2, pinY2);
+                    this.drawCircle(pinX1, pinY1, 0.005);
+
+                    var pinNumber = this.strPad(p+1, Math.log10(chipPackage.pinCount), true, ' ');
+                    this.drawText(pinX2+(p >= pinsHalf ? -0.01 : 0.01), pinY1, pinNumber, {
+                        anchor: (p < pinsHalf ? 'start' : 'end'),
+                        vanchor: 'middle',
+                        fontSize: this.defaultFontSize*0.75
+                    });
+
+                    this.drawText(pinX1+(p >= pinsHalf ? 0.01 : -0.01), pinY1, pin, {
+                        anchor: (p >= pinsHalf ? 'start' : 'end'),
+                        vanchor: 'middle'
+                    });
+                }
+            };
+        },
         mainType: function() {
-            // TODO
-            return this.package == 'QFN' ? 'TYPE_QUAD' : 'TYPE_DOUBLE';
+            return window.chipdb.getPackageType(this.package);
         },
         extraPins: function() {
             var extraPins = [];
             switch(this.mainType) {
-                case 'TYPE_SINGLE':
-                case 'TYPE_DOUBLE':
-                case 'TYPE_QUAD':
+                case 'SIP':
+                case 'DIP':
+                case 'Q':
                     for(var num in this.pinMap) {
                         if(this.pinMap.hasOwnProperty(num)) {
                             if(!num.match(new RegExp('^[0-9]+$'))) {
@@ -81,7 +99,7 @@ export default {
                         }
                     }
                     return extraPins;
-                case 'TYPE_ARRAY':
+                case 'ARRAY':
                     for(var num in this.pinMap) {
                         if(this.pinMap.hasOwnProperty(num)) {
                             if(!num.match(new RegExp('^[A-Z]+[0-9]+$'))) {
@@ -96,7 +114,7 @@ export default {
         },
         pinCount: function() {
             switch(this.mainType) {
-                case 'TYPE_SINGLE':
+                case 'SIP':
                     var length = 0;
                     for(var num in this.pinMap) {
                         if(this.pinMap.hasOwnProperty(num)) {
@@ -106,7 +124,7 @@ export default {
                         }
                     }
                     return length;
-                case 'TYPE_DOUBLE':
+                case 'DIP':
                     var length = 0;
                     for(var num in this.pinMap) {
                         if(this.pinMap.hasOwnProperty(num)) {
@@ -116,7 +134,7 @@ export default {
                         }
                     }
                     return Math.ceil(length/2)*2;
-                case 'TYPE_QUAD':
+                case 'Q':
                     var length = 0;
                     for(var num in this.pinMap) {
                         if(this.pinMap.hasOwnProperty(num)) {
@@ -126,7 +144,7 @@ export default {
                         }
                     }
                     return Math.ceil(length/4)*4;
-                case 'TYPE_ARRAY':
+                case 'ARRAY':
                 default:
                     return null;
             }
@@ -135,14 +153,14 @@ export default {
     methods: {
         getPin: function(num) {
             switch(this.mainType) {
-                case 'TYPE_SINGLE':
-                case 'TYPE_DOUBLE':
-                case 'TYPE_QUAD':
+                case 'SIP':
+                case 'DIP':
+                case 'Q':
                     if(this.pinMap.hasOwnProperty(num)) {
                         return this.pinMap[num];
                     }
                     return 'NC';
-                case 'TYPE_ARRAY':
+                case 'ARRAY':
                     if(this.pinMap.hasOwnProperty(num)) {
                         return this.pinMap[num];
                     }
@@ -152,118 +170,6 @@ export default {
                         return this.pinMap[num];
                     }
                     return null;
-            }
-        },
-        getChipPos: function() {
-            switch(this.mainType) {
-                case 'TYPE_SINGLE':
-                    return null;
-                case 'TYPE_DOUBLE':
-                    return {
-                        left: 30,
-                        top: 10,
-                        width: 40,
-                        height: 100
-                    };
-                case 'TYPE_QUAD':
-                    return {
-                        left: 30,
-                        top: 30,
-                        width: 40,
-                        height: 40
-                    };
-                case 'TYPE_ARRAY':
-                default:
-                    return null;
-            }
-        },
-        getPinX: function(num, offset) {
-            if(typeof(offset) == 'undefined') {
-                offset = 0;
-            }
-
-            switch(this.mainType) {
-                case 'TYPE_SINGLE':
-                    return null;
-                case 'TYPE_DOUBLE':
-                    return this.isPinLeft(num) ? this.getChipPos().left-offset : this.getChipPos().left+this.getChipPos().width+offset;
-                case 'TYPE_QUAD':
-                    if(this.isPinLeft(num)) {
-                        return this.getChipPos().left-offset;
-                    }else if(this.isPinBottom(num)) {
-                        return this.getChipPos().left-offset;//TODO
-                    }else if(this.isPinRight(num)) {
-                        return this.getChipPos().left+this.getChipPos().width+offset;
-                    }else{
-                        return this.getChipPos().left+this.getChipPos().width+offset;//TODO
-                    }
-                case 'TYPE_ARRAY':
-                default:
-                    return null;
-            }
-        },
-        getPinY: function(num, offset) {
-            if(typeof(offset) == 'undefined') {
-                offset = 0;
-            }
-
-            switch(this.mainType) {
-                case 'TYPE_SINGLE':
-                    return null;
-                case 'TYPE_DOUBLE':
-                    return this.getChipPos().top+(this.getChipPos().height / (this.pinCount/2) * (((num-1)%(this.pinCount/2))+0.5))+offset;
-                case 'TYPE_QUAD':
-                    if(this.isPinLeft(num)) {
-                        return this.getChipPos().top-offset;//TODO
-                    }else if(this.isPinBottom(num)) {
-                        return this.getChipPos().top+this.getChipPos().height+offset;
-                    }else if(this.isPinRight(num)) {
-                        return this.getChipPos().top+this.getChipPos().height+offset;//TODO
-                    }else{
-                        return this.getChipPos().top-offset;
-                    }
-                case 'TYPE_ARRAY':
-                default:
-                    return null;
-            }
-        },
-        isPinLeft: function(num) {
-            switch(this.mainType) {
-                case 'TYPE_SINGLE':
-                    return false;
-                case 'TYPE_DOUBLE':
-                    return num-1 < this.pinCount/2;
-                case 'TYPE_QUAD':
-                    return num-1 < this.pinCount/4;
-                case 'TYPE_ARRAY':
-                default:
-                    return false;
-            }
-        },
-        isPinBottom: function(num) {
-            switch(this.mainType) {
-                case 'TYPE_SINGLE':
-                    return true;
-                case 'TYPE_DOUBLE':
-                    return false;
-                case 'TYPE_QUAD':
-                    return num-1 < this.pinCount/2 && num-1 >= this.pinCount/4;
-                case 'TYPE_ARRAY':
-                default:
-                    return false;
-            }
-        },
-        isPinRight: function(num) {
-            switch(this.mainType) {
-                case 'TYPE_SINGLE':
-                    return true;
-                case 'TYPE_DOUBLE':
-                    return num-1 >= this.pinCount/2;
-                case 'TYPE_QUAD':
-                    return num-1 >= this.pinCount/2 && num-1 < this.pinCount/4*3;
-                case 'TYPE_ARRAY':
-                default:
-                    return false;
             }
         }
     }
