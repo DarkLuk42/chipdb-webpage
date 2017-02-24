@@ -32,8 +32,10 @@
                 </div>
                 <div class="card-tabs">
                     <ul class="tabs tabs-fixed-width">
-                        <li :class="{tab: true, active: chip.activePackage == package}" v-for="(pinMap, package) in chip.packages" >
-                            <a v-text="package" @click="selectPackage(package)"></a>
+                        <li v-for="(packages, packageType) in groupedPackages" :class="{tab: true, active: activePackage == packages[0]}">
+                            <a>
+                                <template v-for="(package, i) in packages">{{(i>0?', ':'')}}<span @click="selectPackage(package)" v-text="package"></span></template>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -103,6 +105,19 @@ export default {
                 //router.replace('/');
             }
             return chip;
+        },
+        groupedPackages (){
+            var groupedPackages = {};
+            for(var p in this.chip.packages) {
+                if(this.chip.packages.hasOwnProperty(p)) {
+                    var mainPackage = window.chipdb.getPackageType(p);
+                    if(!groupedPackages.hasOwnProperty(mainPackage)) {
+                        groupedPackages[mainPackage] = [];
+                    }
+                    groupedPackages[mainPackage].push(p);
+                }
+            }
+            return groupedPackages;
         }
     },
     watch: {
@@ -120,7 +135,9 @@ export default {
         _getFirstPackage: function(p) {
             if(this.chip) {
                 for(var p in this.chip.packages) {
-                    return p;
+                    if(this.chip.packages.hasOwnProperty(p)) {
+                        return p;
+                    }
                 }
             }
             return null;

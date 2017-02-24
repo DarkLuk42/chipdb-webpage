@@ -3,30 +3,44 @@ export default {
     name: 'svg-component',
     props: {
         'render': {
-            type: [Function],
+            type: Function,
             required: true
         },
+        'obj': {
+            type: Object,
+            required: true
+        }
     },
     data: function() {
         return {
             width: 100,
             height: 50,
-            defaultColor: 'black',
-            defaultStokeWidth: 1,
-            defaultFontSize: 12,
+            defaultColor: null,
+            defaultStokeWidth: null,
+            defaultFontSize: null,
             objects: []
         };
     },
     mounted: function() {
         this.refresh();
     },
+    watch: {
+        render: function() {
+            this.refresh();
+        }
+    },
     methods: {
         refresh: function() {
             this.clear();
-            this.render.apply(this);
+            this.render.apply(this, [this.obj]);
         },
         clear: function() {
-            this.$set(this, 'objects', []);
+            this.width = 100;
+            this.height = 50;
+            this.defaultColor = 'black';
+            this.defaultStokeWidth = 1;
+            this.defaultFontSize = 12;
+            this.objects = [];
         },
         strPad: function(str, size, left, padding) {
             str = ''+str;

@@ -77,6 +77,9 @@ export default {
             return this.chips[key] ? this.chips[key] : null;
         },
         getPackageType: function(p) {
+            if(this.packages.hasOwnProperty(p)) {
+                return p;
+            }
             for (var packageType in this.packages) {
                 if (this.packages.hasOwnProperty(packageType) && packageType.indexOf('_') != 0) {
                     var subPackages = this.packages[packageType];

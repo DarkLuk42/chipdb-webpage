@@ -1,6 +1,6 @@
 <template>
     <div>
-        <svg-component :render=render>
+        <svg-component :render=render :obj=this>
     </div>
 </template>
 
@@ -8,13 +8,18 @@
 export default {
     name: 'chip-package',
     props: {
-        'package': {
+        package: {
             type: String,
             required: true
         },
-        'pinMap': {
+        pinMap: {
             type: Object,
             required: true
+        }
+    },
+    watch: {
+        pinMap: function() {
+            this.$children[0].refresh();
         }
     },
     computed: {
@@ -26,22 +31,20 @@ export default {
                 case 'Q':
                 case 'ARRAY':
                 default:
-                    return function() {
+                    return function(chipPackage) {
                         this.defaultColor = Math.random() < 0.5 ? 'red' : 'green';
                         this.drawCircle(50, 25, 12.5);
                     };
             }
         },
         renderDip: function() {
-            var chipPackage = this;
-
-            return function() {
+            return function(chipPackage) {
                 this.defaultStokeWidth = 0.01; // inches
                 this.defaultFontSize = 0.05; // inches
                 var pinsHalf = chipPackage.pinCount/2;
 
                 var spacingTop = 0.2;
-                var spacingLeft = 0.4;
+                var spacingLeft = 0.8;
                 var chipWidth = 3*0.1;
                 var chipHeight = (pinsHalf-1)*0.1;
                 var chipWidthExtra = -0.033*2;
@@ -59,7 +62,7 @@ export default {
                 this.drawArc(spacingLeft+chipWidth/2, spacingTop-chipHeightExtra/2, 0.075/2, 90, 270);
 
                 for(var p = 0; p < chipPackage.pinCount; p++) {
-                    var pin = chipPackage.getPin(p);
+                    var pin = chipPackage.getPin(p+1);
                     var pinX1 = spacingLeft+(p >= pinsHalf ? chipWidth : 0);
                     var pinX2 = pinX1 + (p >= pinsHalf ? chipWidthExtra/2 : -chipWidthExtra/2);
                     var pinY1 = spacingTop + (p >= pinsHalf ? pinsHalf-1-(p%pinsHalf) : (p%pinsHalf))*0.1;
@@ -69,13 +72,13 @@ export default {
                     this.drawCircle(pinX1, pinY1, 0.005);
 
                     var pinNumber = this.strPad(p+1, Math.log10(chipPackage.pinCount), true, ' ');
-                    this.drawText(pinX2+(p >= pinsHalf ? -0.01 : 0.01), pinY1, pinNumber, {
+                    this.drawText(pinX2+(p >= pinsHalf ? -0.015 : 0.015), pinY1, pinNumber, {
                         anchor: (p < pinsHalf ? 'start' : 'end'),
                         vanchor: 'middle',
                         fontSize: this.defaultFontSize*0.75
                     });
 
-                    this.drawText(pinX1+(p >= pinsHalf ? 0.01 : -0.01), pinY1, pin, {
+                    this.drawText(pinX1+(p >= pinsHalf ? 0.015 : -0.015), pinY1, pin, {
                         anchor: (p >= pinsHalf ? 'start' : 'end'),
                         vanchor: 'middle'
                     });
