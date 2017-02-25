@@ -105,11 +105,18 @@ export default {
         drawText: function(x, y, text, options) {
             var fontSize = options.fontSize || this.defaultFontSize;
             var fixFactor = 0.75;
+            var transform = "";
+
+            if(options.rotation) {
+                transform += 'rotate('+options.rotation+' '+x+' '+y+') ';
+            }
+
             if(options.vanchor == 'top') {
                 y += fontSize*fixFactor;
             } else if(options.vanchor == 'middle') {
                 y += fontSize*fixFactor/2;
             }
+
             this.objects.push({
                 element: 'text',
                 attributes: {
@@ -118,7 +125,8 @@ export default {
                     fill: options.color || this.defaultColor,
                     'text-anchor': options.anchor || 'start',
                     'font-size': fontSize,
-                    'line-height': 1
+                    'line-height': 1,
+                    transform: transform || null
                 },
                 children: [
                     {
