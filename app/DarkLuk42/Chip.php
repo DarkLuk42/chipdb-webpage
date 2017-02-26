@@ -20,6 +20,7 @@ class Chip
     const PACKAGES_DIP_Z = 'QIP,QIL,QUIP,QUIL';
     const PACKAGES_Q = 'LCC,PLCC,CLCC,QFN,QFP,MLF';
     const PACKAGES_ARRAY = 'BGA';
+    const PACKAGES_TO = 'TO-92,TO-220,TO-247';
 
     /**
      * TODO keep up to date
@@ -28,7 +29,8 @@ class Chip
     .','.self::PACKAGES_DIP
     .','.self::PACKAGES_DIP_Z
     .','.self::PACKAGES_Q
-    .','.self::PACKAGES_ARRAY;
+    .','.self::PACKAGES_ARRAY
+    .','.self::PACKAGES_TO;
 
     /**
      * Logs a warning.

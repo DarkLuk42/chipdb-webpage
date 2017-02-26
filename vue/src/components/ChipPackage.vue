@@ -25,6 +25,8 @@ export default {
     computed: {
         render: function() {
             switch(this.mainType) {
+                case 'TO':
+                    return this.renderTo;
                 case 'DIP':
                     return this.renderDip;
                 case 'Q':
@@ -33,7 +35,7 @@ export default {
                 case 'ARRAY':
                 default:
                     return function(chipPackage) {
-                        this.defaultColor = Math.random() < 0.5 ? 'red' : 'green';
+                        this.defaultColor = 'red';
                         this.drawCircle(50, 25, 12.5);
                     };
             }
@@ -57,7 +59,7 @@ export default {
 
                 /*for(var x = 0; x <= this.width; x+=0.1) {
                     for(var y = 0; y <= this.height; y+=0.1) {
-                        this.drawCircle(x, y, 0.005, 'red');
+                        this.drawCircle(x, y, 0.005, {color: 'red'});
                     }
                 }*/
 
@@ -179,6 +181,57 @@ export default {
                         }
                     );
                 }
+            };
+        },
+        renderTo: function() {
+            var self = this;
+            return function(chipPackage) {
+                this.defaultStokeWidth = 0.01; // inches
+                this.defaultFontSize = 0.05; // inches
+
+                var spacingTop = 0.4;
+                var spacingLeft = 0.2;
+                var chipWidth = 4*0.1;
+                var chipHeight = 6*0.1;
+                var legHeight = 6*0.1;
+                var textSpacing = 0.015;
+
+                this.width = chipWidth+2*spacingLeft; // inches
+                this.height = chipHeight+legHeight+2*spacingTop; // inches
+
+                /*for(var x = 0; x <= this.width; x+=0.1) {
+                    for(var y = 0; y <= this.height; y+=0.1) {
+                        this.drawCircle(x, y, 0.005, {color: 'red', filled: true});
+                    }
+                }*/
+
+                if(chipPackage.package != "TO-220") {
+                    this.drawText(0, 0, "TODO: "+chipPackage.package, {vanchor: "top"});
+                    return;
+                }
+
+                var edgeSize = 0.066;
+                this.drawPolygon([
+                    [spacingLeft, spacingTop+chipHeight],
+                    [spacingLeft, spacingTop+edgeSize],
+                    [spacingLeft+edgeSize, spacingTop],
+                    [spacingLeft+chipWidth-edgeSize, spacingTop],
+                    [spacingLeft+chipWidth, spacingTop+edgeSize],
+                    [spacingLeft+chipWidth, spacingTop+chipHeight]
+                ]);
+                this.drawLine(spacingLeft, spacingTop+chipHeight/2, spacingLeft+chipWidth,spacingTop+chipHeight/2);
+                this.drawCircle(spacingLeft+chipWidth/2, spacingTop+0.1/2+0.05, 0.1/2);
+                this.drawArc(spacingLeft, spacingTop+chipHeight/2+chipHeight/2*0.66, 0.1/2, 0, 180);
+                this.drawArc(spacingLeft+chipWidth, spacingTop+chipHeight/2+chipHeight/2*0.66, 0.1/2, 180, 0);
+                this.drawRect(spacingLeft+0.1-0.02/2, spacingTop+chipHeight, 0.02, 0.2);
+                this.drawRect(spacingLeft+0.2-0.02/2, spacingTop+chipHeight, 0.02, 0.2);
+                this.drawRect(spacingLeft+0.3-0.02/2, spacingTop+chipHeight, 0.02, 0.2);
+                this.drawRect(spacingLeft+0.1-0.01/2, spacingTop+chipHeight, 0.01, legHeight);
+                this.drawRect(spacingLeft+0.2-0.01/2, spacingTop+chipHeight, 0.01, legHeight);
+                this.drawRect(spacingLeft+0.3-0.01/2, spacingTop+chipHeight, 0.01, legHeight);
+                this.drawText(spacingLeft+0.1, spacingTop+chipHeight+legHeight+textSpacing, chipPackage.getPin(1), {vanchor: "middle", rotation: 90});
+                this.drawText(spacingLeft+0.2, spacingTop+chipHeight+legHeight+textSpacing, chipPackage.getPin(2), {vanchor: "middle", rotation: 90});
+                this.drawText(spacingLeft+0.3, spacingTop+chipHeight+legHeight+textSpacing, chipPackage.getPin(3), {vanchor: "middle", rotation: 90});
             };
         },
         mainType: function() {

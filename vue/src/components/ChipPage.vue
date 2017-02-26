@@ -3,28 +3,11 @@
         <h1 class="chipid">
             {{key}}
             <small v-if="chip.aliases && chip.aliases.length>0" class="aliases">
-                (<template v-for="(alias, i) in chip.aliases"><span>{{alias}}</span>{{(chip.aliases.length-1>=i) ? '' : ', '}}</template>)
+                (<template v-for="(alias, i) in chip.aliases"><span>{{alias}}</span>{{(chip.aliases.length-1<=i) ? '' : ', '}}</template>)
             </small>
         </h1>
         <h2 class="description"><formatted-chip-text :text="chip.description"></formatted-chip-text></h2>
-        <a v-if="chip.datasheet" :href="chip.datasheet">PDF datasheet</a>
-        <div class="pins">
-            <h4>Pins</h4>
-            <table class="bordered responsive-table">
-                <thead>
-                    <tr>
-                        <th>Symbol</th>
-                        <th>Description</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr v-for="(pin, sym) in chip.pins">
-                        <td><formatted-chip-text :text="sym"></formatted-chip-text></td>
-                        <td><formatted-chip-text :text="pin.desc"></formatted-chip-text></td>
-                    </tr>
-                </tbody>
-            </table>
-        <div>
+        <a v-if="chip.datasheet" :href="chip.datasheet" target="_blank">PDF datasheet</a>
         <section>
             <div class="card">
                 <div class="card-content">
@@ -46,6 +29,23 @@
                 </div>
             </div>
         </section>
+        <div class="pins">
+            <h4>Pins</h4>
+            <table class="bordered responsive-table">
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="(pin, sym) in chip.pins">
+                        <td><formatted-chip-text :text="sym"></formatted-chip-text></td>
+                        <td><formatted-chip-text :text="pin.desc"></formatted-chip-text></td>
+                    </tr>
+                </tbody>
+            </table>
+        <div>
         <div v-if="chip.specs" class="specifications">
             <h4>Specifications</h4>
             <small class="hint">(typical values under recommended operating conditions, unless specified)</small>

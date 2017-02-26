@@ -57,7 +57,8 @@ export default {
                 y: centerY + (radius * Math.sin(angleInRadians))
             };
         },
-        drawArc: function(x, y, radius, startAngle, endAngle, w, color) {
+        drawArc: function(x, y, radius, startAngle, endAngle, options) {
+            options = options || {};
             var start = this.polarToCartesian(x, y, radius, endAngle);
             var end = this.polarToCartesian(x, y, radius, startAngle);
 
@@ -72,13 +73,14 @@ export default {
                 element: 'path',
                 attributes: {
                     d: d,
-                    stroke: color || this.defaultColor,
-                    'stroke-width': w || this.defaultStokeWidth,
+                    stroke: options.color || this.defaultColor,
+                    'stroke-width': options.strokeWidth || this.defaultStokeWidth,
                     fill: 'transparent'
                 }
             });
         },
-        drawLine: function(x1, y1, x2, y2, w, color) {
+        drawLine: function(x1, y1, x2, y2, options) {
+            options = options || {};
             this.objects.push({
                 element: 'line',
                 attributes: {
@@ -86,23 +88,41 @@ export default {
                     y1: y1,
                     x2: x2,
                     y2: y2,
-                    stroke: color || this.defaultColor,
-                    'stroke-width': w || this.defaultStokeWidth
+                    stroke: options.color || this.defaultColor,
+                    'stroke-width': options.strokeWidth || this.defaultStokeWidth
                 }
             });
         },
-        drawCircle: function(cx, cy, r, color) {
+        drawCircle: function(cx, cy, r, options) {
+            options = options || {};
             this.objects.push({
                 element: 'circle',
                 attributes: {
                     cx: cx,
                     cy: cy,
-                    fill: color || this.defaultColor,
-                    r: r
+                    r: r,
+                    fill: options.filled !== true ? 'transparent' : (options.color || this.defaultColor),
+                    stroke: options.filled === true ? null : (options.color || this.defaultColor),
+                    'stroke-width': options.filled === true ? null : options.strokeWidth || this.defaultStokeWidth
+                }
+            });
+        },
+        drawPolygon: function(points, options) {
+            options = options || {};
+            var points_str = points.map(function(p){return p.join(",");}).join(" ");
+
+            this.objects.push({
+                element: 'polygon',
+                attributes: {
+                    points: points_str,
+                    fill: options.filled !== true ? 'transparent' : (options.color || this.defaultColor),
+                    stroke: options.filled === true ? null : (options.color || this.defaultColor),
+                    'stroke-width': options.filled === true ? null : options.strokeWidth || this.defaultStokeWidth
                 }
             });
         },
         drawText: function(x, y, text, options) {
+            options = options || {};
             var fontSize = options.fontSize || this.defaultFontSize;
             var fixFactor = 0.75;
             var transform = "";
@@ -135,7 +155,8 @@ export default {
                 ]
             });
         },
-        drawRect: function(x, y, width, height, color) {
+        drawRect: function(x, y, width, height, options) {
+            options = options || {};
             this.objects.push({
                 element: 'rect',
                 attributes: {
@@ -143,21 +164,9 @@ export default {
                     y: y,
                     width: width,
                     height: height,
-                    stroke: color || this.defaultColor,
-                    'stroke-width': this.defaultStokeWidth,
-                    fill: 'transparent'
-                }
-            });
-        },
-        drawFilledRect: function(x, y, width, height, color) {
-            this.objects.push({
-                element: 'rect',
-                attributes: {
-                    x: x,
-                    y: y,
-                    width: width,
-                    height: height,
-                    fill: color
+                    fill: options.filled !== true ? 'transparent' : (options.color || this.defaultColor),
+                    stroke: options.filled === true ? null : (options.color || this.defaultColor),
+                    'stroke-width': options.filled === true ? null : options.strokeWidth || this.defaultStokeWidth
                 }
             });
         }
@@ -179,9 +188,6 @@ export default {
             {
                 attrs: {
                     viewBox: '0 0 '+this.width+' '+this.height
-                },
-                on: {
-                    click: this.refresh
                 }
             },
             children
@@ -192,7 +198,7 @@ export default {
 
 <style>
     svg {
-        //max-width: 240px;
+        max-height: 640px;
         background: white;
     }
     svg text {

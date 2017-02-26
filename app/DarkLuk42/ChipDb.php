@@ -79,6 +79,7 @@ class ChipDb
             'DIP_Z' => explode(',', Chip::PACKAGES_DIP_Z),
             'Q' => explode(',', Chip::PACKAGES_Q),
             'ARRAY' => explode(',', Chip::PACKAGES_ARRAY),
+            'TO' => explode(',', Chip::PACKAGES_TO),
             '_ALL' => explode(',', Chip::ALL_PACKAGES)
         );
 

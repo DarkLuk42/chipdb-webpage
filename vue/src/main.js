@@ -1,46 +1,13 @@
 import Vue from 'vue'
+import Vuex from 'vuex'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
+
+Vue.use(Vuex);
 Vue.use(VueRouter);
 Vue.use(VueResource);
 
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function() {
-        navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
-            // Registration was successful
-            console.log('ServiceWorker [registration]', registration.scope);
-        }).catch(function(err) {
-            // registration failed :(
-            console.log('ServiceWorker registration failed: ', err);
-        });
-    });
-
-    /*
-     var send_message_to_sw = function(msg){
-     return new Promise(function(resolve, reject){
-     // Create a Message Channel
-     var msg_chan = new MessageChannel();
-
-     // Handler for recieving message reply from service worker
-     msg_chan.port1.onmessage = function(event){
-     if(event.data.error){
-     reject(event.data.error);
-     }else{
-     resolve(event.data);
-     }
-     };
-
-     // Send message to service worker along with port for reply
-     navigator.serviceWorker.controller.postMessage({data: msg}, [msg_chan.port2]);
-     });
-     };
-
-     document.getElementById('test').addEventListener('click', function(){
-     send_message_to_sw('test123').then(function(a){
-     console.log(a);
-     });
-     })*/
-}
+const store = require('./vuex/store');
 
 import HomePage from './components/HomePage'
 import Search from './components/Search'
@@ -68,5 +35,7 @@ Vue.component(SvgComponent.name, SvgComponent);
 window.chipdb = new Vue(ChipDB).$mount('#chip-db');
 
 const app = new Vue({
+    store: store,
     router: router
 }).$mount('#app');
+window.app = app;
