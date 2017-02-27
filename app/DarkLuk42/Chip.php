@@ -20,7 +20,7 @@ class Chip
     const PACKAGES_DIP_Z = 'QIP,QIL,QUIP,QUIL';
     const PACKAGES_Q = 'LCC,PLCC,CLCC,QFN,QFP,MLF';
     const PACKAGES_ARRAY = 'BGA';
-    const PACKAGES_TO = 'TO-92,TO-220,TO-247';
+    const PACKAGES_TO = 'TO-92,TO-220,TO-220AB,TO-247';
 
     /**
      * TODO keep up to date
