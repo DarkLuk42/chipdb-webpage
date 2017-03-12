@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-var chips = {};
+var _chips = {};
 
 exports.chipdb = new Vuex.Store({
     state: {
@@ -15,11 +15,19 @@ exports.chipdb = new Vuex.Store({
             state.loading = true;
         },
         fetched: function(state, data) {
-            state.packages = data.packages;
-            state.version = data.version;
-            chips = data.chips;
-            state.loading = false;
-            state.loaded = true;
+            if(data !== null) {
+                state.packages = data.packages;
+                state.version = data.version;
+                _chips = data.chips;
+                state.loading = false;
+                state.loaded = true;
+            } else {
+                state.packages = null;
+                state.version = null;
+                _chips = {};
+                state.loading = false;
+                state.loaded = false;
+            }
         }
     },
     actions: {
@@ -27,32 +35,34 @@ exports.chipdb = new Vuex.Store({
             obj.commit('fetching');
             Vue.http.get('/data/chipdb.json').then(function(response) {
                 obj.commit('fetched', response.body);
-            })
+            }, function() {
+                obj.commit('fetched', null);
+            });
         }
     },
     getters: {
         findChips: function(state) {
             return function(searchQuery) {
                 var searchResult = {};
-                for (let key in chips) {
-                    if (chips.hasOwnProperty(key)) {
-                        let chip = chips[key];
+                for (let key in _chips) {
+                    if (_chips.hasOwnProperty(key)) {
+                        let chip = _chips[key];
                         if (window.stringContains(key, searchQuery)) {
                             searchResult[key] = chip;
                         }
                     }
                 }
-                for (let key in chips) {
-                    if (chips.hasOwnProperty(key)) {
-                        let chip = chips[key];
+                for (let key in _chips) {
+                    if (_chips.hasOwnProperty(key)) {
+                        let chip = _chips[key];
                         if (chip.aliases && window.stringContains(chip.aliases.join(", "), searchQuery)) {
                             searchResult[key] = chip;
                         }
                     }
                 }
-                for (let key in chips) {
-                    if (chips.hasOwnProperty(key)) {
-                        let chip = chips[key];
+                for (let key in _chips) {
+                    if (_chips.hasOwnProperty(key)) {
+                        let chip = _chips[key];
                         if (chip.description && window.stringContains(chip.description, searchQuery)) {
                             searchResult[key] = chip;
                         }
@@ -63,17 +73,17 @@ exports.chipdb = new Vuex.Store({
         },
         getChip: function(state) {
             return function(key) {
-                return chips[key] ? chips[key] : null;
+                return _chips[key] ? _chips[key] : null;
             }
         },
         getPackageType: function(state) {
             return function(p) {
-                if(this.packages.hasOwnProperty(p)) {
+                if(state.packages.hasOwnProperty(p)) {
                     return p;
                 }
-                for (var packageType in this.packages) {
-                    if (this.packages.hasOwnProperty(packageType) && packageType.indexOf('_') != 0) {
-                        var subPackages = this.packages[packageType];
+                for (var packageType in state.packages) {
+                    if (state.packages.hasOwnProperty(packageType) && packageType.indexOf('_') != 0) {
+                        var subPackages = state.packages[packageType];
                         if (window.stringContains(subPackages.join(","), p)) {
                             return packageType;
                         }

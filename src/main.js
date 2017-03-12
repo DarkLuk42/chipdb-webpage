@@ -43,11 +43,11 @@ const app = new Vue({
     store: store,
     router: router,
     computed: {
-        loading: function() {
-            return this.$store.chipdb.state.loading;
+        loaded: function() {
+            return this.$store.chipdb.state.loaded;
         }
     }
 }).$mount('#app');
 window.app = app;
 
-//app.$store.chipdb.dispatch('fetch');
+app.$store.chipdb.dispatch('fetch');

@@ -45,7 +45,7 @@
                     </tr>
                 </tbody>
             </table>
-        <div>
+        </div>
         <div v-if="chip.specs" class="specifications">
             <h4>Specifications</h4>
             <small class="hint">(typical values under recommended operating conditions, unless specified)</small>
@@ -72,7 +72,7 @@
                 <li v-for="note in chip.notes">
                     <formatted-chip-text :text="note" :nlToBr.once="true" :allowTables.once="true"></formatted-chip-text>
                 </li>
-            <ul>
+            </ul>
         </div>
         <small class="hint">
             <strong>Note:</strong>
@@ -80,8 +80,6 @@
             Check with the manufacturer's datasheet for up-to-date information.
         </small>
     </div>
-
-    <search></search>
 </template>
 
 <script>
@@ -108,13 +106,16 @@ export default {
         },
         groupedPackages (){
             var groupedPackages = {};
-            for(var p in this.chip.packages) {
-                if(this.chip.packages.hasOwnProperty(p)) {
-                    var mainPackage = window.chipdb.getPackageType(p);
-                    if(!groupedPackages.hasOwnProperty(mainPackage)) {
-                        groupedPackages[mainPackage] = [];
+            console.log(this.chip, this.chip.packages);
+            if(this.chip.packages) {
+                for(var p in this.chip.packages) {
+                    if(this.chip.packages.hasOwnProperty(p)) {
+                        var mainPackage = this.$store.chipdb.getters.getPackageType(p);
+                        if(!groupedPackages.hasOwnProperty(mainPackage)) {
+                            groupedPackages[mainPackage] = [];
+                        }
+                        groupedPackages[mainPackage].push(p);
                     }
-                    groupedPackages[mainPackage].push(p);
                 }
             }
             return groupedPackages;

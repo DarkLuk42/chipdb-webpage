@@ -1,6 +1,6 @@
 <template>
     <div>
-        <svg-component :render=render :obj=this>
+        <svg-component :render=render :obj=this />
     </div>
 </template>
 
@@ -74,7 +74,7 @@ export default {
                     var pinY2 = pinY1;
 
                     this.drawLine(pinX1, pinY1, pinX2, pinY2);
-                    this.drawCircle(pinX1, pinY1, 0.005);
+                    this.drawCircle(pinX1, pinY1, 0.005, {filled: true});
 
                     var pinNumber = this.strPad(p+1, Math.log10(chipPackage.pinCount), true, ' ');
                     this.drawText(pinX2+(p >= pinsHalf ? -textSpacing : textSpacing), pinY1, pinNumber, {
@@ -116,7 +116,7 @@ export default {
 
                 this.drawRect(spacingLeft-chipWidthExtra/2, spacingTop-chipHeightExtra/2, chipWidth+chipWidthExtra, chipHeight+chipHeightExtra);
                 var dotRadian = 0.05/2;
-                this.drawCircle(spacingLeft-chipWidthExtra/2+dotRadian+textSpacing, spacingTop-chipHeightExtra/2+dotRadian+textSpacing, dotRadian);
+                this.drawCircle(spacingLeft-chipWidthExtra/2+dotRadian+textSpacing, spacingTop-chipHeightExtra/2+dotRadian+textSpacing, dotRadian, {filled: true});
 
                 for(var p = 0; p < chipPackage.pinCount; p++) {
                     var pin = chipPackage.getPin(p+1);
@@ -152,7 +152,7 @@ export default {
                     }
 
                     this.drawLine(pinX1, pinY1, pinX2, pinY2);
-                    this.drawCircle(pinX1, pinY1, 0.005);
+                    this.drawCircle(pinX1, pinY1, 0.005, {filled: true});
 
                     var pinNumber = p+1;
                     if(p%pinsHalf < pinsFourth) {
@@ -296,7 +296,7 @@ export default {
             };
         },
         mainType: function() {
-            return window.chipdb.getPackageType(this.package);
+            return this.$store.chipdb.getters.getPackageType(this.package);
         },
         extraPins: function() {
             var extraPins = [];

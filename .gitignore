@@ -4,10 +4,10 @@ npm-debug.log
 .idea/
 
 # vendor
-node_modules/
-bower_components/
-vendor/
+/node_modules/
+/bower_components/
+/vendor/
 
 # generated
-dist/
-storage/
+/dist/
+/storage/

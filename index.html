@@ -31,7 +31,7 @@
             <div class="container">
                 <router-view></router-view>
             </div>
-            <div v-if="loading" class="loading-overlay">
+            <div v-if="!loaded" class="loading-overlay">
                 <div class="preloader-wrapper big active">
                     <div class="spinner-layer spinner-blue-only">
                         <div class="circle-clipper left">
