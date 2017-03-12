@@ -8,7 +8,11 @@
                 Feel free to <a target="_blank" href="https://github.com/74hc595/chipdb/blob/master/CONTRIBUTING.md">contribute</a>!
             </p>
             <p>ChipDB data is maintained by <a target="_blank" href="http://www.msarnoff.org/">Matt Sarnoff</a>.</p>
-            <p>This webpage is written and maintained by Lukas Quast, source code is available at <a target="_blank" href="https://github.com/DarkLuk42/chipdb-webpage">GitHub</a>.</p>
+            <p>
+                <strong>This project is currently UNDER CONSTRUCTION</strong>,
+                written and maintained by Lukas Quast, source code is available at
+                <a target="_blank" href="https://github.com/DarkLuk42/chipdb-webpage">GitHub</a>.
+            </p>
         </div>
     </div>
 </template>
