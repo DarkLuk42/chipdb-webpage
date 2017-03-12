@@ -100,7 +100,7 @@ export default {
             return this.$route.params.chip
         },
         chip (){
-            var chip = window.chipdb.getChip(this.key);
+            var chip = this.$store.chipdb.getters.getChip(this.key);
             if (!chip) {
                 //router.replace('/');
             }

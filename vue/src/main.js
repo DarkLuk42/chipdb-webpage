@@ -1,3 +1,12 @@
+window.stringContains = function(haystack, needle, caseSensitive) {
+    caseSensitive = typeof(caseSensitive) == "undefined" ? false : !!caseSensitive;
+    if(!caseSensitive) {
+        haystack = haystack.toUpperCase();
+        needle = needle.toUpperCase();
+    }
+    return haystack.indexOf(needle) != -1;
+};
+
 import Vue from 'vue'
 import Vuex from 'vuex'
 import VueRouter from 'vue-router'
@@ -15,7 +24,6 @@ import ChipPage from './components/ChipPage'
 import FormattedChipText from './components/FormattedChipText'
 import ChipPackage from './components/ChipPackage'
 import SvgComponent from './components/SvgComponent'
-import ChipDB from './components/ChipDB'
 
 const routes = [
     { path: '/', component: HomePage },
@@ -30,12 +38,16 @@ Vue.component(Search.name, Search);
 Vue.component(FormattedChipText.name, FormattedChipText);
 Vue.component(ChipPackage.name, ChipPackage);
 Vue.component(SvgComponent.name, SvgComponent);
-//Vue.component(ChipDB.name, ChipDB);
-
-window.chipdb = new Vue(ChipDB).$mount('#chip-db');
 
 const app = new Vue({
     store: store,
-    router: router
+    router: router,
+    computed: {
+        loading: function() {
+            return this.$store.chipdb.state.loading;
+        }
+    }
 }).$mount('#app');
 window.app = app;
+
+//app.$store.chipdb.dispatch('fetch');

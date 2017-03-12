@@ -16,14 +16,13 @@ export default {
   name: 'search',
   data () {
       return {
-        chipdb: window.chipdb,
         searchQuery: ''
       }
   },
   computed: {
       chips (){
           if (this.searchQuery.length >= 2) {
-              var chips = window.chipdb.findChips(this.searchQuery);
+              var chips = this.$store.chipdb.getters.findChips(this.searchQuery);
               return chips;
           }
           return {};

@@ -12,14 +12,19 @@ and it would be really nice if it would work offline too.
 **Feel free to contribute** this project or the ChipDB data itself.
 For contributing ChipDB data take a look at [CONTRIBUTING.md](https://github.com/74hc595/chipdb/blob/master/CONTRIBUTING.md).
 
-> A Vue.js project
-
 ## Setup
 
 ``` bash
-# download chipdb
+# clone this project
+git@github.com:DarkLuk42/chipdb-webpage.git
+
+# clone data-source
+git@github.com:DarkLuk42/chipdb.git
+# or git@github.com:74hc595/chipdb.git
+
+cd chipdb-webpage
 composer install
-php ./refresh.php
+php ./update ../chipdb
 
 cd vue
 npm install
@@ -32,13 +37,13 @@ npm run dev
 ## Todo's
 
 + Surrounding with tildes
-+ Finish HTML structure
++ Split pin-names to be shorter in Diagram
++ Add sub and negate in Diagram
 + Add total list
-+ Validate YAML files and add description how they should be formatted
-+ Style HTML
-+ Add responsive design
++ Add description how the YAML-files should be formatted
 + Add favorites functionality (using `window.localStorage`)
-+ Create a webpage to download the newest html file
++ Complete to progressive Web-App
++ Create a webpage
 
 ## Disclaimer/License
 
@@ -48,7 +53,6 @@ You should always check with the manufacturer's datasheets for up-to-date inform
 The ChipDB data is from [this](https://github.com/74hc595/chipdb) repository on GitHub by Matt Sarnoff ([twitter](https://twitter.com/txsector), [website](http://www.msarnoff.org/))
 **Visit the ChipDB Repository to see the license of the ChipDB data.**
 
-I don't like licenses, so this code doesn't have any.
-**Do what you want with this code**, a link to my repository would be very nice if using this code.
+This project (`chipdb-webpage`) is free software distributed under the terms of the MIT license.
 
-- Lukas Quast
+- Lukas Quast ([lukas@lquast.de](mailto:lukas@lquast.de))
