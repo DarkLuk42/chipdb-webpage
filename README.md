@@ -1,5 +1,7 @@
 # ChipDB-Webpage
 
+*This project is currently UNDER CONSTRUCTION, if you want to contribute feel free to contact me.*
+
 This from the functionality nearly the same as the original [www.msarnoff.org/chipdb](http://www.msarnoff.org/chipdb/).
 But the difference is that this project is a single HTML-page,
 so you could easily include just a download the .html file and use the complete database offline.
@@ -26,7 +28,7 @@ cd chipdb-webpage
 composer install
 php ./update ../chipdb
 
-cd vue
+bower install materialize
 npm install
 
 npm run build

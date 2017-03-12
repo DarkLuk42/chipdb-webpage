@@ -1,6 +1,13 @@
-/vendor
-/.idea
-/storage
-Homestead.json
-Homestead.yaml
-.env
+# some stuff
+.DS_Store
+npm-debug.log
+.idea/
+
+# vendor
+node_modules/
+bower_components/
+vendor/
+
+# generated
+dist/
+storage/

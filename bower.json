@@ -1,0 +1,21 @@
+{
+  "name": "-",
+  "homepage": "-",
+  "authors": [
+    "Lukas Quast <lukqua@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.98.0"
+  }
+}
