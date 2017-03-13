@@ -18,17 +18,19 @@ For contributing ChipDB data take a look at [CONTRIBUTING.md](https://github.com
 
 ``` bash
 # clone this project
-git@github.com:DarkLuk42/chipdb-webpage.git
+git clone git@github.com:DarkLuk42/chipdb-webpage.git
 
 # clone data-source
-git@github.com:DarkLuk42/chipdb.git
+git clone git@github.com:DarkLuk42/chipdb.git
 # or git@github.com:74hc595/chipdb.git
 
 cd chipdb-webpage
 composer install
 php ./update ../chipdb
 
-bower install materialize
+npm install webpack bower -g
+
+bower install
 npm install
 
 npm run build
