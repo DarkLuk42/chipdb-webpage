@@ -7,10 +7,11 @@ window.stringContains = function(haystack, needle, caseSensitive) {
     return haystack.indexOf(needle) != -1;
 };
 
-require('../bower_components/jquery/src/jquery.js');
+window.jQuery = require('jquery');
+window.$ = window.jQuery;
 
-require('../bower_components/materialize/sass/materialize.scss');
-require('../bower_components/materialize/js/global.js');
+require('../src/vendor/materialize/sass/materialize.scss');
+require('../bower_components/materialize/dist/js/materialize.js');
 
 require('./css/main.css');
 

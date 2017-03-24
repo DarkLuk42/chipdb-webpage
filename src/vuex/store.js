@@ -73,7 +73,7 @@ exports.chipdb = new Vuex.Store({
         },
         getChip: function(state) {
             return function(key) {
-                return _chips[key] ? _chips[key] : null;
+                return state.loaded && _chips[key] ? _chips[key] : null;
             }
         },
         getPackageType: function(state) {

@@ -47,7 +47,6 @@ npm run dev
 + Add description how the YAML-files should be formatted
 + Add favorites functionality (using `window.localStorage`)
 + Complete to progressive Web-App
-+ Create a webpage
 
 ## Disclaimer/License
 

@@ -10,6 +10,9 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "hammerjs": "^2.0.8",
+    "jquery": "^3.2.1",
+    "materializecss": "^1.0.11",
     "vue": "^2.1",
     "vue-resource": "^1.2",
     "vue-router": "^2.1",
