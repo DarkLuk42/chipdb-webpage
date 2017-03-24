@@ -15,6 +15,18 @@ require('../bower_components/materialize/dist/js/materialize.js');
 
 require('./css/main.css');
 
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/service-worker.js').then(function (registration) {
+            // Registration was successful
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }).catch(function (err) {
+            // registration failed :(
+            console.log('ServiceWorker registration failed: ', err);
+        });
+    });
+}
+
 import Vue from 'vue'
 import Vuex from 'vuex'
 import VueRouter from 'vue-router'
